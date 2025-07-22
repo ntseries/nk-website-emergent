@@ -152,8 +152,8 @@ const About = () => {
               <div className="location-icon">
                 <MapPin size={24} />
               </div>
-              <h3 className="location-name">สยามสแควร์</h3>
-              <p className="location-address">ชั้น 4 สยามสแควร์ เขตปทุมวัน กรุงเทพฯ</p>
+              <h3 className="location-name">ซีคอนบางแค</h3>
+              <p className="location-address">ซีคอนบางแค ชั้น 6 โซนการศึกษา</p>
               <div className="location-hours">
                 <Clock size={16} />
                 <span>10:00 - 22:00 ทุกวัน</span>
@@ -163,8 +163,8 @@ const About = () => {
               <div className="location-icon">
                 <MapPin size={24} />
               </div>
-              <h3 className="location-name">เซ็นทรัลเวอร์ลด์</h3>
-              <p className="location-address">ชั้น 7 เซ็นทรัลเวอร์ลด์ เขตปทุมวัน กรุงเทพฯ</p>
+              <h3 className="location-name">ซีคอนศรีนครินทร์</h3>
+              <p className="location-address">ซีคอนศรีนครินทร์ ชั้น 3 โซน MuNX2</p>
               <div className="location-hours">
                 <Clock size={16} />
                 <span>10:00 - 22:00 ทุกวัน</span>
@@ -174,8 +174,8 @@ const About = () => {
               <div className="location-icon">
                 <MapPin size={24} />
               </div>
-              <h3 className="location-name">เมกะ บางนา</h3>
-              <p className="location-address">ชั้น 2 เมกะ บางนา เขตบangนา กรุงเทพฯ</p>
+              <h3 className="location-name">สามย่านมิตรทาวน์</h3>
+              <p className="location-address">สามย่านมิตรทาวน์ ชั้น 3 ฝั่งฟิตเนส</p>
               <div className="location-hours">
                 <Clock size={16} />
                 <span>10:00 - 22:00 ทุกวัน</span>
