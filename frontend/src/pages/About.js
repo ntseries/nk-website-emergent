@@ -51,17 +51,21 @@ const About = () => {
               </p>
             </div>
             <div className="story-stats">
-              <div className="stat-card">
-                <div className="stat-number">2019</div>
-                <div className="stat-label">ปีที่ก่อตั้ง</div>
+              <div className="stat-card about-stat-card">
+                <div className="stat-number about-stat-number">2022</div>
+                <div className="stat-label about-stat-label">ปีที่ก่อตั้ง</div>
               </div>
-              <div className="stat-card">
-                <div className="stat-number">10K+</div>
-                <div className="stat-label">ลูกค้าที่พอใจ</div>
+              <div className="stat-card about-stat-card">
+                <div className="stat-number about-stat-number">50K+</div>
+                <div className="stat-label about-stat-label">ลูกค้าที่พอใจ</div>
               </div>
-              <div className="stat-card">
-                <div className="stat-number">1,000+</div>
-                <div className="stat-label">เกมในคลังสต๊อก</div>
+              <div className="stat-card about-stat-card">
+                <div className="stat-number about-stat-number">1,000+</div>
+                <div className="stat-label about-stat-label">เกมพร้อมเล่น</div>
+              </div>
+              <div className="stat-card about-stat-card">
+                <div className="stat-number about-stat-number">30</div>
+                <div className="stat-label about-stat-label">ทีมงาน</div>
               </div>
             </div>
           </div>
