@@ -31,7 +31,7 @@ export const services = [
     description: "โฟโต้บูธสุดเจ๋งพร้อมพร็อพบอร์ดเกม บันทึกช่วงเวลาสนุก ๆ กับเพื่อน ๆ",
     icon: "camera",
     image: "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=400&h=300&fit=crop",
-    price: "100 บาท/ชุด"
+    price: "เริ่มต้น 199 บาท/ชั่วโมง (โปรโมชั่น 99 บาท/ชั่วโมง)"
   },
   {
     id: 5,
