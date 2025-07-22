@@ -84,9 +84,6 @@ const About = () => {
               </div>
               <h3 className="member-name">นิค</h3>
               <p className="member-role">ผู้ก่อตั้ง & CEO</p>
-              <p className="member-description">
-                หลงรักบอร์ดเกมมากว่า 10 ปี เชี่ยวชาญเกม Strategy และ Euro Games
-              </p>
             </div>
             <div className="team-member">
               <div className="member-avatar">
@@ -94,9 +91,6 @@ const About = () => {
               </div>
               <h3 className="member-name">เคท</h3>
               <p className="member-role">หัวหน้าบริการลูกค้า</p>
-              <p className="member-description">
-                ผู้เชี่ยวชาญด้าน Party Games และ Social Deduction เก่งสร้างบรรยากาศสนุกสนาน
-              </p>
             </div>
             <div className="team-member">
               <div className="member-avatar">
@@ -104,9 +98,6 @@ const About = () => {
               </div>
               <h3 className="member-name">แม็กซ์</h3>
               <p className="member-role">Dungeon Master</p>
-              <p className="member-description">
-                DM มืออาชีพที่สร้างการผจญภัย D&D ที่น่าตื่นเต้นและไม่มีวันลืม
-              </p>
             </div>
           </div>
         </div>
