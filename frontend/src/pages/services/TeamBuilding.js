@@ -120,7 +120,7 @@ const TeamBuilding = () => {
               <p>สร้างบรรยากาศที่ดี เพิ่มความสุขในการทำงาน</p>
             </div>
             <div className="benefit-card">
-              <div benefit-icon">
+              <div className="benefit-icon">
                 <Users size={32} />
               </div>
               <h3>ทีมเวิร์คที่แข็งแกร่ง</h3>
