@@ -153,7 +153,7 @@ const Home = () => {
       <section className="hero-section">
         <div className="hero-content">
           <div className="hero-badge">
-            <span>✨ ร้านบอร์ดเกมอันดับ 1 ในใจวัยรุ่น</span>
+            <span>✨ ร้านบอร์ดเกมอันดับ 1 ของชาว Gen Z</span>
           </div>
           <h1 className="hero-title">
             สนุกสนาน <span className="hero-highlight">ไปด้วยกัน</span><br />
