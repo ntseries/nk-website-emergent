@@ -48,6 +48,10 @@ const Home = () => {
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_BK6-9.jpg",
           caption: "บรรยากาศร้านอบอุ่น"
+        },
+        {
+          url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_BK6-10.jpg",
+          caption: "พื้นที่เล่นเกมเพิ่มเติม"
         }
       ]
     },
