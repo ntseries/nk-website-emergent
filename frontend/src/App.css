@@ -908,6 +908,36 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(255, 255, 255, 0.1);
 }
 
+.modal-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 16px;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+  z-index: 10002;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-arrow:hover {
+  background: rgba(0, 0, 0, 0.7);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.modal-arrow-left {
+  left: 20px;
+}
+
+.modal-arrow-right {
+  right: 20px;
+}
+
 .modal-image {
   max-width: 100%;
   max-height: 80vh;
