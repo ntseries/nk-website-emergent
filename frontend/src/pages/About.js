@@ -99,6 +99,195 @@ const About = () => {
               <h3 className="member-name">แม็กซ์</h3>
               <p className="member-role">Dungeon Master</p>
             </div>
+            <div className="team-member">
+              <div className="member-avatar">
+                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop&crop=face" alt="มิน" />
+              </div>
+              <h3 className="member-name">มิน</h3>
+              <p className="member-role">ผู้จัดการสาขาบางแค</p>
+            </div>
+            <div className="team-member">
+              <div className="member-avatar">
+                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop&crop=face" alt="เจ" />
+              </div>
+              <h3 className="member-name">เจ</h3>
+              <p className="member-role">ผู้จัดการสาขาศรีนครินทร์</p>
+            </div>
+            <div className="team-member">
+              <div className="member-avatar">
+                <img src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?w=200&h=200&fit=crop&crop=face" alt="ปิง" />
+              </div>
+              <h3 className="member-name">ปิง</h3>
+              <p className="member-role">ผู้จัดการสาขาสามย่าน</p>
+            </div>
+            <div className="team-member">
+              <div className="member-avatar">
+                <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=200&h=200&fit=crop&crop=face" alt="อาร์ต" />
+              </div>
+              <h3 className="member-name">อาร์ต</h3>
+              <p className="member-role">Game Master</p>
+            </div>
+            <div className="team-member">
+              <div className="member-avatar">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&h=200&fit=crop&crop=face" alt="นัท" />
+              </div>
+              <h3 className="member-name">นัท</h3>
+              <p className="member-role">พนักงานต้อนรับ</p>
+            </div>
+            <div className="team-member">
+              <div className="member-avatar">
+                <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&h=200&fit=crop&crop=face" alt="โบ" />
+              </div>
+              <h3 className="member-name">โบ</h3>
+              <p className="member-role">ผู้ประสานงานกิจกรรม</p>
+            </div>
+            <div className="team-member">
+              <div className="member-avatar">
+                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&h=200&fit=crop&crop=face" alt="พีช" />
+              </div>
+              <h3 className="member-name">พีช</h3>
+              <p className="member-role">พนักงานบริการลูกค้า</p>
+            </div>
+            <div className="team-member">
+              <div className="member-avatar">
+                <img src="https://images.unsplash.com/photo-1507152832244-10d45c7eda57?w=200&h=200&fit=crop&crop=face" alt="เบล" />
+              </div>
+              <h3 className="member-name">เบล</h3>
+              <p className="member-role">เชฟประจำครัว</p>
+            </div>
+            <div className="team-member">
+              <div className="member-avatar">
+                <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=200&h=200&fit=crop&crop=face" alt="มีมี่" />
+              </div>
+              <h3 className="member-name">มีมี่</h3>
+              <p className="member-role">บาริสต้า</p>
+            </div>
+            <div className="team-member">
+              <div className="member-avatar">
+                <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?w=200&h=200&fit=crop&crop=face" alt="ไนซ์" />
+              </div>
+              <h3 className="member-name">ไนซ์</h3>
+              <p className="member-role">ช่างภาพ Photo Booth</p>
+            </div>
+            <div className="team-member">
+              <div className="member-avatar">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face" alt="ติม" />
+              </div>
+              <h3 className="member-name">ติม</h3>
+              <p className="member-role">ผู้ดูแลระบบเกม</p>
+            </div>
+            <div className="team-member">
+              <div className="member-avatar">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&h=200&fit=crop&crop=face" alt="บิ๊งค์" />
+              </div>
+              <h3 className="member-name">บิ๊งค์</h3>
+              <p className="member-role">พนักงานแคชเชียร์</p>
+            </div>
+            <div className="team-member">
+              <div className="member-avatar">
+                <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=200&h=200&fit=crop&crop=face" alt="มายด์" />
+              </div>
+              <h3 className="member-name">มายด์</h3>
+              <p className="member-role">ผู้จัดการทั่วไป</p>
+            </div>
+            <div className="team-member">
+              <div className="member-avatar">
+                <img src="https://images.unsplash.com/photo-1463453091185-61582044d556?w=200&h=200&fit=crop&crop=face" alt="แจ็ค" />
+              </div>
+              <h3 className="member-name">แจ็ค</h3>
+              <p className="member-role">ผู้ดูแลความสะอาด</p>
+            </div>
+            <div className="team-member">
+              <div className="member-avatar">
+                <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=200&h=200&fit=crop&crop=face" alt="โปร" />
+              </div>
+              <h3 className="member-name">โปร</h3>
+              <p className="member-role">ผู้เชี่ยวชาญเกมกลยุทธ์</p>
+            </div>
+            <div className="team-member">
+              <div className="member-avatar">
+                <img src="https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?w=200&h=200&fit=crop&crop=face" alt="เนม" />
+              </div>
+              <h3 className="member-name">เนม</h3>
+              <p className="member-role">ช่วยครัว</p>
+            </div>
+            <div className="team-member">
+              <div className="member-avatar">
+                <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=200&h=200&fit=crop&crop=face" alt="ฟิว" />
+              </div>
+              <h3 className="member-name">ฟิว</h3>
+              <p className="member-role">ผู้ช่วยผู้จัดการ</p>
+            </div>
+            <div className="team-member">
+              <div className="member-avatar">
+                <img src="https://images.unsplash.com/photo-1552058544-f2b08422138a?w=200&h=200&fit=crop&crop=face" alt="ก้อง" />
+              </div>
+              <h3 className="member-name">ก้อง</h3>
+              <p className="member-role">ช่างซ่อมบำรุง</p>
+            </div>
+            <div className="team-member">
+              <div className="member-avatar">
+                <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=200&h=200&fit=crop&crop=face" alt="โอ๊ค" />
+              </div>
+              <h3 className="member-name">โอ๊ค</h3>
+              <p className="member-role">ผู้ช่วย Game Master</p>
+            </div>
+            <div className="team-member">
+              <div className="member-avatar">
+                <img src="https://images.unsplash.com/photo-1489980557514-251d61e3eeb6?w=200&h=200&fit=crop&crop=face" alt="มิ้ม" />
+              </div>
+              <h3 className="member-name">มิ้ม</h3>
+              <p className="member-role">พนักงานรักษาความปลอดภัย</p>
+            </div>
+            <div className="team-member">
+              <div className="member-avatar">
+                <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=200&h=200&fit=crop&crop=face" alt="เฟิร์น" />
+              </div>
+              <h3 className="member-name">เฟิร์น</h3>
+              <p className="member-role">ช่าง IT</p>
+            </div>
+            <div className="team-member">
+              <div className="member-avatar">
+                <img src="https://images.unsplash.com/photo-1502378735452-bc7d86632805?w=200&h=200&fit=crop&crop=face" alt="วิน" />
+              </div>
+              <h3 className="member-name">วิน</h3>
+              <p className="member-role">ผู้ดูแลสต๊อกเกม</p>
+            </div>
+            <div className="team-member">
+              <div className="member-avatar">
+                <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=200&h=200&fit=crop&crop=face" alt="แมท" />
+              </div>
+              <h3 className="member-name">แมท</h3>
+              <p className="member-role">ผู้จัดการการตลาด</p>
+            </div>
+            <div className="team-member">
+              <div className="member-avatar">
+                <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=200&h=200&fit=crop&crop=face" alt="โน้ต" />
+              </div>
+              <h3 className="member-name">โน้ต</h3>
+              <p className="member-role">ช่างภาพประจำ</p>
+            </div>
+            <div className="team-member">
+              <div className="member-avatar">
+                <img src="https://images.unsplash.com/photo-1506863530036-1efeddceb993?w=200&h=200&fit=crop&crop=face" alt="ไอซ์" />
+              </div>
+              <h3 className="member-name">ไอซ์</h3>
+              <p className="member-role">พนักงานประชาสัมพันธ์</p>
+            </div>
+            <div className="team-member">
+              <div className="member-avatar">
+                <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=200&h=200&fit=crop&crop=face" alt="ออม" />
+              </div>
+              <h3 className="member-name">ออม</h3>
+              <p className="member-role">บัญชีและการเงิน</p>
+            </div>
+            <div className="team-member">
+              <div className="member-avatar">
+                <img src="https://images.unsplash.com/photo-1488508872907-592763824245?w=200&h=200&fit=crop&crop=face" alt="ฟลุ๊ค" />
+              </div>
+              <h3 className="member-name">ฟลุ๊ค</h3>
+              <p className="member-role">ผู้ช่วยทำความสะอาด</p>
+            </div>
           </div>
         </div>
       </section>
