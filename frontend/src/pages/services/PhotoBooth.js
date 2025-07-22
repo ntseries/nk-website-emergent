@@ -494,10 +494,10 @@ const PhotoBooth = () => {
               </div>
               <div className="service-actions">
                 <button className="btn-primary">
-                  จองถ่ายรูปเลย <ArrowRight size={16} />
+                  จอง Photo Booth เลย ♡ <ArrowRight size={16} />
                 </button>
                 <button className="btn-secondary">
-                  ดูตัวอย่างรูป
+                  ดูแกลเลอรี่ Kawaii
                 </button>
               </div>
             </div>
