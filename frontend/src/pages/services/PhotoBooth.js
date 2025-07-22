@@ -788,9 +788,9 @@ const PhotoBooth = () => {
               มาถ่ายรูปสุดปังกับเพื่อนๆ และเก็บช่วงเวลาดีๆ ไว้เป็นความทรงจำ
             </p>
             <div className="cta-actions">
-              <button className="btn-primary">
+              <a href="https://lin.ee/H4D9qos" target="_blank" rel="noopener noreferrer" className="btn-primary">
                 จองถ่ายรูปเลย <ArrowRight size={16} />
-              </button>
+              </a>
               <button className="btn-secondary">
                 ดูตัวอย่างเพิ่มเติม
               </button>
