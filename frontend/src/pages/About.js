@@ -63,10 +63,6 @@ const About = () => {
                 <div className="stat-number about-stat-number">1,000+</div>
                 <div className="stat-label about-stat-label">เกมพร้อมเล่น</div>
               </div>
-              <div className="stat-card about-stat-card">
-                <div className="stat-number about-stat-number">30</div>
-                <div className="stat-label about-stat-label">ทีมงาน</div>
-              </div>
             </div>
           </div>
         </div>
