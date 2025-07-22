@@ -1068,7 +1068,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .about-stat-label {
   font-size: 16px;
-  color: var(--nk-dark);
+  color: var(--nk-dark) !important;
   font-weight: 600;
 }
 
