@@ -586,7 +586,7 @@ const PhotoBooth = () => {
         </div>
       </section>
 
-      {/* Features Section - ลบแล้ว */}
+      {/* Features Section - ซ่อนแล้ว */}
 
       {/* How to Use Section */}
       <section className="howto-section">
