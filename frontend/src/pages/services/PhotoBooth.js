@@ -493,9 +493,9 @@ const PhotoBooth = () => {
                 <span className="price-unit">/ชั่วโมง</span>
               </div>
               <div className="service-actions">
-                <button className="btn-primary">
+                <a href="https://lin.ee/H4D9qos" target="_blank" rel="noopener noreferrer" className="btn-primary">
                   จอง Photo Booth เลย ♡ <ArrowRight size={16} />
-                </button>
+                </a>
                 <button className="btn-secondary">
                   ดูแกลเลอรี่ Kawaii
                 </button>
