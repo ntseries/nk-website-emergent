@@ -498,38 +498,49 @@ const PhotoBooth = () => {
         </div>
       </section>
 
-      {/* Features Section */}
-      <section className="service-features">
+      {/* Features Section - ลบแล้ว */}
+
+      {/* How to Use Section */}
+      <section className="howto-section">
         <div className="container">
-          <h2 className="section-title">จุดเด่น Kawaii Photo Booth</h2>
-          <div className="features-grid">
-            <div className="feature-card">
-              <div className="feature-icon">
-                <Camera size={32} />
+          <div className="section-header">
+            <h2 className="section-title">วิธีการใช้บริการ</h2>
+            <p className="section-subtitle">
+              4 ขั้นตอนง่ายๆ ได้รูปสวยแบบ Kawaii ♡
+            </p>
+          </div>
+          <div className="howto-grid">
+            <div className="howto-step">
+              <div className="step-image">
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Howto_01.png" alt="เลือกชุด" />
               </div>
-              <h3>กล้องมุกมิก คุณภาพ HD</h3>
-              <p>กล้องสุดคมชัด แสงไฟ Ring Light สไตล์ Beauty Filter เหมือนแอพเกาหลี</p>
+              <div className="step-number">1</div>
+              <h3 className="step-title">เลือกชุด</h3>
+              <p className="step-description">เลือกชุดที่ชอบจากหลากหลายสไตล์ Kawaii, Harajuku หรือ K-Pop ที่เราเตรียมไว้ให้</p>
             </div>
-            <div className="feature-card">
-              <div className="feature-icon">
-                <Heart size={32} />
+            <div className="howto-step">
+              <div className="step-image">
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Howto_02.PNG" alt="เลือกพร็อพ" />
               </div>
-              <h3>พร็อพสุดคาวาอิ</h3>
-              <p>พร็อพน่ารักสไตล์ญี่ปุ่น-เกาหลี กิ๊บผม หมอน อีโมจิ กรอบหัวใจ และอีกมากมาย</p>
+              <div className="step-number">2</div>
+              <h3 className="step-title">เลือกพร็อพ</h3>
+              <p className="step-description">เลือกพร็อพน่ารักๆ หูกระต่าย กิ๊บผม หมอน และอุปกรณ์ตกแต่งสไตล์ญี่ปุ่น-เกาหลี</p>
             </div>
-            <div className="feature-card">
-              <div className="feature-icon">
-                <Sparkles size={32} />
+            <div className="howto-step">
+              <div className="step-image">
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Howto_03.PNG" alt="ถ่ายภาพ" />
               </div>
-              <h3>Background สุดหวาน</h3>
-              <p>พื้นหลังสีพาสเทล สไตล์ Harajuku และธีมสาวเกาหลี สวยปังทุกองศา</p>
+              <div className="step-number">3</div>
+              <h3 className="step-title">ถ่ายภาพ</h3>
+              <p className="step-description">ถ่ายรูปสุดปังด้วยกล้องคุณภาพสูง แสงสวยแบบมืออาชีพ พร้อมแนะนำโพสต์สุดน่ารัก</p>
             </div>
-            <div className="feature-card">
-              <div className="feature-icon">
-                <Users size={32} />
+            <div className="howto-step">
+              <div className="step-image">
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Howto_04.PNG" alt="ได้รูปจริง" />
               </div>
-              <h3>เซอร์วิสแบบ Unni</h3>
-              <p>พี่ๆ แสตฟ จะแนะนำโพสต์สวยๆ สไตล์ Idol ให้คุณออกมาน่ารักที่สุด</p>
+              <div className="step-number">4</div>
+              <h3 className="step-title">ได้รูปจริง</h3>
+              <p className="step-description">รับรูปถ่ายจริง 1 รูป พร้อมไฟล์ดิจิทัลครบทุกช็อต กลับบ้านเลย Instagram-ready!</p>
             </div>
           </div>
         </div>
