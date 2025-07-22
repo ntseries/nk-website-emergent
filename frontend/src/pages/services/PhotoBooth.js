@@ -4,25 +4,12 @@ import { Clock, Users, Star, ArrowRight, Camera, Image, Sparkles, Heart } from "
 const PhotoBooth = () => {
   const packages = [
     {
-      name: "Kawaii Pack",
-      shots: "10 ภาพ",
-      props: "พร็อพคาวาอิ",
-      duration: "15 นาที",
-      price: "199 บาท"
-    },
-    {
-      name: "Harajuku Pack", 
-      shots: "20 ภาพ",
-      props: "พร็อพสไตล์ญี่ปุ่น + K-Pop",
-      duration: "30 นาที", 
-      price: "299 บาท"
-    },
-    {
-      name: "Oppa Pack",
+      name: "Premium Pack",
       shots: "30 ภาพ",
-      props: "พร็อพครบชุด + Custom Korean Style",
-      duration: "45 นาที",
-      price: "399 บาท"
+      props: "พร็อพพิเศษ",
+      duration: "60 นาที",
+      photo: "รับรูปถ่าย 1 รูป", 
+      price: "199 บาท"
     }
   ];
 
