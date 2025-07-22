@@ -239,7 +239,7 @@ const Home = () => {
             </div>
             <div className="stat">
               <div className="stat-number">50K+</div>
-              <div className="stat-label">ลูกค้าที่พอใจ</div>
+              <div className="stat-label">จำนวนสมาชิก</div>
             </div>
           </div>
         </div>
