@@ -125,6 +125,23 @@ h1, h2, h3, h4, h5, h6 {
   transform: scale(1.02);
 }
 
+/* Logo SVG Styles */
+.logo-svg,
+.footer-logo-svg {
+  transition: all 0.3s ease;
+  filter: drop-shadow(0 2px 4px rgba(59, 76, 202, 0.2));
+}
+
+.logo:hover .logo-svg {
+  transform: scale(1.05);
+  filter: drop-shadow(0 4px 8px rgba(59, 76, 202, 0.3));
+}
+
+.footer-logo:hover .footer-logo-svg {
+  transform: scale(1.05);
+  filter: drop-shadow(0 4px 8px rgba(59, 76, 202, 0.3));
+}
+
 /* Logo Styles */
 .logo {
   text-decoration: none;
@@ -135,7 +152,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .logo:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 .logo-image {
@@ -145,11 +162,6 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease;
   border-radius: var(--radius-sm);
   box-shadow: var(--shadow-sm);
-}
-
-.logo:hover .logo-image {
-  transform: scale(1.05);
-  box-shadow: var(--shadow-md);
 }
 
 .footer-logo {
@@ -163,11 +175,6 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease;
   border-radius: var(--radius-sm);
   box-shadow: var(--shadow-sm);
-}
-
-.footer-logo:hover .footer-logo-image {
-  transform: scale(1.05);
-  box-shadow: var(--shadow-md);
 }
 
 /* Legacy support for created logos */
