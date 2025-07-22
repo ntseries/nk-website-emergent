@@ -14,7 +14,7 @@ export const services = [
     title: "Board Game Script",
     description: "สคริปต์เกมพิเศษที่ออกแบบโดยทีมของเรา สร้างประสบการณ์เล่นเกมที่ไม่เหมือนใคร",
     icon: "scroll-text",
-    image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop",
+    image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/NK-Service-02.PNG",
     price: "299 บาท/เกม"
   },
   {
