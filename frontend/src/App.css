@@ -131,47 +131,90 @@ h1, h2, h3, h4, h5, h6 {
   color: inherit;
   display: flex;
   align-items: center;
+  transition: all 0.3s ease;
 }
 
-.logo-image {
-  height: 40px;
-  width: auto;
-  transition: all 0.2s ease;
-}
-
-.logo:hover .logo-image {
+.logo:hover {
   transform: scale(1.05);
 }
 
-.footer-logo {
-  margin-bottom: var(--space-md);
-}
-
-.footer-logo-image {
-  height: 35px;
-  width: auto;
-}
-
-.logo-text {
+.logo-container {
   display: flex;
-  align-items: baseline;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.logo-main {
+  display: flex;
+  align-items: center;
   gap: var(--space-xs);
 }
 
 .logo-nk {
   font-family: 'Kanit', sans-serif;
   font-weight: 700;
-  font-size: 28px;
+  font-size: 32px;
   color: var(--nk-blue);
+  text-shadow: 2px 2px 0px var(--nk-yellow);
+  line-height: 1;
+}
+
+.logo-meeple {
+  background: var(--nk-blue);
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(59, 76, 202, 0.3);
+}
+
+.logo-sub {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  color: var(--nk-blue);
+  letter-spacing: 2px;
+  margin-top: -2px;
+  text-align: left;
+}
+
+.footer-logo {
+  margin-bottom: var(--space-md);
+}
+
+.footer-logo .logo-container {
+  align-items: flex-start;
+}
+
+.footer-logo .logo-nk {
+  color: var(--nk-white);
   text-shadow: 2px 2px 0px var(--nk-yellow);
 }
 
-.logo-board {
-  font-family: 'Kanit', sans-serif;
-  font-weight: 600;
-  font-size: 14px;
-  color: var(--nk-blue);
-  letter-spacing: 2px;
+.footer-logo .logo-sub {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-logo .logo-meeple {
+  background: var(--nk-white);
+}
+
+.footer-logo .logo-meeple svg {
+  fill: var(--nk-blue);
+}
+
+/* Legacy support */
+.logo-image {
+  height: 40px;
+  width: auto;
+  transition: all 0.2s ease;
+}
+
+.footer-logo-image {
+  height: 35px;
+  width: auto;
 }
 
 /* Hero Section with Background */
