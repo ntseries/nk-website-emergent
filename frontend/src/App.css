@@ -138,6 +138,39 @@ h1, h2, h3, h4, h5, h6 {
   transform: scale(1.05);
 }
 
+.logo-image {
+  height: 45px;
+  width: auto;
+  max-width: 200px;
+  transition: all 0.3s ease;
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-sm);
+}
+
+.logo:hover .logo-image {
+  transform: scale(1.05);
+  box-shadow: var(--shadow-md);
+}
+
+.footer-logo {
+  margin-bottom: var(--space-md);
+}
+
+.footer-logo-image {
+  height: 35px;
+  width: auto;
+  max-width: 180px;
+  transition: all 0.3s ease;
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-sm);
+}
+
+.footer-logo:hover .footer-logo-image {
+  transform: scale(1.05);
+  box-shadow: var(--shadow-md);
+}
+
+/* Legacy support for created logos */
 .logo-container {
   display: flex;
   flex-direction: column;
@@ -178,43 +211,6 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 2px;
   margin-top: -2px;
   text-align: left;
-}
-
-.footer-logo {
-  margin-bottom: var(--space-md);
-}
-
-.footer-logo .logo-container {
-  align-items: flex-start;
-}
-
-.footer-logo .logo-nk {
-  color: var(--nk-white);
-  text-shadow: 2px 2px 0px var(--nk-yellow);
-}
-
-.footer-logo .logo-sub {
-  color: rgba(255, 255, 255, 0.8);
-}
-
-.footer-logo .logo-meeple {
-  background: var(--nk-white);
-}
-
-.footer-logo .logo-meeple svg {
-  fill: var(--nk-blue);
-}
-
-/* Legacy support */
-.logo-image {
-  height: 40px;
-  width: auto;
-  transition: all 0.2s ease;
-}
-
-.footer-logo-image {
-  height: 35px;
-  width: auto;
 }
 
 /* Hero Section with Background */
