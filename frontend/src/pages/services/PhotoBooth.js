@@ -552,9 +552,9 @@ const PhotoBooth = () => {
       <section className="packages-section">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">แพ็คเกจโฟโต้บูธ</h2>
+            <h2 className="section-title">แพ็คเกจโฟโต้บูธ Kawaii</h2>
             <p className="section-subtitle">
-              เลือกแพ็คเกจที่เหมาะกับกลุ่มและความต้องการของคุณ
+              เลือกแพ็คเกจที่ชอบ แต่ละแพ็คมีความน่ารักไม่เหมือนกันนะคะ ♡
             </p>
           </div>
           <div className="packages-grid">
