@@ -452,6 +452,40 @@ const PhotoBooth = () => {
           object-fit: cover;
         }
 
+        /* Customer Gallery Section */
+        .photobooth-page .customer-gallery-section {
+          padding: 80px 0;
+          background: var(--pb-pink-light);
+        }
+
+        .photobooth-page .customer-gallery-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+          gap: 24px;
+          margin-top: 48px;
+        }
+
+        .photobooth-page .customer-gallery-item {
+          border-radius: 20px;
+          overflow: hidden;
+          aspect-ratio: 1;
+          box-shadow: var(--pb-shadow-soft);
+          border: 3px solid var(--pb-pink-light);
+          transition: all 0.3s ease;
+        }
+
+        .photobooth-page .customer-gallery-item:hover {
+          transform: translateY(-4px);
+          box-shadow: var(--pb-shadow-pink);
+          border-color: var(--pb-pink);
+        }
+
+        .photobooth-page .customer-gallery-item img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+
         /* Testimonials */
         .photobooth-page .testimonials-section {
           background: var(--pb-blue-light);
