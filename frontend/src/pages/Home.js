@@ -311,7 +311,6 @@ const Home = () => {
                   alt={selectedImage.caption}
                   className="modal-image"
                 />
-                <div className="modal-caption">{selectedImage.caption}</div>
               </div>
             </div>
           )}
