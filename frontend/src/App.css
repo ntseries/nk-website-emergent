@@ -516,9 +516,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Sections */
 .services-section,
-.activities-section,
-.testimonials-section {
+.activities-section {
   padding: var(--space-2xl) 0;
+}
+
+.testimonials-section {
+  padding: var(--space-xl) 0 var(--space-2xl) 0;
+  background: var(--nk-white);
 }
 
 .section-header {
