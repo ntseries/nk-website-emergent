@@ -1009,6 +1009,18 @@ h1, h2, h3, h4, h5, h6 {
     right: -10px;
   }
   
+  .modal-arrow {
+    padding: 12px;
+  }
+  
+  .modal-arrow-left {
+    left: 10px;
+  }
+  
+  .modal-arrow-right {
+    right: 10px;
+  }
+  
   .modal-caption {
     font-size: 16px;
   }
