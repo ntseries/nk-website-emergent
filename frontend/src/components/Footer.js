@@ -97,7 +97,7 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="footer-bottom">
-          <p>&copy; 2025 NK Board Game. สงวนลิขสิทธิ์ทุกประการ</p>
+          <p>&copy; 2025 NK Board Game. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
