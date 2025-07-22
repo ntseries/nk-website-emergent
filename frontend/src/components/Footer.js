@@ -10,11 +10,17 @@ const Footer = () => {
           {/* Company Info */}
           <div className="footer-section">
             <div className="footer-logo">
-              <img 
-                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjgwIiB2aWV3Qm94PSIwIDAgMjAwIDgwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8dGV4dCB4PSIxMCIgeT0iMzUiIGZvbnQtZmFtaWx5PSJLYW5pdCwgc2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9IjcwMCIgZm9udC1zaXplPSIyOCIgZmlsbD0iI0ZGRkZGRiI+TktfPC90ZXh0Pgo8dGV4dCB4PSI2MCIgeT0iMzUiIGZvbnQtZmFtaWx5PSJLYW5pdCwgc2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9IjYwMCIgZm9udC1zaXplPSIxNCIgZmlsbD0iI0ZGRkZGRiI+Qk9BUkQgR0FNRV88L3RleHQ+CjxyZWN0IHg9IjEwIiB5PSI0NSIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQiIGZpbGw9IiNGRkQ3MDAiLz4KPC9zdmc+Cg=="
-                alt="NK Board Game"
-                className="footer-logo-image"
-              />
+              <div className="logo-container">
+                <div className="logo-main">
+                  <span className="logo-nk">NK</span>
+                  <div className="logo-meeple">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="#87CEEB">
+                      <path d="M12 2C10.9 2 10 2.9 10 4C10 5.1 10.9 6 12 6C13.1 6 14 5.1 14 4C14 2.9 13.1 2 12 2M21 9V7L15 1H5C3.9 1 3 1.9 3 3V21C3 22.1 3.9 23 5 23H19C20.1 23 21 22.1 21 21V9H21Z"/>
+                    </svg>
+                  </div>
+                </div>
+                <div className="logo-sub">BOARD GAME</div>
+              </div>
             </div>
             <p className="footer-description">
               ร้านบอร์ดเกมที่ให้บริการครบครัน พร้อมสร้างประสบการณ์สนุกสนานให้กับคุณและเพื่อน ๆ
