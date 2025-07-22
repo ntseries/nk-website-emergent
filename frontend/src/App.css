@@ -228,7 +228,6 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -237,6 +236,23 @@ h1, h2, h3, h4, h5, h6 {
   padding: var(--space-2xl) var(--space-md);
   position: relative;
   overflow: hidden;
+}
+
+/* Mobile optimization for background */
+@media (max-width: 809px) {
+  .hero-section {
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center center;
+    min-height: 80vh;
+  }
+}
+
+/* Desktop optimization */
+@media (min-width: 810px) {
+  .hero-section {
+    background-attachment: fixed;
+  }
 }
 
 .hero-section::before {
