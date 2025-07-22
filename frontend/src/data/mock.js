@@ -22,7 +22,7 @@ export const services = [
     title: "Dungeons & Dragons",
     description: "เซสชัน D&D สำหรับผู้เล่นทุกระดับ พร้อม DM มืออาชีพและอุปกรณ์ครบครัน",
     icon: "shield",
-    image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop",
+    image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/NK-Service-03.jpg",
     price: "300 บาท/เซสชัน/ท่าน"
   },
   {
