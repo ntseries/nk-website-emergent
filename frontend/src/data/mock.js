@@ -39,7 +39,7 @@ export const services = [
     description: "เมนูอาหารและเครื่องดื่มหลากหลาย เหมาะสำหรับเติมพลังขณะเล่นเกม",
     icon: "coffee",
     image: "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=400&h=300&fit=crop",
-    price: "50-250 บาท"
+    price: "ราคาเริ่มต้น 29 บาท"
   },
   {
     id: 6,
