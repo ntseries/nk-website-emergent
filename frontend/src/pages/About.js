@@ -72,53 +72,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* Values Section */}
-      <section className="values-section">
-        <div className="container">
-          <div className="section-header">
-            <h2 className="section-title">ค่านิยมของเรา</h2>
-          </div>
-          <div className="values-grid">
-            <div className="value-card">
-              <div className="value-icon">
-                <Heart size={24} />
-              </div>
-              <h3 className="value-title">ความรัก</h3>
-              <p className="value-description">
-                เรารักบอร์ดเกมและรักลูกค้าทุกคน พร้อมให้บริการด้วยใจที่จริงใส
-              </p>
-            </div>
-            <div className="value-card">
-              <div className="value-icon">
-                <Users size={24} />
-              </div>
-              <h3 className="value-title">ความเป็นครอบครัว</h3>
-              <p className="value-description">
-                เราเชื่อว่าบอร์ดเกมสร้างความสัมพันธ์ที่ดีและความเป็นครอบครัว
-              </p>
-            </div>
-            <div className="value-card">
-              <div className="value-icon">
-                <Target size={24} />
-              </div>
-              <h3 className="value-title">คุณภาพ</h3>
-              <p className="value-description">
-                เราให้ความสำคัญกับคุณภาพของบริการและประสบการณ์ของลูกค้า
-              </p>
-            </div>
-            <div className="value-card">
-              <div className="value-icon">
-                <Trophy size={24} />
-              </div>
-              <h3 className="value-title">ความเป็นเลิศ</h3>
-              <p className="value-description">
-                เราพยายามสร้างประสบการณ์ที่ยอดเยี่ยมให้กับลูกค้าทุกครั้ง
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Team Section */}
       <section className="team-section">
         <div className="container">
@@ -158,50 +111,6 @@ const About = () => {
               <p className="member-description">
                 DM มืออาชีพที่สร้างการผจญภัย D&D ที่น่าตื่นเต้นและไม่มีวันลืม
               </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Location Section */}
-      <section className="location-section">
-        <div className="container">
-          <div className="section-header">
-            <h2 className="section-title">ที่ตั้งสาขา</h2>
-          </div>
-          <div className="locations-grid">
-            <div className="location-card">
-              <div className="location-icon">
-                <MapPin size={24} />
-              </div>
-              <h3 className="location-name">ซีคอนบางแค</h3>
-              <p className="location-address">ซีคอนบางแค ชั้น 6 โซนการศึกษา</p>
-              <div className="location-hours">
-                <Clock size={16} />
-                <span>10:00 - 22:00 ทุกวัน</span>
-              </div>
-            </div>
-            <div className="location-card">
-              <div className="location-icon">
-                <MapPin size={24} />
-              </div>
-              <h3 className="location-name">ซีคอนศรีนครินทร์</h3>
-              <p className="location-address">ซีคอนศรีนครินทร์ ชั้น 3 โซน MuNX2</p>
-              <div className="location-hours">
-                <Clock size={16} />
-                <span>10:00 - 22:00 ทุกวัน</span>
-              </div>
-            </div>
-            <div className="location-card">
-              <div className="location-icon">
-                <MapPin size={24} />
-              </div>
-              <h3 className="location-name">สามย่านมิตรทาวน์</h3>
-              <p className="location-address">สามย่านมิตรทาวน์ ชั้น 3 ฝั่งฟิตเนส</p>
-              <div className="location-hours">
-                <Clock size={16} />
-                <span>10:00 - 22:00 ทุกวัน</span>
-              </div>
             </div>
           </div>
         </div>
