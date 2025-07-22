@@ -209,8 +209,8 @@ const Home = () => {
 
               return (
                 <div key={service.id} className="service-card">
-                  <div className="service-icon">
-                    <IconComponent size={24} />
+                  <div className="service-image">
+                    <img src={service.image} alt={service.title} />
                   </div>
                   <h3 className="service-title">{service.title}</h3>
                   <p className="service-description">{service.description}</p>
