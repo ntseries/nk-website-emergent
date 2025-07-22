@@ -4,7 +4,7 @@ export const services = [
   {
     id: 1,
     title: "เล่นที่ร้าน",
-    description: "พื้นที่กว้างขวางสำหรับเล่นบอร์ดเกมกับเพื่อน ๆ มีเกมให้เลือกมากกว่า 500 เกม",
+    description: "พื้นที่กว้างขวางสำหรับเล่นบอร์ดเกมกับเพื่อน ๆ มีเกมให้เลือกมากกว่า 1,000+ เกม",
     icon: "gamepad-2",
     image: "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=400&h=300&fit=crop",
     price: "150 บาท/ชั่วโมง"
