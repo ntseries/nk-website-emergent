@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { MapPin, Phone, Mail, Clock, MessageSquare, ArrowRight } from "lucide-react";
+import { MapPin, Phone, Clock, MessageSquare, ArrowRight } from "lucide-react";
 import { branches } from "../data/mock";
 
 const Contact = () => {
