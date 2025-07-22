@@ -235,6 +235,9 @@ const Home = () => {
           <div className="testimonials-grid">
             {testimonials.map((testimonial) => (
               <div key={testimonial.id} className="testimonial-card">
+                <div className="testimonial-avatar">
+                  <img src={testimonial.image} alt={testimonial.name} />
+                </div>
                 <div className="testimonial-stars">
                   {[...Array(testimonial.rating)].map((_, i) => (
                     <Star key={i} size={16} fill="currentColor" />
