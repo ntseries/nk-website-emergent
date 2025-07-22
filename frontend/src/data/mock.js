@@ -111,21 +111,24 @@ export const testimonials = [
     name: "อิงค์",
     age: 19,
     text: "ที่นี่สนุกมาก! เกมเยอะ พนักงานให้คำแนะนำดี มาทุกสัปดาห์เลย",
-    rating: 5
+    rating: 5,
+    image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Review-Char-01.jpeg"
   },
   {
     id: 2,
     name: "แมกซ์",
     age: 22,
     text: "D&D session ที่นี่เจ๋งสุด DM เก่งมาก เล่าเรื่องได้น่าตื่นเต้น",
-    rating: 5
+    rating: 5,
+    image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Review-Char-02.jpg"
   },
   {
     id: 3,
     name: "มิน",
     age: 17,
     text: "Photo booth น่ารักมาก ได้รูปสวย ๆ เก็บไว้เป็นความทรงจำ",
-    rating: 5
+    rating: 5,
+    image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Review-Char-03.jpg"
   }
 ];
 
