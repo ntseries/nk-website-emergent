@@ -81,25 +81,25 @@ export const activities = [
 export const branches = [
   {
     id: 1,
-    name: "NK Board Game สยามสแควร์",
-    address: "ชั้น 4 สยามสแควร์ เขตปทุมวัน กรุงเทพฯ 10330",
-    phone: "02-123-4567",
+    name: "NK Board Game ซีคอนบางแค",
+    address: "ซีคอนบางแค ชั้น 6 โซนการศึกษา",
+    phone: "065-412-3939",
     hours: "10:00 - 22:00 (ทุกวัน)",
     image: "https://images.unsplash.com/photo-1541753236788-b0ac1fc5009d?w=400&h=300&fit=crop"
   },
   {
     id: 2,
-    name: "NK Board Game เซ็นทรัลเวอร์ลด์",
-    address: "ชั้น 7 เซ็นทรัลเวอร์ลด์ เขตปทุมวัน กรุงเทพฯ 10330",
-    phone: "02-234-5678",
+    name: "NK Board Game ซีคอนศรีนครินทร์",
+    address: "ซีคอนศรีนครินทร์ ชั้น 3 โซน MuNX2",
+    phone: "065-412-3939",
     hours: "10:00 - 22:00 (ทุกวัน)",
     image: "https://images.unsplash.com/photo-1541753236788-b0ac1fc5009d?w=400&h=300&fit=crop"
   },
   {
     id: 3,
-    name: "NK Board Game เมกะ บางนา",
-    address: "ชั้น 2 เมกะ บางนา เขตบางนา กรุงเทพฯ 10260",
-    phone: "02-345-6789",
+    name: "NK Board Game สามย่านมิตรทาวน์",
+    address: "สามย่านมิตรทาวน์ ชั้น 3 ฝั่งฟิตเนส",
+    phone: "065-412-3939",
     hours: "10:00 - 22:00 (ทุกวัน)",
     image: "https://images.unsplash.com/photo-1541753236788-b0ac1fc5009d?w=400&h=300&fit=crop"
   }
