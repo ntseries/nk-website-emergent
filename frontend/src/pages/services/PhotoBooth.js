@@ -514,35 +514,35 @@ const PhotoBooth = () => {
       {/* Features Section */}
       <section className="service-features">
         <div className="container">
-          <h2 className="section-title">จุดเด่นโฟโต้บูธ</h2>
+          <h2 className="section-title">จุดเด่น Kawaii Photo Booth</h2>
           <div className="features-grid">
             <div className="feature-card">
               <div className="feature-icon">
                 <Camera size={32} />
               </div>
-              <h3>กล้องคุณภาพสูง</h3>
-              <p>กล้อง DSLR ระบบแสงมืออาชีพ ภาพคมชัด สีสดใส</p>
+              <h3>กล้องมุกมิก คุณภาพ HD</h3>
+              <p>กล้องสุดคมชัด แสงไฟ Ring Light สไตล์ Beauty Filter เหมือนแอพเกาหลี</p>
+            </div>
+            <div className="feature-card">
+              <div className="feature-icon">
+                <Heart size={32} />
+              </div>
+              <h3>พร็อพสุดคาวาอิ</h3>
+              <p>พร็อพน่ารักสไตล์ญี่ปุ่น-เกาหลี กิ๊บผม หมอน อีโมจิ กรอบหัวใจ และอีกมากมาย</p>
             </div>
             <div className="feature-card">
               <div className="feature-icon">
                 <Sparkles size={32} />
               </div>
-              <h3>พร็อพที่หลากหลาย</h3>
-              <p>พร็อพบอร์ดเกม หน้ากาก หมวก และอุปกรณ์สนุกๆ มากมาย</p>
-            </div>
-            <div className="feature-card">
-              <div className="feature-icon">
-                <Image size={32} />
-              </div>
-              <h3>แบ็คกราวด์พิเศษ</h3>
-              <p>พื้นหลังธีมบอร์ดเกม สีสันสดใส ถ่ายออกมาปังทุกมุม</p>
+              <h3>Background สุดหวาน</h3>
+              <p>พื้นหลังสีพาสเทล สไตล์ Harajuku และธีมสาวเกาหลี สวยปังทุกองศา</p>
             </div>
             <div className="feature-card">
               <div className="feature-icon">
                 <Users size={32} />
               </div>
-              <h3>เหมาะกับทุกกลุ่ม</h3>
-              <p>รองรับตั้งแต่ถ่ายคนเดียวไปจนถึงกลุ่มใหญ่</p>
+              <h3>เซอร์วิสแบบ Unni</h3>
+              <p>พี่ๆ แสตฟ จะแนะนำโพสต์สวยๆ สไตล์ Idol ให้คุณออกมาน่ารักที่สุด</p>
             </div>
           </div>
         </div>
