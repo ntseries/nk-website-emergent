@@ -503,8 +503,8 @@ const PhotoBooth = () => {
             </div>
             <div className="service-hero-image">
               <img 
-                src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600&h=400&fit=crop" 
-                alt="Photo Booth"
+                src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/NK-Service-04.jpg" 
+                alt="NK Photo Booth - Kawaii Style"
               />
             </div>
           </div>
