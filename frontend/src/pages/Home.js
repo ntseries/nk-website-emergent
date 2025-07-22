@@ -259,43 +259,39 @@ const Home = () => {
               เสียงหัวเราะและความสนุกสนานจากลูกค้าที่มาเล่นที่ NK Board Game
             </p>
           </div>
+
+          {/* Branch Tabs */}
+          <div className="gallery-tabs">
+            <button 
+              className={`gallery-tab ${activeTab === 'seconbangkhae' ? 'active' : ''}`}
+              onClick={() => setActiveTab('seconbangkhae')}
+            >
+              ซีคอนบางแค
+            </button>
+            <button 
+              className={`gallery-tab ${activeTab === 'seconsrinakarin' ? 'active' : ''}`}
+              onClick={() => setActiveTab('seconsrinakarin')}
+            >
+              ซีคอนศรีนครินทร์
+            </button>
+            <button 
+              className={`gallery-tab ${activeTab === 'samyanmitrtown' ? 'active' : ''}`}
+              onClick={() => setActiveTab('samyanmitrtown')}
+            >
+              สามย่านมิตรทาวน์
+            </button>
+          </div>
+
+          {/* Gallery Grid */}
           <div className="gallery-grid">
-            <div className="gallery-item">
-              <img src="https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=600&h=400&fit=crop" alt="ลูกค้าเล่นบอร์ดเกมอย่างสนุกสนาน" />
-              <div className="gallery-overlay">
-                <div className="gallery-caption">เพื่อนๆ สนุกกับเกมกลยุทธ์</div>
+            {galleryData[activeTab].images.map((image, index) => (
+              <div key={index} className="gallery-item">
+                <img src={image.url} alt={image.caption} />
+                <div className="gallery-overlay">
+                  <div className="gallery-caption">{image.caption}</div>
+                </div>
               </div>
-            </div>
-            <div className="gallery-item">
-              <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&h=400&fit=crop" alt="บรรยากาศภายในร้าน" />
-              <div className="gallery-overlay">
-                <div className="gallery-caption">บรรยากาศสบายๆ ในร้าน</div>
-              </div>
-            </div>
-            <div className="gallery-item">
-              <img src="https://images.unsplash.com/photo-1541753236788-b0ac1fc5009d?w=600&h=400&fit=crop" alt="ครอบครัวเล่นเกมด้วยกัน" />
-              <div className="gallery-overlay">
-                <div className="gallery-caption">ครอบครัวสนุกไปด้วยกัน</div>
-              </div>
-            </div>
-            <div className="gallery-item">
-              <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=600&h=400&fit=crop" alt="กิจกรรม Photo Booth" />
-              <div className="gallery-overlay">
-                <div className="gallery-caption">Photo Booth สุดเจ๋ง</div>
-              </div>
-            </div>
-            <div className="gallery-item">
-              <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=600&h=400&fit=crop" alt="อาหารและเครื่องดื่ม" />
-              <div className="gallery-overlay">
-                <div className="gallery-caption">อาหารและเครื่องดื่มอร่อย</div>
-              </div>
-            </div>
-            <div className="gallery-item">
-              <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&h=400&fit=crop" alt="Team Building Activity" />
-              <div className="gallery-overlay">
-                <div className="gallery-caption">กิจกรรม Team Building</div>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>
