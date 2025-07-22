@@ -820,10 +820,73 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   object-fit: cover;
   transition: transform 0.3s ease;
+  cursor: pointer;
 }
 
 .gallery-item:hover img {
   transform: scale(1.05);
+}
+
+/* Image Modal */
+.image-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  cursor: pointer;
+}
+
+.modal-content {
+  position: relative;
+  max-width: 90vw;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: default;
+}
+
+.modal-close {
+  position: absolute;
+  top: -50px;
+  right: 0;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  transition: background 0.2s ease;
+  z-index: 10001;
+}
+
+.modal-close:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.modal-image {
+  max-width: 100%;
+  max-height: 80vh;
+  object-fit: contain;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+}
+
+.modal-caption {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: var(--space-md);
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-md);
 }
 
 .gallery-overlay {
@@ -868,9 +931,18 @@ h1, h2, h3, h4, h5, h6 {
     aspect-ratio: 4/3;
   }
   
-  .gallery-overlay {
-    transform: translateY(0);
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, transparent 60%);
+  .modal-content {
+    max-width: 95vw;
+    max-height: 95vh;
+  }
+  
+  .modal-close {
+    top: -40px;
+    right: -10px;
+  }
+  
+  .modal-caption {
+    font-size: 16px;
   }
 }
 
