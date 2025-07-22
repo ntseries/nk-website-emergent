@@ -6,6 +6,7 @@ import { services, testimonials } from "../data/mock";
 const Home = () => {
   const heroServices = services.slice(0, 3);
   const [activeTab, setActiveTab] = useState("seconbangkhae");
+  const [selectedImage, setSelectedImage] = useState(null);
 
   // Gallery data for each branch
   const galleryData = {
