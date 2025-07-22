@@ -38,7 +38,7 @@ export const services = [
     title: "Food & Drink",
     description: "เมนูอาหารและเครื่องดื่มหลากหลาย เหมาะสำหรับเติมพลังขณะเล่นเกม",
     icon: "coffee",
-    image: "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=400&h=300&fit=crop",
+    image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/NK-Service-05.png",
     price: "ราคาเริ่มต้น 29 บาท"
   },
   {
