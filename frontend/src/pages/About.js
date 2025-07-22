@@ -80,17 +80,17 @@ const About = () => {
           <div className="team-grid">
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face" alt="นิค" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-01.png" alt="North" />
               </div>
-              <h3 className="member-name">นิค</h3>
-              <p className="member-role">ผู้ก่อตั้ง & CEO</p>
+              <h3 className="member-name">North</h3>
+              <p className="member-role">Co-founder, CEO</p>
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://images.unsplash.com/photo-1494790108755-2616b612c64f?w=200&h=200&fit=crop&crop=face" alt="เคท" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-02.jpg" alt="Kritconfirm" />
               </div>
-              <h3 className="member-name">เคท</h3>
-              <p className="member-role">หัวหน้าบริการลูกค้า</p>
+              <h3 className="member-name">Kritconfirm</h3>
+              <p className="member-role">Co-founder</p>
             </div>
             <div className="team-member">
               <div className="member-avatar">
