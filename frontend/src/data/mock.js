@@ -15,7 +15,7 @@ export const services = [
     description: "สคริปต์เกมพิเศษที่ออกแบบโดยทีมของเรา สร้างประสบการณ์เล่นเกมที่ไม่เหมือนใคร",
     icon: "scroll-text",
     image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop",
-    price: "299 บาท/เกม (โปรโมชั่น 199 บาท/เกม)"
+    price: "299 บาท/เกม"
   },
   {
     id: 3,
