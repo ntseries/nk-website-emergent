@@ -76,7 +76,7 @@ const Home = () => {
                   <div className="service-price">{service.price}</div>
                   <Link to={`/services/${service.title.toLowerCase().replace(/\s+/g, '-').replace(/&/g, '')}`} 
                         className="service-link">
-                    เรียนรู้เพิ่มเติม <ArrowRight size={14} />
+                    ดูรายละเอียดเพิ่มเติม <ArrowRight size={14} />
                   </Link>
                 </div>
               );
