@@ -47,7 +47,7 @@ export const services = [
     description: "กิจกรรมสร้างทีมเวิร์คผ่านบอร์ดเกม เหมาะสำหรับองค์กรและกลุ่มเพื่อน",
     icon: "users",
     image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/NK-Service-06.JPG",
-    price: "500 บาท/คน"
+    price: "สอบถามราคา"
   }
 ];
 
