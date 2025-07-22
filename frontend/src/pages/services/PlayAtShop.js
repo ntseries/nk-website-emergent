@@ -103,7 +103,7 @@ const PlayAtShop = () => {
             ))}
           </div>
           <div className="games-footer">
-            <p>และอีกมากกว่า 494 เกม รอให้คุณมาสำรวจ!</p>
+            <p>และอีกมากกว่า 994 เกม รอให้คุณมาสำรวจ!</p>
           </div>
         </div>
       </section>
