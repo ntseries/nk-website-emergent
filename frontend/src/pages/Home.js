@@ -326,7 +326,7 @@ const Home = () => {
               <div 
                 key={index} 
                 className="gallery-item"
-                onClick={() => setSelectedImage(image)}
+                onClick={() => setSelectedImageIndex(index)}
               >
                 <img src={image.url} alt={image.caption} />
               </div>
@@ -334,18 +334,33 @@ const Home = () => {
           </div>
 
           {/* Image Modal */}
-          {selectedImage && (
-            <div className="image-modal" onClick={() => setSelectedImage(null)}>
+          {selectedImageIndex !== null && (
+            <div className="image-modal" onClick={closeModal}>
               <div className="modal-content" onClick={(e) => e.stopPropagation()}>
                 <button 
                   className="modal-close"
-                  onClick={() => setSelectedImage(null)}
+                  onClick={closeModal}
                 >
                   <X size={24} />
                 </button>
+                
+                <button 
+                  className="modal-arrow modal-arrow-left"
+                  onClick={goToPrevImage}
+                >
+                  <ChevronLeft size={32} />
+                </button>
+                
+                <button 
+                  className="modal-arrow modal-arrow-right"
+                  onClick={goToNextImage}
+                >
+                  <ChevronRight size={32} />
+                </button>
+                
                 <img 
-                  src={selectedImage.url} 
-                  alt={selectedImage.caption}
+                  src={getCurrentImage()?.url} 
+                  alt={getCurrentImage()?.caption}
                   className="modal-image"
                 />
               </div>
