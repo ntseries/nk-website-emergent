@@ -557,8 +557,8 @@ const PhotoBooth = () => {
           </div>
           <div className="packages-grid">
             {packages.map((pkg, index) => (
-              <div key={index} className={`package-card ${index === 1 ? 'featured' : ''}`}>
-                {index === 1 && <div className="package-badge">Most Popular ♡</div>}
+              <div key={index} className={`package-card featured`}>
+                <div className="package-badge">Most Popular ♡</div>
                 <h3 className="package-name">{pkg.name}</h3>
                 <div className="package-price">{pkg.price}</div>
                 <div className="package-features">
@@ -573,6 +573,10 @@ const PhotoBooth = () => {
                   <div className="package-feature">
                     <Clock size={16} />
                     <span>{pkg.duration}</span>
+                  </div>
+                  <div className="package-feature">
+                    <Image size={16} />
+                    <span>{pkg.photo}</span>
                   </div>
                 </div>
                 <button className="package-select-btn">Choose This Package ♡</button>
