@@ -57,7 +57,7 @@ const About = () => {
               </div>
               <div className="stat-card about-stat-card">
                 <div className="stat-number about-stat-number">50K+</div>
-                <div className="stat-label about-stat-label">ลูกค้าที่พอใจ</div>
+                <div className="stat-label about-stat-label">จำนวนสมาชิก</div>
               </div>
               <div className="stat-card about-stat-card">
                 <div className="stat-number about-stat-number">1,000+</div>
