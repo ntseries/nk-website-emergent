@@ -19,8 +19,7 @@ const Home = () => {
             ที่ NK Board Game
           </h1>
           <p className="hero-subtitle">
-            ค้นพบโลกแห่งการผจญภัยผ่านบอร์ดเกมมากกว่า 500 เกม<br />
-            พร้อมบริการครบครันและบรรยากาศสุดเจ๋ง
+            สนุกทุกเกม ประทับใจทุกสาขา – พบประสบการณ์บอร์ดเกมที่แตกต่างได้ที่ NK Board Game
           </p>
           <div className="hero-actions">
             <Link to="/services" className="btn-primary">
@@ -32,7 +31,7 @@ const Home = () => {
           </div>
           <div className="hero-stats">
             <div className="stat">
-              <div className="stat-number">500+</div>
+              <div className="stat-number">1,000+</div>
               <div className="stat-label">เกมให้เลือก</div>
             </div>
             <div className="stat">
@@ -82,38 +81,6 @@ const Home = () => {
                 </div>
               );
             })}
-          </div>
-        </div>
-      </section>
-
-      {/* Activities Section */}
-      <section className="activities-section">
-        <div className="container">
-          <div className="section-header">
-            <h2 className="section-title">กิจกรรมที่น่าสนใจ</h2>
-            <p className="section-subtitle">
-              เข้าร่วมกิจกรรมสุดพิเศษและพบเจอเพื่อนใหม่
-            </p>
-          </div>
-          <div className="activities-grid">
-            {activities.slice(0, 3).map((activity) => (
-              <div key={activity.id} className="activity-card">
-                <div className="activity-image">
-                  <img src={activity.image} alt={activity.title} />
-                  <div className="activity-status">{activity.status}</div>
-                </div>
-                <div className="activity-content">
-                  <div className="activity-date">{activity.date}</div>
-                  <h3 className="activity-title">{activity.title}</h3>
-                  <p className="activity-description">{activity.description}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-          <div className="section-footer">
-            <Link to="/activities" className="btn-primary">
-              ดูกิจกรรมทั้งหมด <ArrowRight size={16} />
-            </Link>
           </div>
         </div>
       </section>
