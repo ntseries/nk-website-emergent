@@ -47,7 +47,7 @@ export const services = [
     description: "กิจกรรมสร้างทีมเวิร์คผ่านบอร์ดเกม เหมาะสำหรับองค์กรและกลุ่มเพื่อน",
     icon: "users",
     image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&h=300&fit=crop",
-    price: "ดูรายละเอียดเพิ่มเติม"
+    price: "500 บาท/คน"
   }
 ];
 
