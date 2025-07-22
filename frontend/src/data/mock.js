@@ -6,7 +6,7 @@ export const services = [
     title: "เล่นที่ร้าน",
     description: "พื้นที่กว้างขวางสำหรับเล่นบอร์ดเกมกับเพื่อน ๆ มีเกมให้เลือกมากกว่า 1,000+ เกม",
     icon: "gamepad-2",
-    image: "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=400&h=300&fit=crop",
+    image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/NK-Service-01.JPG",
     price: "เริ่มต้น 36 บาท/ชั่วโมง"
   },
   {
