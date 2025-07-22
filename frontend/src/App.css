@@ -1026,6 +1026,52 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/* Team Building */
+.team-building-section {
+  padding: var(--space-2xl) 0;
+  background: var(--nk-light-gray);
+}
+
+/* About Page Specific Styles */
+.story-subtitle {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--nk-blue);
+  margin: var(--space-md) 0 var(--space-lg) 0;
+  line-height: 1.3;
+}
+
+.about-stat-card {
+  background: var(--gradient-card);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  text-align: center;
+  border: 2px solid var(--nk-blue);
+  transition: all 0.3s ease;
+}
+
+.about-stat-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.about-stat-number {
+  font-size: 36px;
+  font-weight: 800;
+  color: var(--nk-blue);
+  margin-bottom: var(--space-xs);
+  background: var(--gradient-button);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.about-stat-label {
+  font-size: 16px;
+  color: var(--nk-dark);
+  font-weight: 600;
+}
+
 /* CTA Section */
 .cta-section {
   background: var(--gradient-hero);
