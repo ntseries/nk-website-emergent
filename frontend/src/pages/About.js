@@ -42,7 +42,7 @@ const About = () => {
                 <div className="stat-label">ลูกค้าที่พอใจ</div>
               </div>
               <div className="stat-card">
-                <div className="stat-number">500+</div>
+                <div className="stat-number">1,000+</div>
                 <div className="stat-label">เกมในคลังสต๊อก</div>
               </div>
             </div>
