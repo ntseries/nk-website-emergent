@@ -51,7 +51,7 @@ const PlayAtShop = () => {
               <div className="feature-icon">
                 <Gamepad2 size={32} />
               </div>
-              <h3>เกมมากกว่า 500 เกม</h3>
+              <h3>เกมมากกว่า 1,000+ เกม</h3>
               <p>คอลเลกชันเกมครบครันจากทั่วโลก อัพเดทเกมใหม่ทุกเดือน</p>
             </div>
             <div className="feature-card">
