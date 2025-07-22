@@ -25,7 +25,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="logo">
             <img 
-              src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/DPMX5703.JPG"
+              src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/nk_logo_transparent.png"
               alt="NK Board Game"
               className="logo-image"
             />
