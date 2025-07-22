@@ -24,10 +24,11 @@ const Header = () => {
         <div className="nav-wrapper">
           {/* Logo */}
           <Link to="/" className="logo">
-            <div className="logo-text">
-              <span className="logo-nk">NK</span>
-              <span className="logo-board">BOARD GAME</span>
-            </div>
+            <img 
+              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjgwIiB2aWV3Qm94PSIwIDAgMjAwIDgwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8dGV4dCB4PSIxMCIgeT0iMzUiIGZvbnQtZmFtaWx5PSJLYW5pdCwgc2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9IjcwMCIgZm9udC1zaXplPSIyOCIgZmlsbD0iIzNCNENDQSI+TktfPC90ZXh0Pgo8dGV4dCB4PSI2MCIgeT0iMzUiIGZvbnQtZmFtaWx5PSJLYW5pdCwgc2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9IjYwMCIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzNCNENDQSI+Qk9BUkQgR0FNRV88L3RleHQ+CjxyZWN0IHg9IjEwIiB5PSI0NSIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQiIGZpbGw9IiNGRkQ3MDAiLz4KPC9zdmc+Cg=="
+              alt="NK Board Game"
+              className="logo-image"
+            />
           </Link>
 
           {/* Desktop Navigation */}
