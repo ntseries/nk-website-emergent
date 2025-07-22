@@ -560,7 +560,7 @@ const PhotoBooth = () => {
           <div className="packages-grid">
             {packages.map((pkg, index) => (
               <div key={index} className={`package-card ${index === 1 ? 'featured' : ''}`}>
-                {index === 1 && <div className="package-badge">แนะนำ</div>}
+                {index === 1 && <div className="package-badge">Most Popular ♡</div>}
                 <h3 className="package-name">{pkg.name}</h3>
                 <div className="package-price">{pkg.price}</div>
                 <div className="package-features">
@@ -569,7 +569,7 @@ const PhotoBooth = () => {
                     <span>{pkg.shots}</span>
                   </div>
                   <div className="package-feature">
-                    <Sparkles size={16} />
+                    <Heart size={16} />
                     <span>{pkg.props}</span>
                   </div>
                   <div className="package-feature">
@@ -577,7 +577,7 @@ const PhotoBooth = () => {
                     <span>{pkg.duration}</span>
                   </div>
                 </div>
-                <button className="package-select-btn">เลือกแพ็คเกจนี้</button>
+                <button className="package-select-btn">Choose This Package ♡</button>
               </div>
             ))}
           </div>
