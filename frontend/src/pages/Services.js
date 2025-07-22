@@ -85,10 +85,10 @@ const Services = () => {
           </div>
           <div className="features-grid">
             <div className="feature-item">
-              <div className="feature-number">500+</div>
+              <div className="feature-number">1,000+</div>
               <h3 className="feature-title">เกมให้เลือก</h3>
               <p className="feature-description">
-                คอลเลกชันเกมมากกว่า 500 เกมจากทั่วโลก ตั้งแต่เกมง่ายๆ ไปจนถึงเกมซับซ้อน
+                คอลเลกชันเกมมากกว่า 1,000+ เกมจากทั่วโลก ตั้งแต่เกมง่ายๆ ไปจนถึงเกมซับซ้อน
               </p>
             </div>
             <div className="feature-item">
