@@ -734,6 +734,21 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease;
 }
 
+.testimonial-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto var(--space-md) auto;
+  box-shadow: var(--shadow-md);
+}
+
+.testimonial-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .testimonial-card:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow-md);
