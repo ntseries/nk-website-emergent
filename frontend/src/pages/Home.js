@@ -39,7 +39,7 @@ const Home = () => {
               <div className="stat-label">สาขาในกรุงเทพ</div>
             </div>
             <div className="stat">
-              <div className="stat-number">10K+</div>
+              <div className="stat-number">50K+</div>
               <div className="stat-label">ลูกค้าที่พอใจ</div>
             </div>
           </div>
