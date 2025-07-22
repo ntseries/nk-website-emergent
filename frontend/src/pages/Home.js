@@ -286,14 +286,35 @@ const Home = () => {
           {/* Gallery Grid */}
           <div className="gallery-grid">
             {galleryData[activeTab].images.map((image, index) => (
-              <div key={index} className="gallery-item">
+              <div 
+                key={index} 
+                className="gallery-item"
+                onClick={() => setSelectedImage(image)}
+              >
                 <img src={image.url} alt={image.caption} />
-                <div className="gallery-overlay">
-                  <div className="gallery-caption">{image.caption}</div>
-                </div>
               </div>
             ))}
           </div>
+
+          {/* Image Modal */}
+          {selectedImage && (
+            <div className="image-modal" onClick={() => setSelectedImage(null)}>
+              <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+                <button 
+                  className="modal-close"
+                  onClick={() => setSelectedImage(null)}
+                >
+                  <X size={24} />
+                </button>
+                <img 
+                  src={selectedImage.url} 
+                  alt={selectedImage.caption}
+                  className="modal-image"
+                />
+                <div className="modal-caption">{selectedImage.caption}</div>
+              </div>
+            </div>
+          )}
         </div>
       </section>
     </div>
