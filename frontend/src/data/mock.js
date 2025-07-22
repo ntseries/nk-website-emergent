@@ -23,7 +23,7 @@ export const services = [
     description: "เซสชัน D&D สำหรับผู้เล่นทุกระดับ พร้อม DM มืออาชีพและอุปกรณ์ครบครัน",
     icon: "shield",
     image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=300&fit=crop",
-    price: "300 บาท/เซสชัน"
+    price: "300 บาท/เซสชัน/ท่าน"
   },
   {
     id: 4,
