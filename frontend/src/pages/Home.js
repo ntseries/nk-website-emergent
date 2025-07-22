@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ArrowRight, Users, Star, Gamepad2, ScrollText, Shield, Camera, Coffee, UsersIcon } from "lucide-react";
-import { services, activities, testimonials } from "../data/mock";
+import { services, testimonials } from "../data/mock";
 
 const Home = () => {
   const heroServices = services.slice(0, 3);
