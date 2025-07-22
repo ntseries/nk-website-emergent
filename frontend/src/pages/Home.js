@@ -38,6 +38,30 @@ const Home = () => {
     return null;
   };
 
+  // Keyboard navigation
+  React.useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (selectedImageIndex !== null) {
+        switch(e.key) {
+          case 'ArrowLeft':
+            goToPrevImage();
+            break;
+          case 'ArrowRight':
+            goToNextImage();
+            break;
+          case 'Escape':
+            closeModal();
+            break;
+          default:
+            break;
+        }
+      }
+    };
+
+    document.addEventListener('keydown', handleKeyDown);
+    return () => document.removeEventListener('keydown', handleKeyDown);
+  }, [selectedImageIndex, activeTab]);
+
   // Gallery data for each branch
   const galleryData = {
     seconbangkhae: {
