@@ -24,17 +24,17 @@ const Header = () => {
         <div className="nav-wrapper">
           {/* Logo */}
           <Link to="/" className="logo">
-            <div className="logo-container">
-              <div className="logo-main">
-                <span className="logo-nk">NK</span>
-                <div className="logo-meeple">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="#87CEEB">
-                    <path d="M12 2C10.9 2 10 2.9 10 4C10 5.1 10.9 6 12 6C13.1 6 14 5.1 14 4C14 2.9 13.1 2 12 2M21 9V7L15 1H5C3.9 1 3 1.9 3 3V21C3 22.1 3.9 23 5 23H19C20.1 23 21 22.1 21 21V9H21Z"/>
-                  </svg>
-                </div>
-              </div>
-              <div className="logo-sub">BOARD GAME</div>
-            </div>
+            <img 
+              src="https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&h=80&q=80" 
+              alt="NK Board Game"
+              className="logo-image"
+              style={{
+                borderRadius: '8px',
+                backgroundColor: '#3B4CCA',
+                padding: '8px 16px',
+                boxShadow: '0 2px 8px rgba(59, 76, 202, 0.3)'
+              }}
+            />
           </Link>
 
           {/* Desktop Navigation */}
