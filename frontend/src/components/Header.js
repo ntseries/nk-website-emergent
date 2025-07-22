@@ -24,17 +24,44 @@ const Header = () => {
         <div className="nav-wrapper">
           {/* Logo */}
           <Link to="/" className="logo">
-            <img 
-              src="https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&h=80&q=80" 
-              alt="NK Board Game"
-              className="logo-image"
-              style={{
-                borderRadius: '8px',
-                backgroundColor: '#3B4CCA',
-                padding: '8px 16px',
-                boxShadow: '0 2px 8px rgba(59, 76, 202, 0.3)'
-              }}
-            />
+            <svg width="160" height="50" viewBox="0 0 160 50" className="logo-svg">
+              {/* Background */}
+              <rect x="0" y="0" width="160" height="50" rx="8" fill="#3B4CCA"/>
+              
+              {/* NK Text */}
+              <text x="15" y="32" fontFamily="Kanit, sans-serif" fontWeight="700" fontSize="24" fill="#FFFFFF">NK</text>
+              
+              {/* Meeple Character */}
+              <g transform="translate(50, 8)">
+                <ellipse cx="10" cy="8" rx="6" ry="8" fill="#87CEEB"/>
+                <circle cx="8" cy="6" r="1.5" fill="#3B4CCA"/>
+                <circle cx="12" cy="6" r="1.5" fill="#3B4CCA"/>
+                <ellipse cx="10" cy="9" rx="1" ry="0.5" fill="#3B4CCA"/>
+                <rect x="6" y="16" width="8" height="12" rx="4" fill="#87CEEB"/>
+                <rect x="4" y="20" width="4" height="8" rx="2" fill="#87CEEB"/>
+                <rect x="16" y="20" width="4" height="8" rx="2" fill="#87CEEB"/>
+              </g>
+              
+              {/* Dice */}
+              <g transform="translate(75, 12)">
+                <rect x="0" y="0" width="8" height="8" rx="1" fill="#FFD700" stroke="#3B4CCA" strokeWidth="0.5"/>
+                <circle cx="2" cy="2" r="0.5" fill="#3B4CCA"/>
+                <circle cx="6" cy="6" r="0.5" fill="#3B4CCA"/>
+              </g>
+              
+              {/* Game Piece */}
+              <g transform="translate(88, 15)">
+                <polygon points="4,0 8,3 4,6 0,3" fill="#FFD700" stroke="#3B4CCA" strokeWidth="0.5"/>
+              </g>
+              
+              {/* Board Game Text */}
+              <text x="15" y="44" fontFamily="Kanit, sans-serif" fontWeight="500" fontSize="8" fill="#87CEEB" letterSpacing="1">BOARD GAME</text>
+              
+              {/* Decorative Elements */}
+              <circle cx="140" cy="15" r="2" fill="#FFD700" opacity="0.8"/>
+              <circle cx="150" cy="25" r="1.5" fill="#87CEEB" opacity="0.8"/>
+              <circle cx="145" cy="35" r="1" fill="#FFD700" opacity="0.8"/>
+            </svg>
           </Link>
 
           {/* Desktop Navigation */}
