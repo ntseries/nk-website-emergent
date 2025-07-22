@@ -476,7 +476,7 @@ h1, h2, h3, h4, h5, h6 {
 .hero-subtitle {
   font-size: clamp(16px, 3vw, 20px);
   line-height: 1.6;
-  color: var(--nk-gray);
+  color: var(--nk-white);
   margin-bottom: var(--space-xl);
 }
 
@@ -510,7 +510,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .stat-label {
   font-size: 14px;
-  color: var(--nk-gray);
+  color: var(--nk-white);
   margin-top: 4px;
 }
 
