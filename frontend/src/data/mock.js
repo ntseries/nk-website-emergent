@@ -30,7 +30,7 @@ export const services = [
     title: "Photo Booth",
     description: "โฟโต้บูธสุดเจ๋งพร้อมพร็อพบอร์ดเกม บันทึกช่วงเวลาสนุก ๆ กับเพื่อน ๆ",
     icon: "camera",
-    image: "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=400&h=300&fit=crop",
+    image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/NK-Service-04.jpg",
     price: "เริ่มต้น 199 บาท/ชั่วโมง"
   },
   {
