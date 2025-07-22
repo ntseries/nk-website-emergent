@@ -1,33 +1,478 @@
 import React from "react";
-import { Clock, Users, Star, ArrowRight, Camera, Image, Sparkles } from "lucide-react";
+import { Clock, Users, Star, ArrowRight, Camera, Image, Sparkles, Heart } from "lucide-react";
 
 const PhotoBooth = () => {
   const packages = [
     {
-      name: "Basic Pack",
+      name: "Kawaii Pack",
       shots: "10 ภาพ",
-      props: "พร็อพพื้นฐาน",
+      props: "พร็อพคาวาอิ",
       duration: "15 นาที",
-      price: "100 บาท"
+      price: "199 บาท"
     },
     {
-      name: "Premium Pack", 
+      name: "Harajuku Pack", 
       shots: "20 ภาพ",
-      props: "พร็อพพิเศษ + บอร์ดเกม",
+      props: "พร็อพสไตล์ญี่ปุ่น + K-Pop",
       duration: "30 นาที", 
-      price: "180 บาท"
+      price: "299 บาท"
     },
     {
-      name: "Group Pack",
+      name: "Oppa Pack",
       shots: "30 ภาพ",
-      props: "พร็อพครบชุด + Custom",
+      props: "พร็อพครบชุด + Custom Korean Style",
       duration: "45 นาที",
-      price: "250 บาท"
+      price: "399 บาท"
     }
   ];
 
   return (
-    <div className="service-detail-page">
+    <div className="photobooth-page">
+      {/* Photo Booth Specific Styles */}
+      <style jsx>{`
+        /* Photo Booth Theme Variables */
+        .photobooth-page {
+          --pb-pink: #FFB6C1;
+          --pb-pink-dark: #FF69B4;
+          --pb-pink-light: #FFE4E1;
+          --pb-blue: #87CEEB;
+          --pb-blue-dark: #4169E1;
+          --pb-blue-light: #E0F6FF;
+          --pb-black: #2F2F2F;
+          --pb-white: #FFFFFF;
+          --pb-gradient-pink: linear-gradient(135deg, var(--pb-pink-light) 0%, var(--pb-pink) 50%, var(--pb-pink-dark) 100%);
+          --pb-gradient-blue: linear-gradient(135deg, var(--pb-blue-light) 0%, var(--pb-blue) 50%, var(--pb-blue-dark) 100%);
+          --pb-gradient-hero: linear-gradient(135deg, var(--pb-pink-light) 0%, var(--pb-blue-light) 100%);
+          --pb-shadow-pink: 0 4px 20px rgba(255, 105, 180, 0.3);
+          --pb-shadow-blue: 0 4px 20px rgba(65, 105, 225, 0.3);
+          --pb-shadow-soft: 0 8px 32px rgba(255, 182, 193, 0.2);
+        }
+
+        /* Hero Section */
+        .photobooth-page .service-hero {
+          background: var(--pb-gradient-hero);
+          position: relative;
+          overflow: hidden;
+          padding: 120px 0 80px 0;
+        }
+
+        .photobooth-page .service-hero::before {
+          content: '';
+          position: absolute;
+          top: -50%;
+          left: -50%;
+          width: 200%;
+          height: 200%;
+          background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23FFE4E1' fill-opacity='0.3'%3E%3Ccircle cx='30' cy='30' r='3'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+          opacity: 0.5;
+        }
+
+        .photobooth-page .service-badge {
+          background: var(--pb-gradient-pink);
+          color: var(--pb-white);
+          border-radius: 25px;
+          padding: 8px 16px;
+          font-size: 14px;
+          font-weight: 600;
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          width: fit-content;
+          box-shadow: var(--pb-shadow-pink);
+          border: 2px solid var(--pb-white);
+        }
+
+        .photobooth-page .service-title {
+          font-size: 48px;
+          font-weight: 800;
+          background: linear-gradient(45deg, var(--pb-pink-dark), var(--pb-blue-dark));
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          margin: 24px 0;
+          text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .photobooth-page .service-description {
+          font-size: 18px;
+          color: var(--pb-black);
+          line-height: 1.6;
+          margin-bottom: 32px;
+        }
+
+        .photobooth-page .service-price .price-value {
+          font-size: 36px;
+          font-weight: 800;
+          background: var(--pb-gradient-pink);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+        }
+
+        /* Buttons */
+        .photobooth-page .btn-primary {
+          background: var(--pb-gradient-pink);
+          border: none;
+          color: var(--pb-white);
+          padding: 16px 32px;
+          border-radius: 25px;
+          font-weight: 600;
+          font-size: 16px;
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          box-shadow: var(--pb-shadow-pink);
+        }
+
+        .photobooth-page .btn-primary:hover {
+          transform: translateY(-3px);
+          box-shadow: 0 8px 30px rgba(255, 105, 180, 0.4);
+        }
+
+        .photobooth-page .btn-secondary {
+          background: var(--pb-white);
+          border: 2px solid var(--pb-pink);
+          color: var(--pb-pink-dark);
+          padding: 16px 32px;
+          border-radius: 25px;
+          font-weight: 600;
+          font-size: 16px;
+          cursor: pointer;
+          transition: all 0.3s ease;
+        }
+
+        .photobooth-page .btn-secondary:hover {
+          background: var(--pb-pink-light);
+          transform: translateY(-2px);
+        }
+
+        /* Section Titles */
+        .photobooth-page .section-title {
+          font-size: 36px;
+          font-weight: 800;
+          text-align: center;
+          margin-bottom: 16px;
+          background: linear-gradient(45deg, var(--pb-pink-dark), var(--pb-blue-dark));
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+        }
+
+        .photobooth-page .section-subtitle {
+          text-align: center;
+          color: var(--pb-black);
+          font-size: 18px;
+          margin-bottom: 48px;
+        }
+
+        /* Feature Cards */
+        .photobooth-page .features-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+          gap: 32px;
+          margin-top: 48px;
+        }
+
+        .photobooth-page .feature-card {
+          background: var(--pb-white);
+          border-radius: 20px;
+          padding: 32px;
+          text-align: center;
+          box-shadow: var(--pb-shadow-soft);
+          border: 3px solid transparent;
+          background-image: linear-gradient(var(--pb-white), var(--pb-white)), var(--pb-gradient-pink);
+          background-origin: border-box;
+          background-clip: content-box, border-box;
+          transition: all 0.3s ease;
+        }
+
+        .photobooth-page .feature-card:hover {
+          transform: translateY(-8px);
+          box-shadow: 0 12px 40px rgba(255, 182, 193, 0.3);
+        }
+
+        .photobooth-page .feature-icon {
+          width: 80px;
+          height: 80px;
+          background: var(--pb-gradient-pink);
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 0 auto 24px auto;
+          color: var(--pb-white);
+        }
+
+        .photobooth-page .feature-card h3 {
+          font-size: 24px;
+          font-weight: 700;
+          color: var(--pb-black);
+          margin-bottom: 16px;
+        }
+
+        /* Package Cards */
+        .photobooth-page .packages-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+          gap: 32px;
+          margin-top: 48px;
+        }
+
+        .photobooth-page .package-card {
+          background: var(--pb-white);
+          border-radius: 24px;
+          padding: 40px;
+          text-align: center;
+          position: relative;
+          box-shadow: var(--pb-shadow-soft);
+          transition: all 0.3s ease;
+          border: 3px solid var(--pb-pink-light);
+        }
+
+        .photobooth-page .package-card.featured {
+          border: 3px solid var(--pb-pink);
+          transform: scale(1.05);
+          box-shadow: var(--pb-shadow-pink);
+        }
+
+        .photobooth-page .package-badge {
+          position: absolute;
+          top: -15px;
+          left: 50%;
+          transform: translateX(-50%);
+          background: var(--pb-gradient-pink);
+          color: var(--pb-white);
+          padding: 8px 24px;
+          border-radius: 20px;
+          font-size: 14px;
+          font-weight: 600;
+          box-shadow: var(--pb-shadow-pink);
+        }
+
+        .photobooth-page .package-name {
+          font-size: 28px;
+          font-weight: 800;
+          color: var(--pb-black);
+          margin-bottom: 16px;
+          background: var(--pb-gradient-blue);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+        }
+
+        .photobooth-page .package-price {
+          font-size: 32px;
+          font-weight: 800;
+          background: var(--pb-gradient-pink);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          margin-bottom: 32px;
+        }
+
+        .photobooth-page .package-select-btn {
+          background: var(--pb-gradient-blue);
+          border: none;
+          color: var(--pb-white);
+          padding: 16px 32px;
+          border-radius: 25px;
+          font-weight: 600;
+          font-size: 16px;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          width: 100%;
+          box-shadow: var(--pb-shadow-blue);
+        }
+
+        .photobooth-page .package-select-btn:hover {
+          transform: translateY(-2px);
+          box-shadow: 0 8px 25px rgba(65, 105, 225, 0.4);
+        }
+
+        /* Props Section */
+        .photobooth-page .props-section {
+          background: var(--pb-pink-light);
+          padding: 80px 0;
+        }
+
+        .photobooth-page .props-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+          gap: 32px;
+          margin-top: 48px;
+        }
+
+        .photobooth-page .prop-category {
+          background: var(--pb-white);
+          border-radius: 20px;
+          padding: 32px;
+          box-shadow: var(--pb-shadow-soft);
+          border: 2px solid var(--pb-pink);
+        }
+
+        .photobooth-page .category-title {
+          font-size: 20px;
+          font-weight: 700;
+          color: var(--pb-black);
+          margin-bottom: 20px;
+          text-align: center;
+        }
+
+        /* Process Steps */
+        .photobooth-page .process-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+          gap: 32px;
+          margin-top: 48px;
+        }
+
+        .photobooth-page .process-step {
+          text-align: center;
+          position: relative;
+        }
+
+        .photobooth-page .step-number {
+          width: 80px;
+          height: 80px;
+          background: var(--pb-gradient-pink);
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 32px;
+          font-weight: 800;
+          color: var(--pb-white);
+          margin: 0 auto 24px auto;
+          box-shadow: var(--pb-shadow-pink);
+        }
+
+        /* Gallery */
+        .photobooth-page .gallery-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+          gap: 24px;
+          margin-top: 48px;
+        }
+
+        .photobooth-page .gallery-item {
+          border-radius: 20px;
+          overflow: hidden;
+          aspect-ratio: 1;
+          box-shadow: var(--pb-shadow-soft);
+          border: 3px solid var(--pb-pink-light);
+          transition: all 0.3s ease;
+        }
+
+        .photobooth-page .gallery-item:hover {
+          transform: translateY(-4px);
+          box-shadow: var(--pb-shadow-pink);
+          border-color: var(--pb-pink);
+        }
+
+        .photobooth-page .gallery-item img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+
+        /* Testimonials */
+        .photobooth-page .testimonials-section {
+          background: var(--pb-blue-light);
+          padding: 80px 0;
+        }
+
+        .photobooth-page .testimonial-card {
+          background: var(--pb-white);
+          border-radius: 20px;
+          padding: 32px;
+          text-align: center;
+          box-shadow: var(--pb-shadow-soft);
+          border: 2px solid var(--pb-blue);
+          transition: all 0.3s ease;
+        }
+
+        .photobooth-page .testimonial-card:hover {
+          transform: translateY(-4px);
+          box-shadow: var(--pb-shadow-blue);
+        }
+
+        .photobooth-page .testimonial-stars {
+          color: var(--pb-pink-dark);
+          margin-bottom: 16px;
+        }
+
+        /* Add-ons */
+        .photobooth-page .addons-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+          gap: 32px;
+          margin-top: 48px;
+        }
+
+        .photobooth-page .addon-card {
+          background: var(--pb-white);
+          border-radius: 20px;
+          padding: 32px;
+          text-align: center;
+          border: 2px solid var(--pb-pink-light);
+          transition: all 0.3s ease;
+        }
+
+        .photobooth-page .addon-card:hover {
+          border-color: var(--pb-pink);
+          transform: translateY(-4px);
+        }
+
+        .photobooth-page .addon-price {
+          font-size: 20px;
+          font-weight: 700;
+          color: var(--pb-pink-dark);
+          margin-top: 16px;
+        }
+
+        /* CTA Section */
+        .photobooth-page .cta-section {
+          background: var(--pb-gradient-hero);
+          padding: 80px 0;
+        }
+
+        .photobooth-page .cta-title {
+          font-size: 36px;
+          font-weight: 800;
+          text-align: center;
+          margin-bottom: 16px;
+          background: linear-gradient(45deg, var(--pb-pink-dark), var(--pb-blue-dark));
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+        }
+
+        /* Kawaii Elements */
+        .photobooth-page .section-header::after {
+          content: '💖✨';
+          display: block;
+          text-align: center;
+          font-size: 24px;
+          margin-top: 16px;
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+          .photobooth-page .service-title {
+            font-size: 36px;
+          }
+          
+          .photobooth-page .section-title {
+            font-size: 28px;
+          }
+          
+          .photobooth-page .package-card.featured {
+            transform: none;
+          }
+        }
+      `}</style>
       {/* Hero Section */}
       <section className="service-hero">
         <div className="container">
