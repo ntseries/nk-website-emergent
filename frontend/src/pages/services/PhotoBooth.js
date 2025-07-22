@@ -498,7 +498,95 @@ const PhotoBooth = () => {
         </div>
       </section>
 
-      {/* Features Section - ลบแล้ว */}
+        /* How to Use Section */
+        .photobooth-page .howto-section {
+          padding: 80px 0;
+          background: var(--pb-pink-light);
+        }
+
+        .photobooth-page .howto-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+          gap: 32px;
+          margin-top: 48px;
+        }
+
+        .photobooth-page .howto-step {
+          background: var(--pb-white);
+          border-radius: 20px;
+          padding: 32px;
+          text-align: center;
+          box-shadow: var(--pb-shadow-soft);
+          border: 2px solid var(--pb-pink-light);
+          transition: all 0.3s ease;
+          position: relative;
+        }
+
+        .photobooth-page .howto-step:hover {
+          transform: translateY(-4px);
+          border-color: var(--pb-pink);
+        }
+
+        .photobooth-page .step-image {
+          width: 120px;
+          height: 120px;
+          border-radius: 15px;
+          overflow: hidden;
+          margin: 0 auto 20px auto;
+          box-shadow: var(--pb-shadow-soft);
+        }
+
+        .photobooth-page .step-image img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+
+        .photobooth-page .step-number {
+          position: absolute;
+          top: -15px;
+          right: -15px;
+          width: 40px;
+          height: 40px;
+          background: var(--pb-gradient-pink);
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 18px;
+          font-weight: 800;
+          color: var(--pb-white);
+          box-shadow: var(--pb-shadow-pink);
+        }
+
+        .photobooth-page .step-title {
+          font-size: 20px;
+          font-weight: 700;
+          color: var(--pb-black);
+          margin-bottom: 16px;
+          background: var(--pb-gradient-blue);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+        }
+
+        .photobooth-page .step-description {
+          color: var(--pb-black);
+          line-height: 1.6;
+          font-size: 14px;
+        }
+
+        /* Package Cards - เพิ่ม feature รูปถ่าย */
+        .photobooth-page .package-feature {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          color: var(--pb-black);
+          margin-bottom: 16px;
+          font-size: 14px;
+        }
+
+        /* Features Section - ซ่อนแล้ว */
 
       {/* How to Use Section */}
       <section className="howto-section">
