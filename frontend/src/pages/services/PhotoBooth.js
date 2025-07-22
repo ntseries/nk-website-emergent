@@ -674,45 +674,45 @@ const PhotoBooth = () => {
         </div>
       </section>
 
-      {/* Gallery Section */}
-      <section className="gallery-section">
+      {/* Customer Gallery Section */}
+      <section className="customer-gallery-section">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">ผลงานจากลูกค้า</h2>
+            <h2 className="section-title">Gallery ภาพลูกค้าน่ารัก</h2>
             <p className="section-subtitle">
-              ดูตัวอย่างรูปภาพที่ลูกค้าถ่ายที่โฟโต้บูธของเรา
+              ตัวอย่างรูปภาพที่ลูกค้าถ่ายที่โฟโต้บูธของเรา
             </p>
           </div>
-          <div className="gallery-grid">
-            <div className="gallery-item">
-              <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_01.jpg" alt="ผลงานลูกค้า 1" />
+          <div className="customer-gallery-grid">
+            <div className="customer-gallery-item">
+              <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_01.jpg" alt="ภาพลูกค้าน่ารัก 1" />
             </div>
-            <div className="gallery-item">
-              <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_02.jpg" alt="ผลงานลูกค้า 2" />
+            <div className="customer-gallery-item">
+              <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_02.jpg" alt="ภาพลูกค้าน่ารัก 2" />
             </div>
-            <div className="gallery-item">
-              <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_03.jpg" alt="ผลงานลูกค้า 3" />
+            <div className="customer-gallery-item">
+              <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_03.jpg" alt="ภาพลูกค้าน่ารัก 3" />
             </div>
-            <div className="gallery-item">
-              <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_05.JPG" alt="ผลงานลูกค้า 4" />
+            <div className="customer-gallery-item">
+              <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_05.JPG" alt="ภาพลูกค้าน่ารัก 4" />
             </div>
-            <div className="gallery-item">
-              <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_06.JPG" alt="ผลงานลูกค้า 5" />
+            <div className="customer-gallery-item">
+              <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_06.JPG" alt="ภาพลูกค้าน่ารัก 5" />
             </div>
-            <div className="gallery-item">
-              <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_07.JPG" alt="ผลงานลูกค้า 6" />
+            <div className="customer-gallery-item">
+              <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_07.JPG" alt="ภาพลูกค้าน่ารัก 6" />
             </div>
-            <div className="gallery-item">
-              <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_08.JPG" alt="ผลงานลูกค้า 7" />
+            <div className="customer-gallery-item">
+              <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_08.JPG" alt="ภาพลูกค้าน่ารัก 7" />
             </div>
-            <div className="gallery-item">
-              <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_09.JPG" alt="ผลงานลูกค้า 8" />
+            <div className="customer-gallery-item">
+              <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_09.JPG" alt="ภาพลูกค้าน่ารัก 8" />
             </div>
-            <div className="gallery-item">
-              <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_10.JPG" alt="ผลงานลูกค้า 9" />
+            <div className="customer-gallery-item">
+              <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_10.JPG" alt="ภาพลูกค้าน่ารัก 9" />
             </div>
-            <div className="gallery-item">
-              <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_11.JPG" alt="ผลงานลูกค้า 10" />
+            <div className="customer-gallery-item">
+              <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_11.JPG" alt="ภาพลูกค้าน่ารัก 10" />
             </div>
           </div>
         </div>
