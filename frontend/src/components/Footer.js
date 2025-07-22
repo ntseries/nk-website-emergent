@@ -10,17 +10,44 @@ const Footer = () => {
           {/* Company Info */}
           <div className="footer-section">
             <div className="footer-logo">
-              <img 
-                src="https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?ixlib=rb-4.0.3&auto=format&fit=crop&w=180&h=70&q=80" 
-                alt="NK Board Game"
-                className="footer-logo-image"
-                style={{
-                  borderRadius: '8px',
-                  backgroundColor: '#3B4CCA',
-                  padding: '6px 12px',
-                  boxShadow: '0 2px 8px rgba(59, 76, 202, 0.3)'
-                }}
-              />
+              <svg width="140" height="45" viewBox="0 0 140 45" className="footer-logo-svg">
+                {/* Background */}
+                <rect x="0" y="0" width="140" height="45" rx="6" fill="#3B4CCA"/>
+                
+                {/* NK Text */}
+                <text x="12" y="28" fontFamily="Kanit, sans-serif" fontWeight="700" fontSize="20" fill="#FFFFFF">NK</text>
+                
+                {/* Meeple Character */}
+                <g transform="translate(42, 7)">
+                  <ellipse cx="8" cy="6" rx="5" ry="6" fill="#87CEEB"/>
+                  <circle cx="6.5" cy="5" r="1" fill="#3B4CCA"/>
+                  <circle cx="9.5" cy="5" r="1" fill="#3B4CCA"/>
+                  <ellipse cx="8" cy="7.5" rx="0.8" ry="0.4" fill="#3B4CCA"/>
+                  <rect x="5" y="12" width="6" height="10" rx="3" fill="#87CEEB"/>
+                  <rect x="3" y="16" width="3" height="6" rx="1.5" fill="#87CEEB"/>
+                  <rect x="13" y="16" width="3" height="6" rx="1.5" fill="#87CEEB"/>
+                </g>
+                
+                {/* Dice */}
+                <g transform="translate(65, 10)">
+                  <rect x="0" y="0" width="6" height="6" rx="0.8" fill="#FFD700" stroke="#3B4CCA" strokeWidth="0.4"/>
+                  <circle cx="1.5" cy="1.5" r="0.4" fill="#3B4CCA"/>
+                  <circle cx="4.5" cy="4.5" r="0.4" fill="#3B4CCA"/>
+                </g>
+                
+                {/* Game Piece */}
+                <g transform="translate(75, 12)">
+                  <polygon points="3,0 6,2.5 3,5 0,2.5" fill="#FFD700" stroke="#3B4CCA" strokeWidth="0.4"/>
+                </g>
+                
+                {/* Board Game Text */}
+                <text x="12" y="38" fontFamily="Kanit, sans-serif" fontWeight="500" fontSize="7" fill="#87CEEB" letterSpacing="0.8">BOARD GAME</text>
+                
+                {/* Decorative Elements */}
+                <circle cx="120" cy="12" r="1.5" fill="#FFD700" opacity="0.8"/>
+                <circle cx="128" cy="20" r="1.2" fill="#87CEEB" opacity="0.8"/>
+                <circle cx="125" cy="30" r="0.8" fill="#FFD700" opacity="0.8"/>
+              </svg>
             </div>
             <p className="footer-description">
               ร้านบอร์ดเกมที่ให้บริการครบครัน พร้อมสร้างประสบการณ์สนุกสนานให้กับคุณและเพื่อน ๆ
