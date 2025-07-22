@@ -6,7 +6,37 @@ import { services, testimonials } from "../data/mock";
 const Home = () => {
   const heroServices = services.slice(0, 3);
   const [activeTab, setActiveTab] = useState("seconbangkhae");
-  const [selectedImage, setSelectedImage] = useState(null);
+  const [selectedImageIndex, setSelectedImageIndex] = useState(null);
+
+  // Navigate to previous/next image
+  const goToPrevImage = () => {
+    if (selectedImageIndex !== null) {
+      const currentImages = galleryData[activeTab].images;
+      const prevIndex = selectedImageIndex > 0 ? selectedImageIndex - 1 : currentImages.length - 1;
+      setSelectedImageIndex(prevIndex);
+    }
+  };
+
+  const goToNextImage = () => {
+    if (selectedImageIndex !== null) {
+      const currentImages = galleryData[activeTab].images;
+      const nextIndex = selectedImageIndex < currentImages.length - 1 ? selectedImageIndex + 1 : 0;
+      setSelectedImageIndex(nextIndex);
+    }
+  };
+
+  // Close modal
+  const closeModal = () => {
+    setSelectedImageIndex(null);
+  };
+
+  // Get current image
+  const getCurrentImage = () => {
+    if (selectedImageIndex !== null) {
+      return galleryData[activeTab].images[selectedImageIndex];
+    }
+    return null;
+  };
 
   // Gallery data for each branch
   const galleryData = {
