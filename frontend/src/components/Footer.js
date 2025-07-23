@@ -3,6 +3,11 @@ import { Link } from "react-router-dom";
 import { Facebook, Instagram, MapPin, Phone, Clock, Youtube } from "lucide-react";
 
 const Footer = () => {
+  // Function to handle navigation clicks
+  const handleNavClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Scroll to top
+  };
+
   return (
     <footer className="footer">
       <div className="container">
