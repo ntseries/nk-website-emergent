@@ -9,6 +9,13 @@ const Header = () => {
 
   const isActive = (path) => location.pathname === path;
 
+  // Function to handle navigation clicks
+  const handleNavClick = () => {
+    setIsMenuOpen(false); // Close mobile menu
+    setIsServicesOpen(false); // Close services dropdown
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Scroll to top
+  };
+
   const serviceItems = [
     { title: "เล่นที่ร้าน", path: "/services/play-at-shop" },
     { title: "Board Game Script", path: "/services/board-game-script" },
