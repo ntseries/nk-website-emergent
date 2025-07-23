@@ -14,15 +14,25 @@
   --nk-gray: #6B7280;
   --nk-light-gray: #F3F4F6;
   
+  /* Fun Colors */
+  --nk-pink: #FF69B4;
+  --nk-purple: #9966CC;
+  --nk-orange: #FF8C00;
+  --nk-green: #32CD32;
+  
   /* Gradients */
   --gradient-hero: linear-gradient(135deg, rgba(59, 76, 202, 0.1) 0%, rgba(135, 206, 235, 0.1) 50%, rgba(255, 215, 0, 0.1) 100%);
   --gradient-button: linear-gradient(135deg, var(--nk-blue) 0%, #4E5ED4 100%);
   --gradient-card: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.7) 100%);
+  --gradient-fun: linear-gradient(135deg, #FF69B4 0%, #9966CC 25%, #3B4CCA 50%, #87CEEB 75%, #FFD700 100%);
+  --gradient-services: linear-gradient(135deg, rgba(255, 105, 180, 0.05) 0%, rgba(153, 102, 204, 0.05) 50%, rgba(59, 76, 202, 0.05) 100%);
+  --gradient-alternating: linear-gradient(45deg, rgba(135, 206, 235, 0.1) 0%, rgba(255, 215, 0, 0.1) 50%, rgba(255, 105, 180, 0.1) 100%);
   
   /* Shadows */
   --shadow-sm: 0 2px 4px rgba(59, 76, 202, 0.1);
   --shadow-md: 0 4px 16px rgba(59, 76, 202, 0.15);
   --shadow-lg: 0 8px 24px rgba(59, 76, 202, 0.2);
+  --shadow-colorful: 0 8px 32px rgba(255, 105, 180, 0.2);
   
   /* Spacing */
   --space-xs: 8px;
