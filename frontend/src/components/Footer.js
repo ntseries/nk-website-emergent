@@ -1,12 +1,22 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 import { Facebook, Instagram, MapPin, Phone, Clock, Youtube } from "lucide-react";
 
 const Footer = () => {
+  const location = useLocation();
+
   // Function to handle navigation clicks
   const handleNavClick = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' }); // Scroll to top
+    // Small delay to let React Router finish navigation first
+    setTimeout(() => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }, 100);
   };
+
+  // Also scroll to top when location changes (for direct navigation)
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [location]);
 
   return (
     <footer className="footer">
