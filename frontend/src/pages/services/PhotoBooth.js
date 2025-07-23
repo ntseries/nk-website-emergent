@@ -586,8 +586,8 @@ const PhotoBooth = () => {
 
         .photobooth-page .modal-close {
           position: absolute;
-          top: -50px;
-          right: -50px;
+          top: -60px;
+          right: -60px;
           background: var(--pb-white);
           border: none;
           border-radius: 50%;
@@ -599,6 +599,7 @@ const PhotoBooth = () => {
           cursor: pointer;
           color: var(--pb-black);
           transition: all 0.3s ease;
+          z-index: 10001;
         }
 
         .photobooth-page .modal-close:hover {
@@ -622,6 +623,7 @@ const PhotoBooth = () => {
           cursor: pointer;
           color: var(--pb-black);
           transition: all 0.3s ease;
+          z-index: 10001;
         }
 
         .photobooth-page .modal-nav:hover {
@@ -631,11 +633,43 @@ const PhotoBooth = () => {
         }
 
         .photobooth-page .modal-nav.prev {
-          left: -70px;
+          left: -80px;
         }
 
         .photobooth-page .modal-nav.next {
-          right: -70px;
+          right: -80px;
+        }
+
+        /* Mobile responsive for modal */
+        @media (max-width: 768px) {
+          .photobooth-page .image-modal {
+            padding: 10px;
+          }
+          
+          .photobooth-page .modal-content {
+            max-width: 95vw;
+            max-height: 85vh;
+          }
+          
+          .photobooth-page .modal-close {
+            top: -50px;
+            right: -20px;
+            width: 35px;
+            height: 35px;
+          }
+          
+          .photobooth-page .modal-nav {
+            width: 40px;
+            height: 40px;
+          }
+          
+          .photobooth-page .modal-nav.prev {
+            left: -60px;
+          }
+          
+          .photobooth-page .modal-nav.next {
+            right: -60px;
+          }
         }
 
         /* Testimonials */
