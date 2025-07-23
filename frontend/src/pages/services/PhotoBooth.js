@@ -19,6 +19,16 @@ const PhotoBooth = () => {
 
   const packages = [
     {
+      name: "Basic Pack",
+      people: "1 คน",
+      shots: "10 ภาพ",
+      props: "พร๊อพพิเศษ",
+      duration: "30 นาที",
+      photo: "รับรูปถ่าย 1 รูป",
+      costumes: "เปลี่ยนได้ 1 ชุด",
+      price: "99 บาท"
+    },
+    {
       name: "Premium Pack",
       people: "1 คน",
       shots: "30 ภาพ",
