@@ -562,19 +562,26 @@ const PhotoBooth = () => {
           align-items: center;
           justify-content: center;
           z-index: 9999;
+          padding: 20px;
         }
 
         .photobooth-page .modal-content {
           position: relative;
-          max-width: 90%;
-          max-height: 90%;
+          max-width: 90vw;
+          max-height: 90vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
         }
 
         .photobooth-page .modal-image {
           max-width: 100%;
           max-height: 100%;
+          width: auto;
+          height: auto;
           border-radius: 15px;
           box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+          object-fit: contain;
         }
 
         .photobooth-page .modal-close {
