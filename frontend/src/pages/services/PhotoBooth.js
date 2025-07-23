@@ -804,21 +804,25 @@ const PhotoBooth = () => {
       </section>
 
       {/* Package Options */}
-      <section className="packages-section">
+      <section className="packages-section" style={{paddingTop: '120px'}}>
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">แพ็คเกจโฟโต้บูธ Kawaii</h2>
+            <h2 className="section-title">แพ๊คเกจ NK Photo Booth</h2>
             <p className="section-subtitle">
-              เลือกแพ็คเกจที่ชอบ แต่ละแพ็คมีความน่ารักไม่เหมือนกันนะคะ ♡
+              เลือกแพ๊คเกจที่ชอบ แล้วจองวันเวลาได้เลยนะคะ ♡
             </p>
           </div>
           <div className="packages-grid">
             {packages.map((pkg, index) => (
-              <div key={index} className={`package-card featured`}>
-                <div className="package-badge">Most Popular ♡</div>
+              <div key={index} className={`package-card ${index === 0 ? 'featured' : ''}`}>
+                {index === 0 && <div className="package-badge">Most Popular ♡</div>}
                 <h3 className="package-name">{pkg.name}</h3>
                 <div className="package-price">{pkg.price}</div>
                 <div className="package-features">
+                  <div className="package-feature">
+                    <Users size={16} />
+                    <span>{pkg.people}</span>
+                  </div>
                   <div className="package-feature">
                     <Camera size={16} />
                     <span>{pkg.shots}</span>
@@ -834,6 +838,10 @@ const PhotoBooth = () => {
                   <div className="package-feature">
                     <Image size={16} />
                     <span>{pkg.photo}</span>
+                  </div>
+                  <div className="package-feature">
+                    <Sparkles size={16} />
+                    <span>{pkg.costumes}</span>
                   </div>
                 </div>
                 <button className="package-select-btn">Choose This Package ♡</button>
