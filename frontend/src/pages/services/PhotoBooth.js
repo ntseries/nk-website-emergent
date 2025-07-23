@@ -861,39 +861,36 @@ const PhotoBooth = () => {
             </p>
           </div>
           <div className="customer-gallery-grid">
-            <div className="customer-gallery-item">
-              <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_01.jpg" alt="ภาพลูกค้าน่ารัก 1" />
-            </div>
-            <div className="customer-gallery-item">
-              <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_02.jpg" alt="ภาพลูกค้าน่ารัก 2" />
-            </div>
-            <div className="customer-gallery-item">
-              <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_03.jpg" alt="ภาพลูกค้าน่ารัก 3" />
-            </div>
-            <div className="customer-gallery-item">
-              <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_05.JPG" alt="ภาพลูกค้าน่ารัก 4" />
-            </div>
-            <div className="customer-gallery-item">
-              <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_06.JPG" alt="ภาพลูกค้าน่ารัก 5" />
-            </div>
-            <div className="customer-gallery-item">
-              <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_07.JPG" alt="ภาพลูกค้าน่ารัก 6" />
-            </div>
-            <div className="customer-gallery-item">
-              <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_08.JPG" alt="ภาพลูกค้าน่ารัก 7" />
-            </div>
-            <div className="customer-gallery-item">
-              <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_09.JPG" alt="ภาพลูกค้าน่ารัก 8" />
-            </div>
-            <div className="customer-gallery-item">
-              <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_10.JPG" alt="ภาพลูกค้าน่ารัก 9" />
-            </div>
-            <div className="customer-gallery-item">
-              <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_11.JPG" alt="ภาพลูกค้าน่ารัก 10" />
-            </div>
+            {customerImages.map((image, index) => (
+              <div key={index} className="customer-gallery-item" onClick={() => openModal(index)}>
+                <img src={image.url} alt={image.alt} />
+              </div>
+            ))}
           </div>
         </div>
       </section>
+
+      {/* Image Modal */}
+      {selectedImageIndex !== null && (
+        <div className="image-modal" onClick={closeModal} onKeyDown={handleKeyDown} tabIndex={0}>
+          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+            <button className="modal-close" onClick={closeModal}>
+              <X size={20} />
+            </button>
+            <button className="modal-nav prev" onClick={prevImage}>
+              <ChevronLeft size={24} />
+            </button>
+            <img 
+              src={customerImages[selectedImageIndex].url} 
+              alt={customerImages[selectedImageIndex].alt}
+              className="modal-image"
+            />
+            <button className="modal-nav next" onClick={nextImage}>
+              <ChevronRight size={24} />
+            </button>
+          </div>
+        </div>
+      )}
 
       {/* Testimonials */}
       <section className="testimonials-section">
