@@ -880,6 +880,29 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
 }
 
+/* Fun animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+.service-card:nth-child(odd) {
+  animation: float 6s ease-in-out infinite;
+}
+
+.service-card:nth-child(even) {
+  animation: float 6s ease-in-out infinite 1s;
+}
+
+.testimonial-card:nth-child(2) {
+  animation: pulse 4s ease-in-out infinite;
+}
+
 /* Gallery Tabs */
 .gallery-tabs {
   display: flex;
