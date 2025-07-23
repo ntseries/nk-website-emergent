@@ -594,6 +594,12 @@ const PhotoBooth = () => {
           justify-content: center;
           z-index: 9999;
           padding: 20px;
+          outline: none;
+        }
+
+        .photobooth-page .image-modal:focus {
+          outline: 2px solid var(--pb-pink);
+          outline-offset: -2px;
         }
 
         .photobooth-page .modal-content {
