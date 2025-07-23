@@ -861,7 +861,23 @@ h1, h2, h3, h4, h5, h6 {
 /* Gallery Section */
 .gallery-section {
   padding: var(--space-2xl) 0;
-  background: var(--nk-light-gray);
+  background: linear-gradient(135deg, rgba(135, 206, 235, 0.1) 0%, rgba(255, 215, 0, 0.1) 100%);
+  position: relative;
+}
+
+.gallery-section::before {
+  content: '🎮🎲🃏🎯🎊✨';
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  font-size: 24px;
+  line-height: 60px;
+  opacity: 0.1;
+  pointer-events: none;
+  word-spacing: 40px;
+  overflow: hidden;
 }
 
 /* Gallery Tabs */
