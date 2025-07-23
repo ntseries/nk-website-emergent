@@ -1005,12 +1005,27 @@ const PhotoBooth = () => {
 
       {/* Image Modal */}
       {selectedImageIndex !== null && (
-        <div className="image-modal" onClick={closeModal} onKeyDown={handleKeyDown} tabIndex={0}>
+        <div 
+          className="image-modal" 
+          onClick={closeModal} 
+          tabIndex={0}
+          role="dialog"
+          aria-modal="true"
+          aria-label="Image gallery modal"
+        >
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-            <button className="modal-close" onClick={closeModal}>
+            <button 
+              className="modal-close" 
+              onClick={closeModal}
+              aria-label="Close modal"
+            >
               <X size={20} />
             </button>
-            <button className="modal-nav prev" onClick={prevImage}>
+            <button 
+              className="modal-nav prev" 
+              onClick={prevImage}
+              aria-label="Previous image"
+            >
               <ChevronLeft size={24} />
             </button>
             <img 
@@ -1018,7 +1033,11 @@ const PhotoBooth = () => {
               alt={customerImages[selectedImageIndex].alt}
               className="modal-image"
             />
-            <button className="modal-nav next" onClick={nextImage}>
+            <button 
+              className="modal-nav next" 
+              onClick={nextImage}
+              aria-label="Next image"
+            >
               <ChevronRight size={24} />
             </button>
           </div>
