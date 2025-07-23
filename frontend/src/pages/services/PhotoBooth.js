@@ -537,6 +537,88 @@ const PhotoBooth = () => {
           width: 100%;
           height: 100%;
           object-fit: cover;
+          cursor: pointer;
+        }
+
+        /* Image Modal */
+        .photobooth-page .image-modal {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0, 0.9);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          z-index: 9999;
+        }
+
+        .photobooth-page .modal-content {
+          position: relative;
+          max-width: 90%;
+          max-height: 90%;
+        }
+
+        .photobooth-page .modal-image {
+          max-width: 100%;
+          max-height: 100%;
+          border-radius: 15px;
+          box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+        }
+
+        .photobooth-page .modal-close {
+          position: absolute;
+          top: -50px;
+          right: -50px;
+          background: var(--pb-white);
+          border: none;
+          border-radius: 50%;
+          width: 40px;
+          height: 40px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+          color: var(--pb-black);
+          transition: all 0.3s ease;
+        }
+
+        .photobooth-page .modal-close:hover {
+          background: var(--pb-pink);
+          color: var(--pb-white);
+          transform: scale(1.1);
+        }
+
+        .photobooth-page .modal-nav {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          background: var(--pb-white);
+          border: none;
+          border-radius: 50%;
+          width: 50px;
+          height: 50px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+          color: var(--pb-black);
+          transition: all 0.3s ease;
+        }
+
+        .photobooth-page .modal-nav:hover {
+          background: var(--pb-pink);
+          color: var(--pb-white);
+          transform: translateY(-50%) scale(1.1);
+        }
+
+        .photobooth-page .modal-nav.prev {
+          left: -70px;
+        }
+
+        .photobooth-page .modal-nav.next {
+          right: -70px;
         }
 
         /* Testimonials */
