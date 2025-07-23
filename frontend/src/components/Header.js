@@ -40,10 +40,10 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="nav-desktop">
-            <Link to="/" className={`nav-link ${isActive("/") ? "active" : ""}`}>
+            <Link to="/" className={`nav-link ${isActive("/") ? "active" : ""}`} onClick={handleNavClick}>
               หน้าแรก
             </Link>
-            <Link to="/about" className={`nav-link ${isActive("/about") ? "active" : ""}`}>
+            <Link to="/about" className={`nav-link ${isActive("/about") ? "active" : ""}`} onClick={handleNavClick}>
               เกี่ยวกับเรา
             </Link>
             
@@ -63,6 +63,7 @@ const Header = () => {
                       key={item.path}
                       to={item.path}
                       className="dropdown-item"
+                      onClick={handleNavClick}
                     >
                       {item.title}
                     </Link>
@@ -71,10 +72,10 @@ const Header = () => {
               )}
             </div>
 
-            <Link to="/activities" className={`nav-link ${isActive("/activities") ? "active" : ""}`}>
+            <Link to="/activities" className={`nav-link ${isActive("/activities") ? "active" : ""}`} onClick={handleNavClick}>
               กิจกรรม
             </Link>
-            <Link to="/contact" className={`nav-link ${isActive("/contact") ? "active" : ""}`}>
+            <Link to="/contact" className={`nav-link ${isActive("/contact") ? "active" : ""}`} onClick={handleNavClick}>
               ติดต่อสาขา
             </Link>
           </nav>
