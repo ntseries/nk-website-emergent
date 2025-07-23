@@ -30,7 +30,7 @@ const Header = () => {
       <div className="container">
         <div className="nav-wrapper">
           {/* Logo */}
-          <Link to="/" className="logo">
+          <Link to="/" className="logo" onClick={handleNavClick}>
             <img 
               src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/nk_logo_transparent.png"
               alt="NK Board Game"
