@@ -1,17 +1,70 @@
-import React from "react";
-import { Clock, Users, Star, ArrowRight, Camera, Image, Sparkles, Heart } from "lucide-react";
+import React, { useState } from "react";
+import { Clock, Users, Star, ArrowRight, Camera, Image, Sparkles, Heart, X, ChevronLeft, ChevronRight } from "lucide-react";
 
 const PhotoBooth = () => {
+  const [selectedImageIndex, setSelectedImageIndex] = useState(null);
+  
+  const customerImages = [
+    { url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_01.jpg", alt: "ภาพลูกค้าน่ารัก 1" },
+    { url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_02.jpg", alt: "ภาพลูกค้าน่ารัก 2" },
+    { url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_03.jpg", alt: "ภาพลูกค้าน่ารัก 3" },
+    { url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_05.JPG", alt: "ภาพลูกค้าน่ารัก 4" },
+    { url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_06.JPG", alt: "ภาพลูกค้าน่ารัก 5" },
+    { url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_07.JPG", alt: "ภาพลูกค้าน่ารัก 6" },
+    { url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_08.JPG", alt: "ภาพลูกค้าน่ารัก 7" },
+    { url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_09.JPG", alt: "ภาพลูกค้าน่ารัก 8" },
+    { url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_10.JPG", alt: "ภาพลูกค้าน่ารัก 9" },
+    { url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_11.JPG", alt: "ภาพลูกค้าน่ารัก 10" }
+  ];
+
   const packages = [
     {
       name: "Premium Pack",
+      people: "1 คน",
       shots: "30 ภาพ",
       props: "พร็อพพิเศษ",
       duration: "60 นาที",
-      photo: "รับรูปถ่าย 1 รูป", 
+      photo: "รับรูปถ่าย 1 รูป",
+      costumes: "เปลี่ยนได้ 3 ชุด",
       price: "199 บาท"
+    },
+    {
+      name: "Gang Package",
+      people: "6 คน",
+      shots: "180 ภาพ",
+      props: "พร๊อพพิเศษ",
+      duration: "60 นาที",
+      photo: "รับรูปถ่าย 6 รูป",
+      costumes: "เปลี่ยนชุดได้ไม่จำกัด",
+      price: "999 บาท"
     }
   ];
+
+  const openModal = (index) => {
+    setSelectedImageIndex(index);
+  };
+
+  const closeModal = () => {
+    setSelectedImageIndex(null);
+  };
+
+  const nextImage = () => {
+    setSelectedImageIndex((prevIndex) => 
+      prevIndex === customerImages.length - 1 ? 0 : prevIndex + 1
+    );
+  };
+
+  const prevImage = () => {
+    setSelectedImageIndex((prevIndex) => 
+      prevIndex === 0 ? customerImages.length - 1 : prevIndex - 1
+    );
+  };
+
+  const handleKeyDown = (e) => {
+    if (e.key === 'Escape') closeModal();
+    if (e.key === 'ArrowRight') nextImage();
+    if (e.key === 'ArrowLeft') prevImage();
+  };
 
   return (
     <div className="photobooth-page">
