@@ -567,16 +567,16 @@ const PhotoBooth = () => {
 
         .photobooth-page .modal-content {
           position: relative;
-          max-width: 90vw;
-          max-height: 90vh;
+          max-width: 85vw;
+          max-height: 85vh;
           display: flex;
           align-items: center;
           justify-content: center;
         }
 
         .photobooth-page .modal-image {
-          max-width: 100%;
-          max-height: 100%;
+          max-width: 85vw;
+          max-height: 85vh;
           width: auto;
           height: auto;
           border-radius: 15px;
