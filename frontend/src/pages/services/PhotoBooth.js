@@ -657,10 +657,56 @@ const PhotoBooth = () => {
           }
           
           .photobooth-page .modal-close {
-            top: -40px;
-            right: -10px;
+            top: -30px;
+            right: 0px;
             width: 35px;
             height: 35px;
+          }
+          
+          .photobooth-page .modal-nav {
+            width: 45px;
+            height: 45px;
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+          }
+          
+          .photobooth-page .modal-nav.prev {
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+          }
+          
+          .photobooth-page .modal-nav.next {
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+          }
+          
+          .photobooth-page .modal-nav:hover {
+            transform: translateY(-50%) scale(1.1);
+          }
+        }
+        
+        @media (max-width: 480px) {
+          .photobooth-page .image-modal {
+            padding: 5px;
+          }
+          
+          .photobooth-page .modal-content {
+            max-width: 95vw;
+            max-height: 75vh;
+          }
+          
+          .photobooth-page .modal-image {
+            max-width: 95vw;
+            max-height: 75vh;
+          }
+          
+          .photobooth-page .modal-close {
+            top: -25px;
+            right: 5px;
+            width: 30px;
+            height: 30px;
           }
           
           .photobooth-page .modal-nav {
@@ -669,11 +715,11 @@ const PhotoBooth = () => {
           }
           
           .photobooth-page .modal-nav.prev {
-            left: -50px;
+            left: 5px;
           }
           
           .photobooth-page .modal-nav.next {
-            right: -50px;
+            right: 5px;
           }
         }
 
