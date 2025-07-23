@@ -71,10 +71,41 @@ const PhotoBooth = () => {
   };
 
   const handleKeyDown = (e) => {
-    if (e.key === 'Escape') closeModal();
-    if (e.key === 'ArrowRight') nextImage();
-    if (e.key === 'ArrowLeft') prevImage();
+    if (selectedImageIndex === null) return; // Only handle keys when modal is open
+    
+    switch(e.key) {
+      case 'Escape':
+        closeModal();
+        break;
+      case 'ArrowRight':
+        nextImage();
+        break;
+      case 'ArrowLeft':
+        prevImage();
+        break;
+      default:
+        break;
+    }
   };
+
+  // Add keyboard event listener when modal is open
+  React.useEffect(() => {
+    if (selectedImageIndex !== null) {
+      document.addEventListener('keydown', handleKeyDown);
+      // Focus on modal for better keyboard support
+      const modal = document.querySelector('.image-modal');
+      if (modal) {
+        modal.focus();
+      }
+    } else {
+      document.removeEventListener('keydown', handleKeyDown);
+    }
+
+    // Cleanup on unmount
+    return () => {
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [selectedImageIndex]);
 
   return (
     <div className="photobooth-page">
