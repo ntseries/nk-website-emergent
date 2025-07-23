@@ -7,15 +7,27 @@ const Footer = () => {
 
   // Function to handle navigation clicks
   const handleNavClick = () => {
-    // Small delay to let React Router finish navigation first
+    // Multiple attempts to ensure scroll to top
     setTimeout(() => {
       window.scrollTo({ top: 0, behavior: 'smooth' });
+      // Fallback for immediate scroll if smooth doesn't work
+      setTimeout(() => {
+        if (window.pageYOffset > 0) {
+          window.scrollTo(0, 0);
+        }
+      }, 500);
     }, 100);
   };
 
   // Also scroll to top when location changes (for direct navigation)
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
+    // Fallback for immediate scroll
+    setTimeout(() => {
+      if (window.pageYOffset > 0) {
+        window.scrollTo(0, 0);
+      }
+    }, 500);
   }, [location]);
 
   return (
