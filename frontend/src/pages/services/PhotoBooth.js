@@ -647,13 +647,18 @@ const PhotoBooth = () => {
           }
           
           .photobooth-page .modal-content {
-            max-width: 95vw;
-            max-height: 85vh;
+            max-width: 90vw;
+            max-height: 80vh;
+          }
+          
+          .photobooth-page .modal-image {
+            max-width: 90vw;
+            max-height: 80vh;
           }
           
           .photobooth-page .modal-close {
-            top: -50px;
-            right: -20px;
+            top: -40px;
+            right: -10px;
             width: 35px;
             height: 35px;
           }
@@ -664,11 +669,11 @@ const PhotoBooth = () => {
           }
           
           .photobooth-page .modal-nav.prev {
-            left: -60px;
+            left: -50px;
           }
           
           .photobooth-page .modal-nav.next {
-            right: -60px;
+            right: -50px;
           }
         }
 
