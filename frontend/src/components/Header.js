@@ -92,10 +92,10 @@ const Header = () => {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <nav className="nav-mobile">
-            <Link to="/" className={`nav-link-mobile ${isActive("/") ? "active" : ""}`}>
+            <Link to="/" className={`nav-link-mobile ${isActive("/") ? "active" : ""}`} onClick={handleNavClick}>
               หน้าแรก
             </Link>
-            <Link to="/about" className={`nav-link-mobile ${isActive("/about") ? "active" : ""}`}>
+            <Link to="/about" className={`nav-link-mobile ${isActive("/about") ? "active" : ""}`} onClick={handleNavClick}>
               เกี่ยวกับเรา
             </Link>
             
@@ -106,16 +106,17 @@ const Header = () => {
                   key={item.path}
                   to={item.path}
                   className={`nav-link-mobile sub ${isActive(item.path) ? "active" : ""}`}
+                  onClick={handleNavClick}
                 >
                   {item.title}
                 </Link>
               ))}
             </div>
 
-            <Link to="/activities" className={`nav-link-mobile ${isActive("/activities") ? "active" : ""}`}>
+            <Link to="/activities" className={`nav-link-mobile ${isActive("/activities") ? "active" : ""}`} onClick={handleNavClick}>
               กิจกรรม
             </Link>
-            <Link to="/contact" className={`nav-link-mobile ${isActive("/contact") ? "active" : ""}`}>
+            <Link to="/contact" className={`nav-link-mobile ${isActive("/contact") ? "active" : ""}`} onClick={handleNavClick}>
               ติดต่อสาขา
             </Link>
           </nav>
