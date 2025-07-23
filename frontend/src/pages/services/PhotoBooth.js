@@ -740,9 +740,9 @@ const PhotoBooth = () => {
                 <a href="https://lin.ee/H4D9qos" target="_blank" rel="noopener noreferrer" className="btn-primary">
                   จอง Photo Booth เลย ♡ <ArrowRight size={16} />
                 </a>
-                <button className="btn-secondary">
-                  ดูแกลเลอรี่ Kawaii
-                </button>
+                <a href="/services/board-game-script" className="btn-secondary">
+                  เล่นบอร์ดเกมสคริปต์
+                </a>
               </div>
             </div>
             <div className="service-hero-image">
