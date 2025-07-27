@@ -158,27 +158,36 @@ const PlayAtShop = () => {
       <section className="game-collection">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">เกมยอดนิยมในร้าน</h2>
+            <h2 className="section-title">เกมฮิต NK</h2>
             <p className="section-subtitle">
               เลือกดูเกมที่ลูกค้าชื่นชอบมากที่สุด
             </p>
           </div>
           <div className="games-grid">
-            {gameCollection.map((game, index) => (
+            {nkHitGames.map((game, index) => (
               <div key={index} className="game-card">
-                <h4 className="game-name">{game.name}</h4>
-                <div className="game-info">
-                  <div className="game-meta">
-                    <span className="game-category">{game.category}</span>
-                    <span className="game-players">{game.players} คน</span>
+                <div className="game-image">
+                  <img 
+                    src={game.image} 
+                    alt={game.name}
+                    className="game-thumbnail"
+                  />
+                </div>
+                <div className="game-content">
+                  <h4 className="game-name">{game.name}</h4>
+                  <div className="game-info">
+                    <div className="game-meta">
+                      <span className="game-category">{game.category}</span>
+                      <span className="game-players">{game.players}</span>
+                    </div>
+                    <div className="game-duration">{game.duration}</div>
                   </div>
-                  <div className="game-duration">{game.duration}</div>
                 </div>
               </div>
             ))}
           </div>
           <div className="games-footer">
-            <p>และอีกมากกว่า 994 เกม รอให้คุณมาสำรวจ!</p>
+            <p>และอีกมากกว่า 992 เกม รอให้คุณมาสำรวจ!</p>
           </div>
         </div>
       </section>
