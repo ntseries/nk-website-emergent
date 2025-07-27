@@ -2112,6 +2112,9 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 393px) {
   .story-stats {
     max-width: calc(100vw - 48px);
+    width: calc(100vw - 48px);
+    margin-top: var(--space-md);
+    gap: var(--space-xs);
   }
 }
 
