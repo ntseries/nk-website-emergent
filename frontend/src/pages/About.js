@@ -72,12 +72,13 @@ const About = () => {
       <section className="team-section">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">ทีมงานของเรา</h2>
+            <h2 className="section-title">ครอบครัว NK</h2>
             <p className="section-subtitle">
               ทีมงานที่หลงใหลในบอร์ดเกมและพร้อมให้คำแนะนำที่ดีที่สุด
             </p>
           </div>
           <div className="team-grid">
+            {/* Co-founders */}
             <div className="team-member">
               <div className="member-avatar">
                 <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-01.png" alt="North" />
@@ -94,199 +95,280 @@ const About = () => {
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop&crop=face" alt="แม็กซ์" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Fox.png" alt="Fox" />
               </div>
-              <h3 className="member-name">แม็กซ์</h3>
-              <p className="member-role">Dungeon Master</p>
+              <h3 className="member-name">Fox</h3>
+              <p className="member-role">Co-founder</p>
+            </div>
+            
+            {/* Branch Managers */}
+            <div className="team-member">
+              <div className="member-avatar">
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Tiger.png" alt="Tiger" />
+              </div>
+              <h3 className="member-name">Tiger</h3>
+              <p className="member-role">Branch Manager</p>
+              <p className="member-gen">NK Gen 1</p>
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop&crop=face" alt="มิน" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Bew.png" alt="Bew" />
               </div>
-              <h3 className="member-name">มิน</h3>
-              <p className="member-role">ผู้จัดการสาขาบางแค</p>
+              <h3 className="member-name">Bew</h3>
+              <p className="member-role">Branch Manager</p>
+              <p className="member-gen">NK Gen 2</p>
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop&crop=face" alt="เจ" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Bentz.jpg" alt="Bentz" />
               </div>
-              <h3 className="member-name">เจ</h3>
-              <p className="member-role">ผู้จัดการสาขาศรีนครินทร์</p>
+              <h3 className="member-name">Bentz</h3>
+              <p className="member-role">Branch Manager</p>
+              <p className="member-gen">NK Gen 2</p>
+            </div>
+            
+            {/* Product Managers */}
+            <div className="team-member">
+              <div className="member-avatar">
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-IY.jpg" alt="IY" />
+              </div>
+              <h3 className="member-name">IY</h3>
+              <p className="member-role">Product Manager</p>
+              <p className="member-gen">NK Gen 2</p>
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?w=200&h=200&fit=crop&crop=face" alt="ปิง" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Mingkwan.png" alt="Mingkwan" />
               </div>
-              <h3 className="member-name">ปิง</h3>
-              <p className="member-role">ผู้จัดการสาขาสามย่าน</p>
+              <h3 className="member-name">Mingkwan</h3>
+              <p className="member-role">Product Manager</p>
+              <p className="member-gen">NK Gen 2</p>
             </div>
+            
+            {/* Game Masters NK Gen 1 */}
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=200&h=200&fit=crop&crop=face" alt="อาร์ต" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-AnAn.png" alt="AnAn" />
               </div>
-              <h3 className="member-name">อาร์ต</h3>
+              <h3 className="member-name">AnAn</h3>
               <p className="member-role">Game Master</p>
+              <p className="member-gen">NK Gen 1</p>
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&h=200&fit=crop&crop=face" alt="นัท" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Thew.png" alt="Thew" />
               </div>
-              <h3 className="member-name">นัท</h3>
-              <p className="member-role">พนักงานต้อนรับ</p>
+              <h3 className="member-name">Thew</h3>
+              <p className="member-role">Game Master</p>
+              <p className="member-gen">NK Gen 1</p>
+            </div>
+            
+            {/* Game Masters NK Gen 2 */}
+            <div className="team-member">
+              <div className="member-avatar">
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Breeze.png" alt="Breeze" />
+              </div>
+              <h3 className="member-name">Breeze</h3>
+              <p className="member-role">Game Master</p>
+              <p className="member-gen">NK Gen 2</p>
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&h=200&fit=crop&crop=face" alt="โบ" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Heart.png" alt="Heart" />
               </div>
-              <h3 className="member-name">โบ</h3>
-              <p className="member-role">ผู้ประสานงานกิจกรรม</p>
+              <h3 className="member-name">Heart</h3>
+              <p className="member-role">Game Master</p>
+              <p className="member-gen">NK Gen 2</p>
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&h=200&fit=crop&crop=face" alt="พีช" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Khaimuk.png" alt="Khaimuk" />
               </div>
-              <h3 className="member-name">พีช</h3>
-              <p className="member-role">พนักงานบริการลูกค้า</p>
+              <h3 className="member-name">Khaimuk</h3>
+              <p className="member-role">Game Master</p>
+              <p className="member-gen">NK Gen 2</p>
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://images.unsplash.com/photo-1507152832244-10d45c7eda57?w=200&h=200&fit=crop&crop=face" alt="เบล" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Klong.png" alt="Klong" />
               </div>
-              <h3 className="member-name">เบล</h3>
-              <p className="member-role">เชฟประจำครัว</p>
+              <h3 className="member-name">Klong</h3>
+              <p className="member-role">Game Master</p>
+              <p className="member-gen">NK Gen 2</p>
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=200&h=200&fit=crop&crop=face" alt="มีมี่" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-New.png" alt="New" />
               </div>
-              <h3 className="member-name">มีมี่</h3>
-              <p className="member-role">บาริสต้า</p>
+              <h3 className="member-name">New</h3>
+              <p className="member-role">Game Master</p>
+              <p className="member-gen">NK Gen 2</p>
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?w=200&h=200&fit=crop&crop=face" alt="ไนซ์" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Phukaow.jpg" alt="Phukhaw" />
               </div>
-              <h3 className="member-name">ไนซ์</h3>
-              <p className="member-role">ช่างภาพ Photo Booth</p>
+              <h3 className="member-name">Phukhaw</h3>
+              <p className="member-role">Game Master</p>
+              <p className="member-gen">NK Gen 2</p>
+            </div>
+            
+            {/* Game Masters NK Gen 3 */}
+            <div className="team-member">
+              <div className="member-avatar">
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Fiat.png" alt="Fiat" />
+              </div>
+              <h3 className="member-name">Fiat</h3>
+              <p className="member-role">Game Master</p>
+              <p className="member-gen">NK Gen 3</p>
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face" alt="ติม" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Get.png" alt="Get" />
               </div>
-              <h3 className="member-name">ติม</h3>
-              <p className="member-role">ผู้ดูแลระบบเกม</p>
+              <h3 className="member-name">Get</h3>
+              <p className="member-role">Game Master</p>
+              <p className="member-gen">NK Gen 3</p>
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&h=200&fit=crop&crop=face" alt="บิ๊งค์" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Nut.png" alt="Nut" />
               </div>
-              <h3 className="member-name">บิ๊งค์</h3>
-              <p className="member-role">พนักงานแคชเชียร์</p>
+              <h3 className="member-name">Nut</h3>
+              <p className="member-role">Game Master</p>
+              <p className="member-gen">NK Gen 3</p>
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=200&h=200&fit=crop&crop=face" alt="มายด์" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Pla.png" alt="Pla" />
               </div>
-              <h3 className="member-name">มายด์</h3>
-              <p className="member-role">ผู้จัดการทั่วไป</p>
+              <h3 className="member-name">Pla</h3>
+              <p className="member-role">Game Master</p>
+              <p className="member-gen">NK Gen 3</p>
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://images.unsplash.com/photo-1463453091185-61582044d556?w=200&h=200&fit=crop&crop=face" alt="แจ็ค" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Vin.jpg" alt="Vin" />
               </div>
-              <h3 className="member-name">แจ็ค</h3>
-              <p className="member-role">ผู้ดูแลความสะอาด</p>
+              <h3 className="member-name">Vin</h3>
+              <p className="member-role">Game Master</p>
+              <p className="member-gen">NK Gen 3</p>
+            </div>
+            
+            {/* Game Masters NK New Gen */}
+            <div className="team-member">
+              <div className="member-avatar">
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Boss.png" alt="Boss" />
+              </div>
+              <h3 className="member-name">Boss</h3>
+              <p className="member-role">Game Master</p>
+              <p className="member-gen">NK New Gen</p>
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=200&h=200&fit=crop&crop=face" alt="โปร" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Game.png" alt="Game" />
               </div>
-              <h3 className="member-name">โปร</h3>
-              <p className="member-role">ผู้เชี่ยวชาญเกมกลยุทธ์</p>
+              <h3 className="member-name">Game</h3>
+              <p className="member-role">Game Master</p>
+              <p className="member-gen">NK New Gen</p>
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?w=200&h=200&fit=crop&crop=face" alt="เนม" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Jaoh.HEIC" alt="Ja-Oh" />
               </div>
-              <h3 className="member-name">เนม</h3>
-              <p className="member-role">ช่วยครัว</p>
+              <h3 className="member-name">Ja-Oh</h3>
+              <p className="member-role">Game Master</p>
+              <p className="member-gen">NK New Gen</p>
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=200&h=200&fit=crop&crop=face" alt="ฟิว" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Khaw.png" alt="Khaw" />
               </div>
-              <h3 className="member-name">ฟิว</h3>
-              <p className="member-role">ผู้ช่วยผู้จัดการ</p>
+              <h3 className="member-name">Khaw</h3>
+              <p className="member-role">Game Master</p>
+              <p className="member-gen">NK New Gen</p>
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://images.unsplash.com/photo-1552058544-f2b08422138a?w=200&h=200&fit=crop&crop=face" alt="ก้อง" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Kong.jpg" alt="Kong" />
               </div>
-              <h3 className="member-name">ก้อง</h3>
-              <p className="member-role">ช่างซ่อมบำรุง</p>
+              <h3 className="member-name">Kong</h3>
+              <p className="member-role">Game Master</p>
+              <p className="member-gen">NK New Gen</p>
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=200&h=200&fit=crop&crop=face" alt="โอ๊ค" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Min.JPG" alt="Min" />
               </div>
-              <h3 className="member-name">โอ๊ค</h3>
-              <p className="member-role">ผู้ช่วย Game Master</p>
+              <h3 className="member-name">Min</h3>
+              <p className="member-role">Game Master</p>
+              <p className="member-gen">NK New Gen</p>
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://images.unsplash.com/photo-1489980557514-251d61e3eeb6?w=200&h=200&fit=crop&crop=face" alt="มิ้ม" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Numpeth.jpeg" alt="Nampetch" />
               </div>
-              <h3 className="member-name">มิ้ม</h3>
-              <p className="member-role">พนักงานรักษาความปลอดภัย</p>
+              <h3 className="member-name">Nampetch</h3>
+              <p className="member-role">Game Master</p>
+              <p className="member-gen">NK New Gen</p>
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=200&h=200&fit=crop&crop=face" alt="เฟิร์น" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Pong.jpg" alt="Pong" />
               </div>
-              <h3 className="member-name">เฟิร์น</h3>
-              <p className="member-role">ช่าง IT</p>
+              <h3 className="member-name">Pong</h3>
+              <p className="member-role">Game Master</p>
+              <p className="member-gen">NK New Gen</p>
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://images.unsplash.com/photo-1502378735452-bc7d86632805?w=200&h=200&fit=crop&crop=face" alt="วิน" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Prem.heif" alt="Prem" />
               </div>
-              <h3 className="member-name">วิน</h3>
-              <p className="member-role">ผู้ดูแลสต๊อกเกม</p>
+              <h3 className="member-name">Prem</h3>
+              <p className="member-role">Game Master</p>
+              <p className="member-gen">NK New Gen</p>
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=200&h=200&fit=crop&crop=face" alt="แมท" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Runz.jpg" alt="Runz" />
               </div>
-              <h3 className="member-name">แมท</h3>
-              <p className="member-role">ผู้จัดการการตลาด</p>
+              <h3 className="member-name">Runz</h3>
+              <p className="member-role">Game Master</p>
+              <p className="member-gen">NK New Gen</p>
+            </div>
+            
+            {/* Support Team */}
+            <div className="team-member">
+              <div className="member-avatar">
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Pepsi.jpg" alt="Pepsi" />
+              </div>
+              <h3 className="member-name">Pepsi</h3>
+              <p className="member-role">Support</p>
+              <p className="member-gen">NK Gen 2</p>
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=200&h=200&fit=crop&crop=face" alt="โน้ต" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Fadil.JPG" alt="Fadil" />
               </div>
-              <h3 className="member-name">โน้ต</h3>
-              <p className="member-role">ช่างภาพประจำ</p>
+              <h3 className="member-name">Fadil</h3>
+              <p className="member-role">Support</p>
+              <p className="member-gen">NK Gen 2</p>
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://images.unsplash.com/photo-1506863530036-1efeddceb993?w=200&h=200&fit=crop&crop=face" alt="ไอซ์" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Memee.jpg" alt="Memee" />
               </div>
-              <h3 className="member-name">ไอซ์</h3>
-              <p className="member-role">พนักงานประชาสัมพันธ์</p>
+              <h3 className="member-name">Memee</h3>
+              <p className="member-role">Support</p>
+              <p className="member-gen">NK New Gen</p>
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=200&h=200&fit=crop&crop=face" alt="ออม" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Ked.png" alt="Ked" />
               </div>
-              <h3 className="member-name">ออม</h3>
-              <p className="member-role">บัญชีและการเงิน</p>
-            </div>
-            <div className="team-member">
-              <div className="member-avatar">
-                <img src="https://images.unsplash.com/photo-1488508872907-592763824245?w=200&h=200&fit=crop&crop=face" alt="ฟลุ๊ค" />
-              </div>
-              <h3 className="member-name">ฟลุ๊ค</h3>
-              <p className="member-role">ผู้ช่วยทำความสะอาด</p>
+              <h3 className="member-name">Ked</h3>
+              <p className="member-role">Support</p>
+              <p className="member-gen">NK New Gen</p>
             </div>
           </div>
         </div>
