@@ -95,7 +95,7 @@ const PlayAtShop = () => {
             </div>
             <div className="service-hero-image">
               <img 
-                src="https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=600&h=400&fit=crop" 
+                src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/PlayAtStore.JPG" 
                 alt="เล่นที่ร้าน"
               />
             </div>
