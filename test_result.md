@@ -609,6 +609,9 @@ test_plan:
     - "Add CSS for social media links"
     - "Remove contact form section"
     - "Update FAQ content"
+    - "Add Google Maps links to branch information"
+    - "Display Google Maps links in branch cards"
+    - "Add CSS styling for Maps links"
   stuck_tasks: []
   test_all: false
   test_priority: "high_first"
@@ -618,3 +621,5 @@ agent_communication:
     message: "Starting comprehensive update of Contact page with new hero text, branch information updates, social media integration, form removal, and FAQ updates"
   - agent: "testing"
     message: "Backend stability verification completed. All backend services are running properly, FastAPI server is healthy, MongoDB connectivity is working, CORS is configured correctly, and error handling is functioning as expected. Backend is stable and ready to support frontend changes."
+  - agent: "main"
+    message: "Added Google Maps links for all 3 branches with proper styling and display in branch cards"
