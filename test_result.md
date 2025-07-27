@@ -370,7 +370,7 @@ test_plan:
 
 agent_communication:
   - agent: "main"
-    message: "Completed About Us page updates: 1) Changed hero section background image to AboutUs.JPG showing authentic NK team photo, 2) Updated team member 'Breeze' to 'NK Gen 3' and repositioned before 'Fiat' in team layout. Both changes verified and working correctly."
+    message: "Corrected team member record: Changed name from 'NK Gen 3' back to 'Breeze' while maintaining NK Gen 3 generation status and position before Fiat. Update verified and working correctly."
   - agent: "main"
     message: "Starting comprehensive update of PlayAtShop page with new content, pricing structure, and button functionality"
   - agent: "main"
