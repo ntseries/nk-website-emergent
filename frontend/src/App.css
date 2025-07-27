@@ -2551,6 +2551,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Branch Pricing Tables */
+.pricing-section {
+  padding-top: var(--space-2xl);
+}
+
 .branch-pricing {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
