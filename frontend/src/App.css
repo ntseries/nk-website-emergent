@@ -1980,6 +1980,12 @@ h1, h2, h3, h4, h5, h6 {
   overflow-x: hidden;
 }
 
+.story-section .container {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .story-content {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -1987,6 +1993,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   width: 100%;
   max-width: 100%;
+  overflow-x: hidden;
 }
 
 @media (max-width: 768px) {
@@ -2005,6 +2012,13 @@ h1, h2, h3, h4, h5, h6 {
 .story-text {
   width: 100%;
   max-width: 100%;
+  overflow-x: hidden;
+}
+
+.story-text h2, .story-text h3 {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
 }
 
 .story-text p {
@@ -2014,6 +2028,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: var(--space-md);
   word-wrap: break-word;
   overflow-wrap: break-word;
+  max-width: 100%;
 }
 
 @media (max-width: 480px) {
