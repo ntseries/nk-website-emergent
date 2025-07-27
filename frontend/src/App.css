@@ -2114,8 +2114,16 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 361px !important;
     width: 361px !important;
     margin-top: var(--space-md);
-    gap: var(--space-xs);
+    gap: var(--space-xs) !important;
     overflow: hidden !important;
+    flex-direction: column !important;
+    flex-wrap: nowrap !important;
+  }
+  
+  .story-stats .stat-card {
+    max-width: 100% !important;
+    width: 100% !important;
+    flex: none !important;
   }
 }
 
