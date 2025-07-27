@@ -106,52 +106,64 @@ user_problem_statement: User requested to completely remove the Activities page 
 
 frontend:
   - task: "Remove Activities route from App.js"
-    implemented: false
-    working: "NA"
+    implemented: true
+    working: true
     file: "/app/frontend/src/App.js"
     stuck_count: 0
     priority: "medium"
-    needs_retesting: true
+    needs_retesting: false
     status_history:
       - working: "NA"
         agent: "main"
         comment: "Need to remove Activities page route from main app routing"
+      - working: true
+        agent: "main"
+        comment: "Successfully removed Activities import and /activities route from App.js"
 
   - task: "Remove Activities link from Header navigation"
-    implemented: false
-    working: "NA"
+    implemented: true
+    working: true
     file: "/app/frontend/src/components/Header.js"
     stuck_count: 0
     priority: "medium"
-    needs_retesting: true
+    needs_retesting: false
     status_history:
       - working: "NA"
         agent: "main"
         comment: "Need to remove Activities navigation link from header component"
+      - working: true
+        agent: "main"
+        comment: "Successfully removed Activities links from both desktop and mobile navigation in Header"
 
   - task: "Remove Activities link from Footer"
-    implemented: false
-    working: "NA"
+    implemented: true
+    working: true
     file: "/app/frontend/src/components/Footer.js"
     stuck_count: 0
     priority: "medium"
-    needs_retesting: true
+    needs_retesting: false
     status_history:
       - working: "NA"
         agent: "main"
         comment: "Need to remove Activities link from footer component"
+      - working: true
+        agent: "main"
+        comment: "Successfully removed Activities link from footer เมนูหลัก section"
 
   - task: "Delete Activities page file"
-    implemented: false
-    working: "NA"
+    implemented: true
+    working: true
     file: "/app/frontend/src/pages/Activities.js"
     stuck_count: 0
     priority: "low"
-    needs_retesting: true
+    needs_retesting: false
     status_history:
       - working: "NA"
         agent: "main"
         comment: "Need to delete the Activities.js page file"
+      - working: true
+        agent: "main"
+        comment: "Successfully deleted Activities.js file from pages directory"
 
 frontend:
   - task: "Change team member name from NK Gen 3 to Breeze"
