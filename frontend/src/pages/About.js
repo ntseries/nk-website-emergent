@@ -104,7 +104,7 @@ const About = () => {
             {/* Branch Managers */}
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Tiger.png" alt="Tiger" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Tiger.jpg" alt="Tiger" />
               </div>
               <h3 className="member-name">Tiger</h3>
               <p className="member-role">Branch Manager</p>
@@ -112,7 +112,7 @@ const About = () => {
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Bew.png" alt="Bew" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Bew.jpg" alt="Bew" />
               </div>
               <h3 className="member-name">Bew</h3>
               <p className="member-role">Branch Manager</p>
@@ -138,17 +138,17 @@ const About = () => {
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Mingkwan.png" alt="Mingkwan" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Mingkwan.jpg" alt="Mingkwan" />
               </div>
               <h3 className="member-name">Mingkwan</h3>
               <p className="member-role">Product Manager</p>
               <p className="member-gen">NK Gen 2</p>
             </div>
             
-            {/* Game Masters NK Gen 1 */}
+            {/* Game Masters - NK Gen 1 */}
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-AnAn.png" alt="AnAn" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-AnAn.jpg" alt="AnAn" />
               </div>
               <h3 className="member-name">AnAn</h3>
               <p className="member-role">Game Master</p>
@@ -156,17 +156,17 @@ const About = () => {
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Thew.png" alt="Thew" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Thew.jpg" alt="Thew" />
               </div>
               <h3 className="member-name">Thew</h3>
               <p className="member-role">Game Master</p>
               <p className="member-gen">NK Gen 1</p>
             </div>
             
-            {/* Game Masters NK Gen 2 */}
+            {/* Game Masters - NK Gen 2 */}
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Heart.png" alt="Heart" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Heart.jpg" alt="Heart" />
               </div>
               <h3 className="member-name">Heart</h3>
               <p className="member-role">Game Master</p>
@@ -174,7 +174,7 @@ const About = () => {
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Khaimuk.png" alt="Khaimuk" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Khaimuk.jpg" alt="Khaimuk" />
               </div>
               <h3 className="member-name">Khaimuk</h3>
               <p className="member-role">Game Master</p>
@@ -182,7 +182,7 @@ const About = () => {
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Klong.png" alt="Klong" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Klong.jpg" alt="Klong" />
               </div>
               <h3 className="member-name">Klong</h3>
               <p className="member-role">Game Master</p>
@@ -190,7 +190,7 @@ const About = () => {
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-New.png" alt="New" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-New.jpg" alt="New" />
               </div>
               <h3 className="member-name">New</h3>
               <p className="member-role">Game Master</p>
@@ -205,10 +205,10 @@ const About = () => {
               <p className="member-gen">NK Gen 2</p>
             </div>
             
-            {/* Game Masters NK Gen 3 */}
+            {/* Game Masters - NK Gen 3 */}
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Breeze.png" alt="Breeze" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Breeze.jpg" alt="Breeze" />
               </div>
               <h3 className="member-name">Breeze</h3>
               <p className="member-role">Game Master</p>
@@ -216,7 +216,7 @@ const About = () => {
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Fiat.png" alt="Fiat" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Fiat.jpg" alt="Fiat" />
               </div>
               <h3 className="member-name">Fiat</h3>
               <p className="member-role">Game Master</p>
@@ -224,7 +224,7 @@ const About = () => {
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Get.png" alt="Get" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Get.jpg" alt="Get" />
               </div>
               <h3 className="member-name">Get</h3>
               <p className="member-role">Game Master</p>
@@ -232,7 +232,7 @@ const About = () => {
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Nut.png" alt="Nut" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Nut.jpg" alt="Nut" />
               </div>
               <h3 className="member-name">Nut</h3>
               <p className="member-role">Game Master</p>
@@ -240,7 +240,7 @@ const About = () => {
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Pla.png" alt="Pla" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Pla.jpg" alt="Pla" />
               </div>
               <h3 className="member-name">Pla</h3>
               <p className="member-role">Game Master</p>
@@ -255,10 +255,10 @@ const About = () => {
               <p className="member-gen">NK Gen 3</p>
             </div>
             
-            {/* Game Masters NK New Gen */}
+            {/* Game Masters - NK New Gen */}
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Boss.png" alt="Boss" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Boss.jpg" alt="Boss" />
               </div>
               <h3 className="member-name">Boss</h3>
               <p className="member-role">Game Master</p>
@@ -266,7 +266,7 @@ const About = () => {
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Game.png" alt="Game" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Game.jpg" alt="Game" />
               </div>
               <h3 className="member-name">Game</h3>
               <p className="member-role">Game Master</p>
@@ -282,7 +282,7 @@ const About = () => {
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Khaw.png" alt="Khaw" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Khaw.jpg" alt="Khaw" />
               </div>
               <h3 className="member-name">Khaw</h3>
               <p className="member-role">Game Master</p>
@@ -298,7 +298,7 @@ const About = () => {
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Min.JPG" alt="Min" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Min.jpg" alt="Min" />
               </div>
               <h3 className="member-name">Min</h3>
               <p className="member-role">Game Master</p>
@@ -306,7 +306,7 @@ const About = () => {
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Numpeth.jpeg" alt="Nampetch" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Numpeth.jpg" alt="Nampetch" />
               </div>
               <h3 className="member-name">Nampetch</h3>
               <p className="member-role">Game Master</p>
@@ -322,7 +322,7 @@ const About = () => {
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Prem.jpeg" alt="Prem" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Prem.jpg" alt="Prem" />
               </div>
               <h3 className="member-name">Prem</h3>
               <p className="member-role">Game Master</p>
@@ -348,9 +348,17 @@ const About = () => {
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Fadil.JPG" alt="Fadil" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Fadil.jpg" alt="Fadil" />
               </div>
               <h3 className="member-name">Fadil</h3>
+              <p className="member-role">Support</p>
+              <p className="member-gen">NK Gen 2</p>
+            </div>
+            <div className="team-member">
+              <div className="member-avatar">
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Nano.jpg" alt="Nano" />
+              </div>
+              <h3 className="member-name">Nano</h3>
               <p className="member-role">Support</p>
               <p className="member-gen">NK Gen 2</p>
             </div>
@@ -364,7 +372,7 @@ const About = () => {
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Ked.png" alt="Ked" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Ked.jpg" alt="Ked" />
               </div>
               <h3 className="member-name">Ked</h3>
               <p className="member-role">Support</p>
