@@ -62,7 +62,19 @@ const Contact = () => {
                   <div className="branch-details">
                     <div className="branch-item">
                       <MapPin size={16} />
-                      <span>{branch.address}</span>
+                      <div className="branch-location">
+                        <span>{branch.address}</span>
+                        {branch.maps && (
+                          <a 
+                            href={branch.maps} 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="maps-link"
+                          >
+                            ดูแผนที่
+                          </a>
+                        )}
+                      </div>
                     </div>
                     <div className="branch-item">
                       <Phone size={16} />
