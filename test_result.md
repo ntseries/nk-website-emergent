@@ -237,6 +237,18 @@ frontend:
         agent: "main"
         comment: "Updated all team member image URLs to use correct file extensions from Excel data and added missing Nano team member"
 
+  - task: "Fix About page story section mobile overflow"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/App.css"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Added enhanced mobile responsive CSS for story section with container padding, overflow fixes, and text breaking for mobile devices"
+
 frontend:
   - task: "Create page-specific hero section backgrounds"
     implemented: true
