@@ -102,7 +102,32 @@
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
 
-user_problem_statement: User requested additional updates to the "Play at Shop" page: 1) Make NK hit games images vertical orientation to better show game box proportions, 2) Replace "บาท" with ".-" in pricing section, 3) Remove rules section entirely.
+user_problem_statement: User requested additional updates to the "Play at Shop" page: 1) Change hero section image to new S3 URL, 2) Remove the "และอีกมากกว่า 992 เกม รอให้คุณมาสำรวจ!" text from games section.
+
+frontend:
+  - task: "Update hero section image to new S3 URL"
+    implemented: false
+    working: "NA"
+    file: "/app/frontend/src/pages/services/PlayAtShop.js"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Need to update hero image src to https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/PlayAtStore.JPG"
+
+  - task: "Remove games footer text"
+    implemented: false
+    working: "NA"
+    file: "/app/frontend/src/pages/services/PlayAtShop.js"
+    stuck_count: 0
+    priority: "low"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Need to remove 'และอีกมากกว่า 992 เกม รอให้คุณมาสำรวจ!' text"
 
 frontend:
   - task: "Make NK hit games images vertical orientation"
