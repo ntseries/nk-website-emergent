@@ -35,7 +35,7 @@ const Contact = () => {
   return (
     <div className="contact-page">
       {/* Hero Section */}
-      <section className="hero-section">
+      <section className="hero-section contact-hero">
         <div className="hero-content">
           <h1 className="hero-title">
             ติดต่อ <span className="hero-highlight">NK Board Game</span>
