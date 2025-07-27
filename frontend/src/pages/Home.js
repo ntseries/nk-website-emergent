@@ -208,7 +208,7 @@ const Home = () => {
   return (
     <div className="home-page">
       {/* Hero Section */}
-      <section className="hero-section">
+      <section className="hero-section home-hero">
         <div className="hero-content">
           <div className="hero-badge">
             <span>✨ ร้านบอร์ดเกมอันดับ 1 ของชาว Gen Z</span>
