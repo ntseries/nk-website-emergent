@@ -2207,7 +2207,33 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.5;
 }
 
-/* Location Grid */
+/* About Page Specific Fixes */
+.about-page {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.about-page .container {
+  width: 100%;
+  max-width: 100%;
+  padding-left: var(--space-md);
+  padding-right: var(--space-md);
+  box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+  .about-page .container {
+    padding-left: var(--space-sm);
+    padding-right: var(--space-sm);
+  }
+}
+
+.about-page .team-section {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
 .locations-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
