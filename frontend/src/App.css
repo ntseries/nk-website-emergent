@@ -2030,91 +2030,30 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/* Critical mobile fixes for iPhone 16 Pro and similar devices */
 @media (max-width: 393px) {
   .story-content {
     gap: var(--space-sm);
-    width: 100%;
-    max-width: calc(100vw - 32px);
-    display: block; /* Change from grid to block */
-    padding: 0 8px;
+    width: 100% !important;
+    max-width: 361px !important;
+    display: block !important; /* Change from grid to block */
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: hidden !important;
   }
-}
-
-.story-text {
-  width: 100%;
-  max-width: 100%;
-  overflow-x: hidden;
-  box-sizing: border-box;
-}
-
-@media (max-width: 393px) {
+  
   .story-text {
-    max-width: calc(100vw - 48px);
-    width: calc(100vw - 48px);
+    max-width: 361px !important;
+    width: 361px !important;
+    margin-bottom: var(--space-md);
   }
-}
-
-.story-text h2, .story-text h3 {
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  max-width: 100%;
-  box-sizing: border-box;
-}
-
-.story-text p {
-  font-size: 16px;
-  line-height: 1.6;
-  color: var(--nk-gray);
-  margin-bottom: var(--space-md);
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  max-width: 100%;
-  box-sizing: border-box;
-}
-
-@media (max-width: 480px) {
-  .story-text p {
-    font-size: 14px;
-    line-height: 1.5;
-  }
-}
-
-@media (max-width: 393px) {
-  .story-text p {
-    font-size: 13px;
-    line-height: 1.4;
-  }
-}
-
-.story-stats {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-md);
-  width: 100%;
-  max-width: 100%;
-  box-sizing: border-box;
-}
-
-@media (max-width: 768px) {
+  
   .story-stats {
-    flex-direction: row;
-    justify-content: space-around;
-  }
-}
-
-@media (max-width: 480px) {
-  .story-stats {
-    flex-direction: column;
-    gap: var(--space-sm);
-  }
-}
-
-@media (max-width: 393px) {
-  .story-stats {
-    max-width: calc(100vw - 48px);
-    width: calc(100vw - 48px);
+    max-width: 361px !important;
+    width: 361px !important;
     margin-top: var(--space-md);
     gap: var(--space-xs);
+    overflow: hidden !important;
   }
 }
 
