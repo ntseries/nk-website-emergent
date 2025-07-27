@@ -2030,6 +2030,68 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.story-text {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.story-text h2, .story-text h3 {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.story-text p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--nk-gray);
+  margin-bottom: var(--space-md);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 480px) {
+  .story-text p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 393px) {
+  .story-text p {
+    font-size: 13px;
+    line-height: 1.4;
+  }
+}
+
+.story-stats {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .story-stats {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 480px) {
+  .story-stats {
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+}
+
 /* Critical mobile fixes for iPhone 16 Pro and similar devices */
 @media (max-width: 393px) {
   .story-content {
