@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="about-page">
       {/* Hero Section */}
-      <section className="hero-section">
+      <section className="hero-section about-hero">
         <div className="hero-content">
           <h1 className="hero-title">
             เกี่ยวกับ <span className="hero-highlight">NK Board Game</span>
