@@ -2592,7 +2592,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .table-header {
-  contents;
+  display: contents;
 }
 
 .table-header .table-cell {
