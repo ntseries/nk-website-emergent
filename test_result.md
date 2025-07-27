@@ -102,7 +102,56 @@
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
 
-user_problem_statement: User requested to fix the team member record - change "NK Gen 3" name back to "Breeze" while keeping the NK Gen 3 generation and position before Fiat.
+user_problem_statement: User requested to completely remove the Activities page ("กิจกรรม") and remove all references to it from Navigation (Header) and Footer.
+
+frontend:
+  - task: "Remove Activities route from App.js"
+    implemented: false
+    working: "NA"
+    file: "/app/frontend/src/App.js"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Need to remove Activities page route from main app routing"
+
+  - task: "Remove Activities link from Header navigation"
+    implemented: false
+    working: "NA"
+    file: "/app/frontend/src/components/Header.js"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Need to remove Activities navigation link from header component"
+
+  - task: "Remove Activities link from Footer"
+    implemented: false
+    working: "NA"
+    file: "/app/frontend/src/components/Footer.js"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Need to remove Activities link from footer component"
+
+  - task: "Delete Activities page file"
+    implemented: false
+    working: "NA"
+    file: "/app/frontend/src/pages/Activities.js"
+    stuck_count: 0
+    priority: "low"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Need to delete the Activities.js page file"
 
 frontend:
   - task: "Change team member name from NK Gen 3 to Breeze"
