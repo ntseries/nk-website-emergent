@@ -189,6 +189,42 @@ frontend:
         agent: "main"
         comment: "Updated FAQ with new content about table booking, game teaching, food policy, and parking"
 
+  - task: "Add Google Maps links to branch information"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/data/mock.js"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Added Google Maps links for all 3 branches"
+
+  - task: "Display Google Maps links in branch cards"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/Contact.js"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Updated branch address display to include clickable Maps link"
+
+  - task: "Add CSS styling for Maps links"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/App.css"
+    stuck_count: 0
+    priority: "low"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Added styling for .branch-location and .maps-link classes"
+
 frontend:
   - task: "Create page-specific hero section backgrounds"
     implemented: true
