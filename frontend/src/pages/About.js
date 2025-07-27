@@ -274,7 +274,7 @@ const About = () => {
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Jaoh.HEIC" alt="Ja-Oh" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Jaoh.jpg" alt="Ja-Oh" />
               </div>
               <h3 className="member-name">Ja-Oh</h3>
               <p className="member-role">Game Master</p>
