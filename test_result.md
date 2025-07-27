@@ -291,7 +291,7 @@ test_plan:
 
 agent_communication:
   - agent: "main"
-    message: "Completed additional PlayAtShop page updates: 1) Made NK hit games images vertical (300px height) for better game box proportions, 2) Changed all pricing from 'บาท' to '.-' format, 3) Completely removed rules section. All changes verified and working correctly."
+    message: "Completed latest PlayAtShop page updates: 1) Changed hero section image to new S3 URL showing actual NK store interior with customers, 2) Removed games footer text for cleaner section transition. Both changes verified and working correctly."
   - agent: "main"
     message: "Starting comprehensive update of PlayAtShop page with new content, pricing structure, and button functionality"
   - agent: "main"
