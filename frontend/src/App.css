@@ -2632,7 +2632,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .price:after {
-  content: " บาท";
+  content: ".-";
   font-size: 12px;
   color: var(--nk-gray);
   font-weight: 400;
