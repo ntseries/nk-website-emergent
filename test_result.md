@@ -102,7 +102,44 @@
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
 
-user_problem_statement: User requested comprehensive updates to the "Play at Shop" (เล่นที่ร้าน) page including: 1) Update hero text and remove price display, 2) Update booking/contact buttons with proper links, 3) Change features section title and content, 4) Add new "เกมฮิต NK" section with 8 games, 5) Replace pricing with new 3-branch pricing table, 6) Remove CTA section entirely.
+user_problem_statement: User requested additional updates to the "Play at Shop" page: 1) Make NK hit games images vertical orientation to better show game box proportions, 2) Replace "บาท" with ".-" in pricing section, 3) Remove rules section entirely.
+
+frontend:
+  - task: "Make NK hit games images vertical orientation"
+    implemented: false
+    working: "NA"
+    file: "/app/frontend/src/App.css"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Need to adjust CSS to make game images taller/vertical to better show game box proportions"
+
+  - task: "Replace บาท with .- in pricing tables"
+    implemented: false
+    working: "NA"
+    file: "/app/frontend/src/App.css"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Need to change CSS pseudo-element content from 'บาท' to '.-'"
+
+  - task: "Remove rules section entirely"
+    implemented: false
+    working: "NA"
+    file: "/app/frontend/src/pages/services/PlayAtShop.js"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Need to delete entire rules section from component"
 
 frontend:
   - task: "Update PlayAtShop page hero section text and buttons"
