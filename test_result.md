@@ -637,6 +637,7 @@ test_plan:
     - "Display Google Maps links in branch cards"
     - "Add CSS styling for Maps links"
     - "Update About page team member image URLs from Excel"
+    - "Fix About page story section mobile overflow"
   stuck_tasks: []
   test_all: false
   test_priority: "high_first"
@@ -650,3 +651,5 @@ agent_communication:
     message: "Added Google Maps links for all 3 branches with proper styling and display in branch cards"
   - agent: "main"
     message: "Updated About page team member image URLs using new data from Excel file - corrected file extensions and added missing team member Nano"
+  - agent: "main"
+    message: "Fixed About page story section mobile overflow with enhanced responsive CSS including proper container padding, overflow hidden, and word breaking for all mobile devices"
