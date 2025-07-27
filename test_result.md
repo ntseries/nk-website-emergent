@@ -106,40 +106,49 @@ user_problem_statement: User requested additional updates to the "Play at Shop" 
 
 frontend:
   - task: "Make NK hit games images vertical orientation"
-    implemented: false
-    working: "NA"
+    implemented: true
+    working: true
     file: "/app/frontend/src/App.css"
     stuck_count: 0
     priority: "high"
-    needs_retesting: true
+    needs_retesting: false
     status_history:
       - working: "NA"
         agent: "main"
         comment: "Need to adjust CSS to make game images taller/vertical to better show game box proportions"
+      - working: true
+        agent: "main"
+        comment: "Changed game image height from 200px to 300px for better vertical game box display"
 
   - task: "Replace บาท with .- in pricing tables"
-    implemented: false
-    working: "NA"
+    implemented: true
+    working: true
     file: "/app/frontend/src/App.css"
     stuck_count: 0
     priority: "high"
-    needs_retesting: true
+    needs_retesting: false
     status_history:
       - working: "NA"
         agent: "main"
         comment: "Need to change CSS pseudo-element content from 'บาท' to '.-'"
+      - working: true
+        agent: "main"
+        comment: "Successfully changed .price:after content from ' บาท' to '.-' in all pricing tables"
 
   - task: "Remove rules section entirely"
-    implemented: false
-    working: "NA"
+    implemented: true
+    working: true
     file: "/app/frontend/src/pages/services/PlayAtShop.js"
     stuck_count: 0
     priority: "medium"
-    needs_retesting: true
+    needs_retesting: false
     status_history:
       - working: "NA"
         agent: "main"
         comment: "Need to delete entire rules section from component"
+      - working: true
+        agent: "main"
+        comment: "Completely removed rules section with title 'กฎการใช้บริการ' and all content"
 
 frontend:
   - task: "Update PlayAtShop page hero section text and buttons"
