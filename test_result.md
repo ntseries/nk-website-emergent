@@ -106,7 +106,7 @@ user_problem_statement: User requested comprehensive updates to the "Play at Sho
 
 frontend:
   - task: "Update PlayAtShop page hero section text and buttons"
-    implemented: false
+    implemented: true
     working: "NA"
     file: "/app/frontend/src/pages/services/PlayAtShop.js"
     stuck_count: 0
@@ -116,9 +116,12 @@ frontend:
       - working: "NA"
         agent: "main"
         comment: "Starting implementation of hero section updates"
+      - working: "NA"
+        agent: "main"
+        comment: "Updated hero text, removed price, added Line/phone button functionality"
 
   - task: "Replace features section with new จุดเด่นของ NK content"
-    implemented: false
+    implemented: true
     working: "NA"
     file: "/app/frontend/src/pages/services/PlayAtShop.js"
     stuck_count: 0
@@ -128,9 +131,12 @@ frontend:
       - working: "NA"
         agent: "main"
         comment: "Need to update 6 feature cards with new content"
+      - working: "NA"
+        agent: "main"
+        comment: "Replaced with 6 new feature cards as requested"
 
   - task: "Replace games section with เกมฮิต NK and 8 new games"
-    implemented: false
+    implemented: true
     working: "NA"
     file: "/app/frontend/src/pages/services/PlayAtShop.js"
     stuck_count: 0
@@ -140,9 +146,12 @@ frontend:
       - working: "NA"
         agent: "main"
         comment: "Need to add 8 games with images and details"
+      - working: "NA"
+        agent: "main"
+        comment: "Added 8 NK hit games with images, categories, players, and duration"
 
   - task: "Replace pricing section with 3-branch pricing table"
-    implemented: false
+    implemented: true
     working: "NA"
     file: "/app/frontend/src/pages/services/PlayAtShop.js"
     stuck_count: 0
@@ -152,9 +161,12 @@ frontend:
       - working: "NA"
         agent: "main"
         comment: "Need to implement new pricing structure for all branches"
+      - working: "NA"
+        agent: "main"
+        comment: "Implemented 3-branch pricing tables with student/general rates"
 
   - task: "Remove CTA section พร้อมมาเล่นแล้วหรือยัง"
-    implemented: false
+    implemented: true
     working: "NA"
     file: "/app/frontend/src/pages/services/PlayAtShop.js"
     stuck_count: 0
@@ -164,6 +176,21 @@ frontend:
       - working: "NA"
         agent: "main"
         comment: "Remove entire CTA section"
+      - working: "NA"
+        agent: "main"
+        comment: "CTA section completely removed"
+
+  - task: "Add CSS styles for new pricing table and enhanced game cards"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/App.css"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Added responsive styling for branch pricing tables and game cards with images"
 
 metadata:
   created_by: "main_agent"
