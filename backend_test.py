@@ -181,8 +181,13 @@ class BackendTester:
         print("\n🔍 Testing CORS Configuration...")
         
         try:
-            # Make an OPTIONS request to check CORS headers
-            response = requests.options(f"{API_BASE_URL}/", timeout=10)
+            # Make a proper preflight OPTIONS request to check CORS headers
+            headers = {
+                'Origin': 'http://localhost:3000',
+                'Access-Control-Request-Method': 'POST',
+                'Access-Control-Request-Headers': 'Content-Type'
+            }
+            response = requests.options(f"{API_BASE_URL}/", headers=headers, timeout=10)
             
             # Check if CORS headers are present
             cors_headers = [
