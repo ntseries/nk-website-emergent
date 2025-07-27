@@ -279,31 +279,6 @@ const PlayAtShop = () => {
         </div>
       </section>
 
-      {/* Rules Section */}
-      <section className="rules-section">
-        <div className="container">
-          <div className="rules-content">
-            <div className="rules-text">
-              <h2 className="section-title">กฎการใช้บริการ</h2>
-              <ul className="rules-list">
-                <li>การจองล่วงหน้าแนะนำช่วงเสาร์-อาทิตย์ และวันหยุดนักขัตฤกษ์</li>
-                <li>ห้ามนำอาหารและเครื่องดื่มจากภายนอกเข้ามา</li>
-                <li>กรุณารักษาความสะอาดและความเรียบร้อยของเกม</li>
-                <li>ห้ามสูบบุหรี่และดื่มแอลกอฮอล์ในร้าน</li>
-                <li>เด็กอายุต่ำกว่า 12 ปี ต้องมีผู้ปกครองดูแล</li>
-                <li>ชำระค่าบริการเมื่อเสร็จสิ้นการเล่น</li>
-              </ul>
-            </div>
-            <div className="rules-image">
-              <img 
-                src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500&h=400&fit=crop" 
-                alt="กฎการใช้บริการ"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
     </div>
   );
 };
