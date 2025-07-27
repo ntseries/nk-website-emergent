@@ -322,7 +322,7 @@ const About = () => {
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Prem.heif" alt="Prem" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Prem.jpeg" alt="Prem" />
               </div>
               <h3 className="member-name">Prem</h3>
               <p className="member-role">Game Master</p>
