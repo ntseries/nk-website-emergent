@@ -431,7 +431,7 @@ test_plan:
 
 agent_communication:
   - agent: "main"
-    message: "Corrected team member record: Changed name from 'NK Gen 3' back to 'Breeze' while maintaining NK Gen 3 generation status and position before Fiat. Update verified and working correctly."
+    message: "Successfully removed Activities page ('กิจกรรม') completely: 1) Deleted Activities.js file, 2) Removed import and route from App.js, 3) Removed links from both Header (desktop/mobile navigation) and Footer. All changes verified and working correctly."
   - agent: "main"
     message: "Starting comprehensive update of PlayAtShop page with new content, pricing structure, and button functionality"
   - agent: "main"
