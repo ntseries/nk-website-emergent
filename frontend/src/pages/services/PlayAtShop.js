@@ -186,9 +186,6 @@ const PlayAtShop = () => {
               </div>
             ))}
           </div>
-          <div className="games-footer">
-            <p>และอีกมากกว่า 992 เกม รอให้คุณมาสำรวจ!</p>
-          </div>
         </div>
       </section>
 
