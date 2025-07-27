@@ -77,7 +77,6 @@ const Footer = () => {
               <li><Link to="/" onClick={handleNavClick}>หน้าแรก</Link></li>
               <li><Link to="/about" onClick={handleNavClick}>เกี่ยวกับเรา</Link></li>
               <li><Link to="/services" onClick={handleNavClick}>บริการ</Link></li>
-              <li><Link to="/activities" onClick={handleNavClick}>กิจกรรม</Link></li>
               <li><Link to="/contact" onClick={handleNavClick}>ติดต่อสาขา</Link></li>
             </ul>
           </div>
