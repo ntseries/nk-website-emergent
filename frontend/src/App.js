@@ -34,7 +34,6 @@ function App() {
             <Route path="/services/photo-booth" element={<PhotoBooth />} />
             <Route path="/services/food-drink" element={<FoodDrink />} />
             <Route path="/services/team-building" element={<TeamBuilding />} />
-            <Route path="/activities" element={<Activities />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
