@@ -102,7 +102,20 @@
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
 
-user_problem_statement: User requested updates to the "About Us" page: 1) Change hero section background image to new S3 URL, 2) Update team member "Breeze" to "NK Gen 3" and move position before "Fiat".
+user_problem_statement: User requested to fix the team member record - change "NK Gen 3" name back to "Breeze" while keeping the NK Gen 3 generation and position before Fiat.
+
+frontend:
+  - task: "Change team member name from NK Gen 3 to Breeze"
+    implemented: false
+    working: "NA"
+    file: "/app/frontend/src/pages/About.js"
+    stuck_count: 0
+    priority: "low"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Need to change member name back to Breeze while keeping NK Gen 3 status and position"
 
 frontend:
   - task: "Update About Us hero section background image"
