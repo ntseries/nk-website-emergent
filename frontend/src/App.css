@@ -2035,6 +2035,8 @@ h1, h2, h3, h4, h5, h6 {
     gap: var(--space-sm);
     width: 100%;
     max-width: calc(100vw - 32px);
+    display: block; /* Change from grid to block */
+    padding: 0 8px;
   }
 }
 
@@ -2048,6 +2050,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 393px) {
   .story-text {
     max-width: calc(100vw - 48px);
+    width: calc(100vw - 48px);
   }
 }
 
