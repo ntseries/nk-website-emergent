@@ -2273,16 +2273,22 @@ h1, h2, h3, h4, h5, h6 {
 /* About Page Specific Fixes */
 .about-page {
   width: 100%;
-  max-width: 100%;
+  max-width: 100vw;
   overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.about-page * {
+  box-sizing: border-box;
 }
 
 .about-page .container {
   width: 100%;
-  max-width: 100%;
+  max-width: 100vw;
   padding-left: var(--space-md);
   padding-right: var(--space-md);
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 @media (max-width: 480px) {
@@ -2292,9 +2298,27 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.about-page .team-section {
+.about-page .story-section {
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+.about-page .story-content {
   width: 100%;
   max-width: 100%;
+  overflow-x: hidden;
+}
+
+.about-page .story-text {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.about-page .team-section {
+  width: 100%;
+  max-width: 100vw;
   overflow-x: hidden;
 }
 .locations-grid {
