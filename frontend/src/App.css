@@ -79,6 +79,22 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 var(--space-md);
 }
 
+/* Mobile container fixes */
+@media (max-width: 393px) {
+  .container {
+    max-width: 100vw;
+    width: 100%;
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+  
+  .story-section .container {
+    max-width: 393px;
+    width: 393px;
+    padding: 0 16px;
+  }
+}
+
 /* Button Components */
 .btn-primary {
   background: var(--gradient-button);
