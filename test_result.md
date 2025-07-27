@@ -566,27 +566,17 @@ metadata:
 
 test_plan:
   current_focus:
-    - "Update PlayAtShop page hero section text and buttons"
-    - "Replace features section with new จุดเด่นของ NK content"
-    - "Replace games section with เกมฮิต NK and 8 new games"
-    - "Replace pricing section with 3-branch pricing table"
-    - "Remove CTA section พร้อมมาเล่นแล้วหรือยัง"
+    - "Update Contact page hero text"
+    - "Add padding to branches section"
+    - "Update branch data with new information"
+    - "Add branch social media links display"
+    - "Add CSS for social media links"
+    - "Remove contact form section"
+    - "Update FAQ content"
   stuck_tasks: []
   test_all: false
   test_priority: "high_first"
 
 agent_communication:
   - agent: "main"
-    message: "Successfully implemented page-specific hero section backgrounds: 1) Created modular CSS system with .home-hero, .about-hero, .contact-hero classes, 2) Home page uses DPMX5703.JPG showing customers playing games, 3) About page uses AboutUs.JPG showing team with 'I ❤️ NK' shirts, 4) Contact page uses ContactUs.JPG showing game shelves and customers. All changes verified and working correctly."
-  - agent: "main"
-    message: "Starting comprehensive update of PlayAtShop page with new content, pricing structure, and button functionality"
-  - agent: "main"
-    message: "Completed all requested updates: updated hero text and buttons, replaced features section, added 8 NK hit games with images, implemented 3-branch pricing tables, removed CTA section, and added responsive CSS styling"
-  - agent: "user"
-    message: "User reported error accessing preview page - cannot access preview"
-  - agent: "troubleshoot"
-    message: "Identified CSS syntax errors in App.css preventing frontend compilation - 'contents;' should be 'display: contents;'"
-  - agent: "main"
-    message: "Fixed all CSS syntax errors, frontend compiles successfully, preview page now accessible. All requested PlayAtShop updates working correctly."
-  - agent: "testing"
-    message: "Backend stability verification completed. All core backend functionality tested and working: FastAPI server health (✅), API endpoints (/api/ and /api/status) (✅), MongoDB connection and data persistence (✅), CORS configuration (✅), error handling (✅). Backend is stable and ready for any potential API calls from frontend. No backend tasks required testing according to current test plan - all tasks are frontend-focused."
+    message: "Starting comprehensive update of Contact page with new hero text, branch information updates, social media integration, form removal, and FAQ updates"
