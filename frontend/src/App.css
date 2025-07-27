@@ -2165,6 +2165,9 @@ h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
   max-width: 100%;
   box-sizing: border-box;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
 }
 
 .story-text p {
@@ -2176,6 +2179,9 @@ h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
   max-width: 100%;
   box-sizing: border-box;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
 }
 
 @media (max-width: 480px) {
