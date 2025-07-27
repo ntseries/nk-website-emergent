@@ -16,7 +16,6 @@ import DungeonsAndDragons from "./pages/services/DungeonsAndDragons";
 import PhotoBooth from "./pages/services/PhotoBooth";
 import FoodDrink from "./pages/services/FoodDrink";
 import TeamBuilding from "./pages/services/TeamBuilding";
-import Activities from "./pages/Activities";
 import Contact from "./pages/Contact";
 
 function App() {
