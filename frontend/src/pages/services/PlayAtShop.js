@@ -106,35 +106,49 @@ const PlayAtShop = () => {
       {/* Features Section */}
       <section className="service-features">
         <div className="container">
-          <h2 className="section-title">สิ่งที่คุณจะได้รับ</h2>
+          <h2 className="section-title">จุดเด่นของ NK</h2>
           <div className="features-grid">
             <div className="feature-card">
               <div className="feature-icon">
                 <Gamepad2 size={32} />
               </div>
-              <h3>เกมมากกว่า 1,000+ เกม</h3>
+              <h3>เกมมากกว่า 1,000 เกม</h3>
               <p>คอลเลกชันเกมครบครันจากทั่วโลก อัพเดทเกมใหม่ทุกเดือน</p>
+            </div>
+            <div className="feature-card">
+              <div className="feature-icon">
+                <Star size={32} />
+              </div>
+              <h3>บรรยากาศสุดชิล</h3>
+              <p>นั่งยาว ๆ เหมือนอยู่บ้านเพื่อนได้เลย</p>
             </div>
             <div className="feature-card">
               <div className="feature-icon">
                 <Users size={32} />
               </div>
               <h3>ทีมงานคอยช่วยเหลือ</h3>
-              <p>พนักงานมืออาชีพพร้อมสอนเกมและให้คำแนะนำ</p>
+              <p>เล่นไม่เป็น ไม่ใช่ปัญหา ให้ทีมงานเราดูแลให้เอง</p>
             </div>
             <div className="feature-card">
               <div className="feature-icon">
-                <Clock size={32} />
+                <Train size={32} />
               </div>
-              <h3>เปิดบริการยาว</h3>
-              <p>เปิดบริการ 10:00-22:00 ทุกวัน รองรับการเล่นทั้งกลางวันและกลางคืน</p>
+              <h3>ติดรถไฟฟ้า ทุกสาขา</h3>
+              <p>ทุกสาขาของเราตั้งอยู่ในศูนย์การค้าที่เชื่อมต่อกับรถไฟฟ้า</p>
             </div>
             <div className="feature-card">
               <div className="feature-icon">
-                <Star size={32} />
+                <Car size={32} />
               </div>
-              <h3>บรรยากาศสุดเจ๋ง</h3>
-              <p>ออกแบบพื้นที่ให้เหมาะสำหรับวัยรุ่น พร้อมแสงสีเสียงที่น่าตื่นเต้น</p>
+              <h3>ที่จอดรถเยอะมาก</h3>
+              <p>ไม่ต้องวนนานให้เสียเวลา</p>
+            </div>
+            <div className="feature-card">
+              <div className="feature-icon">
+                <MapPin size={32} />
+              </div>
+              <h3>จอดรถฟรี!</h3>
+              <p>เฉพาะสาขาซีคอนบางแค และซีคอนศรีนครินทร์</p>
             </div>
           </div>
         </div>
