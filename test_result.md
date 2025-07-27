@@ -101,3 +101,87 @@
 #====================================================================================================
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
+
+user_problem_statement: User requested comprehensive updates to the "Play at Shop" (เล่นที่ร้าน) page including: 1) Update hero text and remove price display, 2) Update booking/contact buttons with proper links, 3) Change features section title and content, 4) Add new "เกมฮิต NK" section with 8 games, 5) Replace pricing with new 3-branch pricing table, 6) Remove CTA section entirely.
+
+frontend:
+  - task: "Update PlayAtShop page hero section text and buttons"
+    implemented: false
+    working: "NA"
+    file: "/app/frontend/src/pages/services/PlayAtShop.js"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Starting implementation of hero section updates"
+
+  - task: "Replace features section with new จุดเด่นของ NK content"
+    implemented: false
+    working: "NA"
+    file: "/app/frontend/src/pages/services/PlayAtShop.js"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Need to update 6 feature cards with new content"
+
+  - task: "Replace games section with เกมฮิต NK and 8 new games"
+    implemented: false
+    working: "NA"
+    file: "/app/frontend/src/pages/services/PlayAtShop.js"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Need to add 8 games with images and details"
+
+  - task: "Replace pricing section with 3-branch pricing table"
+    implemented: false
+    working: "NA"
+    file: "/app/frontend/src/pages/services/PlayAtShop.js"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Need to implement new pricing structure for all branches"
+
+  - task: "Remove CTA section พร้อมมาเล่นแล้วหรือยัง"
+    implemented: false
+    working: "NA"
+    file: "/app/frontend/src/pages/services/PlayAtShop.js"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Remove entire CTA section"
+
+metadata:
+  created_by: "main_agent"
+  version: "1.0"
+  test_sequence: 0
+  run_ui: false
+
+test_plan:
+  current_focus:
+    - "Update PlayAtShop page hero section text and buttons"
+    - "Replace features section with new จุดเด่นของ NK content"
+    - "Replace games section with เกมฮิต NK and 8 new games"
+    - "Replace pricing section with 3-branch pricing table"
+    - "Remove CTA section พร้อมมาเล่นแล้วหรือยัง"
+  stuck_tasks: []
+  test_all: false
+  test_priority: "high_first"
+
+agent_communication:
+  - agent: "main"
+    message: "Starting comprehensive update of PlayAtShop page with new content, pricing structure, and button functionality"
