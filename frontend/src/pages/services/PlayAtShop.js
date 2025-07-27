@@ -1,6 +1,5 @@
 import React from "react";
-import { Clock, Users, Star, ArrowRight, Gamepad2 } from "lucide-react";
-import { gameCollection } from "../../data/mock";
+import { Clock, Users, Star, ArrowRight, Gamepad2, MapPin, Car, Train } from "lucide-react";
 
 const PlayAtShop = () => {
   return (
