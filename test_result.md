@@ -225,6 +225,18 @@ frontend:
         agent: "main"
         comment: "Added styling for .branch-location and .maps-link classes"
 
+  - task: "Update About page team member image URLs from Excel"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/About.js"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Updated all team member image URLs to use correct file extensions from Excel data and added missing Nano team member"
+
 frontend:
   - task: "Create page-specific hero section backgrounds"
     implemented: true
