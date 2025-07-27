@@ -304,25 +304,6 @@ const PlayAtShop = () => {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="cta-section">
-        <div className="container">
-          <div className="cta-content">
-            <h2 className="cta-title">พร้อมมาเล่นแล้วหรือยัง?</h2>
-            <p className="cta-description">
-              จองโต๊ะล่วงหน้าเพื่อรับประกันที่นั่ง หรือสอบถามข้อมูลเพิ่มเติม
-            </p>
-            <div className="cta-actions">
-              <button className="btn-primary">
-                จองโต๊ะเลย <ArrowRight size={16} />
-              </button>
-              <button className="btn-secondary">
-                โทร 02-123-4567
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
   );
 };
