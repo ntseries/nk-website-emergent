@@ -75,18 +75,20 @@ const PlayAtShop = () => {
               </div>
               <h1 className="service-title">เล่นที่ร้าน</h1>
               <p className="service-description">
-                พื้นที่กว้างขวางสำหรับเล่นบอร์ดเกมกับเพื่อน ๆ มีเกมให้เลือกมากกว่า 500 เกม 
-                พร้อมบรรยากาศสุดเจ๋งและทีมงานคอยให้คำแนะนำ
+                ให้ NK เป็นบ้านหลังที่สองของคุณ<br/>
+                เราพร้อมต้อนรับคุณและเดอะแก๊งด้วยพื้นที่กว้างขวาง เหมาะสำหรับใช้เวลาร่วมกันอย่างใกล้ชิด เพลิดเพลินกับเกมกว่า 1,000 เกมที่เราคัดสรรมาให้ และพบกับทีมงานสุดเป็นกันเอง ที่พร้อมแนะนำและดูแลคุณเหมือนเพื่อนคนหนึ่ง
               </p>
-              <div className="service-price">
-                <span className="price-value">150 บาท</span>
-                <span className="price-unit">/ชั่วโมง</span>
-              </div>
               <div className="service-actions">
-                <button className="btn-primary">
+                <button 
+                  className="btn-primary"
+                  onClick={() => window.open('https://lin.ee/H4D9qos', '_blank')}
+                >
                   จองโต๊ะเลย <ArrowRight size={16} />
                 </button>
-                <button className="btn-secondary">
+                <button 
+                  className="btn-secondary"
+                  onClick={() => window.open('tel:065-412-3939', '_self')}
+                >
                   โทรสอบถาม
                 </button>
               </div>
