@@ -492,7 +492,7 @@ test_plan:
 
 agent_communication:
   - agent: "main"
-    message: "Successfully removed Activities page ('กิจกรรม') completely: 1) Deleted Activities.js file, 2) Removed import and route from App.js, 3) Removed links from both Header (desktop/mobile navigation) and Footer. All changes verified and working correctly."
+    message: "Successfully implemented page-specific hero section backgrounds: 1) Created modular CSS system with .home-hero, .about-hero, .contact-hero classes, 2) Home page uses DPMX5703.JPG showing customers playing games, 3) About page uses AboutUs.JPG showing team with 'I ❤️ NK' shirts, 4) Contact page uses ContactUs.JPG showing game shelves and customers. All changes verified and working correctly."
   - agent: "main"
     message: "Starting comprehensive update of PlayAtShop page with new content, pricing structure, and button functionality"
   - agent: "main"
