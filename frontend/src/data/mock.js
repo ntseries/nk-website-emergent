@@ -87,6 +87,7 @@ export const branches = [
     hours: "จันทร์ - ศุกร์ 12.00 - 21.00 น. เสาร์ - อาทิตย์ 11.00 - 21.00 น.",
     transport: "MRT ภาษีเจริญ",
     image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/NK-Bangkae.JPG",
+    maps: "https://maps.app.goo.gl/yQsCaXwuxJckpMYp8",
     facebook: "https://www.facebook.com/nkboardgame",
     instagram: "https://www.instagram.com/nkboardgame/",
     tiktok: "https://www.tiktok.com/@nkboardgame",
@@ -101,6 +102,7 @@ export const branches = [
     hours: "ทุกวัน 11.00 - 21.00 น.",
     transport: "MRT สามย่าน",
     image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/NK-Sri.jpg",
+    maps: "https://maps.app.goo.gl/JFCBo2kshsQiyV5z6",
     facebook: "https://www.facebook.com/nkboardgamesri",
     instagram: "https://www.instagram.com/nkboardgamesrinagarindra",
     line: "https://lin.ee/3CGffAN"
@@ -113,6 +115,7 @@ export const branches = [
     hours: "ทุกวัน 10.00 - 22.00 น.",
     transport: "MRT สวนหลวง ร.9",
     image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/NK-Samyan.jpg",
+    maps: "https://maps.app.goo.gl/9eUkoEXZ1CSwdzWw5",
     facebook: "https://www.facebook.com/nksamyan",
     instagram: "https://www.instagram.com/nkboardgamesamyan",
     line: "https://lin.ee/ZCAnAVY"
