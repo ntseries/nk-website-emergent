@@ -102,7 +102,32 @@
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
 
-user_problem_statement: User requested to add bottom padding to the pricing section ("ค่าบริการ") on the PlayAtShop page for better spacing.
+user_problem_statement: User requested updates to the "About Us" page: 1) Change hero section background image to new S3 URL, 2) Update team member "Breeze" to "NK Gen 3" and move position before "Fiat".
+
+frontend:
+  - task: "Update About Us hero section background image"
+    implemented: false
+    working: "NA"
+    file: "/app/frontend/src/pages/About.js"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Need to update hero background to https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/AboutUs.JPG"
+
+  - task: "Update team member Breeze to NK Gen 3 and reorder before Fiat"
+    implemented: false
+    working: "NA"
+    file: "/app/frontend/src/pages/About.js"
+    stuck_count: 0
+    priority: "medium"  
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Need to find team data and update Breeze entry to NK Gen 3, then reorder position"
 
 frontend:
   - task: "Add bottom padding to pricing section"
