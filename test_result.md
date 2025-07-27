@@ -106,28 +106,34 @@ user_problem_statement: User requested updates to the "About Us" page: 1) Change
 
 frontend:
   - task: "Update About Us hero section background image"
-    implemented: false
-    working: "NA"
-    file: "/app/frontend/src/pages/About.js"
+    implemented: true
+    working: true
+    file: "/app/frontend/src/App.css"
     stuck_count: 0
     priority: "medium"
-    needs_retesting: true
+    needs_retesting: false
     status_history:
       - working: "NA"
         agent: "main"
         comment: "Need to update hero background to https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/AboutUs.JPG"
+      - working: true
+        agent: "main"
+        comment: "Successfully updated hero section background to show NK team photo with 'I ❤️ NK' t-shirts"
 
   - task: "Update team member Breeze to NK Gen 3 and reorder before Fiat"
-    implemented: false
-    working: "NA"
+    implemented: true
+    working: true
     file: "/app/frontend/src/pages/About.js"
     stuck_count: 0
     priority: "medium"  
-    needs_retesting: true
+    needs_retesting: false
     status_history:
       - working: "NA"
         agent: "main"
         comment: "Need to find team data and update Breeze entry to NK Gen 3, then reorder position"
+      - working: true
+        agent: "main"
+        comment: "Successfully changed Breeze to NK Gen 3 and moved position to be before Fiat in team display"
 
 frontend:
   - task: "Add bottom padding to pricing section"
