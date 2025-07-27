@@ -102,7 +102,56 @@
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
 
-user_problem_statement: User requested to completely remove the Activities page ("กิจกรรม") and remove all references to it from Navigation (Header) and Footer.
+user_problem_statement: User requested to change hero section background images to be different for each page: Home page (DPMX5703.JPG), About Us (AboutUs.JPG), Contact (ContactUs.JPG).
+
+frontend:
+  - task: "Create page-specific hero section backgrounds"
+    implemented: false
+    working: "NA"
+    file: "/app/frontend/src/App.css"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Need to create separate CSS classes for each page hero background"
+
+  - task: "Apply specific background to Home page hero"
+    implemented: false
+    working: "NA"
+    file: "/app/frontend/src/pages/Home.js"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Need to apply DPMX5703.JPG background to Home hero section"
+
+  - task: "Apply specific background to About page hero"
+    implemented: false
+    working: "NA"
+    file: "/app/frontend/src/pages/About.js"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "About page already has AboutUs.JPG - verify it's correct"
+
+  - task: "Apply specific background to Contact page hero"
+    implemented: false
+    working: "NA"
+    file: "/app/frontend/src/pages/Contact.js"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Need to apply ContactUs.JPG background to Contact hero section"
 
 frontend:
   - task: "Remove Activities route from App.js"
