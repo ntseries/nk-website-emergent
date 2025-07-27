@@ -81,27 +81,41 @@ export const activities = [
 export const branches = [
   {
     id: 1,
-    name: "NK Board Game ซีคอนบางแค",
+    name: "NK Board Game สาขาซีคอนบางแค",
     address: "ซีคอนบางแค ชั้น 6 โซนการศึกษา",
     phone: "065-412-3939",
-    hours: "10:00 - 22:00 (ทุกวัน)",
-    image: "https://images.unsplash.com/photo-1541753236788-b0ac1fc5009d?w=400&h=300&fit=crop"
+    hours: "จันทร์ - ศุกร์ 12.00 - 21.00 น. เสาร์ - อาทิตย์ 11.00 - 21.00 น.",
+    transport: "MRT ภาษีเจริญ",
+    image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/NK-Bangkae.JPG",
+    facebook: "https://www.facebook.com/nkboardgame",
+    instagram: "https://www.instagram.com/nkboardgame/",
+    tiktok: "https://www.tiktok.com/@nkboardgame",
+    youtube: "https://www.youtube.com/@nkboardgame",
+    line: "https://lin.ee/C3Gy4Tl"
   },
   {
     id: 2,
     name: "NK Board Game ซีคอนศรีนครินทร์",
     address: "ซีคอนศรีนครินทร์ ชั้น 3 โซน MuNX2",
-    phone: "065-412-3939",
-    hours: "10:00 - 22:00 (ทุกวัน)",
-    image: "https://images.unsplash.com/photo-1541753236788-b0ac1fc5009d?w=400&h=300&fit=crop"
+    phone: "065-412-3993",
+    hours: "ทุกวัน 11.00 - 21.00 น.",
+    transport: "MRT สามย่าน",
+    image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/NK-Sri.jpg",
+    facebook: "https://www.facebook.com/nkboardgamesri",
+    instagram: "https://www.instagram.com/nkboardgamesrinagarindra",
+    line: "https://lin.ee/3CGffAN"
   },
   {
     id: 3,
     name: "NK Board Game สามย่านมิตรทาวน์",
     address: "สามย่านมิตรทาวน์ ชั้น 3 ฝั่งฟิตเนส",
-    phone: "065-412-3939",
-    hours: "10:00 - 22:00 (ทุกวัน)",
-    image: "https://images.unsplash.com/photo-1541753236788-b0ac1fc5009d?w=400&h=300&fit=crop"
+    phone: "065-412-9339",
+    hours: "ทุกวัน 10.00 - 22.00 น.",
+    transport: "MRT สวนหลวง ร.9",
+    image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/NK-Samyan.jpg",
+    facebook: "https://www.facebook.com/nksamyan",
+    instagram: "https://www.instagram.com/nkboardgamesamyan",
+    line: "https://lin.ee/ZCAnAVY"
   }
 ];
 
