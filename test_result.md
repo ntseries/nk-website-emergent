@@ -180,17 +180,20 @@ frontend:
         agent: "main"
         comment: "CTA section completely removed"
 
-  - task: "Add CSS styles for new pricing table and enhanced game cards"
+  - task: "Fix CSS syntax errors causing preview access failure"
     implemented: true
-    working: "NA"
+    working: true
     file: "/app/frontend/src/App.css"
     stuck_count: 0
-    priority: "high"
-    needs_retesting: true
+    priority: "critical"
+    needs_retesting: false
     status_history:
-      - working: "NA"
+      - working: false
+        agent: "user"
+        comment: "User reported cannot access preview page - getting error"
+      - working: true
         agent: "main"
-        comment: "Added responsive styling for branch pricing tables and game cards with images"
+        comment: "Fixed CSS syntax errors: changed 'contents;' to 'display: contents;' in .table-header and .table-row classes, removed extra closing bracket. Frontend now compiles successfully and preview is accessible"
 
 metadata:
   created_by: "main_agent"
