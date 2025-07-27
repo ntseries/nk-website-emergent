@@ -72,9 +72,6 @@ const Header = () => {
               )}
             </div>
 
-            <Link to="/activities" className={`nav-link ${isActive("/activities") ? "active" : ""}`} onClick={handleNavClick}>
-              กิจกรรม
-            </Link>
             <Link to="/contact" className={`nav-link ${isActive("/contact") ? "active" : ""}`} onClick={handleNavClick}>
               ติดต่อสาขา
             </Link>
