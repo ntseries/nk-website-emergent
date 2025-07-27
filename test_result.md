@@ -106,28 +106,34 @@ user_problem_statement: User requested additional updates to the "Play at Shop" 
 
 frontend:
   - task: "Update hero section image to new S3 URL"
-    implemented: false
-    working: "NA"
+    implemented: true
+    working: true
     file: "/app/frontend/src/pages/services/PlayAtShop.js"
     stuck_count: 0
     priority: "medium"
-    needs_retesting: true
+    needs_retesting: false
     status_history:
       - working: "NA"
         agent: "main"
         comment: "Need to update hero image src to https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/PlayAtStore.JPG"
+      - working: true
+        agent: "main"
+        comment: "Successfully updated hero image to show actual NK store interior with customers"
 
   - task: "Remove games footer text"
-    implemented: false
-    working: "NA"
+    implemented: true
+    working: true
     file: "/app/frontend/src/pages/services/PlayAtShop.js"
     stuck_count: 0
     priority: "low"
-    needs_retesting: true
+    needs_retesting: false
     status_history:
       - working: "NA"
         agent: "main"
         comment: "Need to remove 'และอีกมากกว่า 992 เกม รอให้คุณมาสำรวจ!' text"
+      - working: true
+        agent: "main"
+        comment: "Successfully removed games footer text - section now transitions cleanly to pricing"
 
 frontend:
   - task: "Make NK hit games images vertical orientation"
