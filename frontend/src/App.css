@@ -1977,6 +1977,34 @@ h1, h2, h3, h4, h5, h6 {
   flex-shrink: 0;
 }
 
+/* Branch Social Media Links */
+.branch-social {
+  display: flex;
+  gap: var(--space-sm);
+  margin-top: var(--space-sm);
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: 2px solid rgba(59, 76, 202, 0.1);
+  border-radius: var(--radius-sm);
+  color: var(--nk-gray);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  background: var(--nk-white);
+}
+
+.social-link:hover {
+  border-color: var(--nk-blue);
+  color: var(--nk-blue);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
+}
+
 /* FAQ Section */
 .faq-section {
   padding: var(--space-2xl) 0;
