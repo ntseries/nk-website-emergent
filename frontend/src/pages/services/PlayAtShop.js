@@ -1,6 +1,66 @@
 import React from "react";
 import { Clock, Users, Star, ArrowRight, Gamepad2, MapPin, Car, Train } from "lucide-react";
 
+// New NK Hit Games data
+const nkHitGames = [
+  {
+    name: "เจ้าหญิงจอมแก่น",
+    image: "https://cf.geekdo-images.com/HuWvVU2tcff-vu3EjPtk6Q__original/img/K2Fopgt-7pfYCu8jtlrcWJ92yeU=/0x0/filters:format(jpeg)/pic7605211.jpg",
+    category: "Family",
+    players: "3-6 คน",
+    duration: "30-40 นาที"
+  },
+  {
+    name: "ผีถ้วยแก้ว",
+    image: "https://cf.geekdo-images.com/v8FKdlNJW6WhHQMmDYR_iQ__original/img/4jvTBDDGYsSy-D3wPZftE0nuvTU=/0x0/filters:format(png)/pic8645981.png",
+    category: "Bluffing",
+    players: "5-9 คน",
+    duration: "15-60 นาที"
+  },
+  {
+    name: "Salem 1692",
+    image: "https://cf.geekdo-images.com/xUurReSy2Amlx4hGj1fPvQ__original/img/XwLUot6yxSoz4j4yorfVSNVPqMw=/0x0/filters:format(jpeg)/pic4204062.jpg",
+    category: "Bluffing",
+    players: "4-12 คน",
+    duration: "25-35 นาที"
+  },
+  {
+    name: "Flip 7",
+    image: "https://cf.geekdo-images.com/YrQxEB9Ef0kQorRApzG5vQ__original/img/hK6k-x_GYfooemrkkRuF0bTvKxE=/0x0/filters:format(jpeg)/pic8780246.jpg",
+    category: "Party",
+    players: "3-18 คน",
+    duration: "20 นาที"
+  },
+  {
+    name: "Deductio",
+    image: "https://cf.geekdo-images.com/zHrnFegi_L7MoWdhMB-l9g__original/img/yytyZ-Phd5v2GNGpUb47NNeeMhU=/0x0/filters:format(jpeg)/pic7716883.jpg",
+    category: "Deduction",
+    players: "2-4 คน",
+    duration: "20 นาที"
+  },
+  {
+    name: "The Rich and the Good",
+    image: "https://cf.geekdo-images.com/CrAzRoBFWWz6bbDTlzY23Q__original/img/ieUuBn7WH6Iuc-ZQ2zbrecR34Qo=/0x0/filters:format(png)/pic7061922.png",
+    category: "Strategy",
+    players: "3-5 คน",
+    duration: "45 นาที"
+  },
+  {
+    name: "Age of Innovation",
+    image: "https://cf.geekdo-images.com/D1vrcFEptCEoD8Z6s_iRfw__original/img/1vY0K3wSqlYXq0JEylSI-7agxKs=/0x0/filters:format(jpeg)/pic7430993.jpg",
+    category: "Strategy",
+    players: "3-5 คน",
+    duration: "45-200 นาที"
+  },
+  {
+    name: "1830: Railways & Robber Barons",
+    image: "https://cf.geekdo-images.com/3EmD1SEI5fVpR4rbdkU0AA__original/img/M6qiL7ZNU_mjgZXHZjOrVxNamfU=/0x0/filters:format(jpeg)/pic882119.jpg",
+    category: "Strategy",
+    players: "3-7 คน",
+    duration: "180-360 นาที"
+  }
+];
+
 const PlayAtShop = () => {
   return (
     <div className="service-detail-page">
