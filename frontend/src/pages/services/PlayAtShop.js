@@ -196,50 +196,84 @@ const PlayAtShop = () => {
       <section className="pricing-section">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">อัตราค่าบริการ</h2>
+            <h2 className="section-title">ค่าบริการ</h2>
           </div>
-          <div className="pricing-cards">
-            <div className="pricing-card">
-              <h3 className="pricing-title">ราคามาตรฐาน</h3>
-              <div className="pricing-price">
-                <span className="price-value">150</span>
-                <span className="price-unit">บาท/ชั่วโมง</span>
+          
+          {/* Branch Pricing Tables */}
+          <div className="branch-pricing">
+            {/* ซีคอนบางแค */}
+            <div className="branch-card">
+              <h3 className="branch-title">สาขาซีคอนบางแค</h3>
+              <div className="pricing-table">
+                <div className="table-header">
+                  <div className="table-cell"></div>
+                  <div className="table-cell">ชั่วโมง</div>
+                  <div className="table-cell">วัน</div>
+                  <div className="table-cell">เดือน</div>
+                </div>
+                <div className="table-row">
+                  <div className="table-cell customer-type">นักเรียน นักศึกษา</div>
+                  <div className="table-cell price">36</div>
+                  <div className="table-cell price">108</div>
+                  <div className="table-cell price">599</div>
+                </div>
+                <div className="table-row">
+                  <div className="table-cell customer-type">บุคคลทั่วไป</div>
+                  <div className="table-cell price">45</div>
+                  <div className="table-cell price">168</div>
+                  <div className="table-cell price">799</div>
+                </div>
               </div>
-              <ul className="pricing-features">
-                <li>เล่นเกมได้ไม่จำกัด</li>
-                <li>ทีมงานคอยช่วยเหลือ</li>
-                <li>น้ำดื่มฟรี</li>
-                <li>Wi-Fi ความเร็วสูง</li>
-              </ul>
             </div>
-            <div className="pricing-card featured">
-              <div className="pricing-badge">แนะนำ</div>
-              <h3 className="pricing-title">แพ็คเกจ 4 ชั่วโมง</h3>
-              <div className="pricing-price">
-                <span className="price-value">500</span>
-                <span className="price-unit">บาท</span>
-                <span className="price-discount">ลด 100 บาท!</span>
+
+            {/* ซีคอนศรีนครินทร์ */}
+            <div className="branch-card">
+              <h3 className="branch-title">สาขาซีคอนศรีนครินทร์</h3>
+              <div className="pricing-table">
+                <div className="table-header">
+                  <div className="table-cell"></div>
+                  <div className="table-cell">ชั่วโมง</div>
+                  <div className="table-cell">วัน</div>
+                  <div className="table-cell">เดือน</div>
+                </div>
+                <div className="table-row">
+                  <div className="table-cell customer-type">นักเรียน นักศึกษา</div>
+                  <div className="table-cell price">36</div>
+                  <div className="table-cell price">108</div>
+                  <div className="table-cell price">599</div>
+                </div>
+                <div className="table-row">
+                  <div className="table-cell customer-type">บุคคลทั่วไป</div>
+                  <div className="table-cell price">45</div>
+                  <div className="table-cell price">168</div>
+                  <div className="table-cell price">799</div>
+                </div>
               </div>
-              <ul className="pricing-features">
-                <li>เล่นได้ 4 ชั่วโมงเต็ม</li>
-                <li>เครื่องดื่มฟรี 2 แก้ว</li>
-                <li>ขนมฟรี 1 ถาด</li>
-                <li>คำแนะนำเกมพิเศษ</li>
-                <li>ถ่ายรูปกับ Photo Booth ฟรี</li>
-              </ul>
             </div>
-            <div className="pricing-card">
-              <h3 className="pricing-title">แพ็คเกจกลุ่ม</h3>
-              <div className="pricing-price">
-                <span className="price-value">120</span>
-                <span className="price-unit">บาท/คน/ชั่วโมง</span>
+
+            {/* สามย่านมิตรทาวน์ */}
+            <div className="branch-card">
+              <h3 className="branch-title">สาขาสามย่านมิตรทาวน์</h3>
+              <div className="pricing-table">
+                <div className="table-header">
+                  <div className="table-cell"></div>
+                  <div className="table-cell">ชั่วโมง</div>
+                  <div className="table-cell">วัน</div>
+                  <div className="table-cell">เดือน</div>
+                </div>
+                <div className="table-row">
+                  <div className="table-cell customer-type">นักเรียน นักศึกษา</div>
+                  <div className="table-cell price">40</div>
+                  <div className="table-cell price">159</div>
+                  <div className="table-cell price">799</div>
+                </div>
+                <div className="table-row">
+                  <div className="table-cell customer-type">บุคคลทั่วไป</div>
+                  <div className="table-cell price">50</div>
+                  <div className="table-cell price">199</div>
+                  <div className="table-cell price">999</div>
+                </div>
               </div>
-              <ul className="pricing-features">
-                <li>สำหรับ 6 คนขึ้นไป</li>
-                <li>เล่นเกมได้ไม่จำกัด</li>
-                <li>โต๊ะใหญ่พิเศษ</li>
-                <li>เครื่องดื่มส่วนลด 20%</li>
-              </ul>
             </div>
           </div>
         </div>
