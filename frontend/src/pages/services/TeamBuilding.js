@@ -171,7 +171,7 @@ const TeamBuilding = () => {
                   <p>Facilitator ที่มีประสบการณ์เฉพาะด้าน</p>
                 </div>
               </div>
-              <button className="btn-primary">
+              <button className="btn-primary" onClick={() => window.open('https://line.me/ti/p/@nkboardgame', '_blank')}>
                 ขอคำปรึกษา <ArrowRight size={16} />
               </button>
             </div>
