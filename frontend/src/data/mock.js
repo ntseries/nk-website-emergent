@@ -117,9 +117,9 @@ export const branches = [
 export const testimonials = [
   {
     id: 1,
-    name: "อิงค์",
+    name: "ชินะ",
     age: 19,
-    text: "ที่นี่สนุกมาก! เกมเยอะ พนักงานให้คำแนะนำดี มาทุกสัปดาห์เลย",
+    text: "เล่นเกมสนุกมาก แอร์เย็นฉ่ำ บอร์ดเกมเยอะมากกก มีเผื่อคนทั้งโลกให้เล่น",
     rating: 5,
     image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Review-Char-01.jpeg"
   },
@@ -127,15 +127,15 @@ export const testimonials = [
     id: 2,
     name: "แมกซ์",
     age: 22,
-    text: "D&D session ที่นี่เจ๋งสุด DM เก่งมาก เล่าเรื่องได้น่าตื่นเต้น",
+    text: "Board Game Script เจ๋งมาก GM เก่งมาก รันเรื่องได้น่าตื่นเต้น",
     rating: 5,
     image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Review-Char-02.jpg"
   },
   {
     id: 3,
-    name: "มิน",
+    name: "Arisa",
     age: 17,
-    text: "Photo booth น่ารักมาก ได้รูปสวย ๆ เก็บไว้เป็นความทรงจำ",
+    text: "Photo booth พี่ๆ ดูแลดีมากค่ะ ปกติไม่ค่อยถ่ายรูป แต่พี่ๆ ก็บรีฟให้ แถมทำผมให้ด้วย น่ารักและใจดีมากๆ เลยค่ะ ❤️",
     rating: 5,
     image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Review-Char-03.jpg"
   }
