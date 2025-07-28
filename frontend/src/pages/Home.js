@@ -274,9 +274,9 @@ const Home = () => {
                 "users": UsersIcon
               }[service.icon];
 
-              // Debug: log the service title and corresponding URL
-              const serviceUrl = serviceUrlMap[service.title];
-              console.log(`Service: ${service.title}, URL: ${serviceUrl}`);
+              // Get service URL by ID
+              const serviceUrl = serviceUrlMapById[service.id];
+              console.log(`Service ID: ${service.id}, Title: ${service.title}, URL: ${serviceUrl}`);
 
               return (
                 <div key={service.id} className="service-card">
