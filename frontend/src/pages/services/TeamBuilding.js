@@ -2,52 +2,6 @@ import React from "react";
 import { Clock, Users, Star, ArrowRight, Trophy, Target, Heart } from "lucide-react";
 
 const TeamBuilding = () => {
-  const packages = [
-    {
-      name: "Mini Team Building",
-      duration: "2 ชั่วโมง",
-      participants: "8-15 คน",
-      games: "3-4 เกม",
-      price: "500 บาท/คน",
-      description: "เหมาะสำหรับทีมเล็ก หรือการทำกิจกรรมช่วงพักเบรก"
-    },
-    {
-      name: "Standard Package", 
-      duration: "4 ชั่วโมง",
-      participants: "15-30 คน",
-      games: "6-8 เกม",
-      price: "750 บาท/คน",
-      description: "แพ็คเกจยอดนิยม เหมาะสำหรับบริษัทและองค์กรขนาดกลาง",
-      popular: true
-    },
-    {
-      name: "Premium Experience",
-      duration: "6 ชั่วโมง",
-      participants: "20-50 คน",
-      games: "10+ เกม",
-      price: "1,200 บาท/คน",
-      description: "ประสบการณ์เต็มรูปแบบ รวมอาหาร เครื่องดื่ม และของที่ระลึก"
-    }
-  ];
-
-  const activities = [
-    {
-      category: "🤝 สร้างความสัมพันธ์",
-      games: ["Wavelength", "Just One", "Telestrations", "Spaceteam"]
-    },
-    {
-      category: "🧠 แก้ปัญหาร่วมกัน", 
-      games: ["Pandemic", "Forbidden Island", "The Mind", "Hanabi"]
-    },
-    {
-      category: "💬 สื่อสารและความเข้าใจ",
-      games: ["Codenames", "Concept", "Dixit", "Mysterium"]
-    },
-    {
-      category: "🎯 ภาวะผู้นำ",
-      games: ["Captain Sonar", "Space Team", "The Resistance", "One Night Ultimate Werewolf"]
-    }
-  ];
 
   return (
     <div className="service-detail-page">
