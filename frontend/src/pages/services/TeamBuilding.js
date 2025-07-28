@@ -223,7 +223,7 @@ const TeamBuilding = () => {
             </div>
             <div className="custom-image">
               <img 
-                src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=400&fit=crop" 
+                src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Building-01.jpg" 
                 alt="โซลูชันเฉพาะองค์กร"
               />
             </div>
