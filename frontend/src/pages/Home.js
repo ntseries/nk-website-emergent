@@ -8,13 +8,13 @@ const Home = () => {
   const [activeTab, setActiveTab] = useState("seconbangkhae");
   const [selectedImageIndex, setSelectedImageIndex] = useState(null);
 
-  // Service URL mapping
-  const serviceUrlMap = {
-    "เล่นที่ร้าน": "/services/play-at-shop",
-    "Board Game Script": "/services/board-game-script",
-    "Photo Booth": "/services/photo-booth",
-    "NK Café": "/services/food-drink",
-    "Team Building": "/services/team-building"
+  // Service URL mapping by ID (more reliable than title matching)
+  const serviceUrlMapById = {
+    1: "/services/play-at-shop",        // เล่นที่ร้าน
+    2: "/services/board-game-script",   // Board Game Script
+    3: "/services/photo-booth",         // Photo Booth
+    4: "/services/food-drink",          // NK Café
+    5: "/services/team-building"        // Team Building
   };
 
   // Navigate to previous/next image
