@@ -42,7 +42,7 @@ const Contact = () => {
       <section className="branches-section branches-section-padding">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">สาขาของเรา</h2>
+            <h2 className="section-title">สาขา NK Board Game</h2>
             <p className="section-subtitle">
               เลือกสาขาที่ใกล้คุณที่สุด เราพร้อมให้บริการทุกสาขา
             </p>
