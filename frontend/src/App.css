@@ -4590,3 +4590,12 @@ h1, h2, h3, h4, h5, h6 {
     height: 12px;
   }
 }
+
+/* Menu CTA Button */
+.menu-cta {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--space-xl);
+  padding-top: var(--space-lg);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
