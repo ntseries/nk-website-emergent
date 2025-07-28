@@ -1,5 +1,6 @@
 import React from "react";
 import { Users, Heart, Target, Trophy, Clock, MapPin } from "lucide-react";
+import SEOHead from "../components/SEOHead";
 
 const About = () => {
   return (
