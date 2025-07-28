@@ -4599,3 +4599,84 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: var(--space-lg);
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
+
+/* Team Building Specific Styles */
+.team-building-benefits {
+  padding-top: var(--space-2xl);
+  padding-bottom: var(--space-2xl);
+}
+
+/* Process Grid Layout */
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-lg);
+  margin-top: var(--space-xl);
+}
+
+.process-card {
+  background: var(--gradient-card);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow-md);
+}
+
+.process-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-lg);
+}
+
+.process-icon {
+  margin: 0 auto var(--space-md);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.process-icon .step-number {
+  width: 60px;
+  height: 60px;
+  background: var(--gradient-button);
+  color: var(--nk-white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  box-shadow: var(--shadow-md);
+}
+
+.process-content h3 {
+  color: var(--nk-dark);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: var(--space-sm);
+}
+
+.process-content p {
+  color: var(--nk-gray);
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .team-building-benefits {
+    padding-top: var(--space-xl);
+    padding-bottom: var(--space-xl);
+  }
+  
+  .process-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+  }
+  
+  .process-card {
+    padding: var(--space-md);
+  }
+}
+
+/* Photo Booth Kawaii Theme */
