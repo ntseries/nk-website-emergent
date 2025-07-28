@@ -274,6 +274,10 @@ const Home = () => {
                 "users": UsersIcon
               }[service.icon];
 
+              // Debug: log the service title and corresponding URL
+              const serviceUrl = serviceUrlMap[service.title];
+              console.log(`Service: ${service.title}, URL: ${serviceUrl}`);
+
               return (
                 <div key={service.id} className="service-card">
                   <div className="service-image">
@@ -282,7 +286,7 @@ const Home = () => {
                   <h3 className="service-title">{service.title}</h3>
                   <p className="service-description">{service.description}</p>
                   <div className="service-price">{service.price}</div>
-                  <Link to={serviceUrlMap[service.title] || '/services'} 
+                  <Link to={serviceUrl || '/services'} 
                         className="service-link">
                     ดูรายละเอียดเพิ่มเติม <ArrowRight size={14} />
                   </Link>
