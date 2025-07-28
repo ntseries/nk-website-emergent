@@ -702,6 +702,7 @@ test_plan:
     - "Add Murder Mystery CSS theme"
     - "Update Board Game Script page text and padding"
     - "Add padding to how-it-works section"
+    - "Update Board Game Script hero image"
   stuck_tasks: []
   test_all: false
   test_priority: "high_first"
@@ -721,3 +722,5 @@ agent_communication:
     message: "Completely transformed Board Game Script page with Murder Mystery theme - black/red color scheme, updated all content sections, new pricing (299 บาท), new script stories, updated features, simplified workflow steps, and comprehensive CSS styling"
   - agent: "main"
     message: "Final Board Game Script adjustments: changed badge to 'เกมพิเศษ', updated hero description to use 'Board Game Script', added padding to how-it-works section, and ensured both CTA buttons link to Line"
+  - agent: "main"
+    message: "Updated Board Game Script hero image to use NK-Service-02.PNG from S3 bucket. Script selection buttons already properly linked to Line via handleBooking function"
