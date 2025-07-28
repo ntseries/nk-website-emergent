@@ -4614,6 +4614,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: var(--space-xl);
 }
 
+.process-section {
+  padding-bottom: var(--space-2xl);
+}
+
 .process-card {
   background: var(--gradient-card);
   backdrop-filter: blur(20px);
