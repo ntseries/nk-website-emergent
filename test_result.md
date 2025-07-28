@@ -321,6 +321,18 @@ frontend:
         agent: "main"
         comment: "Corrected MRT stations: Srinagarindra changed from 'สามย่าน' to 'สวนหลวง ร.9', Samyan changed from 'สวนหลวง ร.9' to 'สามย่าน'"
 
+  - task: "Remove Dungeons & Dragons page and navigation links"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/App.js, /app/frontend/src/components/Header.js, /app/frontend/src/components/Footer.js, /app/frontend/src/data/mock.js"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Completely removed Dungeons & Dragons: deleted DungeonsAndDragons.js file, removed import and route from App.js, removed from Header serviceItems, removed from Footer links, and removed from services array in mock.js. Updated service IDs accordingly."
+
 frontend:
   - task: "Create page-specific hero section backgrounds"
     implemented: true
