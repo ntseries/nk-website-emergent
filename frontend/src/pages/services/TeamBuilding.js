@@ -267,11 +267,11 @@ const TeamBuilding = () => {
               ติดต่อเราเพื่อขอคำปรึกษาและวางแผนกิจกรรม Team Building ที่เหมาะกับองค์กรของคุณ
             </p>
             <div className="cta-actions">
-              <button className="btn-primary">
+              <button className="btn-primary" onClick={() => window.open('https://line.me/ti/p/@nkboardgame', '_blank')}>
                 สอบถามรายละเอียด <ArrowRight size={16} />
               </button>
               <button className="btn-secondary">
-                โทร 02-123-4567
+                โทร 065-412-3939
               </button>
             </div>
           </div>
