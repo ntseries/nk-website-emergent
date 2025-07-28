@@ -8,6 +8,15 @@ const Home = () => {
   const [activeTab, setActiveTab] = useState("seconbangkhae");
   const [selectedImageIndex, setSelectedImageIndex] = useState(null);
 
+  // Service URL mapping
+  const serviceUrlMap = {
+    "เล่นที่ร้าน": "/services/play-at-shop",
+    "Board Game Script": "/services/board-game-script",
+    "Photo Booth": "/services/photo-booth",
+    "NK Café": "/services/food-drink",
+    "Team Building": "/services/team-building"
+  };
+
   // Navigate to previous/next image
   const goToPrevImage = () => {
     if (selectedImageIndex !== null) {
