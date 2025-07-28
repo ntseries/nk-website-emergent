@@ -249,6 +249,30 @@ frontend:
         agent: "main"
         comment: "Added enhanced mobile responsive CSS for story section with container padding, overflow fixes, and text breaking for mobile devices"
 
+  - task: "Update Board Game Script page to Murder Mystery theme"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/services/BoardGameScript.js"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Complete redesign with black-red murder mystery theme, updated pricing to 299 บาท, new content sections, and removed pricing section"
+
+  - task: "Add Murder Mystery CSS theme"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/App.css"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Added comprehensive CSS styling for murder mystery theme with black-red color scheme, gradients, shadows, and hover effects"
+
 frontend:
   - task: "Create page-specific hero section backgrounds"
     implemented: true
