@@ -715,6 +715,7 @@ test_plan:
     - "Update Board Game Script page text and padding"
     - "Add padding to how-it-works section"
     - "Update Board Game Script hero image"
+    - "Fix MRT station information for branches"
   stuck_tasks: []
   test_all: false
   test_priority: "high_first"
@@ -736,3 +737,5 @@ agent_communication:
     message: "Final Board Game Script adjustments: changed badge to 'เกมพิเศษ', updated hero description to use 'Board Game Script', added padding to how-it-works section, and ensured both CTA buttons link to Line"
   - agent: "main"
     message: "Updated Board Game Script hero image to use NK-Service-02.PNG from S3 bucket. Script selection buttons already properly linked to Line via handleBooking function"
+  - agent: "main"
+    message: "Fixed MRT station information: NK Srinagarindra changed to 'MRT สวนหลวง ร.9', NK Samyan changed to 'MRT สามย่าน' - correcting the previously swapped station assignments"
