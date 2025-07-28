@@ -65,6 +65,12 @@ const nkHitGames = [
 const PlayAtShop = () => {
   return (
     <div className="service-detail-page">
+      <SEOHead 
+        title="เล่นที่ร้าน - NK Board Game | ร้านบอร์ดเกม บางแค ศรีนครินทร์ สามย่าน"
+        description="เล่นบอร์ดเกมที่ร้าน NK Board Game ร้านบอร์ดเกมติดรถไฟฟ้า 3 สาขา บางแค ศรีนครินทร์ สามย่าน เกมกว่า 1000+ เกม บอร์ดเกม ปาร์ตี้เกม การ์ดเกม ทีมงานน่ารัก เป็นกันเอง"
+        keywords="เล่นที่ร้าน, ร้านบอร์ดเกม, ร้านบอร์ดเกม บางแค, ร้านบอร์ดเกม ศรีนครินทร์, ร้านบอร์ดเกม สามย่าน, ร้านบอร์ดเกม ติดรถไฟฟ้า, บอร์ดเกม, ปาร์ตี้เกม, การ์ดเกม, เล่นเกม, NK Board Game"
+        url="https://nkboardgame.com/services/play-at-shop"
+      />
       {/* Hero Section */}
       <section className="service-hero">
         <div className="container">
