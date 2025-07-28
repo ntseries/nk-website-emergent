@@ -102,7 +102,7 @@
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
 
-user_problem_statement: User requested to update homepage text changes: 1) Change hero badge from "ร้านบอร์ดเกมอันดับ 1 ในใจ ชาว Gen Z" to "ร้านบอร์ดเกม อันดับ 1 ในใจ Gen Z" (remove "ชาว" and add space after "ร้านบอร์ดเกม"), 2) Change title to "NK Board Game - ร้านบอร์ดเกม อันดับ 1 ในใจ Gen Z"
+user_problem_statement: User requested to update Photo Booth page testimonials/reviews section with 3 new reviews with specific content from Arisa, พชรอร, and Pimpunchat, replacing the existing testimonials.
 
 frontend:
   - task: "Update homepage hero badge text"
@@ -131,6 +131,18 @@ frontend:
       - working: "NA"
         agent: "main"
         comment: "Updated page title to include branch names: 'NK Board Game - ร้านบอร์ดเกม อันดับ 1 ในใจ Gen Z | บางแค ศรีนครินทร์ สามย่าน'"
+
+  - task: "Update Photo Booth testimonials/reviews"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/services/PhotoBooth.js"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Replaced 3 existing testimonials with new reviews from Arisa (ดูแลดีมาก บรีฟให้ ทำผมให้), พชรอร (บิ้วให้สุดๆ คิดท่าถ่าย ทำผมให้ ได้ไฟล์รูปและโพลารอยด์), Pimpunchat (บริการสุดคุ้ม เช่าชุด ขนมน้ำพร้อม คุณเมดกับพี่ตากล้องบริการดี). Also removed author-age field to show only names."
 
 frontend:
   - task: "Update Contact page hero text"
