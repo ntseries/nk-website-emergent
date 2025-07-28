@@ -29,7 +29,6 @@ function App() {
             <Route path="/services" element={<Services />} />
             <Route path="/services/play-at-shop" element={<PlayAtShop />} />
             <Route path="/services/board-game-script" element={<BoardGameScript />} />
-            <Route path="/services/dungeons-dragons" element={<DungeonsAndDragons />} />
             <Route path="/services/photo-booth" element={<PhotoBooth />} />
             <Route path="/services/food-drink" element={<FoodDrink />} />
             <Route path="/services/team-building" element={<TeamBuilding />} />
