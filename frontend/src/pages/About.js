@@ -5,6 +5,12 @@ import SEOHead from "../components/SEOHead";
 const About = () => {
   return (
     <div className="about-page">
+      <SEOHead 
+        title="เกี่ยวกับเรา - NK Board Game | ร้านบอร์ดเกม อันดับ 1 ในไทย"
+        description="เรื่องราวของ NK Board Game ร้านบอร์ดเกมอันดับ 1 ในใจชาว Gen Z ก่อตั้งปี 2023 สมาชิกกว่า 50,000+ คน ร้านบอร์ดเกมบางแค ศรีนครินทร์ สามย่าน ทีมงาน 35 คน"
+        keywords="เกี่ยวกับเรา, NK Board Game, ร้านบอร์ดเกม, ประวัติร้าน, ทีมงาน, บอร์ดเกม, Gen Z, 2023"
+        url="https://nkboardgame.com/about"
+      />
       {/* Hero Section */}
       <section className="hero-section about-hero">
         <div className="hero-content">
