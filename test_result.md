@@ -360,6 +360,18 @@ frontend:
         agent: "main"
         comment: "Added CSS styling for .menu-cta button container"
 
+  - task: "Update Food & Drink to NK Café branding"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/services/FoodDrink.js, /app/frontend/src/components/Header.js, /app/frontend/src/components/Footer.js, /app/frontend/src/data/mock.js"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Changed all instances of 'Food & Drink' to 'NK Café' across the website and removed 'ดูเมนูเต็มด้านล่าง' button from menu section"
+
 frontend:
   - task: "Create page-specific hero section backgrounds"
     implemented: true
