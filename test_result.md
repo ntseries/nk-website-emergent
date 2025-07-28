@@ -309,6 +309,18 @@ frontend:
         agent: "main"
         comment: "Changed hero image to NK-Service-02.PNG from S3 bucket"
 
+  - task: "Fix MRT station information for branches"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/data/mock.js"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Corrected MRT stations: Srinagarindra changed from 'สามย่าน' to 'สวนหลวง ร.9', Samyan changed from 'สวนหลวง ร.9' to 'สามย่าน'"
+
 frontend:
   - task: "Create page-specific hero section backgrounds"
     implemented: true
