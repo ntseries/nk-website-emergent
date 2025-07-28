@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://nkboardgame.com/sitemap.xml
+
+# Disallow admin areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /temp/
+Disallow: /*.json$
+
+# Allow important paths
+Allow: /services/
+Allow: /about
+Allow: /contact
