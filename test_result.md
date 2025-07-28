@@ -102,7 +102,32 @@
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
 
-user_problem_statement: User requested comprehensive updates to Team Building page: 1) Change hero image to new S3 URL, 2) Update pricing text to "สอบถามแพ็คเกตเพิ่มเติม", 3) Link "สอบถามโปรแกรม" button to LINE, 4) Update benefits section with new content and padding, 5) Remove packages and activities sections, 6) Change process design from timeline to grid, 7) Remove testimonials section, 8) Update custom solutions image, 9) Change booking info times and deposit, 10) Update CTA buttons and phone number.
+user_problem_statement: User requested to update homepage text changes: 1) Change hero badge from "ร้านบอร์ดเกมอันดับ 1 ในใจ ชาว Gen Z" to "ร้านบอร์ดเกม อันดับ 1 ในใจ Gen Z" (remove "ชาว" and add space after "ร้านบอร์ดเกม"), 2) Change title to "NK Board Game - ร้านบอร์ดเกม อันดับ 1 ในใจ Gen Z"
+
+frontend:
+  - task: "Update homepage hero badge text"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/Home.js"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Changed hero badge text from 'ร้านบอร์ดเกมอันดับ 1 ในใจ ชาว Gen Z' to 'ร้านบอร์ดเกม อันดับ 1 ในใจ Gen Z' - removed 'ชาว' and added space after 'ร้านบอร์ดเกม'"
+
+  - task: "Update website title"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/public/index.html"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Changed page title to 'NK Board Game - ร้านบอร์ดเกม อันดับ 1 ในใจ Gen Z'"
 
 frontend:
   - task: "Update Contact page hero text"
