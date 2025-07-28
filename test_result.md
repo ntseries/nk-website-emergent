@@ -756,6 +756,8 @@ test_plan:
     - "Update Board Game Script hero image"
     - "Fix MRT station information for branches"
     - "Remove Dungeons & Dragons page and navigation links"
+    - "Update Food & Drink page content and features"
+    - "Add CSS for Food & Drink menu CTA"
   stuck_tasks: []
   test_all: false
   test_priority: "high_first"
@@ -781,3 +783,5 @@ agent_communication:
     message: "Fixed MRT station information: NK Srinagarindra changed to 'MRT สวนหลวง ร.9', NK Samyan changed to 'MRT สามย่าน' - correcting the previously swapped station assignments"
   - agent: "main"
     message: "Successfully removed Dungeons & Dragons page completely: deleted the component file, removed all imports and routes, eliminated navigation links from both header and footer, and cleaned up services data. All navigation and routing now properly excludes D&D."
+  - agent: "main"
+    message: "Completed Food & Drink page transformation: updated with comprehensive menu data from Excel file including 64 items across 7 categories (ของทานเล่น, ขนมปังปิ้งฉ่ำเนย, เครื่องดื่ม, อิตาเลี่ยนโซดา, สมูทตี้, เมนูข้าว, เสริม), streamlined page structure, and implemented proper button functionality"
