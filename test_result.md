@@ -128,6 +128,9 @@ frontend:
       - working: "NA"
         agent: "main"
         comment: "Changed page title to 'NK Board Game - ร้านบอร์ดเกม อันดับ 1 ในใจ Gen Z'"
+      - working: "NA"
+        agent: "main"
+        comment: "Updated page title to include branch names: 'NK Board Game - ร้านบอร์ดเกม อันดับ 1 ในใจ Gen Z | บางแค ศรีนครินทร์ สามย่าน'"
 
 frontend:
   - task: "Update Contact page hero text"
