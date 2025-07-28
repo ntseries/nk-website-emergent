@@ -296,9 +296,13 @@ const Home = () => {
                   <h3 className="service-title">{service.title}</h3>
                   <p className="service-description">{service.description}</p>
                   <div className="service-price">{service.price}</div>
-                  <Link to={testUrl} className="service-link">
+                  <button 
+                    onClick={() => window.location.href = testUrl}
+                    className="service-link"
+                    style={{ background: 'none', border: 'none', cursor: 'pointer' }}
+                  >
                     ดูรายละเอียดเพิ่มเติม <ArrowRight size={14} />
-                  </Link>
+                  </button>
                 </div>
               );
             })}
