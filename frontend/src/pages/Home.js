@@ -117,6 +117,26 @@ const Home = () => {
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_BK6-10.jpg",
           caption: "พื้นที่เล่นเกมเพิ่มเติม"
+        },
+        {
+          url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_BK6-11.jpg",
+          caption: "บรรยากาศสนุกสนานเพิ่มเติม"
+        },
+        {
+          url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_BK6-12.jpg",
+          caption: "พื้นที่กิจกรรมน่าสนใจ"
+        },
+        {
+          url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_BK6-13.JPG",
+          caption: "มุมเล่นเกมสุดเพลิน"
+        },
+        {
+          url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_BK6-14.jpg",
+          caption: "บรรยากาศแสนสนุก"
+        },
+        {
+          url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_BK6-15.jpg",
+          caption: "พื้นที่พักผ่อนระหว่างเล่น"
         }
       ]
     },
