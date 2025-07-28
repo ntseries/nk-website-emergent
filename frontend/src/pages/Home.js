@@ -4,6 +4,7 @@ import { ArrowRight, Users, Star, Gamepad2, ScrollText, Shield, Camera, Coffee, 
 import { services, testimonials } from "../data/mock";
 
 const Home = () => {
+  const navigate = useNavigate();
   const heroServices = services.slice(0, 3);
   const [activeTab, setActiveTab] = useState("seconbangkhae");
   const [selectedImageIndex, setSelectedImageIndex] = useState(null);
