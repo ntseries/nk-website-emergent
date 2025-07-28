@@ -88,7 +88,7 @@ const TeamBuilding = () => {
       </section>
 
       {/* Benefits Section */}
-      <section className="benefits-section">
+      <section className="benefits-section team-building-benefits">
         <div className="container">
           <div className="section-header">
             <h2 className="section-title">ประโยชน์ของ Team Building</h2>
@@ -113,17 +113,31 @@ const TeamBuilding = () => {
             </div>
             <div className="benefit-card">
               <div className="benefit-icon">
-                <Trophy size={32} />
+                <Users size={32} />
               </div>
-              <h3>เสริมสร้างขวัญกำลังใจ</h3>
-              <p>สร้างบรรยากาศที่ดี เพิ่มความสุขในการทำงาน</p>
+              <h3>พัฒนาทักษะการทำงานเป็นทีม</h3>
+              <p>พัฒนาความร่วมมือในการวางแผนและการตัดสินใจร่วมกันในทีม ผู้เล่นจะเรียนรู้บทบาทหน้าที่ของตน รวมถึงการสนับสนุนเพื่อนร่วมทีม</p>
             </div>
             <div className="benefit-card">
               <div className="benefit-icon">
-                <Users size={32} />
+                <Trophy size={32} />
               </div>
-              <h3>ทีมเวิร์คที่แข็งแกร่ง</h3>
-              <p>เรียนรู้การทำงานร่วมกันและการแก้ปัญหาเป็นทีม</p>
+              <h3>กระตุ้นการคิดวิเคราะห์และแก้ปัญหา</h3>
+              <p>ฝึกการคิดกลยุทธ์เพื่อแก้ไขปัญหา อย่างมีเหตุผลภายใต้ข้อจำกัดบางอย่าง</p>
+            </div>
+            <div className="benefit-card">
+              <div className="benefit-icon">
+                <Star size={32} />
+              </div>
+              <h3>ส่งเสริมความคิดสร้างสรรค์</h3>
+              <p>ให้ผู้เล่นได้ใช้จินตนาการ พัฒนาความคิดนอกกรอบ เพื่อใช้ในการทำงานจริง</p>
+            </div>
+            <div className="benefit-card">
+              <div className="benefit-icon">
+                <Clock size={32} />
+              </div>
+              <h3>เสริมทักษะการจัดการเวลาและความกดดัน</h3>
+              <p>เกมที่มีเวลาจำกัดช่วยฝึกการตัดสินใจเร็วภายใต้แรงกดดัน</p>
             </div>
           </div>
         </div>
