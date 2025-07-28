@@ -297,6 +297,18 @@ frontend:
         agent: "main"
         comment: "Added top and bottom padding to .script-how-it-works section"
 
+  - task: "Update Board Game Script hero image"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/services/BoardGameScript.js"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Changed hero image to NK-Service-02.PNG from S3 bucket"
+
 frontend:
   - task: "Create page-specific hero section backgrounds"
     implemented: true
