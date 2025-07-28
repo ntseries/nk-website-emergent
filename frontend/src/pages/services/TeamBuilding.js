@@ -80,7 +80,7 @@ const TeamBuilding = () => {
             </div>
             <div className="service-hero-image">
               <img 
-                src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&h=400&fit=crop" 
+                src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_BK6-9.jpg" 
                 alt="Team Building"
               />
             </div>
