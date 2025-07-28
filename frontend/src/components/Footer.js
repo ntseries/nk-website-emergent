@@ -76,8 +76,19 @@ const Footer = () => {
             <ul className="footer-links">
               <li><Link to="/" onClick={handleNavClick}>หน้าแรก</Link></li>
               <li><Link to="/about" onClick={handleNavClick}>เกี่ยวกับเรา</Link></li>
-              <li><Link to="/services" onClick={handleNavClick}>บริการ</Link></li>
               <li><Link to="/contact" onClick={handleNavClick}>ติดต่อสาขา</Link></li>
+            </ul>
+          </div>
+
+          {/* Services */}
+          <div className="footer-section">
+            <h3 className="footer-title">บริการของเรา</h3>
+            <ul className="footer-links">
+              <li><Link to="/services/play-at-shop" onClick={handleNavClick}>เล่นที่ร้าน</Link></li>
+              <li><Link to="/services/board-game-script" onClick={handleNavClick}>Board Game Script</Link></li>
+              <li><Link to="/services/photo-booth" onClick={handleNavClick}>Photo Booth</Link></li>
+              <li><Link to="/services/food-drink" onClick={handleNavClick}>NK Café</Link></li>
+              <li><Link to="/services/team-building" onClick={handleNavClick}>Team Building</Link></li>
             </ul>
           </div>
 
