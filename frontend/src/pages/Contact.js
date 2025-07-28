@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { MapPin, Phone, Clock, MessageSquare, ArrowRight, Train, Facebook, Instagram } from "lucide-react";
 import { branches } from "../data/mock";
+import SEOHead from "../components/SEOHead";
 
 const Contact = () => {
   const [selectedBranch, setSelectedBranch] = useState(branches[0]);
