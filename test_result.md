@@ -504,6 +504,42 @@ frontend:
         agent: "main"
         comment: "Changed time from 13:00-17:00 to 13:00-16:00 and deposit from 30% to 50%"
 
+  - task: "Update Home page testimonials section"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/Home.js"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Changed section title to 'กำลังใจจากลูกค้า' and removed testimonial images from display"
+
+  - task: "Update testimonials data in mock.js"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/data/mock.js"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Updated all testimonial texts: ชินะ (games + cool AC), แมกซ์ (Board Game Script), Arisa (Photo booth care), added Nicole Ch (detailed store experience)"
+
+  - task: "Fix Home page service links mapping"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/Home.js"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Created proper serviceUrlMap to link each service to correct page: เล่นที่ร้าน→play-at-shop, Board Game Script→board-game-script, etc."
+
   - task: "Update Team Building CTA phone number"
     implemented: true
     working: "NA"
