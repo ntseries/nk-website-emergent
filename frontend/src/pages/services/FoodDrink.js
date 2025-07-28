@@ -204,11 +204,6 @@ const FoodDrink = () => {
               </div>
             ))}
           </div>
-          <div className="menu-cta">
-            <button className="btn-primary" onClick={handleViewFullMenu}>
-              ดูเมนูเต็มด้านล่าง <ArrowRight size={16} />
-            </button>
-          </div>
         </div>
       </section>
 
