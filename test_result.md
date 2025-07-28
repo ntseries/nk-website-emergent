@@ -984,7 +984,7 @@ test_plan:
     - "Update homepage hero badge text"
     - "Update website title"
     - "Update Photo Booth testimonials/reviews"
-    - "Remove added images from homepage gallery (ซีคอนบางแค)"
+    - "Add images to homepage gallery (ซีคอนบางแค) - final version"
   stuck_tasks: []
   test_all: false
   test_priority: "high_first"
