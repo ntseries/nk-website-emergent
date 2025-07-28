@@ -265,6 +265,15 @@ const Home = () => {
                 "users": UsersIcon
               }[service.icon];
 
+              // Service URL mapping
+              const serviceUrlMap = {
+                "เล่นที่ร้าน": "/services/play-at-shop",
+                "Board Game Script": "/services/board-game-script",
+                "Photo Booth": "/services/photo-booth",
+                "NK Café": "/services/food-drink",
+                "Team Building": "/services/team-building"
+              };
+
               return (
                 <div key={service.id} className="service-card">
                   <div className="service-image">
@@ -273,7 +282,7 @@ const Home = () => {
                   <h3 className="service-title">{service.title}</h3>
                   <p className="service-description">{service.description}</p>
                   <div className="service-price">{service.price}</div>
-                  <Link to={`/services/${service.title.toLowerCase().replace(/\s+/g, '-').replace(/&/g, '')}`} 
+                  <Link to={serviceUrlMap[service.title]} 
                         className="service-link">
                     ดูรายละเอียดเพิ่มเติม <ArrowRight size={14} />
                   </Link>
