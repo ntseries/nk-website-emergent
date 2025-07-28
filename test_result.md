@@ -966,19 +966,8 @@ metadata:
 
 test_plan:
   current_focus:
-    - "Update Team Building hero image"
-    - "Update Team Building pricing text"
-    - "Link Team Building buttons to LINE"
-    - "Update Team Building benefits section"
-    - "Add CSS padding to Team Building benefits"
-    - "Remove Team Building packages section"
-    - "Remove Team Building activities section"
-    - "Change Team Building process design to grid"
-    - "Add CSS for Team Building process grid"
-    - "Remove Team Building testimonials section"
-    - "Update Team Building custom solutions image"
-    - "Update Team Building booking information"
-    - "Update Team Building CTA phone number"
+    - "Update homepage hero badge text"
+    - "Update website title"
   stuck_tasks: []
   test_all: false
   test_priority: "high_first"
