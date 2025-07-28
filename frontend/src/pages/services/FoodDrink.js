@@ -133,7 +133,7 @@ const FoodDrink = () => {
             <div className="service-hero-image">
               <img 
                 src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/NK-Service-05.png" 
-                alt="Food & Drink"
+                alt="NK Café"
               />
             </div>
           </div>
