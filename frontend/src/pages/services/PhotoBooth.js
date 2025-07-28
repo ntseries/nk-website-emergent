@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Clock, Users, Star, ArrowRight, Camera, Image, Sparkles, Heart, X, ChevronLeft, ChevronRight } from "lucide-react";
+import SEOHead from "../../components/SEOHead";
 
 const PhotoBooth = () => {
   const [selectedImageIndex, setSelectedImageIndex] = useState(null);
