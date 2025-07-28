@@ -238,7 +238,7 @@ const Home = () => {
               จองโต๊ะเลย <ArrowRight size={16} />
             </button>
             <Link to="/about" className="btn-secondary">
-              เรียนรู้เพิ่มเติม
+              เกี่ยวกับเรา
             </Link>
           </div>
           <div className="hero-stats">
