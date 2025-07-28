@@ -34,7 +34,7 @@ export const services = [
     price: "ราคาเริ่มต้น 29 บาท"
   },
   {
-    id: 6,
+    id: 5,
     title: "Team Building",
     description: "กิจกรรมสร้างทีมเวิร์คผ่านบอร์ดเกม เหมาะสำหรับองค์กรและกลุ่มเพื่อน",
     icon: "users",
