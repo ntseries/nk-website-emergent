@@ -225,7 +225,7 @@ const BoardGameScript = () => {
               <button className="btn-primary script-btn-primary" onClick={handleBooking}>
                 จองเลย <ArrowRight size={16} />
               </button>
-              <button className="btn-secondary script-btn-secondary" onClick={() => window.open('https://lin.ee/H4D9qos', '_blank')}>
+              <button className="btn-secondary script-btn-secondary" onClick={handleBooking}>
                 สอบถามเพิ่มเติม
               </button>
             </div>
