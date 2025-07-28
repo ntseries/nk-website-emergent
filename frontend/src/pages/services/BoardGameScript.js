@@ -213,124 +213,19 @@ const BoardGameScript = () => {
         </div>
       </section>
 
-      {/* Testimonials */}
-      <section className="testimonials-section">
-        <div className="container">
-          <div className="section-header">
-            <h2 className="section-title">รีวิวจากผู้เล่น</h2>
-          </div>
-          <div className="testimonials-grid">
-            <div className="testimonial-card">
-              <div className="testimonial-stars">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} size={16} fill="currentColor" />
-                ))}
-              </div>
-              <p className="testimonial-text">
-                "Murder Mystery สนุกมากกกก! เดาไม่ถูกเลยว่าใครเป็นฆาตกร ทำให้รู้สึกตื่นเต้นตลอด 3 ชั่วโมง"
-              </p>
-              <div className="testimonial-author">
-                <div className="author-name">มิน</div>
-                <div className="author-age">อายุ 19 ปี</div>
-              </div>
-            </div>
-            <div className="testimonial-card">
-              <div className="testimonial-stars">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} size={16} fill="currentColor" />
-                ))}
-              </div>
-              <p className="testimonial-text">
-                "Space Station Crisis ท้าทายมาก ต้องใช้ความร่วมมือกันจริงๆ รู้สึกเหมือนอยู่ในหนัง sci-fi"
-              </p>
-              <div className="testimonial-author">
-                <div className="author-name">แจค</div>
-                <div className="author-age">อายุ 22 ปี</div>
-              </div>
-            </div>
-            <div className="testimonial-card">
-              <div className="testimonial-stars">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} size={16} fill="currentColor" />
-                ))}
-              </div>
-              <p className="testimonial-text">
-                "เป็นประสบการณ์ใหม่ที่ไม่เคยเจอ แตกต่างจากบอร์ดเกมทั่วไปมาก ชอบการมี Role Playing ในเกม"
-              </p>
-              <div className="testimonial-author">
-                <div className="author-name">ปลื้ม</div>
-                <div className="author-age">อายุ 20 ปี</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Pricing Section */}
-      <section className="pricing-section">
-        <div className="container">
-          <div className="section-header">
-            <h2 className="section-title">อัตราค่าบริการ</h2>
-          </div>
-          <div className="pricing-cards">
-            <div className="pricing-card">
-              <h3 className="pricing-title">สคริปต์สั้น</h3>
-              <div className="pricing-price">
-                <span className="price-value">200</span>
-                <span className="price-unit">บาท/เกม</span>
-              </div>
-              <ul className="pricing-features">
-                <li>ระยะเวลา 1-2 ชั่วโมง</li>
-                <li>ผู้เล่น 4-6 คน</li>
-                <li>อุปกรณ์ครับครัน</li>
-                <li>คำแนะนำจาก Game Master</li>
-              </ul>
-            </div>
-            <div className="pricing-card featured">
-              <div className="pricing-badge">แนะนำ</div>
-              <h3 className="pricing-title">สคริปต์ยาว</h3>
-              <div className="pricing-price">
-                <span className="price-value">350</span>
-                <span className="price-unit">บาท/เกม</span>
-              </div>
-              <ul className="pricing-features">
-                <li>ระยะเวลา 3-4 ชั่วโมง</li>
-                <li>ผู้เล่น 5-8 คน</li>
-                <li>อุปกรณ์พิเศษเพิ่มเติม</li>
-                <li>ของรางวัลพิเศษ</li>
-                <li>ถ่ายรูปที่ระลึกฟรี</li>
-              </ul>
-            </div>
-            <div className="pricing-card">
-              <h3 className="pricing-title">แพ็คเกจกลุ่ม</h3>
-              <div className="pricing-price">
-                <span className="price-value">300</span>
-                <span className="price-unit">บาท/คน</span>
-              </div>
-              <ul className="pricing-features">
-                <li>สำหรับกลุ่ม 8 คนขึ้นไป</li>
-                <li>เลือกสคริปต์ได้ 2 เกม</li>
-                <li>เครื่องดื่มส่วนลด 20%</li>
-                <li>รูปถ่ายกลุ่มฟรี</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* CTA Section */}
-      <section className="cta-section">
+      <section className="cta-section script-cta-section">
         <div className="container">
-          <div className="cta-content">
-            <h2 className="cta-title">พร้อมลองประสบการณ์ใหม่แล้วหรือยัง?</h2>
-            <p className="cta-description">
-              จองสคริปต์เกมพิเศษและสร้างความทรงจำที่ไม่เหมือนใครกับเพื่อนๆ
+          <div className="cta-content script-cta-content">
+            <h2 className="cta-title script-cta-title">พร้อมเปิดประสบการณ์ใหม่แล้วหรือยัง?</h2>
+            <p className="cta-description script-cta-description">
+              จองรอบ Board Game Script มาสร้างความทรงจำร่วมกับเดอะแก๊งแบบไม่เหมือนใคร
             </p>
             <div className="cta-actions">
-              <button className="btn-primary">
+              <button className="btn-primary script-btn-primary" onClick={handleBooking}>
                 จองเลย <ArrowRight size={16} />
               </button>
-              <button className="btn-secondary">
+              <button className="btn-secondary script-btn-secondary" onClick={() => window.open('https://lin.ee/H4D9qos', '_blank')}>
                 สอบถามเพิ่มเติม
               </button>
             </div>
