@@ -298,18 +298,7 @@ const Home = () => {
                   <p className="service-description">{service.description}</p>
                   <div className="service-price">{service.price}</div>
                   <button 
-                    onClick={(e) => {
-                      e.preventDefault();
-                      e.stopPropagation();
-                      console.log("Navigate called with:", testUrl);
-                      console.log("Navigate function:", navigate);
-                      try {
-                        navigate(testUrl);
-                        console.log("Navigate executed successfully");
-                      } catch (error) {
-                        console.error("Navigate error:", error);
-                      }
-                    }}
+                    onClick={() => navigate(testUrl)}
                     className="service-link"
                     style={{ 
                       background: 'none', 
