@@ -985,7 +985,7 @@ test_plan:
     - "Update website title"
     - "Update Photo Booth testimonials/reviews"
     - "Add images to homepage gallery (ซีคอนบางแค) - final version"
-    - "Add images to homepage gallery (สามย่านมิตรทาวน์)"
+    - "Remove SYM-13 image from สามย่านมิตรทาวน์ gallery"
   stuck_tasks: []
   test_all: false
   test_priority: "high_first"
