@@ -276,6 +276,17 @@ const Home = () => {
 
               // Get service URL by ID (more reliable than title matching)
               const serviceUrl = serviceUrlMapById[service.id];
+              
+              // Hardcode for testing
+              let testUrl;
+              switch(service.id) {
+                case 1: testUrl = "/services/play-at-shop"; break;
+                case 2: testUrl = "/services/board-game-script"; break;
+                case 3: testUrl = "/services/photo-booth"; break;
+                case 4: testUrl = "/services/food-drink"; break;
+                case 5: testUrl = "/services/team-building"; break;
+                default: testUrl = "/services";
+              }
 
               return (
                 <div key={service.id} className="service-card">
@@ -285,8 +296,7 @@ const Home = () => {
                   <h3 className="service-title">{service.title}</h3>
                   <p className="service-description">{service.description}</p>
                   <div className="service-price">{service.price}</div>
-                  <Link to={serviceUrl || '/services'} 
-                        className="service-link">
+                  <Link to={testUrl} className="service-link">
                     ดูรายละเอียดเพิ่มเติม <ArrowRight size={14} />
                   </Link>
                 </div>
