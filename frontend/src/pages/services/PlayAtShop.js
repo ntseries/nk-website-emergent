@@ -126,7 +126,7 @@ const PlayAtShop = () => {
               <div className="feature-icon">
                 <Users size={32} />
               </div>
-              <h3>ทีมงานคอยช่วยเหลือ</h3>
+              <h3>ทีมงานน่ารัก เป็นกันเอง</h3>
               <p>เล่นไม่เป็น ไม่ใช่ปัญหา ให้ทีมงานเราดูแลให้เอง</p>
             </div>
             <div className="feature-card">
