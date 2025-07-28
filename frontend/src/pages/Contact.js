@@ -27,6 +27,12 @@ const Contact = () => {
 
   return (
     <div className="contact-page">
+      <SEOHead 
+        title="ติดต่อสาขา - NK Board Game | ร้านบอร์ดเกม บางแค ศรีนครินทร์ สามย่าน"
+        description="ติดต่อสาขา NK Board Game ร้านบอร์ดเกมติดรถไฟฟ้า 3 สาขา สาขาบางแค ซีคอนบางแค ชั้น4 สาขาศรีนครินทร์ ซีคอนศรีนครินทร์ ชั้น3 สาขาสามย่าน สามย่านมิตรทาวน์ ชั้น3"
+        keywords="ติดต่อสาขา, ร้านบอร์ดเกม บางแค, ร้านบอร์ดเกม ศรีนครินทร์, ร้านบอร์ดเกม สามย่าน, ร้านบอร์ดเกม ติดรถไฟฟ้า, ซีคอนบางแค, ซีคอนศรีนครินทร์, สามย่านมิตรทาวน์, NK Board Game"
+        url="https://nkboardgame.com/contact"
+      />
       {/* Hero Section */}
       <section className="hero-section contact-hero">
         <div className="hero-content">
