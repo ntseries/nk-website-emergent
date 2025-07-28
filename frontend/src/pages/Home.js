@@ -274,9 +274,8 @@ const Home = () => {
                 "users": UsersIcon
               }[service.icon];
 
-              // Get service URL by ID
+              // Get service URL by ID (more reliable than title matching)
               const serviceUrl = serviceUrlMapById[service.id];
-              console.log(`Service ID: ${service.id}, Title: ${service.title}, URL: ${serviceUrl}`);
 
               return (
                 <div key={service.id} className="service-card">
