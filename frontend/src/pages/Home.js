@@ -251,7 +251,7 @@ const Home = () => {
               <div className="stat-label">สาขาในกรุงเทพ</div>
             </div>
             <div className="stat">
-              <div className="stat-number">50K+</div>
+              <div className="stat-number">50,000+</div>
               <div className="stat-label">จำนวนสมาชิก</div>
             </div>
           </div>
