@@ -52,11 +52,11 @@ const About = () => {
             </div>
             <div className="story-stats">
               <div className="stat-card about-stat-card">
-                <div className="stat-number about-stat-number">2022</div>
+                <div className="stat-number about-stat-number">2023</div>
                 <div className="stat-label about-stat-label">ปีที่ก่อตั้ง</div>
               </div>
               <div className="stat-card about-stat-card">
-                <div className="stat-number about-stat-number">50K+</div>
+                <div className="stat-number about-stat-number">50,000+</div>
                 <div className="stat-label about-stat-label">จำนวนสมาชิก</div>
               </div>
               <div className="stat-card about-stat-card">
