@@ -66,8 +66,7 @@ const TeamBuilding = () => {
                 พัฒนาความสัมพันธ์ การสื่อสาร และการทำงานเป็นทีม
               </p>
               <div className="service-price">
-                <span className="price-value">500 บาท</span>
-                <span className="price-unit">/คน</span>
+                <span className="price-value">สอบถามแพ็คเกจเพิ่มเติม</span>
               </div>
               <div className="service-actions">
                 <button className="btn-primary">
