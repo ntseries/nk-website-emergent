@@ -662,6 +662,8 @@ test_plan:
     - "Add CSS styling for Maps links"
     - "Update About page team member image URLs from Excel"
     - "Fix About page story section mobile overflow"
+    - "Update Board Game Script page to Murder Mystery theme"
+    - "Add Murder Mystery CSS theme"
   stuck_tasks: []
   test_all: false
   test_priority: "high_first"
@@ -677,3 +679,5 @@ agent_communication:
     message: "Updated About page team member image URLs using new data from Excel file - corrected file extensions and added missing team member Nano"
   - agent: "main"
     message: "Fixed About page story section mobile overflow with enhanced responsive CSS including proper container padding, overflow hidden, and word breaking for all mobile devices"
+  - agent: "main"
+    message: "Completely transformed Board Game Script page with Murder Mystery theme - black/red color scheme, updated all content sections, new pricing (299 บาท), new script stories, updated features, simplified workflow steps, and comprehensive CSS styling"
