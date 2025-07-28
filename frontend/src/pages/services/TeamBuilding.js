@@ -150,31 +150,39 @@ const TeamBuilding = () => {
           <div className="section-header">
             <h2 className="section-title">ขั้นตอนการจัดกิจกรรม</h2>
           </div>
-          <div className="process-timeline">
-            <div className="process-step">
-              <div className="step-number">1</div>
-              <div className="step-content">
+          <div className="process-grid">
+            <div className="process-card">
+              <div className="process-icon">
+                <div className="step-number">1</div>
+              </div>
+              <div className="process-content">
                 <h3>ปรึกษาและวางแผน</h3>
                 <p>สอบถามความต้องการ จำนวนคน งบประมาณ และวัตถุประสงค์</p>
               </div>
             </div>
-            <div className="process-step">
-              <div className="step-number">2</div>
-              <div className="step-content">
+            <div className="process-card">
+              <div className="process-icon">
+                <div className="step-number">2</div>
+              </div>
+              <div className="process-content">
                 <h3>ออกแบบโปรแกรม</h3>
                 <p>เลือกเกมและกิจกรรมที่เหมาะกับทีมและเป้าหมายของคุณ</p>
               </div>
             </div>
-            <div className="process-step">
-              <div className="step-number">3</div>
-              <div className="step-content">
+            <div className="process-card">
+              <div className="process-icon">
+                <div className="step-number">3</div>
+              </div>
+              <div className="process-content">
                 <h3>จัดกิจกรรม</h3>
                 <p>ทีมงาน Facilitator มืออาชีพจะคอยดูแลและอำนวยความสะดวก</p>
               </div>
             </div>
-            <div className="process-step">
-              <div className="step-number">4</div>
-              <div className="step-content">
+            <div className="process-card">
+              <div className="process-icon">
+                <div className="step-number">4</div>
+              </div>
+              <div className="process-content">
                 <h3>สรุปผลและประเมิน</h3>
                 <p>วิเคราะห์ผลและให้คำแนะนำเพื่อพัฒนาทีมต่อไป</p>
               </div>
