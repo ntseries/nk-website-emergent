@@ -290,7 +290,7 @@ const Home = () => {
               }
 
               return (
-                <div key={service.id} className="service-card">
+                <div key={service.id} className="service-card" style={{ position: 'relative' }}>
                   <div className="service-image">
                     <img src={service.image} alt={service.title} />
                   </div>
@@ -311,7 +311,14 @@ const Home = () => {
                       }
                     }}
                     className="service-link"
-                    style={{ background: 'none', border: 'none', cursor: 'pointer' }}
+                    style={{ 
+                      background: 'none', 
+                      border: 'none', 
+                      cursor: 'pointer',
+                      position: 'relative',
+                      zIndex: 10,
+                      padding: '8px 12px'
+                    }}
                   >
                     ดูรายละเอียดเพิ่มเติม <ArrowRight size={14} />
                   </button>
