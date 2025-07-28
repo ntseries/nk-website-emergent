@@ -4485,6 +4485,7 @@ h1, h2, h3, h4, h5, h6 {
 .script-how-it-works {
   background: var(--mystery-black);
   color: var(--nk-white);
+  padding: var(--space-2xl) 0;
 }
 
 .script-steps-grid {
