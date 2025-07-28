@@ -273,6 +273,30 @@ frontend:
         agent: "main"
         comment: "Added comprehensive CSS styling for murder mystery theme with black-red color scheme, gradients, shadows, and hover effects"
 
+  - task: "Update Board Game Script page text and padding"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/services/BoardGameScript.js"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Changed badge text from 'Murder Mystery' to 'เกมพิเศษ', updated hero description, and fixed CTA buttons to link to Line"
+
+  - task: "Add padding to how-it-works section"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/App.css"
+    stuck_count: 0
+    priority: "low"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Added top and bottom padding to .script-how-it-works section"
+
 frontend:
   - task: "Create page-specific hero section backgrounds"
     implemented: true
