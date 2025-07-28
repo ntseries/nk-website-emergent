@@ -54,6 +54,12 @@ const BoardGameScript = () => {
 
   return (
     <div className="service-detail-page script-mystery-theme">
+      <SEOHead 
+        title="Board Game Script - เกมแก้ปริศนาฆาตกรรม | NK Board Game"
+        description="Board Game Script เกมสคริปต์แก้ปริศนาการฆาตกรรม ที่เดียวในประเทศไทย ปริศนาโรงเรียนมรณะ คืนสุดท้ายฮิตเลอร์หายไป คาถาพิฆาตในห้องต้องประสงค์ เกมพิเศษจาก NK Board Game"
+        keywords="Board Game Script, เกมสคริปต์, เกมแก้ปริศนา, เกมฆาตกรรม, ปริศนาโรงเรียนมรณะ, บอร์ดเกม, เกมกลุ่ม, NK Board Game, เกมพิเศษ"
+        url="https://nkboardgame.com/services/board-game-script"
+      />
       {/* Hero Section */}
       <section className="service-hero script-hero">
         <div className="container">
