@@ -288,7 +288,7 @@ const Home = () => {
       <section className="testimonials-section">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">สิ่งที่ลูกค้าพูดถึงเรา</h2>
+            <h2 className="section-title">กำลังใจจากลูกค้า</h2>
           </div>
           <div className="testimonials-grid">
             {testimonials.map((testimonial) => (
