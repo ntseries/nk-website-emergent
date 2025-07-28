@@ -1,54 +1,82 @@
 import React from "react";
-import { Clock, Users, Star, ArrowRight, ScrollText, Sparkles } from "lucide-react";
+import { Clock, Users, Star, ArrowRight, ScrollText, Sparkles, Skull, Shield, Eye, Map } from "lucide-react";
 
 const BoardGameScript = () => {
   const scripts = [
     {
-      name: "Murder Mystery Night",
-      duration: "2-3 ชั่วโมง", 
-      players: "6-8 คน",
-      description: "เกมไขปริศนาฆาตกรรมในคฤหาสน์เก่า ผู้เล่นต้องหาตัวฆาตกรก่อนเที่ยงคืน"
+      name: "ปริศนาโรงเรียนมรณะ",
+      theme: "นักเรียน ม. ปลาย", 
+      difficulty: 2,
+      investigation: 3,
+      roleplay: 3,
+      players: "6-15 คน",
+      duration: "90 นาที",
+      image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Script-Deathly-High-School-Mystery.jpg"
     },
     {
-      name: "Space Station Crisis",
-      duration: "1.5-2 ชั่วโมง",
-      players: "4-6 คน", 
-      description: "เอาตัวรอดจากสถานีอวกาศที่กำลังจะระเบิด ต้องร่วมมือกันแก้ปัญหา"
+      name: "คืนสุดท้ายฮิตเลอร์หายไป",
+      theme: "สายลับ",
+      difficulty: 3,
+      investigation: 4,
+      roleplay: 4,
+      players: "8-10 คน", 
+      duration: "90 นาที",
+      image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Script-Deathly-High-School-Mystery.jpg"
     },
     {
-      name: "Medieval Quest",
-      duration: "3-4 ชั่วโมง",
-      players: "5-7 คน",
-      description: "การผจญภัยในยุคกลางเพื่อค้นหาสมบัติที่สาบสูญ"
+      name: "คาถาพิฆาตในห้องต้องประสงค์",
+      theme: "โรงเรียนเวทมนต์",
+      difficulty: 4,
+      investigation: 4,
+      roleplay: 4,
+      players: "6-10 คน",
+      duration: "120 นาที",
+      image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Script-Deathly-High-School-Mystery.jpg"
     }
   ];
 
+  const steps = [
+    "เลือกเนื้อเรื่อง และจองรอบ",
+    "แจกบทบาท และแต่งตัว", 
+    "เริ่มเล่น",
+    "สรุปผล",
+    "ถ่ายรูปเป็นที่ระลึก"
+  ];
+
+  const handleBooking = () => {
+    window.open('https://lin.ee/H4D9qos', '_blank');
+  };
+
+  const handleTeaser = () => {
+    window.open('https://www.tiktok.com/@nkboardgame/video/7525718568109886728', '_blank');
+  };
+
   return (
-    <div className="service-detail-page">
+    <div className="service-detail-page script-mystery-theme">
       {/* Hero Section */}
-      <section className="service-hero">
+      <section className="service-hero script-hero">
         <div className="container">
           <div className="service-hero-content">
             <div className="service-hero-text">
-              <div className="service-badge">
-                <ScrollText size={16} />
-                <span>บริการพิเศษ</span>
+              <div className="service-badge script-badge">
+                <Skull size={16} />
+                <span>Murder Mystery</span>
               </div>
-              <h1 className="service-title">Board Game Script</h1>
-              <p className="service-description">
-                สคริปต์เกมพิเศษที่ออกแบบโดยทีมของเรา สร้างประสบการณ์เล่นเกมที่ไม่เหมือนใคร 
-                ผสมผสานองค์ประกอบของ Role Playing และ Board Game เข้าด้วยกัน
+              <h1 className="service-title script-title">Board Game Script</h1>
+              <p className="service-description script-description">
+                ก้าวเข้าสู่โลกแห่งความลึกลับ ไขปริศนาการฆาตกรรม และเปิดเผยความจริงที่ซ่อนเร้น
+                ด้วยสคริปต์เกม Murder Mystery ที่จะพาคุณดำดิ่งสู่เรื่องราวสุดระทึกขวัญ
               </p>
-              <div className="service-price">
-                <span className="price-value">200 บาท</span>
+              <div className="service-price script-price">
+                <span className="price-value">299 บาท</span>
                 <span className="price-unit">/เกม</span>
               </div>
               <div className="service-actions">
-                <button className="btn-primary">
+                <button className="btn-primary script-btn-primary" onClick={handleBooking}>
                   จองเกมเลย <ArrowRight size={16} />
                 </button>
-                <button className="btn-secondary">
-                  ดูตัวอย่างสคริปต์
+                <button className="btn-secondary script-btn-secondary" onClick={handleTeaser}>
+                  ดู Teaser
                 </button>
               </div>
             </div>
@@ -63,37 +91,37 @@ const BoardGameScript = () => {
       </section>
 
       {/* Features Section */}
-      <section className="service-features">
+      <section className="service-features script-features">
         <div className="container">
-          <h2 className="section-title">จุดเด่นของสคริปต์เกม</h2>
+          <h2 className="section-title script-section-title">จุดเด่น Board Game Script</h2>
           <div className="features-grid">
-            <div className="feature-card">
-              <div className="feature-icon">
-                <Sparkles size={32} />
+            <div className="feature-card script-feature-card">
+              <div className="feature-icon script-feature-icon">
+                <ScrollText size={32} />
               </div>
               <h3>สคริปต์ออริจินัล</h3>
-              <p>เรื่องราวและกลไกเกมที่สร้างขึ้นโดยทีมออกแบบเกมมืออาชีพ</p>
+              <p>เรื่องราวและกลไกเกมที่สร้างขึ้นโดยทีมงาน NK Board Game</p>
             </div>
-            <div className="feature-card">
-              <div className="feature-icon">
+            <div className="feature-card script-feature-card">
+              <div className="feature-icon script-feature-icon">
+                <Eye size={32} />
+              </div>
+              <h3>การเล่นเกมที่สมจริง</h3>
+              <p>ดำเนินเกมโดย GM มืออาชีพ เหมือนคุณได้หลุดเข้าไปอยู่ในโลกของเกมโดยสมบูรณ์</p>
+            </div>
+            <div className="feature-card script-feature-card">
+              <div className="feature-icon script-feature-icon">
                 <Users size={32} />
               </div>
-              <h3>เหมาะกับกลุ่ม</h3>
-              <p>ออกแบบมาให้เล่นเป็นกลุ่ม สร้างปฏิสัมพันธ์และความสนุกสนาน</p>
+              <h3>คอสเพลย์เป็นตัวละคร</h3>
+              <p>เปลี่ยนชุดเพื่อคอสเพลย์เป็นตัวละครที่เรารับบท เพิ่มความอินในเนื้อเรื่องให้ถึงขีดสุด</p>
             </div>
-            <div className="feature-card">
-              <div className="feature-icon">
-                <Clock size={32} />
-              </div>
-              <h3>ระยะเวลาที่หลากหลาย</h3>
-              <p>มีสคริปต์ทั้งแบบสั้นและยาว เหมาะกับเวลาที่คุณมี</p>
-            </div>
-            <div className="feature-card">
-              <div className="feature-icon">
+            <div className="feature-card script-feature-card">
+              <div className="feature-icon script-feature-icon">
                 <Star size={32} />
               </div>
-              <h3>ประสบการณ์พิเศษ</h3>
-              <p>ได้รับรางวัลและของที่ระลึกพิเศษเมื่อจบเกม</p>
+              <h3>ที่เดียวในประเทสไทย</h3>
+              <p>หากต้องการเล่นบอร์ดเกมสคริปต์ ตอนนี้มีแค่เพียงที่ NK Board Game เท่านั้น</p>
             </div>
           </div>
         </div>
