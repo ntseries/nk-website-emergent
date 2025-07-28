@@ -191,58 +191,7 @@ const TeamBuilding = () => {
         </div>
       </section>
 
-      {/* Testimonials */}
-      <section className="testimonials-section">
-        <div className="container">
-          <div className="section-header">
-            <h2 className="section-title">รีวิวจากลูกค้าองค์กร</h2>
-          </div>
-          <div className="testimonials-grid">
-            <div className="testimonial-card">
-              <div className="testimonial-stars">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} size={16} fill="currentColor" />
-                ))}
-              </div>
-              <p className="testimonial-text">
-                "กิจกรรมดีมาก ทีมผมสนิทกันมากขึ้น ทำงานร่วมกันได้ดีขึ้นชัดเจน แนะนำเลย!"
-              </p>
-              <div className="testimonial-author">
-                <div className="author-name">คุณสมชาย</div>
-                <div className="author-age">HR Manager • บริษัท ABC</div>
-              </div>
-            </div>
-            <div className="testimonial-card">
-              <div className="testimonial-stars">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} size={16} fill="currentColor" />
-                ))}
-              </div>
-              <p className="testimonial-text">
-                "พนักงานในทีมได้รู้จักกันมากขึ้น การสื่อสารดีขึ้น บรรยากาศการทำงานเปลี่ยนไปในทางที่ดี"
-              </p>
-              <div className="testimonial-author">
-                <div className="author-name">คุณวิไล</div>
-                <div className="author-age">Team Leader • บริษัท XYZ</div>
-              </div>
-            </div>
-            <div className="testimonial-card">
-              <div className="testimonial-stars">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} size={16} fill="currentColor" />
-                ))}
-              </div>
-              <p className="testimonial-text">
-                "ทีม Facilitator มืออาชีพมาก รู้จังหวะดี ทำให้กิจกรรมสนุกและได้ประโยชน์จริงๆ"
-              </p>
-              <div className="testimonial-author">
-                <div className="author-name">คุณณัฐ</div>
-                <div className="author-age">Project Manager • Startup DEF</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+
 
       {/* Custom Solutions */}
       <section className="custom-section">
