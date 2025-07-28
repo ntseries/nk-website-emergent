@@ -1071,11 +1071,10 @@ const PhotoBooth = () => {
                 ))}
               </div>
               <p className="testimonial-text">
-                "รูปออกมาสวยมาก! พร็อพเยอะ ถ่ายสนุกสุดๆ เก็บไว้เป็นของที่ระลึกกับเพื่อนๆ"
+                "พี่ๆดูแลดีมากค่ะ ปกติไม่ค่อยถ่ายรูปแต่พี่ๆก็บรีฟให้แถมทำผมให้ด้วย น่ารักและใจดีมากๆเลยค่ะ ❤️"
               </p>
               <div className="testimonial-author">
-                <div className="author-name">น้ำฝน</div>
-                <div className="author-age">อายุ 17 ปี</div>
+                <div className="author-name">Arisa</div>
               </div>
             </div>
             <div className="testimonial-card">
@@ -1085,11 +1084,10 @@ const PhotoBooth = () => {
                 ))}
               </div>
               <p className="testimonial-text">
-                "พนักงานน่ารักมาก ช่วยถ่ายและแนะนำโพสต์ดีดี ราคาไม่แพง คุ้มมาก"
+                "คือจึ้ง ปังมากกก เป็นคนไม่ชอบถ่ายรูปขี้อายๆ แต่พี่ๆบิ้วให้สุดๆคิดท่าถ่ายให้ด้วยยย พี่ๆทำผมให้ด้วย เริ่ดสุดๆ ได้ทั้งไฟล์รูปและโพลารอยด์เลย"
               </p>
               <div className="testimonial-author">
-                <div className="author-name">บีม</div>
-                <div className="author-age">อายุ 20 ปี</div>
+                <div className="author-name">พชรอร</div>
               </div>
             </div>
             <div className="testimonial-card">
@@ -1099,11 +1097,10 @@ const PhotoBooth = () => {
                 ))}
               </div>
               <p className="testimonial-text">
-                "ถ่ายกลุ่มได้สวย แบ็คกราวด์สีสันสดใส พร็อพบอร์ดเกมน่ารักมาก ได้รูปเยอะ"
+                "มีการบริการให้บริการถ่ายรูป สุดคุ้ม เช่าชุด ขนมน้ำพร้อมมากครับ แนะนำสุดๆ คุณเมดกับพี่ตากล้องบริการดีมากครับ"
               </p>
               <div className="testimonial-author">
-                <div className="author-name">เฟิร์น</div>
-                <div className="author-age">อายุ 19 ปี</div>
+                <div className="author-name">Pimpunchat</div>
               </div>
             </div>
           </div>
