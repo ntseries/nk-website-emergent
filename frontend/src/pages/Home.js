@@ -277,17 +277,6 @@ const Home = () => {
 
               // Get service URL by ID (more reliable than title matching)
               const serviceUrl = serviceUrlMapById[service.id];
-              
-              // Hardcode for testing
-              let testUrl;
-              switch(service.id) {
-                case 1: testUrl = "/services/play-at-shop"; break;
-                case 2: testUrl = "/services/board-game-script"; break;
-                case 3: testUrl = "/services/photo-booth"; break;
-                case 4: testUrl = "/services/food-drink"; break;
-                case 5: testUrl = "/services/team-building"; break;
-                default: testUrl = "/services";
-              }
 
               return (
                 <div key={service.id} className="service-card" style={{ position: 'relative' }}>
@@ -298,7 +287,7 @@ const Home = () => {
                   <p className="service-description">{service.description}</p>
                   <div className="service-price">{service.price}</div>
                   <button 
-                    onClick={() => navigate(testUrl)}
+                    onClick={() => navigate(serviceUrl)}
                     className="service-link"
                     style={{ 
                       background: 'none', 
