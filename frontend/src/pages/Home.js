@@ -228,7 +228,7 @@ const Home = () => {
       <section className="hero-section home-hero">
         <div className="hero-content">
           <div className="hero-badge">
-            <span>✨ ร้านบอร์ดเกมอันดับ 1 ในใจ ชาว Gen Z</span>
+            <span>✨ ร้านบอร์ดเกม อันดับ 1 ในใจ Gen Z</span>
           </div>
           <h1 className="hero-title">
             สนุกสนาน <span className="hero-highlight">ไปด้วยกัน</span><br />
