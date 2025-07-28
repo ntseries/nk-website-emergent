@@ -132,7 +132,7 @@ frontend:
         agent: "main"
         comment: "Updated page title to include branch names: 'NK Board Game - ร้านบอร์ดเกม อันดับ 1 ในใจ Gen Z | บางแค ศรีนครินทร์ สามย่าน'"
 
-  - task: "Remove added images from homepage gallery (ซีคอนบางแค)"
+  - task: "Add images to homepage gallery (ซีคอนบางแค) - final version"
     implemented: true
     working: "NA"
     file: "/app/frontend/src/pages/Home.js"
@@ -142,7 +142,7 @@ frontend:
     status_history:
       - working: "NA"
         agent: "main"
-        comment: "Removed 5 recently added images (Atmosphere_BK6-11.jpg through BK6-15.jpg) from seconbangkhae gallery as requested. Gallery restored to original 10 images."
+        comment: "Added 5 new images to seconbangkhae gallery with correct URLs: BK6-11.jpg, BK6-12.jpg, BK6-13.JPG (uppercase), BK6-14.jpg, BK6-15.jpg. Total gallery images now 15. Used exact URLs provided by user."
 
 frontend:
   - task: "Update Contact page hero text"
