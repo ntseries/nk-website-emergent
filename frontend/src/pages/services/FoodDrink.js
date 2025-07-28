@@ -113,7 +113,7 @@ const FoodDrink = () => {
                 <Coffee size={16} />
                 <span>เติมพลัง</span>
               </div>
-              <h1 className="service-title">Food & Drink</h1>
+              <h1 className="service-title">NK Café</h1>
               <p className="service-description">
                 เมนูอาหารและเครื่องดื่มหลากหลาย เหมาะสำหรับเติมพลังขณะเล่นเกม 
                 รสชาติอร่อย สะอาด ปลอดภัย พร้อมบรรยากาศสุดชิล
