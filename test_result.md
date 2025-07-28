@@ -360,6 +360,162 @@ frontend:
         agent: "main"
         comment: "Added CSS styling for .menu-cta button container"
 
+  - task: "Update Team Building hero image"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/services/TeamBuilding.js"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Changed hero image to https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_BK6-9.jpg"
+
+  - task: "Update Team Building pricing text"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/services/TeamBuilding.js"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Changed pricing text from '500 บาท/คน' to 'สอบถามแพ็คเกจเพิ่มเติม'"
+
+  - task: "Link Team Building buttons to LINE"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/services/TeamBuilding.js"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Added LINE links to 'สอบถามโปรแกรม' and 'สอบถามรายละเอียด' buttons"
+
+  - task: "Update Team Building benefits section"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/services/TeamBuilding.js"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Updated benefits with 6 new items including comprehensive content for team development skills"
+
+  - task: "Add CSS padding to Team Building benefits"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/App.css"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Added .team-building-benefits class with top and bottom padding"
+
+  - task: "Remove Team Building packages section"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/services/TeamBuilding.js"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Completely removed packages section and related data"
+
+  - task: "Remove Team Building activities section"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/services/TeamBuilding.js"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Completely removed activities section and related data"
+
+  - task: "Change Team Building process design to grid"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/services/TeamBuilding.js"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Changed from timeline layout to grid layout with process cards"
+
+  - task: "Add CSS for Team Building process grid"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/App.css"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Added comprehensive CSS for process grid layout with hover effects and responsive design"
+
+  - task: "Remove Team Building testimonials section"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/services/TeamBuilding.js"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Completely removed testimonials section"
+
+  - task: "Update Team Building custom solutions image"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/services/TeamBuilding.js"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Changed image to https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Building-01.jpg"
+
+  - task: "Update Team Building booking information"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/services/TeamBuilding.js"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Changed time from 13:00-17:00 to 13:00-16:00 and deposit from 30% to 50%"
+
+  - task: "Update Team Building CTA phone number"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/services/TeamBuilding.js"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Changed phone number from 02-123-4567 to 065-412-3939"
+
   - task: "Update Food & Drink to NK Café branding"
     implemented: true
     working: "NA"
