@@ -688,6 +688,8 @@ test_plan:
     - "Fix About page story section mobile overflow"
     - "Update Board Game Script page to Murder Mystery theme"
     - "Add Murder Mystery CSS theme"
+    - "Update Board Game Script page text and padding"
+    - "Add padding to how-it-works section"
   stuck_tasks: []
   test_all: false
   test_priority: "high_first"
@@ -705,3 +707,5 @@ agent_communication:
     message: "Fixed About page story section mobile overflow with enhanced responsive CSS including proper container padding, overflow hidden, and word breaking for all mobile devices"
   - agent: "main"
     message: "Completely transformed Board Game Script page with Murder Mystery theme - black/red color scheme, updated all content sections, new pricing (299 บาท), new script stories, updated features, simplified workflow steps, and comprehensive CSS styling"
+  - agent: "main"
+    message: "Final Board Game Script adjustments: changed badge to 'เกมพิเศษ', updated hero description to use 'Board Game Script', added padding to how-it-works section, and ensured both CTA buttons link to Line"
