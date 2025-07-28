@@ -298,7 +298,7 @@ const Home = () => {
                   <p className="service-description">{service.description}</p>
                   <div className="service-price">{service.price}</div>
                   <button 
-                    onClick={() => window.location.href = testUrl}
+                    onClick={() => navigate(testUrl)}
                     className="service-link"
                     style={{ background: 'none', border: 'none', cursor: 'pointer' }}
                   >
