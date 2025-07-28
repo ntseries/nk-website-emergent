@@ -128,35 +128,68 @@ const BoardGameScript = () => {
       </section>
 
       {/* Scripts Collection */}
-      <section className="scripts-collection">
+      <section className="scripts-collection script-collection">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">สคริปต์ยอดนิยม</h2>
-            <p className="section-subtitle">
-              เลือกสคริปต์ที่เหมาะกับกลุ่มและเวลาของคุณ
+            <h2 className="section-title script-section-title">เนื้อเรื่องทั้งหมด</h2>
+            <p className="section-subtitle script-subtitle">
+              เลือกเนื้อเรื่องที่เหมาะกับกลุ่มและระยะเวลาของคุณ
             </p>
           </div>
           <div className="scripts-grid">
             {scripts.map((script, index) => (
-              <div key={index} className="script-card">
-                <div className="script-header">
-                  <h4 className="script-name">{script.name}</h4>
-                  <div className="script-badge">ใหม่</div>
+              <div key={index} className="script-card mystery-script-card">
+                <div className="script-image">
+                  <img src={script.image} alt={script.name} />
                 </div>
-                <p className="script-description">{script.description}</p>
-                <div className="script-info">
-                  <div className="script-meta">
-                    <div className="meta-item">
-                      <Users size={16} />
-                      <span>{script.players}</span>
+                <div className="script-content">
+                  <div className="script-header">
+                    <h4 className="script-name">{script.name}</h4>
+                    <div className="script-theme">ธีม: {script.theme}</div>
+                  </div>
+                  <div className="script-ratings">
+                    <div className="rating-item">
+                      <span className="rating-label">ความยาก</span>
+                      <div className="rating-stars">
+                        {[...Array(5)].map((_, i) => (
+                          <Star key={i} size={14} fill={i < script.difficulty ? "currentColor" : "none"} />
+                        ))}
+                      </div>
+                      <span className="rating-text">{script.difficulty}/5</span>
                     </div>
-                    <div className="meta-item">
-                      <Clock size={16} />
-                      <span>{script.duration}</span>
+                    <div className="rating-item">
+                      <span className="rating-label">สืบสวน</span>
+                      <div className="rating-stars">
+                        {[...Array(5)].map((_, i) => (
+                          <Star key={i} size={14} fill={i < script.investigation ? "currentColor" : "none"} />
+                        ))}
+                      </div>
+                      <span className="rating-text">{script.investigation}/5</span>
+                    </div>
+                    <div className="rating-item">
+                      <span className="rating-label">สวมบทบาท</span>
+                      <div className="rating-stars">
+                        {[...Array(5)].map((_, i) => (
+                          <Star key={i} size={14} fill={i < script.roleplay ? "currentColor" : "none"} />
+                        ))}
+                      </div>
+                      <span className="rating-text">{script.roleplay}/5</span>
                     </div>
                   </div>
+                  <div className="script-info">
+                    <div className="script-meta">
+                      <div className="meta-item">
+                        <Users size={16} />
+                        <span>{script.players}</span>
+                      </div>
+                      <div className="meta-item">
+                        <Clock size={16} />
+                        <span>{script.duration}</span>
+                      </div>
+                    </div>
+                  </div>
+                  <button className="script-select-btn" onClick={handleBooking}>เลือกเนื้อเรื่องนี้</button>
                 </div>
-                <button className="script-select-btn">เลือกสคริปต์นี้</button>
               </div>
             ))}
           </div>
@@ -164,32 +197,18 @@ const BoardGameScript = () => {
       </section>
 
       {/* How it Works */}
-      <section className="how-it-works">
+      <section className="how-it-works script-how-it-works">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">ขั้นตอนการเล่น</h2>
+            <h2 className="section-title script-section-title">ขั้นตอนการเล่น</h2>
           </div>
-          <div className="steps-grid">
-            <div className="step-item">
-              <div className="step-number">1</div>
-              <h3>เลือกสคริปต์</h3>
-              <p>เลือกสคริปต์ที่เหมาะกับจำนวนคนและเวลาที่มี</p>
-            </div>
-            <div className="step-item">
-              <div className="step-number">2</div>
-              <h3>แจกบทบาท</h3>
-              <p>ผู้เล่นแต่ละคนจะได้รับบทบาทและข้อมูลลับพิเศษ</p>
-            </div>
-            <div className="step-item">
-              <div className="step-number">3</div>
-              <h3>เริ่มเล่น</h3>
-              <p>ติดตามเรื่องราวและทำภารกิจตามที่กำหนดในสคริปต์</p>
-            </div>
-            <div className="step-item">
-              <div className="step-number">4</div>
-              <h3>เปิดผล</h3>
-              <p>เปิดเผยความจริงและดูว่าใครเป็นผู้ชนะ</p>
-            </div>
+          <div className="steps-grid script-steps-grid">
+            {steps.map((step, index) => (
+              <div key={index} className="step-item script-step-item">
+                <div className="step-number script-step-number">{index + 1}</div>
+                <h3>{step}</h3>
+              </div>
+            ))}
           </div>
         </div>
       </section>
