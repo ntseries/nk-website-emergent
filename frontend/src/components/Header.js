@@ -19,7 +19,6 @@ const Header = () => {
   const serviceItems = [
     { title: "เล่นที่ร้าน", path: "/services/play-at-shop" },
     { title: "Board Game Script", path: "/services/board-game-script" },
-    { title: "Dungeons & Dragons", path: "/services/dungeons-dragons" },
     { title: "Photo Booth", path: "/services/photo-booth" },
     { title: "Food & Drink", path: "/services/food-drink" },
     { title: "Team Building", path: "/services/team-building" }
