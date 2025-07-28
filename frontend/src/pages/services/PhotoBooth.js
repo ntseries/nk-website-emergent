@@ -110,6 +110,12 @@ const PhotoBooth = () => {
 
   return (
     <div className="photobooth-page">
+      <SEOHead 
+        title="Photo Booth คาวะอิ - NK Board Game | บริการถ่ายรูปน่ารัก"
+        description="Photo Booth สไตล์คาวะอิ ถ่ายรูปน่ารักๆ พร้อมพร็อพหลากหลาย ทีมงานดูแลดี แต่งผมให้ บริการครบจบในที่เดียว ที่ NK Board Game ร้านบอร์ดเกม"
+        keywords="Photo Booth, โฟโต้บูธ, ถ่ายรูป, คาวะอิ, น่ารัก, พร็อพ, แต่งผม, บอร์ดเกม, NK Board Game"
+        url="https://nkboardgame.com/services/photo-booth"
+      />
       {/* Photo Booth Specific Styles */}
       <style jsx>{`
         /* Photo Booth Theme Variables */
