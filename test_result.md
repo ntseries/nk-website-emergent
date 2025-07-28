@@ -102,7 +102,7 @@
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
 
-user_problem_statement: User requested to update the Contact page with multiple changes: 1) Update hero text, 2) Add padding to branches section, 3) Update all branch information with new details, phone numbers, hours, images and social media links, 4) Remove contact form section, 5) Update FAQ section with new content.
+user_problem_statement: User requested comprehensive updates to Team Building page: 1) Change hero image to new S3 URL, 2) Update pricing text to "สอบถามแพ็คเกตเพิ่มเติม", 3) Link "สอบถามโปรแกรม" button to LINE, 4) Update benefits section with new content and padding, 5) Remove packages and activities sections, 6) Change process design from timeline to grid, 7) Remove testimonials section, 8) Update custom solutions image, 9) Change booking info times and deposit, 10) Update CTA buttons and phone number.
 
 frontend:
   - task: "Update Contact page hero text"
