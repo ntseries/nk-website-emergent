@@ -231,9 +231,12 @@ const Home = () => {
             สนุกทุกเกม ประทับใจทุกสาขา – พบประสบการณ์บอร์ดเกมที่แตกต่างได้ที่ NK Board Game
           </p>
           <div className="hero-actions">
-            <Link to="/services" className="btn-primary">
-              เริ่มเล่นเลย <ArrowRight size={16} />
-            </Link>
+            <button 
+              onClick={() => window.open('https://line.me/ti/p/@nkboardgame', '_blank')}
+              className="btn-primary"
+            >
+              จองโต๊ะเลย <ArrowRight size={16} />
+            </button>
             <Link to="/about" className="btn-secondary">
               เรียนรู้เพิ่มเติม
             </Link>
