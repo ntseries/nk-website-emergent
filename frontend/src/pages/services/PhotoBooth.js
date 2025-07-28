@@ -990,7 +990,19 @@ const PhotoBooth = () => {
                     <span>{pkg.costumes}</span>
                   </div>
                 </div>
-                <button className="package-select-btn">Choose This Package ♡</button>
+                <a 
+                  href="https://lin.ee/H4D9qos" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="package-select-btn"
+                  style={{
+                    display: 'inline-block',
+                    textDecoration: 'none',
+                    textAlign: 'center'
+                  }}
+                >
+                  Choose This Package ♡
+                </a>
               </div>
             ))}
           </div>
