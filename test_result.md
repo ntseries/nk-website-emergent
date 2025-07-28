@@ -132,7 +132,7 @@ frontend:
         agent: "main"
         comment: "Updated page title to include branch names: 'NK Board Game - ร้านบอร์ดเกม อันดับ 1 ในใจ Gen Z | บางแค ศรีนครินทร์ สามย่าน'"
 
-  - task: "Add images to homepage gallery (สามย่านมิตรทาวน์)"
+  - task: "Remove SYM-13 image from สามย่านมิตรทาวน์ gallery"
     implemented: true
     working: "NA"
     file: "/app/frontend/src/pages/Home.js"
@@ -142,7 +142,7 @@ frontend:
     status_history:
       - working: "NA"
         agent: "main"
-        comment: "Added 6 new images to samyanmitrtown gallery: SYM-08.jpg through SYM-13.jpg with appropriate Thai captions. Total gallery images increased from 7 to 13 for better customer experience showing more atmosphere and facilities."
+        comment: "Removed SYM-13.jpg image from samyanmitrtown gallery as requested. Gallery now has 12 images (SYM-01 through SYM-12), last image is SYM-12 with caption 'บรรยากาศการเล่นสนุกสนาน'."
 
 frontend:
   - task: "Update Contact page hero text"
