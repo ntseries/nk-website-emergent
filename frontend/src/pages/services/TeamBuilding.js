@@ -143,68 +143,6 @@ const TeamBuilding = () => {
         </div>
       </section>
 
-      {/* Packages Section */}
-      <section className="packages-section">
-        <div className="container">
-          <div className="section-header">
-            <h2 className="section-title">แพ็คเกจ Team Building</h2>
-            <p className="section-subtitle">
-              เลือกแพ็คเกจที่เหมาะกับจำนวนคนและงบประมาณของคุณ
-            </p>
-          </div>
-          <div className="packages-grid">
-            {packages.map((pkg, index) => (
-              <div key={index} className={`package-card ${pkg.popular ? 'featured' : ''}`}>
-                {pkg.popular && <div className="package-badge">ยอดนิยม</div>}
-                <h3 className="package-name">{pkg.name}</h3>
-                <div className="package-price">{pkg.price}</div>
-                <p className="package-description">{pkg.description}</p>
-                <div className="package-details">
-                  <div className="package-detail">
-                    <Clock size={16} />
-                    <span>{pkg.duration}</span>
-                  </div>
-                  <div className="package-detail">
-                    <Users size={16} />
-                    <span>{pkg.participants}</span>
-                  </div>
-                  <div className="package-detail">
-                    <Trophy size={16} />
-                    <span>{pkg.games}</span>
-                  </div>
-                </div>
-                <button className="package-select-btn">เลือกแพ็คเกจนี้</button>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Activities Section */}
-      <section className="activities-section">
-        <div className="container">
-          <div className="section-header">
-            <h2 className="section-title">กิจกรรมและเกม</h2>
-            <p className="section-subtitle">
-              เกมที่คัดสรรมาเฉพาะเพื่อพัฒนาทักษะต่างๆ ของทีม
-            </p>
-          </div>
-          <div className="activities-grid">
-            {activities.map((activity, index) => (
-              <div key={index} className="activity-category-card">
-                <h3 className="category-title">{activity.category}</h3>
-                <div className="games-list">
-                  {activity.games.map((game, gameIndex) => (
-                    <div key={gameIndex} className="game-item">
-                      <span className="game-name">{game}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Process Section */}
       <section className="process-section">
