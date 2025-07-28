@@ -132,17 +132,17 @@ frontend:
         agent: "main"
         comment: "Updated page title to include branch names: 'NK Board Game - ร้านบอร์ดเกม อันดับ 1 ในใจ Gen Z | บางแค ศรีนครินทร์ สามย่าน'"
 
-  - task: "Remove SYM-13 image from สามย่านมิตรทาวน์ gallery"
+  - task: "Link Photo Booth package buttons to LINE"
     implemented: true
     working: "NA"
-    file: "/app/frontend/src/pages/Home.js"
+    file: "/app/frontend/src/pages/services/PhotoBooth.js"
     stuck_count: 0
-    priority: "medium"
+    priority: "high"
     needs_retesting: true
     status_history:
       - working: "NA"
         agent: "main"
-        comment: "Removed SYM-13.jpg image from samyanmitrtown gallery as requested. Gallery now has 12 images (SYM-01 through SYM-12), last image is SYM-12 with caption 'บรรยากาศการเล่นสนุกสนาน'."
+        comment: "Changed all 'Choose This Package ♡' buttons from button elements to anchor tags linking to LINE (https://lin.ee/H4D9qos) with target='_blank' and proper styling to maintain appearance. Now customers can directly contact NK via LINE from any package selection."
 
 frontend:
   - task: "Update Contact page hero text"
