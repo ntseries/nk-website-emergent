@@ -1,6 +1,6 @@
 import React from "react";
 import { Clock, Users, Star, ArrowRight, Gamepad2, MapPin, Car, Train } from "lucide-react";
-import SEOHead from "../SEOHead";
+import SEOHead from "../../components/SEOHead";
 
 // New NK Hit Games data
 const nkHitGames = [
