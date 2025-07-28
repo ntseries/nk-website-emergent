@@ -60,7 +60,7 @@ const BoardGameScript = () => {
             <div className="service-hero-text">
               <div className="service-badge script-badge">
                 <Skull size={16} />
-                <span>Murder Mystery</span>
+                <span>เกมพิเศษ</span>
               </div>
               <h1 className="service-title script-title">Board Game Script</h1>
               <p className="service-description script-description">
