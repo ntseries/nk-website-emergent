@@ -1,6 +1,6 @@
 import React from "react";
 import { Clock, Users, Star, ArrowRight, ScrollText, Sparkles, Skull, Shield, Eye, Map } from "lucide-react";
-import SEOHead from "../SEOHead";
+import SEOHead from "../../components/SEOHead";
 
 const BoardGameScript = () => {
   const scripts = [
