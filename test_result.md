@@ -333,6 +333,30 @@ frontend:
         agent: "main"
         comment: "Completely removed Dungeons & Dragons: deleted DungeonsAndDragons.js file, removed import and route from App.js, removed from Header serviceItems, removed from Footer links, and removed from services array in mock.js. Updated service IDs accordingly."
 
+  - task: "Update Food & Drink page content and features"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/services/FoodDrink.js"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Updated Food & Drink page: changed hero image, updated pricing to 'เริ่มต้น 29 บาท', updated features to NK Cafe theme, removed multiple sections (combos, special menu, dietary options, testimonials, ordering info), updated CTA text and button links. Awaiting menu data file from user."
+
+  - task: "Add CSS for Food & Drink menu CTA"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/App.css"
+    stuck_count: 0
+    priority: "low"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Added CSS styling for .menu-cta button container"
+
 frontend:
   - task: "Create page-specific hero section backgrounds"
     implemented: true
