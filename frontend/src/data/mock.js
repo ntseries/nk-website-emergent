@@ -19,14 +19,6 @@ export const services = [
   },
   {
     id: 3,
-    title: "Dungeons & Dragons",
-    description: "เซสชัน D&D สำหรับผู้เล่นทุกระดับ พร้อม DM มืออาชีพและอุปกรณ์ครบครัน",
-    icon: "shield",
-    image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/NK-Service-03.jpg",
-    price: "300 บาท/เซสชัน/ท่าน"
-  },
-  {
-    id: 4,
     title: "Photo Booth",
     description: "โฟโต้บูธสุดเจ๋งพร้อมพร็อพบอร์ดเกม บันทึกช่วงเวลาสนุก ๆ กับเพื่อน ๆ",
     icon: "camera",
@@ -34,7 +26,7 @@ export const services = [
     price: "เริ่มต้น 199 บาท/ชั่วโมง"
   },
   {
-    id: 5,
+    id: 4,
     title: "Food & Drink",
     description: "เมนูอาหารและเครื่องดื่มหลากหลาย เหมาะสำหรับเติมพลังขณะเล่นเกม",
     icon: "coffee",
