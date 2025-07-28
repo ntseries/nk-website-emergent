@@ -231,6 +231,30 @@ const Home = () => {
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SYM-07.jpg",
           caption: "บรรยากาศอบอุ่นและเป็นกันเอง"
+        },
+        {
+          url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SYM-08.jpg",
+          caption: "มุมพักผ่อนสบายๆ"
+        },
+        {
+          url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SYM-09.jpg",
+          caption: "พื้นที่เล่นเกมแบบกลุ่ม"
+        },
+        {
+          url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SYM-10.jpg",
+          caption: "บริเวณโต๊ะเล่นเกมหลัก"
+        },
+        {
+          url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SYM-11.jpg",
+          caption: "มุมนั่งเล่นพิเศษ"
+        },
+        {
+          url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SYM-12.jpg",
+          caption: "บรรยากาศการเล่นสนุกสนาน"
+        },
+        {
+          url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SYM-13.jpg",
+          caption: "พื้นที่จัดกิจกรรมพิเศษ"
         }
       ]
     }
