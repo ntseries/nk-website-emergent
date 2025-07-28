@@ -65,7 +65,7 @@ const BoardGameScript = () => {
               <h1 className="service-title script-title">Board Game Script</h1>
               <p className="service-description script-description">
                 ก้าวเข้าสู่โลกแห่งความลึกลับ ไขปริศนาการฆาตกรรม และเปิดเผยความจริงที่ซ่อนเร้น
-                ด้วยสคริปต์เกม Murder Mystery ที่จะพาคุณดำดิ่งสู่เรื่องราวสุดระทึกขวัญ
+                ด้วย Board Game Script ที่จะพาคุณดำดิ่งสู่เรื่องราวสุดระทึกขวัญ
               </p>
               <div className="service-price script-price">
                 <span className="price-value">299 บาท</span>
