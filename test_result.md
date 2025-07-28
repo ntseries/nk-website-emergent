@@ -102,7 +102,7 @@
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
 
-user_problem_statement: User requested multiple gallery updates for homepage: 1) Update Photo Booth testimonials, 2) Add 5 images to ซีคอนบางแค gallery, 3) Add 6 images to สามย่านมิตรทาวน์ gallery.
+user_problem_statement: User requested multiple updates: 1) Homepage text changes (hero badge and title), 2) Photo Booth testimonials update, 3) Homepage gallery updates (add images to ซีคอนบางแค and สามย่านมิตรทาวน์), 4) Link Photo Booth package buttons to LINE.
 
 frontend:
   - task: "Update homepage hero badge text"
