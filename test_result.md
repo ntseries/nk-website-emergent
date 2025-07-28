@@ -344,6 +344,9 @@ frontend:
       - working: "NA"
         agent: "main"
         comment: "Updated Food & Drink page: changed hero image, updated pricing to 'เริ่มต้น 29 บาท', updated features to NK Cafe theme, removed multiple sections (combos, special menu, dietary options, testimonials, ordering info), updated CTA text and button links. Awaiting menu data file from user."
+      - working: "NA"
+        agent: "main"
+        comment: "Updated menu data from NK-Cafe.xlsx with 7 categories: ของทานเล่น, ขนมปังปิ้งฉ่ำเนย, เครื่องดื่ม, อิตาเลี่ยนโซดา, สมูทตี้, เมนูข้าว, and เสริม. Total 64 menu items with proper categorization and popular flags."
 
   - task: "Add CSS for Food & Drink menu CTA"
     implemented: true
