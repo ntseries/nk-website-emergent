@@ -82,7 +82,7 @@ const BoardGameScript = () => {
             </div>
             <div className="service-hero-image">
               <img 
-                src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&h=400&fit=crop" 
+                src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/NK-Service-02.PNG" 
                 alt="Board Game Script"
               />
             </div>
