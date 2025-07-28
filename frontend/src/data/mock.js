@@ -27,7 +27,7 @@ export const services = [
   },
   {
     id: 4,
-    title: "Food & Drink",
+    title: "NK Café",
     description: "เมนูอาหารและเครื่องดื่มหลากหลาย เหมาะสำหรับเติมพลังขณะเล่นเกม",
     icon: "coffee",
     image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/NK-Service-05.png",
