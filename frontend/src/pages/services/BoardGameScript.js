@@ -11,7 +11,7 @@ const BoardGameScript = () => {
       roleplay: 3,
       players: "6-15 คน",
       duration: "90 นาที",
-      image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Script-Deathly-High-School-Mystery.jpg"
+      image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Script-School.jpg"
     },
     {
       name: "คืนสุดท้ายฮิตเลอร์หายไป",
@@ -21,7 +21,7 @@ const BoardGameScript = () => {
       roleplay: 4,
       players: "8-10 คน", 
       duration: "90 นาที",
-      image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Script-Deathly-High-School-Mystery.jpg"
+      image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Script-Hitler.jpg"
     },
     {
       name: "คาถาพิฆาตในห้องต้องประสงค์",
@@ -31,7 +31,7 @@ const BoardGameScript = () => {
       roleplay: 4,
       players: "6-10 คน",
       duration: "120 นาที",
-      image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Script-Deathly-High-School-Mystery.jpg"
+      image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Script-Magic.jpg"
     }
   ];
 
