@@ -69,7 +69,7 @@ const TeamBuilding = () => {
                 <span className="price-value">สอบถามแพ็คเกจเพิ่มเติม</span>
               </div>
               <div className="service-actions">
-                <button className="btn-primary">
+                <button className="btn-primary" onClick={() => window.open('https://line.me/ti/p/@nkboardgame', '_blank')}>
                   สอบถามโปรแกรม <ArrowRight size={16} />
                 </button>
                 <button className="btn-secondary">
