@@ -985,6 +985,7 @@ test_plan:
     - "Update website title"
     - "Update Photo Booth testimonials/reviews"
     - "Add images to homepage gallery (ซีคอนบางแค) - final version"
+    - "Add images to homepage gallery (สามย่านมิตรทาวน์)"
   stuck_tasks: []
   test_all: false
   test_priority: "high_first"
