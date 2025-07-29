@@ -34,8 +34,11 @@
     <priority>0.9</priority>
   </url>
   
+  <!-- Board Game Script -->
   <url>
     <loc>https://nkboardgame.com/services/board-game-script</loc>
+    <xhtml:link rel="alternate" hreflang="th" href="https://nkboardgame.com/services/board-game-script" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://nkboardgame.com/en/services/board-game-script" />
     <lastmod>2025-01-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
