@@ -224,16 +224,16 @@ const FoodDrink = () => {
       <section className="cta-section">
         <div className="container">
           <div className="cta-content">
-            <h2 className="cta-title">หิวแล้วหรือยัง?</h2>
+            <h2 className="cta-title">{t('nk_cafe.cta.title')}</h2>
             <p className="cta-description">
-              มาเติมพลัง ด้วยอาหารแสนอร่อย และเครื่องดื่มแสนสดชื่น กันได้เลย!
+              {t('nk_cafe.cta.description')}
             </p>
             <div className="cta-actions">
               <button className="btn-primary" onClick={handleOrderFood}>
-                สั่งอาหารเลย <ArrowRight size={16} />
+                {t('nk_cafe.cta.order')} <ArrowRight size={16} />
               </button>
               <button className="btn-secondary" onClick={handleViewFullMenu}>
-                ดูเมนูเต็ม
+                {t('nk_cafe.cta.view_menu')}
               </button>
             </div>
           </div>
