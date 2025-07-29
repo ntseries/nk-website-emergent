@@ -110,6 +110,12 @@ const FoodDrink = () => {
 
   return (
     <div className="service-detail-page">
+      <SEOHead 
+        title={isEnglish ? "NK Café - Board Game Café | Food & Drinks while Gaming" : "NK Café - ร้านบอร์ดเกม | อาหารและเครื่องดื่มขณะเล่นเกม"}
+        description={isEnglish ? "NK Café at NK Board Game - Various food and drinks perfect for gaming. Fresh ingredients, clean, safe. Butter toast, snacks, beverages, smoothies, rice dishes. Starting from 29 Baht. 3 branches: Bangkae, Srinakarin, Samyan." : "NK Café ที่ NK Board Game เมนูอาหารและเครื่องดื่มหลากหลาย เหมาะสำหรับเติมพลังขณะเล่นเกม วัตถุดิบสด สะอาด ปลอดภัย ขนมปังเนย ของทานเล่น เครื่องดื่ม สมูทตี้ เมนูข้าว เริ่มต้น 29 บาท 3 สาขา บางแค ศรีนครินทร์ สามย่าน ซีคอนบางแค ซีคอนศรีนครินทร์ สามย่านมิตรทาวน์"}
+        keywords={isEnglish ? "NK Café, Board Game Café, Food while Gaming, Café Menu, Butter Toast, Smoothies, Rice Dishes, Beverages, NK Board Game, Bangkae, Srinakarin, Samyan" : "NK Café, ร้านกาแฟ, อาหารขณะเล่นเกม, เมนูคาเฟ่, ขนมปังเนย, สมูทตี้, เมนูข้าว, เครื่องดื่ม, NK Board Game, บางแค, ศรีนครินทร์, สามย่าน, ซีคอนบางแค, ซีคอนศรีนครินทร์, สามย่านมิตรทาวน์"}
+        url={isEnglish ? "https://nkboardgame.com/en/services/food-drink" : "https://nkboardgame.com/services/food-drink"}
+      />
       {/* Hero Section */}
       <section className="service-hero">
         <div className="container">
@@ -117,22 +123,29 @@ const FoodDrink = () => {
             <div className="service-hero-text">
               <div className="service-badge">
                 <Coffee size={16} />
-                <span>เติมพลัง</span>
+                <span>{isEnglish ? "Energy Boost" : "เติมพลัง"}</span>
               </div>
               <h1 className="service-title">NK Café</h1>
               <p className="service-description">
-                เมนูอาหารและเครื่องดื่มหลากหลาย เหมาะสำหรับเติมพลังขณะเล่นเกม 
-                รสชาติอร่อย สะอาด ปลอดภัย พร้อมบรรยากาศสุดชิล
+                {isEnglish ? (
+                  <>Various food and drink menu, perfect for energizing while gaming.<br/>
+                  Delicious taste, clean, safe with super chill atmosphere</>
+                ) : (
+                  <>เมนูอาหารและเครื่องดื่มหลากหลาย เหมาะสำหรับเติมพลังขณะเล่นเกม<br/>
+                  รสชาติอร่อย สะอาด ปลอดภัย พร้อมบรรยากาศสุดชิล</>
+                )}
               </p>
               <div className="service-price">
-                <span className="price-value">เริ่มต้น 29 บาท</span>
+                <span className="price-value">
+                  {isEnglish ? "Starting from 29 Baht" : "เริ่มต้น 29 บาท"}
+                </span>
               </div>
               <div className="service-actions">
                 <button className="btn-primary" onClick={handleViewFullMenu}>
-                  ดูเมนูทั้งหมด <ArrowRight size={16} />
+                  {isEnglish ? "View Full Menu" : "ดูเมนูทั้งหมด"} <ArrowRight size={16} />
                 </button>
                 <button className="btn-secondary" onClick={handleOrderFood}>
-                  สั่งอาหารเลย
+                  {isEnglish ? "Order Now" : "สั่งอาหารเลย"}
                 </button>
               </div>
             </div>
