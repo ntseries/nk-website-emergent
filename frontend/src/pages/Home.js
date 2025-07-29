@@ -198,6 +198,10 @@ const Home = () => {
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SRI-14.jpg",
           caption: "พื้นที่เสริมกิจกรรม"
+        },
+        {
+          url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SRI-15.jpg",
+          caption: "บริเวณพิเศษเพิ่มเติม"
         }
       ]
     },
