@@ -183,7 +183,7 @@ const BoardGameScript = () => {
               <div className="feature-icon script-feature-icon">
                 <Star size={32} />
               </div>
-              <h3>{isEnglish ? "Exclusive in Thailand" : "ที่เดียวในประเทส Thai"}</h3>
+              <h3>{isEnglish ? "Exclusive in Thailand" : "ที่เดียวในประเทศไทย"}</h3>
               <p>
                 {isEnglish
                   ? "If you want to play board game scripts, currently only available at NK Board Game"
