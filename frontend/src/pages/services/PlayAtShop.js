@@ -247,29 +247,43 @@ const nkHitGames = [
       <section className="pricing-section">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">ค่าบริการ</h2>
+            <h2 className="section-title">
+              {isEnglish ? "Service Rates" : "ค่าบริการ"}
+            </h2>
           </div>
           
           {/* Branch Pricing Tables */}
           <div className="branch-pricing">
             {/* ซีคอนบางแค */}
             <div className="branch-card">
-              <h3 className="branch-title">สาขาซีคอนบางแค</h3>
+              <h3 className="branch-title">
+                {isEnglish ? "Seacon Bangkae Branch" : "สาขาซีคอนบางแค"}
+              </h3>
               <div className="pricing-table">
                 <div className="table-header">
                   <div className="table-cell"></div>
-                  <div className="table-cell">ชั่วโมง</div>
-                  <div className="table-cell">วัน</div>
-                  <div className="table-cell">เดือน</div>
+                  <div className="table-cell">
+                    {isEnglish ? "Hourly" : "ชั่วโมง"}
+                  </div>
+                  <div className="table-cell">
+                    {isEnglish ? "Daily" : "วัน"}
+                  </div>
+                  <div className="table-cell">
+                    {isEnglish ? "Monthly" : "เดือน"}
+                  </div>
                 </div>
                 <div className="table-row">
-                  <div className="table-cell customer-type">นักเรียน นักศึกษา</div>
+                  <div className="table-cell customer-type">
+                    {isEnglish ? "Student" : "นักเรียน นักศึกษา"}
+                  </div>
                   <div className="table-cell price">36</div>
                   <div className="table-cell price">108</div>
                   <div className="table-cell price">599</div>
                 </div>
                 <div className="table-row">
-                  <div className="table-cell customer-type">บุคคลทั่วไป</div>
+                  <div className="table-cell customer-type">
+                    {isEnglish ? "General" : "บุคคลทั่วไป"}
+                  </div>
                   <div className="table-cell price">45</div>
                   <div className="table-cell price">168</div>
                   <div className="table-cell price">799</div>
@@ -279,22 +293,34 @@ const nkHitGames = [
 
             {/* ซีคอนศรีนครินทร์ */}
             <div className="branch-card">
-              <h3 className="branch-title">สาขาซีคอนศรีนครินทร์</h3>
+              <h3 className="branch-title">
+                {isEnglish ? "Seacon Srinakarin Branch" : "สาขาซีคอนศรีนครินทร์"}
+              </h3>
               <div className="pricing-table">
                 <div className="table-header">
                   <div className="table-cell"></div>
-                  <div className="table-cell">ชั่วโมง</div>
-                  <div className="table-cell">วัน</div>
-                  <div className="table-cell">เดือน</div>
+                  <div className="table-cell">
+                    {isEnglish ? "Hourly" : "ชั่วโมง"}
+                  </div>
+                  <div className="table-cell">
+                    {isEnglish ? "Daily" : "วัน"}
+                  </div>
+                  <div className="table-cell">
+                    {isEnglish ? "Monthly" : "เดือน"}
+                  </div>
                 </div>
                 <div className="table-row">
-                  <div className="table-cell customer-type">นักเรียน นักศึกษา</div>
+                  <div className="table-cell customer-type">
+                    {isEnglish ? "Student" : "นักเรียน นักศึกษา"}
+                  </div>
                   <div className="table-cell price">36</div>
                   <div className="table-cell price">108</div>
                   <div className="table-cell price">599</div>
                 </div>
                 <div className="table-row">
-                  <div className="table-cell customer-type">บุคคลทั่วไป</div>
+                  <div className="table-cell customer-type">
+                    {isEnglish ? "General" : "บุคคลทั่วไป"}
+                  </div>
                   <div className="table-cell price">45</div>
                   <div className="table-cell price">168</div>
                   <div className="table-cell price">799</div>
@@ -304,7 +330,9 @@ const nkHitGames = [
 
             {/* สามย่านมิตรทาวน์ */}
             <div className="branch-card">
-              <h3 className="branch-title">สาขาสามย่านมิตรทาวน์</h3>
+              <h3 className="branch-title">
+                {isEnglish ? "Samyan Mitrtown Branch" : "สาขาสามย่านมิตรทาวน์"}
+              </h3>
               <div className="pricing-table">
                 <div className="table-header">
                   <div className="table-cell"></div>
