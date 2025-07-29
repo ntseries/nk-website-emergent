@@ -62,40 +62,40 @@ const FoodDrink = () => {
       ]
     },
     {
-      name: "🍹 สมูทตี้",
+      name: isEnglish ? "🍹 Smoothies" : "🍹 สมูทตี้",
       items: [
-        { name: "สตอเบอร์รี่สมูทตี้", price: "59.-", popular: true },
-        { name: "แอปเปิ้ลสมูทตี้", price: "59.-", popular: false },
-        { name: "กีวี่สมูทตี้", price: "59.-", popular: false },
-        { name: "ส้มสมูทตี้", price: "59.-", popular: false },
-        { name: "แตงโมสมูทตี้", price: "59.-", popular: false },
-        { name: "เสาวรสสมูทตี้", price: "59.-", popular: false },
-        { name: "ลิ้นจี่สมูทตี้", price: "59.-", popular: false },
-        { name: "โยเกิร์ตสมูทตี้", price: "59.-", popular: false },
-        { name: "ส้มนมนัวสมูทตี้", price: "59.-", popular: false },
-        { name: "แตงโมนมนัวสมูทตี้", price: "59.-", popular: false }
+        { name: isEnglish ? "Strawberry Smoothie" : "สตอเบอร์รี่สมูทตี้", price: "59.-", popular: true },
+        { name: isEnglish ? "Apple Smoothie" : "แอปเปิ้ลสมูทตี้", price: "59.-", popular: false },
+        { name: isEnglish ? "Kiwi Smoothie" : "กีวี่สมูทตี้", price: "59.-", popular: false },
+        { name: isEnglish ? "Orange Smoothie" : "ส้มสมูทตี้", price: "59.-", popular: false },
+        { name: isEnglish ? "Watermelon Smoothie" : "แตงโมสมูทตี้", price: "59.-", popular: false },
+        { name: isEnglish ? "Passion Fruit Smoothie" : "เสาวรสสมูทตี้", price: "59.-", popular: false },
+        { name: isEnglish ? "Lychee Smoothie" : "ลิ้นจี่สมูทตี้", price: "59.-", popular: false },
+        { name: isEnglish ? "Yogurt Smoothie" : "โยเกิร์ตสมูทตี้", price: "59.-", popular: false },
+        { name: isEnglish ? "Orange Cream Smoothie" : "ส้มนมนัวสมูทตี้", price: "59.-", popular: false },
+        { name: isEnglish ? "Watermelon Cream Smoothie" : "แตงโมนมนัวสมูทตี้", price: "59.-", popular: false }
       ]
     },
     {
-      name: "🍚 เมนูข้าว",
+      name: isEnglish ? "🍚 Rice Dishes" : "🍚 เมนูข้าว",
       items: [
-        { name: "ข้าวกะเพรา", price: "59.-", popular: true },
-        { name: "ข้าวราดผัดพริกเกลือ", price: "59.-", popular: true },
-        { name: "ข้าวไข่เจียวไข่ 2 ฟอง", price: "39.-", popular: true },
-        { name: "ข้าวไข่ข้น", price: "49.-", popular: true },
-        { name: "ข้าวผัด", price: "69.-", popular: false },
-        { name: "ข้าวหน้าไก่คาราอาเกะ", price: "79.-", popular: false },
-        { name: "ข้าวหมูสับผัดซีอิ๊วหวาน", price: "59.-", popular: false }
+        { name: isEnglish ? "Thai Basil Stir-fry Rice" : "ข้าวกะเพรา", price: "59.-", popular: true },
+        { name: isEnglish ? "Salt & Pepper Stir-fry Rice" : "ข้าวราดผัดพริกเกลือ", price: "59.-", popular: true },
+        { name: isEnglish ? "Rice with 2-Egg Omelet" : "ข้าวไข่เจียวไข่ 2 ฟอง", price: "39.-", popular: true },
+        { name: isEnglish ? "Rich Egg Rice" : "ข้าวไข่ข้น", price: "49.-", popular: true },
+        { name: isEnglish ? "Fried Rice" : "ข้าวผัด", price: "69.-", popular: false },
+        { name: isEnglish ? "Karaage Chicken Rice" : "ข้าวหน้าไก่คาราอาเกะ", price: "79.-", popular: false },
+        { name: isEnglish ? "Sweet Soy Minced Pork Rice" : "ข้าวหมูสับผัดซีอิ๊วหวาน", price: "59.-", popular: false }
       ]
     },
     {
-      name: "🍳 เสริม",
+      name: isEnglish ? "🍳 Add-ons" : "🍳 เสริม",
       items: [
-        { name: "ไข่ดาว", price: "+10.-", popular: false },
-        { name: "ไข่เจียว", price: "+15.-", popular: false },
-        { name: "ข้าวสวย", price: "+10.-", popular: false },
-        { name: "+หมูสับ หมูชิ้น เบคอน ไส้กรอก แฮม", price: "+10.-", popular: false },
-        { name: "+พริก ต้นหอม โหระพา แครอท", price: "+5.-", popular: false }
+        { name: isEnglish ? "Fried Egg" : "ไข่ดาว", price: "+10.-", popular: false },
+        { name: isEnglish ? "Omelet" : "ไข่เจียว", price: "+15.-", popular: false },
+        { name: isEnglish ? "Plain Rice" : "ข้าวสวย", price: "+10.-", popular: false },
+        { name: isEnglish ? "+Pork, Bacon, Sausage, Ham" : "+หมูสับ หมูชิ้น เบคอน ไส้กรอก แฮม", price: "+10.-", popular: false },
+        { name: isEnglish ? "+Chili, Scallion, Basil, Carrot" : "+พริก ต้นหอม โหระพา แครอท", price: "+5.-", popular: false }
       ]
     }
   ];
