@@ -202,9 +202,11 @@ const nkHitGames = [
       <section className="game-collection">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">เกมฮิต NK</h2>
+            <h2 className="section-title">
+              {isEnglish ? "NK Hit Games" : "เกมฮิต NK"}
+            </h2>
             <p className="section-subtitle">
-              เลือกดูเกมที่ลูกค้าชื่นชอบมากที่สุด
+              {isEnglish ? "Check out our customers' most favorite games" : "เลือกดูเกมที่ลูกค้าชื่นชอบมากที่สุด"}
             </p>
           </div>
           <div className="games-grid">
@@ -213,18 +215,26 @@ const nkHitGames = [
                 <div className="game-image">
                   <img 
                     src={game.image} 
-                    alt={game.name}
+                    alt={isEnglish ? game.nameEn : game.name}
                     className="game-thumbnail"
                   />
                 </div>
                 <div className="game-content">
-                  <h4 className="game-name">{game.name}</h4>
+                  <h4 className="game-name">
+                    {isEnglish ? game.nameEn : game.name}
+                  </h4>
                   <div className="game-info">
                     <div className="game-meta">
-                      <span className="game-category">{game.category}</span>
-                      <span className="game-players">{game.players}</span>
+                      <span className="game-category">
+                        {isEnglish ? game.categoryEn : game.category}
+                      </span>
+                      <span className="game-players">
+                        {isEnglish ? game.playersEn : game.players}
+                      </span>
                     </div>
-                    <div className="game-duration">{game.duration}</div>
+                    <div className="game-duration">
+                      {isEnglish ? game.durationEn : game.duration}
+                    </div>
                   </div>
                 </div>
               </div>
