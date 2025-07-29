@@ -214,24 +214,24 @@ const TeamBuilding = () => {
       <section className="booking-info-section">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">ข้อมูลการจอง</h2>
+            <h2 className="section-title">{t('team_building.booking.title')}</h2>
           </div>
           <div className="booking-cards">
             <div className="booking-card">
-              <h3>📅 การจองล่วงหน้า</h3>
-              <p>แนะนำให้จองล่วงหน้าอย่างน้อย 2 สัปดาห์ เพื่อการเตรียมการที่ดีที่สุด</p>
+              <h3>{t('team_building.booking.advance_booking.title')}</h3>
+              <p>{t('team_building.booking.advance_booking.description')}</p>
             </div>
             <div className="booking-card">
-              <h3>⏰ เวลาที่เหมาะสม</h3>
-              <p>เช้า 9:00-12:00 หรือ บ่าย 13:00-16:00 เหมาะสำหรับกิจกรรมองค์กร</p>
+              <h3>{t('team_building.booking.suitable_time.title')}</h3>
+              <p>{t('team_building.booking.suitable_time.description')}</p>
             </div>
             <div className="booking-card">
-              <h3>👥 จำนวนคนขั้นต่ำ</h3>
-              <p>รับจัดกิจกรรมตั้งแต่ 8 คนขึ้นไป สูงสุด 50 คนต่อรอบ</p>
+              <h3>{t('team_building.booking.minimum_people.title')}</h3>
+              <p>{t('team_building.booking.minimum_people.description')}</p>
             </div>
             <div className="booking-card">
-              <h3>💰 การชำระเงิน</h3>
-              <p>มัดจำ 50% เมื่อยืนยันการจอง ส่วนที่เหลือชำระในวันจัดกิจกรรม</p>
+              <h3>{t('team_building.booking.payment.title')}</h3>
+              <p>{t('team_building.booking.payment.description')}</p>
             </div>
           </div>
         </div>
