@@ -132,14 +132,17 @@ export const testimonials = [
     name: "ชินะ",
     age: 19,
     text: "เล่นเกมสนุกมาก แอร์เย็นฉ่ำ บอร์ดเกมเยอะมากกก มีเผื่อคนทั้งโลกให้เล่น",
+    textEn: "The games are so much fun! Air conditioning is perfectly cool, and there are tons of board games - enough for the whole world to play!",
     rating: 5,
     image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Review-Char-01.jpeg"
   },
   {
     id: 2,
     name: "แมกซ์",
+    nameEn: "Max",
     age: 22,
     text: "Board Game Script เจ๋งมาก GM เก่งมาก รันเรื่องได้น่าตื่นเต้น",
+    textEn: "Board Game Script is amazing! The GM is so skilled and runs the story in such an exciting way!",
     rating: 5,
     image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Review-Char-02.jpg"
   },
@@ -148,6 +151,7 @@ export const testimonials = [
     name: "Arisa",
     age: 17,
     text: "Photo booth พี่ๆ ดูแลดีมากค่ะ ปกติไม่ค่อยถ่ายรูป แต่พี่ๆ ก็บรีฟให้ แถมทำผมให้ด้วย น่ารักและใจดีมากๆ เลยค่ะ ❤️",
+    textEn: "The photo booth staff takes such great care of us! I usually don't like taking photos, but they guided me through everything and even did my hair. They're so cute and kind! ❤️",
     rating: 5,
     image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Review-Char-03.jpg"
   },
@@ -156,6 +160,7 @@ export const testimonials = [
     name: "Nicole Ch",
     age: 25,
     text: "ร้านบอร์ดเกมที่กว้าง ไปเล่นมาหลายครั้งแล้ว พื้นที่เยอะ สะอาด สว่าง เกมมีให้เลือกเยอะมากๆ มีพี่ๆใจดีช่วยมาสอนอธิบายการเล่นเกมให้เข้าใจ มีอาหารเครื่องดื่มให้สั่ง กินไปด้วย เล่นไปด้วย เพลินเล่นได้หลายชม.กันเลยทีเดียว ราคาก็ไม่แพง มีราคาสำหรับ นักเรียน นักศึกษา ทำให้อยู่ห่างหน้าจอมือถือได้หลายชั่วโมงเลย 👍 ปล. ร้านอยู่ชั้น 6 ต้องขึ้นลิฟท์มาชั้น 5 แล้วเดินขึ้นบันไดต่อมาอีก",
+    textEn: "Such a spacious board game cafe! I've been here multiple times. Lots of space, clean, bright, with tons of games to choose from. The kind staff help teach and explain how to play games until you understand. There's food and drinks available to order while playing. Can enjoy playing for hours! The price is reasonable with student discounts too. Helps us stay away from phone screens for hours! 👍 P.S. The shop is on 6th floor - take elevator to 5th floor then walk up stairs.",
     rating: 5,
     image: ""
   }
