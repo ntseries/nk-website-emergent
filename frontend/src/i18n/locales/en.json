@@ -28,23 +28,28 @@
     "view_more": "View More Details",
     "play_at_shop": {
       "title": "Play at Shop",
-      "description": "Comfortable gaming space with over 1,000+ games"
+      "description": "Comfortable gaming space with over 1,000+ games",
+      "price": "Starting from 36 Baht"
     },
     "board_game_script": {
       "title": "Board Game Script",
-      "description": "Thrilling script games with murder mystery solving"
+      "description": "Thrilling script games with murder mystery solving",
+      "price": "299 Baht/game"
     },
     "photo_booth": {
       "title": "Photo Booth",
-      "description": "Kawaii-style photo booth, cute and Instagram-worthy"
+      "description": "Kawaii-style photo booth, cute and Instagram-worthy",
+      "price": "Starting from 199 Baht"
     },
     "nk_cafe": {
       "title": "NK Café",
-      "description": "Delicious food and beverages perfect for gaming"
+      "description": "Delicious food and beverages perfect for gaming",
+      "price": "Starting from 29 Baht"
     },
     "team_building": {
       "title": "Team Building",
-      "description": "Team-building activities perfect for organizations"
+      "description": "Team-building activities perfect for organizations",
+      "price": "Inquire for Package Details"
     }
   },
   "testimonials": {
