@@ -196,7 +196,7 @@ const BoardGameScript = () => {
       </section>
 
       {/* Scripts Collection */}
-      <section className="scripts-collection script-collection">
+      <section className="scripts-collection script-collection" style={{paddingBottom: '60px'}}>
         <div className="container">
           <div className="section-header">
             <h2 className="section-title script-section-title">
