@@ -47,7 +47,7 @@ const Header = () => {
       <div className="container">
         <div className="nav-wrapper">
           {/* Logo */}
-          <Link to="/" className="logo" onClick={handleNavClick}>
+          <Link to={getLocalizedPath("/")} className="logo" onClick={handleNavClick}>
             <img 
               src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/nk_logo_transparent.png"
               alt="NK Board Game"
@@ -57,11 +57,11 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="nav-desktop">
-            <Link to="/" className={`nav-link ${isActive("/") ? "active" : ""}`} onClick={handleNavClick}>
-              หน้าแรก
+            <Link to={getLocalizedPath("/")} className={`nav-link ${isActive("/") ? "active" : ""}`} onClick={handleNavClick}>
+              {t("nav.home")}
             </Link>
-            <Link to="/about" className={`nav-link ${isActive("/about") ? "active" : ""}`} onClick={handleNavClick}>
-              เกี่ยวกับเรา
+            <Link to={getLocalizedPath("/about")} className={`nav-link ${isActive("/about") ? "active" : ""}`} onClick={handleNavClick}>
+              {t("nav.about")}
             </Link>
             
             {/* Services Dropdown */}
@@ -70,14 +70,32 @@ const Header = () => {
               onMouseEnter={() => setIsServicesOpen(true)}
               onMouseLeave={() => setIsServicesOpen(false)}
             >
-              <button className={`nav-link dropdown-trigger ${location.pathname.startsWith("/services") ? "active" : ""}`}>
-                บริการ <ChevronDown className="dropdown-icon" size={16} />
+              <button className={`nav-link dropdown-trigger ${location.pathname.includes("/services") ? "active" : ""}`}>
+                {t("nav.services")} <ChevronDown className="dropdown-icon" size={16} />
               </button>
               {isServicesOpen && (
                 <div className="dropdown-menu">
                   {serviceItems.map((item) => (
                     <Link
                       key={item.path}
+                      to={getLocalizedPath(item.path)}
+                      className="dropdown-item"
+                      onClick={handleNavClick}
+                    >
+                      {item.title}
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            <Link to={getLocalizedPath("/contact")} className={`nav-link ${isActive("/contact") ? "active" : ""}`} onClick={handleNavClick}>
+              {t("nav.contact")}
+            </Link>
+
+            {/* Language Switcher */}
+            <LanguageSwitcher className="ml-4" />
+          </nav>
                       to={item.path}
                       className="dropdown-item"
                       onClick={handleNavClick}
