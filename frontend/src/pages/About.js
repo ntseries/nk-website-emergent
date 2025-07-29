@@ -43,46 +43,34 @@ const About = () => {
         <div className="container">
           <div className="story-content">
             <div className="story-text">
-              <h2 className="section-title">เรื่องราวของเรา</h2>
-              <h3 className="story-subtitle">จากร้านเล็กๆ สู่ชุมชนบอร์ดเกมที่ใหญ่ที่สุดในไทย</h3>
-              <p>
-                เรื่องราวของเราเริ่มต้นจากร้านเล็กๆ ที่ชื่อว่า "ตั้งกระดาน" ในศูนย์การค้า Platform วงเวียนใหญ่
-                ร้านเล็กๆ แห่งนี้มีเพียง 3 โต๊ะ รองรับลูกค้าได้แค่ 16 คน แต่เต็มไปด้วยบรรยากาศอบอุ่น 
-                และตั้งใจให้เป็นเหมือน "ห้องนั่งเล่นบ้านเพื่อน" ที่ทุกคนรู้จักกันดี พูดคุยกันอย่างเป็นกันเอง 
-                และใช้เวลาร่วมกันอย่างสนุกสนาน
-              </p>
-              <p>
-                ไม่นานกลุ่มนักเรียนและลูกค้ารุ่นแรกๆ ที่มาใช้บริการก็กลายเป็นเพื่อน กลายเป็นครอบครัว 
-                และกลายเป็นชุมชนเล็กๆ ที่เติบโตอย่างรวดเร็ว จนร้านเล็กๆ ของเราก็ไม่อาจรองรับได้อีกต่อไป
-              </p>
-              <p>
-                เราจึงตัดสินใจขยับขยายสู่ ห้างซีคอน บางแค และเปลี่ยนชื่อเป็น NK Board Game
-                ที่นี่กลายเป็นบ้านหลังใหม่ที่อบอุ่นกว่าเดิม พร้อมพื้นที่รองรับกลุ่มผู้เล่นที่ใหญ่ขึ้น
-              </p>
-              <p>
-                ด้วยความเมตตาและการสนับสนุนจากผู้บริหารของห้างซีคอน NK Board Game จึงเติบโตขึ้นอย่างรวดเร็ว
-                กลายเป็น ร้านบอร์ดเกมที่ใหญ่ที่สุดในประเทศไทย พร้อมกิจกรรมและพื้นที่ที่รองรับทุกเพศ ทุกวัย 
-                และทุกกลุ่มเพื่อนที่อยากมาสนุกด้วยกัน
-              </p>
-              <p>
-                วันนี้ NK Board Game ไม่ได้มีแค่สาขาซีคอน บางแคเท่านั้น
-                แต่เรายังได้ขยายสาขาไปยัง ซีคอนสแควร์ ศรีนครินทร์ และ สามย่านมิตรทาวน์
-                เพื่อให้ทุกคนสามารถเข้าถึงโลกของบอร์ดเกมได้ง่ายขึ้น 
-                และได้สัมผัสกับบรรยากาศแห่งมิตรภาพและความสนุกที่เราภูมิใจสร้างมาตั้งแต่วันแรก
-              </p>
+              <h2 className="section-title">{t("about.story_title")}</h2>
+              <h3 className="story-subtitle">{t("about.story_subtitle")}</h3>
+              <p>{t("about.story_content.para1")}</p>
+              <p>{t("about.story_content.para2")}</p>
+              <p>{t("about.story_content.para3")}</p>
+              <p>{t("about.story_content.para4")}</p>
+              <p>{t("about.story_content.para5")}</p>
             </div>
             <div className="story-stats">
-              <div className="stat-card about-stat-card">
-                <div className="stat-number about-stat-number">2023</div>
-                <div className="stat-label about-stat-label">ปีที่ก่อตั้ง</div>
+              <div className="stat-card">
+                <Trophy className="stat-icon" />
+                <div className="stat-number">{t("about.stats.founded_year")}</div>
+                <div className="stat-label">{t("about.stats.founded")}</div>
               </div>
-              <div className="stat-card about-stat-card">
-                <div className="stat-number about-stat-number">50,000+</div>
-                <div className="stat-label about-stat-label">จำนวนสมาชิก</div>
+              <div className="stat-card">
+                <Users className="stat-icon" />
+                <div className="stat-number">{t("about.stats.member_count")}</div>
+                <div className="stat-label">{t("about.stats.members")}</div>
               </div>
-              <div className="stat-card about-stat-card">
-                <div className="stat-number about-stat-number">1,000+</div>
-                <div className="stat-label about-stat-label">เกมพร้อมเล่น</div>
+              <div className="stat-card">
+                <Heart className="stat-icon" />
+                <div className="stat-number">{t("about.stats.team_count")}</div>
+                <div className="stat-label">{t("about.stats.team_size")}</div>
+              </div>
+              <div className="stat-card">
+                <MapPin className="stat-icon" />
+                <div className="stat-number">{t("about.stats.branch_count")}</div>
+                <div className="stat-label">{t("about.stats.branches")}</div>
               </div>
             </div>
           </div>
