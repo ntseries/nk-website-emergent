@@ -944,43 +944,88 @@ const PhotoBooth = () => {
       <section className="howto-section">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">วิธีการใช้บริการ</h2>
+            <h2 className="section-title">
+              {isEnglish ? "How to Use Our Service" : "วิธีการใช้บริการ"}
+            </h2>
             <p className="section-subtitle">
-              4 ขั้นตอนง่ายๆ ได้รูปสวยแบบ Kawaii ♡
+              {isEnglish 
+                ? "4 simple steps to get beautiful Kawaii photos ♡"
+                : "4 ขั้นตอนง่ายๆ ได้รูปสวยแบบ Kawaii ♡"
+              }
             </p>
           </div>
           <div className="howto-grid">
             <div className="howto-step">
               <div className="step-image">
-                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Howto_01.png" alt="เลือกชุด" />
+                <img 
+                  src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Howto_01.png" 
+                  alt={isEnglish ? "Choose outfit" : "เลือกชุด"}
+                />
               </div>
               <div className="step-number">1</div>
-              <h3 className="step-title">เลือกชุด</h3>
-              <p className="step-description">เลือกชุดที่ชอบจากหลากหลายสไตล์ Kawaii, Harajuku หรือ K-Pop ที่เราเตรียมไว้ให้</p>
+              <h3 className="step-title">
+                {isEnglish ? "Choose Outfit" : "เลือกชุด"}
+              </h3>
+              <p className="step-description">
+                {isEnglish 
+                  ? "Pick your favorite outfit from various Kawaii, Harajuku, or K-Pop styles that we've prepared for you"
+                  : "เลือกชุดที่ชอบจากหลากหลายสไตล์ Kawaii, Harajuku หรือ K-Pop ที่เราเตรียมไว้ให้"
+                }
+              </p>
             </div>
             <div className="howto-step">
               <div className="step-image">
-                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Howto_02.PNG" alt="เลือกพร็อพ" />
+                <img 
+                  src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Howto_02.PNG" 
+                  alt={isEnglish ? "Choose props" : "เลือกพร็อพ"}
+                />
               </div>
               <div className="step-number">2</div>
-              <h3 className="step-title">เลือกพร็อพ</h3>
-              <p className="step-description">เลือกพร็อพน่ารักๆ หูกระต่าย กิ๊บผม หมอน และอุปกรณ์ตกแต่งสไตล์ญี่ปุ่น-เกาหลี</p>
+              <h3 className="step-title">
+                {isEnglish ? "Choose Props" : "เลือกพร็อพ"}
+              </h3>
+              <p className="step-description">
+                {isEnglish
+                  ? "Pick cute props like bunny ears, hair clips, pillows, and Japanese-Korean style decorations"
+                  : "เลือกพร็อพน่ารักๆ หูกระต่าย กิ๊บผม หมอน และอุปกรณ์ตกแต่งสไตล์ญี่ปุ่น-เกาหลี"
+                }
+              </p>
             </div>
             <div className="howto-step">
               <div className="step-image">
-                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Howto_03.PNG" alt="ถ่ายภาพ" />
+                <img 
+                  src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Howto_03.PNG" 
+                  alt={isEnglish ? "Take photos" : "ถ่ายภาพ"}
+                />
               </div>
               <div className="step-number">3</div>
-              <h3 className="step-title">ถ่ายภาพ</h3>
-              <p className="step-description">ถ่ายรูปสุดปังด้วยกล้องคุณภาพสูง แสงสวยแบบมืออาชีพ พร้อมแนะนำโพสต์สุดน่ารัก</p>
+              <h3 className="step-title">
+                {isEnglish ? "Take Photos" : "ถ่ายภาพ"}
+              </h3>
+              <p className="step-description">
+                {isEnglish
+                  ? "Capture amazing shots with high-quality cameras and professional lighting, with cute pose recommendations"
+                  : "ถ่ายรูปสุดปังด้วยกล้องคุณภาพสูง แสงสวยแบบมืออาชีพ พร้อมแนะนำโพสต์สุดน่ารัก"
+                }
+              </p>
             </div>
             <div className="howto-step">
               <div className="step-image">
-                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Howto_04.PNG" alt="ได้รูปจริง" />
+                <img 
+                  src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Howto_04.PNG" 
+                  alt={isEnglish ? "Get physical prints" : "ได้รูปจริง"}
+                />
               </div>
               <div className="step-number">4</div>
-              <h3 className="step-title">ได้รูปจริง</h3>
-              <p className="step-description">รับรูปถ่ายจริง 1 รูป พร้อมไฟล์ดิจิทัลครบทุกช็อต กลับบ้านเลย Instagram-ready!</p>
+              <h3 className="step-title">
+                {isEnglish ? "Get Physical Prints" : "ได้รูปจริง"}
+              </h3>
+              <p className="step-description">
+                {isEnglish
+                  ? "Receive 1 physical print plus all digital files from every shot - Instagram-ready!"
+                  : "รับรูปถ่ายจริง 1 รูป พร้อมไฟล์ดิจิทัลครบทุกช็อต กลับบ้านเลย Instagram-ready!"
+                }
+              </p>
             </div>
           </div>
         </div>
