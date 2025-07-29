@@ -96,24 +96,6 @@ const Header = () => {
             {/* Language Switcher */}
             <LanguageSwitcher className="ml-4" />
           </nav>
-                      to={item.path}
-                      className="dropdown-item"
-                      onClick={handleNavClick}
-                    >
-                      {item.title}
-                    </Link>
-                  ))}
-                </div>
-              )}
-            </div>
-
-            <Link to={getLocalizedPath("/contact")} className={`nav-link ${isActive("/contact") ? "active" : ""}`} onClick={handleNavClick}>
-              {t("nav.contact")}
-            </Link>
-
-            {/* Language Switcher */}
-            <LanguageSwitcher className="ml-4" />
-          </nav>
 
           {/* Mobile Menu Button */}
           <button 
@@ -127,19 +109,19 @@ const Header = () => {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <nav className="nav-mobile">
-            <Link to="/" className={`nav-link-mobile ${isActive("/") ? "active" : ""}`} onClick={handleNavClick}>
-              หน้าแรก
+            <Link to={getLocalizedPath("/")} className={`nav-link-mobile ${isActive("/") ? "active" : ""}`} onClick={handleNavClick}>
+              {t("nav.home")}
             </Link>
-            <Link to="/about" className={`nav-link-mobile ${isActive("/about") ? "active" : ""}`} onClick={handleNavClick}>
-              เกี่ยวกับเรา
+            <Link to={getLocalizedPath("/about")} className={`nav-link-mobile ${isActive("/about") ? "active" : ""}`} onClick={handleNavClick}>
+              {t("nav.about")}
             </Link>
             
             <div className="nav-section-mobile">
-              <span className="nav-section-title">บริการ</span>
+              <span className="nav-section-title">{t("nav.services")}</span>
               {serviceItems.map((item) => (
                 <Link
                   key={item.path}
-                  to={item.path}
+                  to={getLocalizedPath(item.path)}
                   className={`nav-link-mobile sub ${isActive(item.path) ? "active" : ""}`}
                   onClick={handleNavClick}
                 >
@@ -148,9 +130,14 @@ const Header = () => {
               ))}
             </div>
 
-            <Link to="/contact" className={`nav-link-mobile ${isActive("/contact") ? "active" : ""}`} onClick={handleNavClick}>
-              ติดต่อสาขา
+            <Link to={getLocalizedPath("/contact")} className={`nav-link-mobile ${isActive("/contact") ? "active" : ""}`} onClick={handleNavClick}>
+              {t("nav.contact")}
             </Link>
+
+            {/* Language Switcher for Mobile */}
+            <div className="mobile-language-switcher mt-4 p-4 border-t border-gray-200">
+              <LanguageSwitcher showIcon={true} />
+            </div>
           </nav>
         )}
       </div>
