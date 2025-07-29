@@ -339,11 +339,9 @@ const Home = () => {
       {/* Services Section */}
       <section className="services-section">
         <div className="container">
-          <div className="section-header">
-            <h2 className="section-title">บริการที่คุณจะหลงรัก</h2>
-            <p className="section-subtitle">
-              ทุกบริการถูกออกแบบมาเพื่อให้คุณได้สนุกอย่างเต็มที่
-            </p>
+          <div className="section-header text-center">
+            <h2 className="section-title">{t("services.title")}</h2>
+            <p className="section-subtitle">{t("services.subtitle")}</p>
           </div>
           <div className="services-grid">
             {services.map((service) => {
@@ -357,16 +355,32 @@ const Home = () => {
               }[service.icon];
 
               // Get service URL by ID (more reliable than title matching)
-              const serviceUrl = serviceUrlMapById[service.id];
+              const serviceUrl = getLocalizedPath(serviceUrlMapById[service.id]);
+
+              // Get translated service info
+              const serviceKey = Object.keys(t("services", { returnObjects: true })).find(key => 
+                t(`services.${key}.title`) === service.title || 
+                (key === 'nk_cafe' && service.title === 'NK Café') ||
+                (key === 'play_at_shop' && service.title === 'เล่นที่ร้าน') ||
+                (key === 'board_game_script' && service.title === 'Board Game Script') ||
+                (key === 'photo_booth' && service.title === 'Photo Booth') ||
+                (key === 'team_building' && service.title === 'Team Building')
+              );
 
               return (
                 <div key={service.id} className="service-card" style={{ position: 'relative' }}>
                   <div className="service-image">
-                    <img src={service.image} alt={service.title} />
+                    <img src={service.image} alt={serviceKey ? t(`services.${serviceKey}.title`) : service.title} />
                   </div>
-                  <h3 className="service-title">{service.title}</h3>
-                  <p className="service-description">{service.description}</p>
-                  <div className="service-price">{service.price}</div>
+                  <h3 className="service-title">
+                    {serviceKey ? t(`services.${serviceKey}.title`) : service.title}
+                  </h3>
+                  <p className="service-description">
+                    {serviceKey ? t(`services.${serviceKey}.description`) : service.description}
+                  </p>
+                  <div className="service-price">
+                    {serviceKey ? t(`services.${serviceKey}.price`) : service.price}
+                  </div>
                   <button 
                     onClick={() => navigate(serviceUrl)}
                     className="service-link"
@@ -379,7 +393,7 @@ const Home = () => {
                       padding: '8px 12px'
                     }}
                   >
-                    ดูรายละเอียดเพิ่มเติม <ArrowRight size={14} />
+                    {t("services.view_more")} <ArrowRight size={14} />
                   </button>
                 </div>
               );
