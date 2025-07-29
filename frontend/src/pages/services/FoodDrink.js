@@ -194,9 +194,9 @@ const FoodDrink = () => {
       <section className="menu-section">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">เมนูอาหาร</h2>
+            <h2 className="section-title">{t('nk_cafe.menu.title')}</h2>
             <p className="section-subtitle">
-              อาหารและเครื่องดื่มที่ลูกค้าชื่นชอบมากที่สุด
+              {t('nk_cafe.menu.subtitle')}
             </p>
           </div>
           <div className="menu-categories">
