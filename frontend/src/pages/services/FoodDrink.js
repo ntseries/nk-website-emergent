@@ -156,35 +156,35 @@ const FoodDrink = () => {
       {/* Features Section */}
       <section className="service-features">
         <div className="container">
-          <h2 className="section-title">จุดเด่นของ NK Cafe</h2>
+          <h2 className="section-title">{t('nk_cafe.features.title')}</h2>
           <div className="features-grid">
             <div className="feature-card">
               <div className="feature-icon">
                 <DollarSign size={32} />
               </div>
-              <h3>ราคาเป็นมิตร</h3>
-              <p>เหมาะกับทุกคน ทุกเพศ ทุกวัย</p>
+              <h3>{t('nk_cafe.features.items.affordable.title')}</h3>
+              <p>{t('nk_cafe.features.items.affordable.description')}</p>
             </div>
             <div className="feature-card">
               <div className="feature-icon">
                 <Users size={32} />
               </div>
-              <h3>เมนูเฉพาะสำหรับเดอะแก๊ง</h3>
-              <p>มากันเป็นแก๊ง ก็สั่งมาอร่อยร่วมกันได้เลย</p>
+              <h3>{t('nk_cafe.features.items.gang_menu.title')}</h3>
+              <p>{t('nk_cafe.features.items.gang_menu.description')}</p>
             </div>
             <div className="feature-card">
               <div className="feature-icon">
                 <Heart size={32} />
               </div>
-              <h3>วัตถุดิบคุณภาพ</h3>
-              <p>เราเลือกใช้วัตถุดิบ สด ใหม่ เสมอ</p>
+              <h3>{t('nk_cafe.features.items.quality.title')}</h3>
+              <p>{t('nk_cafe.features.items.quality.description')}</p>
             </div>
             <div className="feature-card">
               <div className="feature-icon">
                 <Clock size={32} />
               </div>
-              <h3>บริการรวดเร็ว</h3>
-              <p>อาหารเสิร์ฟเร็ว ไม่ขัดจังหวะการเล่นเกม</p>
+              <h3>{t('nk_cafe.features.items.fast_service.title')}</h3>
+              <p>{t('nk_cafe.features.items.fast_service.description')}</p>
             </div>
           </div>
         </div>
