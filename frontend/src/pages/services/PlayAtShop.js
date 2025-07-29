@@ -12,7 +12,7 @@ const PlayAtShop = () => {
 const nkHitGames = [
   {
     name: "เจ้าหญิงจอมแก่น",
-    nameEn: "Princess Jomgaen",
+    nameEn: "Rebel Princess",
     image: "https://cf.geekdo-images.com/HuWvVU2tcff-vu3EjPtk6Q__original/img/K2Fopgt-7pfYCu8jtlrcWJ92yeU=/0x0/filters:format(jpeg)/pic7605211.jpg",
     category: "Family",
     categoryEn: "Family",
