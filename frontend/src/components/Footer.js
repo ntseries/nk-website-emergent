@@ -57,7 +57,7 @@ const Footer = () => {
               />
             </div>
             <p className="footer-description">
-              ร้านบอร์ดเกมที่ให้บริการครบครัน พร้อมสร้างประสบการณ์สนุกสนานให้กับเดอะแก๊งของคุณ
+              {t("footer.description")}
             </p>
             <div className="social-links">
               <a href="https://www.facebook.com/nkboardgame" target="_blank" rel="noopener noreferrer" className="social-link">
