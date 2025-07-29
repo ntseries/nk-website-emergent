@@ -251,66 +251,82 @@ const Home = () => {
     },
     samyanmitrtown: {
       name: "สามย่านมิตรทาวน์",
+      nameEn: "Samyan Mitrtown",
       images: [
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SYM-01.jpg",
-          caption: "บรรยากาศสไตล์โมเดิร์น"
+          caption: "บรรยากาศสไตล์โมเดิร์น",
+          captionEn: "Modern style atmosphere"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SYM-02.jpg",
-          caption: "พื้นที่นั่งเล่นสบาย"
+          caption: "พื้นที่นั่งเล่นสบาย",
+          captionEn: "Comfortable seating area"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SYM-03.jpg",
-          caption: "มุมนั่งเล่นส่วนตัว"
+          caption: "มุมนั่งเล่นส่วนตัว",
+          captionEn: "Private seating corner"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SYM-04.jpg",
-          caption: "โต๊ะเล่นเกมสำหรับกลุ่มใหญ่"
+          caption: "โต๊ะเล่นเกมสำหรับกลุ่มใหญ่",
+          captionEn: "Game tables for large groups"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SYM-05.jpg",
-          caption: "บริเวณแคชเชียร์"
+          caption: "บริเวณแคชเชียร์",
+          captionEn: "Cashier area"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SYM-06.jpg",
-          caption: "ชั้นวางเกมมากมาย"
+          caption: "ชั้นวางเกมมากมาย",
+          captionEn: "Extensive game shelves"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SYM-07.jpg",
-          caption: "บรรยากาศอบอุ่นและเป็นกันเอง"
+          caption: "บรรยากาศอบอุ่นและเป็นกันเอง",
+          captionEn: "Warm and friendly atmosphere"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SYM-08.jpg",
-          caption: "มุมพักผ่อนสบายๆ"
+          caption: "มุมพักผ่อนสบายๆ",
+          captionEn: "Comfortable relaxation corner"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SYM-09.jpg",
-          caption: "พื้นที่เล่นเกมแบบกลุ่ม"
+          caption: "พื้นที่เล่นเกมแบบกลุ่ม",
+          captionEn: "Group game playing area"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SYM-10.jpg",
-          caption: "บริเวณโต๊ะเล่นเกมหลัก"
+          caption: "บริเวณโต๊ะเล่นเกมหลัก",
+          captionEn: "Main game table area"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SYM-11.jpg",
-          caption: "มุมนั่งเล่นพิเศษ"
+          caption: "มุมนั่งเล่นพิเศษ",
+          captionEn: "Special seating corner"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SYM-12.jpg",
-          caption: "บรรยากาศการเล่นสนุกสนาน"
+          caption: "บรรยากาศการเล่นสนุกสนาน",
+          captionEn: "Fun playing atmosphere"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SYM-13.jpg",
-          caption: "พื้นที่จัดกิจกรรมพิเศษ"
+          caption: "พื้นที่จัดกิจกรรมพิเศษ",
+          captionEn: "Special activity area"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SYM-14.jpg",
-          caption: "มุมพักผ่อนเพิ่มเติม"
+          caption: "มุมพักผ่อนเพิ่มเติม",
+          captionEn: "Additional relaxation corner"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SYM-15.jpg",
-          caption: "บริเวณกิจกรรมสุดพิเศษ"
+          caption: "บริเวณกิจกรรมสุดพิเศษ",
+          captionEn: "Special activity zone"
         }
       ]
     }
