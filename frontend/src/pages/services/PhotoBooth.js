@@ -1035,41 +1035,50 @@ const PhotoBooth = () => {
       <section className="packages-section" style={{paddingTop: '120px'}}>
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">แพ๊คเกจ NK Photo Booth</h2>
+            <h2 className="section-title">
+              {isEnglish ? "NK Photo Booth Packages" : "แพ๊คเกจ NK Photo Booth"}
+            </h2>
             <p className="section-subtitle">
-              เลือกแพ๊คเกจที่ชอบ แล้วจองวันเวลาได้เลยนะคะ ♡
+              {isEnglish 
+                ? "Choose your favorite package and book your time slot now ♡"
+                : "เลือกแพ๊คเกจที่ชอบ แล้วจองวันเวลาได้เลยนะคะ ♡"
+              }
             </p>
           </div>
           <div className="packages-grid">
             {packages.map((pkg, index) => (
               <div key={index} className={`package-card ${index === 1 ? 'featured' : ''}`}>
                 {index === 1 && <div className="package-badge">Most Popular ♡</div>}
-                <h3 className="package-name">{pkg.name}</h3>
-                <div className="package-price">{pkg.price}</div>
+                <h3 className="package-name">
+                  {isEnglish ? pkg.nameEn : pkg.name}
+                </h3>
+                <div className="package-price">
+                  {isEnglish ? pkg.priceEn : pkg.price}
+                </div>
                 <div className="package-features">
                   <div className="package-feature">
                     <Users size={16} />
-                    <span>{pkg.people}</span>
+                    <span>{isEnglish ? pkg.peopleEn : pkg.people}</span>
                   </div>
                   <div className="package-feature">
                     <Camera size={16} />
-                    <span>{pkg.shots}</span>
+                    <span>{isEnglish ? pkg.shotsEn : pkg.shots}</span>
                   </div>
                   <div className="package-feature">
                     <Heart size={16} />
-                    <span>{pkg.props}</span>
+                    <span>{isEnglish ? pkg.propsEn : pkg.props}</span>
                   </div>
                   <div className="package-feature">
                     <Clock size={16} />
-                    <span>{pkg.duration}</span>
+                    <span>{isEnglish ? pkg.durationEn : pkg.duration}</span>
                   </div>
                   <div className="package-feature">
                     <Image size={16} />
-                    <span>{pkg.photo}</span>
+                    <span>{isEnglish ? pkg.photoEn : pkg.photo}</span>
                   </div>
                   <div className="package-feature">
                     <Sparkles size={16} />
-                    <span>{pkg.costumes}</span>
+                    <span>{isEnglish ? pkg.costumesEn : pkg.costumes}</span>
                   </div>
                 </div>
                 <a 
@@ -1083,7 +1092,7 @@ const PhotoBooth = () => {
                     textAlign: 'center'
                   }}
                 >
-                  Choose This Package ♡
+                  {isEnglish ? "Choose This Package ♡" : "Choose This Package ♡"}
                 </a>
               </div>
             ))}
