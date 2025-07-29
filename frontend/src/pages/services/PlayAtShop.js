@@ -111,20 +111,6 @@ const nkHitGames = [
                 </button>
               </div>
             </div>
-            <div className="service-hero-stats">
-              <div className="stat-item">
-                <div className="stat-number">1,000+</div>
-                <div className="stat-label">{isEnglish ? "Games" : "เกม"}</div>
-              </div>
-              <div className="stat-item">
-                <div className="stat-number">3</div>
-                <div className="stat-label">{isEnglish ? "Branches" : "สาขา"}</div>
-              </div>
-              <div className="stat-item">
-                <div className="stat-number">36</div>
-                <div className="stat-label">{isEnglish ? "Baht/hour" : "บาท/ชม."}</div>
-              </div>
-            </div>
             <div className="service-hero-image">
               <img 
                 src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/PlayAtStore.JPG" 
