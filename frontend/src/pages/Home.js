@@ -405,8 +405,8 @@ const Home = () => {
       {/* Testimonials Section */}
       <section className="testimonials-section">
         <div className="container">
-          <div className="section-header">
-            <h2 className="section-title">กำลังใจจากลูกค้า</h2>
+          <div className="section-header text-center">
+            <h2 className="section-title">{t("testimonials.title")}</h2>
           </div>
           <div className="testimonials-grid">
             {testimonials.map((testimonial) => (
@@ -419,7 +419,11 @@ const Home = () => {
                 <p className="testimonial-text">"{testimonial.text}"</p>
                 <div className="testimonial-author">
                   <div className="author-name">{testimonial.name}</div>
-                  <div className="author-age">อายุ {testimonial.age} ปี</div>
+                  {testimonial.age && (
+                    <div className="author-age">
+                      {isEnglish ? `Age ${testimonial.age}` : `อายุ ${testimonial.age} ปี`}
+                    </div>
+                  )}
                 </div>
               </div>
             ))}
@@ -430,11 +434,9 @@ const Home = () => {
       {/* Gallery Section - บรรยากาศความสนุก */}
       <section className="gallery-section">
         <div className="container">
-          <div className="section-header">
-            <h2 className="section-title">บรรยากาศความสนุก</h2>
-            <p className="section-subtitle">
-              เสียงหัวเราะและความสนุกสนานจากลูกค้าที่มาเล่นที่ NK Board Game
-            </p>
+          <div className="section-header text-center">
+            <h2 className="section-title">{t("gallery.title")}</h2>
+            <p className="section-subtitle">{t("gallery.subtitle")}</p>
           </div>
 
           {/* Branch Tabs */}
@@ -443,19 +445,19 @@ const Home = () => {
               className={`gallery-tab ${activeTab === 'seconbangkhae' ? 'active' : ''}`}
               onClick={() => setActiveTab('seconbangkhae')}
             >
-              ซีคอนบางแค
+              {t("gallery.branches.secon_bangkae")}
             </button>
             <button 
               className={`gallery-tab ${activeTab === 'seconsrinakarin' ? 'active' : ''}`}
               onClick={() => setActiveTab('seconsrinakarin')}
             >
-              ซีคอนศรีนครินทร์
+              {t("gallery.branches.secon_srinakarin")}
             </button>
             <button 
               className={`gallery-tab ${activeTab === 'samyanmitrtown' ? 'active' : ''}`}
               onClick={() => setActiveTab('samyanmitrtown')}
             >
-              สามย่านมิตรทาวน์
+              {t("gallery.branches.samyan_mitrtown")}
             </button>
           </div>
 
