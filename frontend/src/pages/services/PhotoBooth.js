@@ -1169,7 +1169,9 @@ const PhotoBooth = () => {
       <section className="testimonials-section">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">รีวิวจากลูกค้า</h2>
+            <h2 className="section-title">
+              {isEnglish ? "Customer Reviews" : "รีวิวจากลูกค้า"}
+            </h2>
           </div>
           <div className="testimonials-grid">
             <div className="testimonial-card">
@@ -1179,7 +1181,10 @@ const PhotoBooth = () => {
                 ))}
               </div>
               <p className="testimonial-text">
-                "พี่ๆดูแลดีมากค่ะ ปกติไม่ค่อยถ่ายรูปแต่พี่ๆก็บรีฟให้แถมทำผมให้ด้วย น่ารักและใจดีมากๆเลยค่ะ ❤️"
+                {isEnglish 
+                  ? "\"The staff took great care of us! I'm usually not good at taking photos, but they guided me and even did my hair. So cute and kind! ❤️\""
+                  : "\"พี่ๆดูแลดีมากค่ะ ปกติไม่ค่อยถ่ายรูปแต่พี่ๆก็บรีฟให้แถมทำผมให้ด้วย น่ารักและใจดีมากๆเลยค่ะ ❤️\""
+                }
               </p>
               <div className="testimonial-author">
                 <div className="author-name">Arisa</div>
@@ -1192,7 +1197,10 @@ const PhotoBooth = () => {
                 ))}
               </div>
               <p className="testimonial-text">
-                "คือจึ้ง ปังมากกก เป็นคนไม่ชอบถ่ายรูปขี้อายๆ แต่พี่ๆบิ้วให้สุดๆคิดท่าถ่ายให้ด้วยยย พี่ๆทำผมให้ด้วย เริ่ดสุดๆ ได้ทั้งไฟล์รูปและโพลารอยด์เลย"
+                {isEnglish
+                  ? "\"Amazing! I'm someone who's shy about taking photos, but the staff hyped me up and suggested poses too! They even did my hair. Got both digital files and Polaroid prints!\""
+                  : "\"คือจึ้ง ปังมากกก เป็นคนไม่ชอบถ่ายรูปขี้อายๆ แต่พี่ๆบิ้วให้สุดๆคิดท่าถ่ายให้ด้วยยย พี่ๆทำผมให้ด้วย เริ่ดสุดๆ ได้ทั้งไฟล์รูปและโพลารอยด์เลย\""
+                }
               </p>
               <div className="testimonial-author">
                 <div className="author-name">พชรอร</div>
@@ -1205,7 +1213,10 @@ const PhotoBooth = () => {
                 ))}
               </div>
               <p className="testimonial-text">
-                "มีการบริการให้บริการถ่ายรูป สุดคุ้ม เช่าชุด ขนมน้ำพร้อมมากครับ แนะนำสุดๆ คุณเมดกับพี่ตากล้องบริการดีมากครับ"
+                {isEnglish
+                  ? "\"Great photo service, excellent value! Costume rental, snacks and drinks all ready. Highly recommend! The maid and photographer provided amazing service!\""
+                  : "\"มีการบริการให้บริการถ่ายรูป สุดคุ้ม เช่าชุด ขนมน้ำพร้อมมากครับ แนะนำสุดๆ คุณเมดกับพี่ตากล้องบริการดีมากครับ\""
+                }
               </p>
               <div className="testimonial-author">
                 <div className="author-name">Pimpunchat</div>
