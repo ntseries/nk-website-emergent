@@ -1,33 +1,46 @@
 import React, { useState } from "react";
 import { Clock, Users, Star, ArrowRight, Camera, Image, Sparkles, Heart, X, ChevronLeft, ChevronRight } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import SEOHead from "../../components/SEOHead";
 
 const PhotoBooth = () => {
+  const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language || 'th';
+  const isEnglish = currentLanguage === 'en';
   const [selectedImageIndex, setSelectedImageIndex] = useState(null);
   
   const customerImages = [
-    { url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_01.jpg", alt: "ภาพลูกค้าน่ารัก 1" },
-    { url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_02.jpg", alt: "ภาพลูกค้าน่ารัก 2" },
-    { url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_03.jpg", alt: "ภาพลูกค้าน่ารัก 3" },
-    { url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_05.JPG", alt: "ภาพลูกค้าน่ารัก 4" },
-    { url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_06.JPG", alt: "ภาพลูกค้าน่ารัก 5" },
-    { url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_07.JPG", alt: "ภาพลูกค้าน่ารัก 6" },
-    { url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_08.JPG", alt: "ภาพลูกค้าน่ารัก 7" },
-    { url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_09.JPG", alt: "ภาพลูกค้าน่ารัก 8" },
-    { url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_10.JPG", alt: "ภาพลูกค้าน่ารัก 9" },
-    { url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_11.JPG", alt: "ภาพลูกค้าน่ารัก 10" }
+    { url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_01.jpg", alt: isEnglish ? "Cute Customer Photo 1" : "ภาพลูกค้าน่ารัก 1" },
+    { url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_02.jpg", alt: isEnglish ? "Cute Customer Photo 2" : "ภาพลูกค้าน่ารัก 2" },
+    { url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_03.jpg", alt: isEnglish ? "Cute Customer Photo 3" : "ภาพลูกค้าน่ารัก 3" },
+    { url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_05.JPG", alt: isEnglish ? "Cute Customer Photo 4" : "ภาพลูกค้าน่ารัก 4" },
+    { url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_06.JPG", alt: isEnglish ? "Cute Customer Photo 5" : "ภาพลูกค้าน่ารัก 5" },
+    { url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_07.JPG", alt: isEnglish ? "Cute Customer Photo 6" : "ภาพลูกค้าน่ารัก 6" },
+    { url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_08.JPG", alt: isEnglish ? "Cute Customer Photo 7" : "ภาพลูกค้าน่ารัก 7" },
+    { url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_09.JPG", alt: isEnglish ? "Cute Customer Photo 8" : "ภาพลูกค้าน่ารัก 8" },
+    { url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_10.JPG", alt: isEnglish ? "Cute Customer Photo 9" : "ภาพลูกค้าน่ารัก 9" },
+    { url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Photo_Booth_Customers_11.JPG", alt: isEnglish ? "Cute Customer Photo 10" : "ภาพลูกค้าน่ารัก 10" }
   ];
 
   const packages = [
     {
       name: "Basic Pack",
+      nameEn: "Basic Pack",
       people: "1 คน",
+      peopleEn: "1 person",
       shots: "10 ภาพ",
+      shotsEn: "10 photos",
       props: "พร๊อพพิเศษ",
+      propsEn: "Special props",
       duration: "30 นาที",
+      durationEn: "30 minutes",
       photo: "รับรูปถ่าย 1 รูป",
+      photoEn: "Get 1 photo print",
       costumes: "เปลี่ยนได้ 1 ชุด",
-      price: "99 บาท"
+      costumesEn: "1 costume change",
+      price: "99 บาท",
+      priceEn: "99 Baht"
+    },
     },
     {
       name: "Premium Pack",
