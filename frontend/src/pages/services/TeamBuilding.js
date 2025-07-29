@@ -23,26 +23,20 @@ const TeamBuilding = () => {
             <div className="service-hero-text">
               <div className="service-badge">
                 <Users size={16} />
-                <span>{isEnglish ? "Build Teamwork" : "สร้างทีมเวิร์ค"}</span>
+                <span>{t('team_building.hero.badge')}</span>
               </div>
-              <h1 className="service-title">Team Building</h1>
+              <h1 className="service-title">{t('team_building.hero.title')}</h1>
               <p className="service-description">
-                {isEnglish ? (
-                  <>Team-building activities through board games, perfect for organizations and friend groups.<br/>
-                  Develop relationships, communication, and teamwork skills.</>
-                ) : (
-                  <>กิจกรรมสร้างทีมเวิร์คผ่านบอร์ดเกม เหมาะสำหรับองค์กรและกลุ่มเพื่อน<br/>
-                  พัฒนาความสัมพันธ์ การสื่อสาร และการทำงานเป็นทีม</>
-                )}
+                {t('team_building.hero.description')}
               </p>
               <div className="service-price">
                 <span className="price-value">
-                  {isEnglish ? "Inquire for Package Details" : "สอบถามแพ็คเกจเพิ่มเติม"}
+                  {t('team_building.hero.price')}
                 </span>
               </div>
               <div className="service-actions">
                 <button className="btn-primary" onClick={() => window.open('https://line.me/ti/p/@nkboardgame', '_blank')}>
-                  {isEnglish ? "Inquire about Program" : "สอบถามโปรแกรม"} <ArrowRight size={16} />
+                  {t('team_building.hero.cta_inquire')} <ArrowRight size={16} />
                 </button>
                 <a 
                   href="tel:0654123939" 
@@ -53,7 +47,7 @@ const TeamBuilding = () => {
                     textAlign: 'center'
                   }}
                 >
-                  {isEnglish ? "Call 065-412-3939" : "โทร 065-412-3939"}
+                  {t('team_building.hero.cta_call')}
                 </a>
               </div>
             </div>
