@@ -1,0 +1,148 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "contact": "Contact",
+    "play_at_shop": "Play at Shop",
+    "board_game_script": "Board Game Script",
+    "photo_booth": "Photo Booth",
+    "nk_cafe": "NK Café",
+    "team_building": "Team Building"
+  },
+  "hero": {
+    "badge": "The #1 Board Game Shop for Gen Z",
+    "title": "Have Fun Together at NK Board Game",
+    "subtitle": "Fun with every game, memorable at every branch – Discover a unique board gaming experience at NK Board Game",
+    "cta_book": "Book a Table Now",
+    "cta_about": "About Us",
+    "stats": {
+      "games": "Games to Choose From",
+      "branches": "Branches in Bangkok",
+      "members": "Members"
+    }
+  },
+  "services": {
+    "title": "Services You'll Love",
+    "subtitle": "Every service is designed to give you the ultimate fun experience",
+    "view_more": "View More Details",
+    "play_at_shop": {
+      "title": "Play at Shop",
+      "description": "Comfortable gaming space with over 1,000+ games"
+    },
+    "board_game_script": {
+      "title": "Board Game Script",
+      "description": "Thrilling script games with murder mystery solving"
+    },
+    "photo_booth": {
+      "title": "Photo Booth",
+      "description": "Kawaii-style photo booth, cute and Instagram-worthy"
+    },
+    "nk_cafe": {
+      "title": "NK Café",
+      "description": "Delicious food and beverages perfect for gaming"
+    },
+    "team_building": {
+      "title": "Team Building",
+      "description": "Team-building activities perfect for organizations"
+    }
+  },
+  "testimonials": {
+    "title": "Customer Reviews"
+  },
+  "gallery": {
+    "title": "Fun Atmosphere",
+    "subtitle": "Laughter and excitement from customers who come to play at NK Board Game",
+    "branches": {
+      "secon_bangkae": "Seacon Bangkae",
+      "secon_srinakarin": "Seacon Square",
+      "samyan_mitrtown": "Samyan Mitrtown"
+    }
+  },
+  "footer": {
+    "description": "A comprehensive board game shop ready to create fun experiences for your gang",
+    "quick_links": "Quick Links",
+    "branches": "NK Board Game Branches",
+    "copyright": "© 2025 NK Board Game. All rights reserved."
+  },
+  "contact": {
+    "hero_title": "Contact Us",
+    "hero_subtitle": "Have questions, want to book a table, or inquire about events? Contact us through any channel",
+    "branches_title": "NK Board Game Branches",
+    "faq_title": "Frequently Asked Questions"
+  },
+  "about": {
+    "hero_title": "About Us",
+    "hero_subtitle": "The story of a board game shop that started with a love for gaming",
+    "story_title": "Our Story",
+    "team_title": "NK Family"
+  },
+  "photo_booth": {
+    "hero": {
+      "badge": "Kawaii Service ♡",
+      "title": "NK Photo Booth",
+      "description": "Super cute Kawaii-style photo booth! Take beautiful photos like Japanese-Korean girls with lots of cute props and sweet atmosphere that will give you Instagram-worthy shots every time! ✨💕",
+      "price": "Starting from 199 Baht",
+      "price_unit": "/hour",
+      "cta_book": "Book Photo Booth Now ♡",
+      "cta_script": "Play Board Game Script"
+    },
+    "how_to": {
+      "title": "How to Use Our Service",
+      "subtitle": "4 simple steps to get beautiful Kawaii photos ♡"
+    },
+    "packages": {
+      "title": "NK Photo Booth Packages",
+      "subtitle": "Choose your favorite package and book your time slot ♡",
+      "choose": "Choose This Package ♡"
+    },
+    "gallery_title": "Gallery of Cute Customer Photos",
+    "reviews_title": "Customer Reviews",
+    "addons_title": "Add-on Services",
+    "cta": {
+      "title": "Ready to Create Memories?",
+      "description": "Come take amazing photos with friends and capture good moments as memories",
+      "book": "Book Photo Session Now",
+      "inquire": "Inquire More"
+    }
+  },
+  "team_building": {
+    "hero": {
+      "badge": "Build Teamwork",
+      "title": "Team Building",
+      "description": "Team-building activities through board games, perfect for organizations and friend groups. Develop relationships, communication, and teamwork skills",
+      "price": "Inquire for Package Details",
+      "cta_inquire": "Inquire about Program",
+      "cta_call": "Call 065-412-3939"
+    },
+    "benefits": {
+      "title": "Benefits of Team Building",
+      "subtitle": "Strengthen teamwork through fun and effective activities"
+    },
+    "process": {
+      "title": "Activity Process",
+      "subtitle": "Effective activity management process"
+    },
+    "solutions": {
+      "title": "Enterprise Solutions",
+      "subtitle": "Customized activities designed for each organization's specific needs"
+    },
+    "cta": {
+      "title": "Ready to Build a Strong Team?",
+      "description": "Contact us today for consultation and Team Building activity booking",
+      "inquire": "Inquire for Details",
+      "call": "Call 065-412-3939"
+    }
+  },
+  "common": {
+    "starting_from": "Starting from",
+    "baht": "Baht",
+    "people": "people",
+    "minutes": "minutes",
+    "hours": "hours",
+    "book_now": "Book Now",
+    "contact_us": "Contact Us",
+    "learn_more": "Learn More",
+    "view_all": "View All"
+  }
+}
