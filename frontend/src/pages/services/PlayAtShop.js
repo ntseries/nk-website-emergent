@@ -68,7 +68,7 @@ const nkHitGames = [
   {
     name: "The Rich and the Good",
     nameEn: "The Rich and the Good",
-    image: "https://cf.geekdo-images.com/wkBx_RnGMNs19hnHPd8nJw__original/img/vw7oSwZnE4xCvQhK0nDNWO_gMNE=/0x0/filters:format(jpeg)/pic7350953.jpg",
+    image: "https://cf.geekdo-images.com/CrAzRoBFWWz6bbDTlzY23Q__original/img/ieUuBn7WH6Iuc-ZQ2zbrecR34Qo=/0x0/filters:format(png)/pic7061922.png",
     category: "Strategy",
     categoryEn: "Strategy",
     players: "1-4 คน",
@@ -79,7 +79,7 @@ const nkHitGames = [
   {
     name: "Age of Innovation",
     nameEn: "Age of Innovation",
-    image: "https://cf.geekdo-images.com/E7twwxNl8VdWWUcPQEE-2g__original/img/s6Kx4c5XFQP6haNm2KgXmX_S_Co=/0x0/filters:format(jpeg)/pic7606667.jpg",
+    image: "https://cf.geekdo-images.com/D1vrcFEptCEoD8Z6s_iRfw__original/img/1vY0K3wSqlYXq0JEylSI-7agxKs=/0x0/filters:format(jpeg)/pic7430993.jpg",
     category: "Strategy",
     categoryEn: "Strategy",
     players: "1-5 คน",
@@ -90,7 +90,7 @@ const nkHitGames = [
   {
     name: "1830: Railways & Robber Barons",
     nameEn: "1830: Railways & Robber Barons",
-    image: "https://cf.geekdo-images.com/9Pl8I76w_bNRZmzW2tIiMw__original/img/DJaQq5pQKqzEFMr10dUGiL-6kxU=/0x0/filters:format(jpeg)/pic291231.jpg",
+    image: "https://cf.geekdo-images.com/3EmD1SEI5fVpR4rbdkU0AA__original/img/M6qiL7ZNU_mjgZXHZjOrVxNamfU=/0x0/filters:format(jpeg)/pic882119.jpg",
     category: "Economic",
     categoryEn: "Economic",
     players: "3-7 คน",
