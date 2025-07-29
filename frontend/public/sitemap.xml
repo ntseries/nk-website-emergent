@@ -44,8 +44,11 @@
     <priority>0.9</priority>
   </url>
   
+  <!-- Photo Booth -->
   <url>
     <loc>https://nkboardgame.com/services/photo-booth</loc>
+    <xhtml:link rel="alternate" hreflang="th" href="https://nkboardgame.com/services/photo-booth" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://nkboardgame.com/en/services/photo-booth" />
     <lastmod>2025-01-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
