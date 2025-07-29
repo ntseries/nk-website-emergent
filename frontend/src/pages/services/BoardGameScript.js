@@ -125,35 +125,57 @@ const BoardGameScript = () => {
       {/* Features Section */}
       <section className="service-features script-features">
         <div className="container">
-          <h2 className="section-title script-section-title">จุดเด่น Board Game Script</h2>
+          <h2 className="section-title script-section-title">
+            {isEnglish ? "Board Game Script Highlights" : "จุดเด่น Board Game Script"}
+          </h2>
           <div className="features-grid">
             <div className="feature-card script-feature-card">
               <div className="feature-icon script-feature-icon">
                 <ScrollText size={32} />
               </div>
-              <h3>สคริปต์ออริจินัล</h3>
-              <p>เรื่องราวและกลไกเกมที่สร้างขึ้นโดยทีมงาน NK Board Game</p>
+              <h3>{isEnglish ? "Original Scripts" : "สคริปต์ออริจินัล"}</h3>
+              <p>
+                {isEnglish 
+                  ? "Stories and game mechanics created by the NK Board Game team"
+                  : "เรื่องราวและกลไกเกมที่สร้างขึ้นโดยทีมงาน NK Board Game"
+                }
+              </p>
             </div>
             <div className="feature-card script-feature-card">
               <div className="feature-icon script-feature-icon">
                 <Eye size={32} />
               </div>
-              <h3>การเล่นเกมที่สมจริง</h3>
-              <p>ดำเนินเกมโดย GM มืออาชีพ เหมือนคุณได้หลุดเข้าไปอยู่ในโลกของเกมโดยสมบูรณ์</p>
+              <h3>{isEnglish ? "Immersive Gameplay" : "การเล่นเกมที่สมจริง"}</h3>
+              <p>
+                {isEnglish
+                  ? "Game run by professional GM, making you feel completely immersed in the game world"
+                  : "ดำเนินเกมโดย GM มืออาชีพ เหมือนคุณได้หลุดเข้าไปอยู่ในโลกของเกมโดยสมบูรณ์"
+                }
+              </p>
             </div>
             <div className="feature-card script-feature-card">
               <div className="feature-icon script-feature-icon">
                 <Users size={32} />
               </div>
-              <h3>คอสเพลย์เป็นตัวละคร</h3>
-              <p>เปลี่ยนชุดเพื่อคอสเพลย์เป็นตัวละครที่เรารับบท เพิ่มความอินในเนื้อเรื่องให้ถึงขีดสุด</p>
+              <h3>{isEnglish ? "Character Cosplay" : "คอสเพลย์เป็นตัวละคร"}</h3>
+              <p>
+                {isEnglish
+                  ? "Change outfits to cosplay as your assigned character, maximizing immersion in the story"
+                  : "เปลี่ยนชุดเพื่อคอสเพลย์เป็นตัวละครที่เรารับบท เพิ่มความอินในเนื้อเรื่องให้ถึงขีดสุด"
+                }
+              </p>
             </div>
             <div className="feature-card script-feature-card">
               <div className="feature-icon script-feature-icon">
                 <Star size={32} />
               </div>
-              <h3>ที่เดียวในประเทสไทย</h3>
-              <p>หากต้องการเล่นบอร์ดเกมสคริปต์ ตอนนี้มีแค่เพียงที่ NK Board Game เท่านั้น</p>
+              <h3>{isEnglish ? "Exclusive in Thailand" : "ที่เดียวในประเทส Thai"}</h3>
+              <p>
+                {isEnglish
+                  ? "If you want to play board game scripts, currently only available at NK Board Game"
+                  : "หากต้องการเล่นบอร์ดเกมสคริปต์ ตอนนี้มีแค่เพียงที่ NK Board Game เท่านั้น"
+                }
+              </p>
             </div>
           </div>
         </div>
