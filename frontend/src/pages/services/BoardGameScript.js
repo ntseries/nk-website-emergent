@@ -185,25 +185,36 @@ const BoardGameScript = () => {
       <section className="scripts-collection script-collection">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title script-section-title">เนื้อเรื่องทั้งหมด</h2>
+            <h2 className="section-title script-section-title">
+              {isEnglish ? "All Stories" : "เนื้อเรื่องทั้งหมด"}
+            </h2>
             <p className="section-subtitle script-subtitle">
-              เลือกเนื้อเรื่องที่เหมาะกับกลุ่มและระยะเวลาของคุณ
+              {isEnglish 
+                ? "Choose the story that suits your group and timeframe"
+                : "เลือกเนื้อเรื่องที่เหมาะกับกลุ่มและระยะเวลาของคุณ"
+              }
             </p>
           </div>
           <div className="scripts-grid">
             {scripts.map((script, index) => (
               <div key={index} className="script-card mystery-script-card">
                 <div className="script-image">
-                  <img src={script.image} alt={script.name} />
+                  <img src={script.image} alt={isEnglish ? script.nameEn : script.name} />
                 </div>
                 <div className="script-content">
                   <div className="script-header">
-                    <h4 className="script-name">{script.name}</h4>
-                    <div className="script-theme">ธีม: {script.theme}</div>
+                    <h4 className="script-name">
+                      {isEnglish ? script.nameEn : script.name}
+                    </h4>
+                    <div className="script-theme">
+                      {isEnglish ? `Theme: ${script.themeEn}` : `ธีม: ${script.theme}`}
+                    </div>
                   </div>
                   <div className="script-ratings">
                     <div className="rating-item">
-                      <span className="rating-label">ความยาก</span>
+                      <span className="rating-label">
+                        {isEnglish ? "Difficulty" : "ความยาก"}
+                      </span>
                       <div className="rating-stars">
                         {[...Array(5)].map((_, i) => (
                           <Star key={i} size={14} fill={i < script.difficulty ? "currentColor" : "none"} />
@@ -212,7 +223,9 @@ const BoardGameScript = () => {
                       <span className="rating-text">{script.difficulty}/5</span>
                     </div>
                     <div className="rating-item">
-                      <span className="rating-label">สืบสวน</span>
+                      <span className="rating-label">
+                        {isEnglish ? "Investigation" : "สืบสวน"}
+                      </span>
                       <div className="rating-stars">
                         {[...Array(5)].map((_, i) => (
                           <Star key={i} size={14} fill={i < script.investigation ? "currentColor" : "none"} />
@@ -221,7 +234,9 @@ const BoardGameScript = () => {
                       <span className="rating-text">{script.investigation}/5</span>
                     </div>
                     <div className="rating-item">
-                      <span className="rating-label">สวมบทบาท</span>
+                      <span className="rating-label">
+                        {isEnglish ? "Role-play" : "สวมบทบาท"}
+                      </span>
                       <div className="rating-stars">
                         {[...Array(5)].map((_, i) => (
                           <Star key={i} size={14} fill={i < script.roleplay ? "currentColor" : "none"} />
@@ -234,15 +249,17 @@ const BoardGameScript = () => {
                     <div className="script-meta">
                       <div className="meta-item">
                         <Users size={16} />
-                        <span>{script.players}</span>
+                        <span>{isEnglish ? script.playersEn : script.players}</span>
                       </div>
                       <div className="meta-item">
                         <Clock size={16} />
-                        <span>{script.duration}</span>
+                        <span>{isEnglish ? script.durationEn : script.duration}</span>
                       </div>
                     </div>
                   </div>
-                  <button className="script-select-btn" onClick={handleBooking}>เลือกเนื้อเรื่องนี้</button>
+                  <button className="script-select-btn" onClick={handleBooking}>
+                    {isEnglish ? "Choose This Story" : "เลือกเนื้อเรื่องนี้"}
+                  </button>
                 </div>
               </div>
             ))}
