@@ -464,9 +464,13 @@ const Home = () => {
                     <Star key={i} size={16} fill="currentColor" />
                   ))}
                 </div>
-                <p className="testimonial-text">"{testimonial.text}"</p>
+                <p className="testimonial-text">
+                  "{isEnglish ? testimonial.textEn : testimonial.text}"
+                </p>
                 <div className="testimonial-author">
-                  <div className="author-name">{testimonial.name}</div>
+                  <div className="author-name">
+                    {isEnglish && testimonial.nameEn ? testimonial.nameEn : testimonial.name}
+                  </div>
                   {testimonial.age && (
                     <div className="author-age">
                       {isEnglish ? `Age ${testimonial.age}` : `อายุ ${testimonial.age} ปี`}
