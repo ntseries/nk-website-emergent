@@ -4,8 +4,11 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   
+  <!-- Homepage -->
   <url>
     <loc>https://nkboardgame.com/</loc>
+    <xhtml:link rel="alternate" hreflang="th" href="https://nkboardgame.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://nkboardgame.com/en" />
     <lastmod>2025-01-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
