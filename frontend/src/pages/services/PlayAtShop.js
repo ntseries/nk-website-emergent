@@ -327,7 +327,7 @@ const nkHitGames = [
             {/* ซีคอนศรีนครินทร์ */}
             <div className="branch-card">
               <h3 className="branch-title">
-                {isEnglish ? "Seacon Srinakarin Branch" : "สาขาซีคอนศรีนครินทร์"}
+                {isEnglish ? "Seacon Square Branch" : "สาขาซีคอนศรีนครินทร์"}
               </h3>
               <div className="pricing-table">
                 <div className="table-header">
