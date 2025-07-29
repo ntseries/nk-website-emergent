@@ -2,13 +2,25 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { ArrowRight, Users, Star, Gamepad2, ScrollText, Shield, Camera, Coffee, UsersIcon, X, ChevronLeft, ChevronRight } from "lucide-react";
 import { services, testimonials } from "../data/mock";
+import { useTranslation } from "react-i18next";
 import SEOHead from "../components/SEOHead";
 
 const Home = () => {
   const navigate = useNavigate();
+  const { t, i18n } = useTranslation();
   const heroServices = services.slice(0, 3);
   const [activeTab, setActiveTab] = useState("seconbangkhae");
   const [selectedImageIndex, setSelectedImageIndex] = useState(null);
+
+  const currentLanguage = i18n.language || 'th';
+  const isEnglish = currentLanguage === 'en';
+
+  const getLocalizedPath = (path) => {
+    if (isEnglish) {
+      return path === "/" ? "/en" : `/en${path}`;
+    }
+    return path;
+  };
 
   // Service URL mapping by ID (more reliable than title matching)
   const serviceUrlMapById = {
