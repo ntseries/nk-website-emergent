@@ -98,12 +98,14 @@ const Contact = () => {
                   <img src={branch.image} alt={branch.name} />
                 </div>
                 <div className="branch-info">
-                  <h3 className="branch-name">{branch.name}</h3>
+                  <h3 className="branch-name">
+                    {isEnglish ? branch.nameEn : branch.name}
+                  </h3>
                   <div className="branch-details">
                     <div className="branch-item">
                       <MapPin size={16} />
                       <div className="branch-location">
-                        <span>{branch.address}</span>
+                        <span>{isEnglish ? branch.addressEn : branch.address}</span>
                         {branch.maps && (
                           <a 
                             href={branch.maps} 
@@ -122,11 +124,11 @@ const Contact = () => {
                     </div>
                     <div className="branch-item">
                       <Clock size={16} />
-                      <span>{branch.hours}</span>
+                      <span>{isEnglish ? branch.hoursEn : branch.hours}</span>
                     </div>
                     <div className="branch-item">
                       <Train size={16} />
-                      <span>{branch.transport}</span>
+                      <span>{isEnglish ? branch.transportEn : branch.transport}</span>
                     </div>
                   </div>
                   
