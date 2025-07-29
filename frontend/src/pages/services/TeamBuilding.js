@@ -26,9 +26,17 @@ const TeamBuilding = () => {
                 <button className="btn-primary" onClick={() => window.open('https://line.me/ti/p/@nkboardgame', '_blank')}>
                   สอบถามโปรแกรม <ArrowRight size={16} />
                 </button>
-                <button className="btn-secondary">
-                  ดูตัวอย่างกิจกรรม
-                </button>
+                <a 
+                  href="tel:0654123939" 
+                  className="btn-secondary"
+                  style={{
+                    display: 'inline-block',
+                    textDecoration: 'none',
+                    textAlign: 'center'
+                  }}
+                >
+                  โทร 065-412-3939
+                </a>
               </div>
             </div>
             <div className="service-hero-image">
