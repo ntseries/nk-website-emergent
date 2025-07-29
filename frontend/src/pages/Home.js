@@ -290,7 +290,7 @@ const Home = () => {
         title={t("seo.home.title")}
         description={t("seo.home.description")}
         keywords="ร้านบอร์ดเกม, ร้านบอร์ดเกม บางแค, ร้านบอร์ดเกม ศรีนครินทร์, ร้านบอร์ดเกม สามย่าน, Board Game Script, Photo Booth, ร้านบอร์ดเกม ติดรถไฟฟ้า, บอร์ดเกม, ปาร์ตี้เกม, การ์ดเกม, NK Board Game, เล่นบอร์ดเกม, เกมกلุ่ม, ซีคอนบางแค, ซีคอนศรีนครินทร์, สามย่านมิตรทาวน์"
-        url="https://nkboardgame.com"
+        url={isEnglish ? "https://nkboardgame.com/en" : "https://nkboardgame.com"}
       />
       {/* Hero Section */}
       <section className="hero-section home-hero">
