@@ -128,7 +128,7 @@ const TeamBuilding = () => {
       <section className="process-section">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">ขั้นตอนการจัดกิจกรรม</h2>
+            <h2 className="section-title">{t('team_building.process.title')}</h2>
           </div>
           <div className="process-grid">
             <div className="process-card">
@@ -136,8 +136,8 @@ const TeamBuilding = () => {
                 <div className="step-number">1</div>
               </div>
               <div className="process-content">
-                <h3>ปรึกษาและวางแผน</h3>
-                <p>สอบถามความต้องการ จำนวนคน งบประมาณ และวัตถุประสงค์</p>
+                <h3>{t('team_building.process.steps.consult.title')}</h3>
+                <p>{t('team_building.process.steps.consult.description')}</p>
               </div>
             </div>
             <div className="process-card">
@@ -145,8 +145,8 @@ const TeamBuilding = () => {
                 <div className="step-number">2</div>
               </div>
               <div className="process-content">
-                <h3>ออกแบบโปรแกรม</h3>
-                <p>เลือกเกมและกิจกรรมที่เหมาะกับทีมและเป้าหมายของคุณ</p>
+                <h3>{t('team_building.process.steps.design.title')}</h3>
+                <p>{t('team_building.process.steps.design.description')}</p>
               </div>
             </div>
             <div className="process-card">
@@ -154,8 +154,8 @@ const TeamBuilding = () => {
                 <div className="step-number">3</div>
               </div>
               <div className="process-content">
-                <h3>จัดกิจกรรม</h3>
-                <p>ทีมงาน Facilitator มืออาชีพจะคอยดูแลและอำนวยความสะดวก</p>
+                <h3>{t('team_building.process.steps.execute.title')}</h3>
+                <p>{t('team_building.process.steps.execute.description')}</p>
               </div>
             </div>
             <div className="process-card">
@@ -163,8 +163,8 @@ const TeamBuilding = () => {
                 <div className="step-number">4</div>
               </div>
               <div className="process-content">
-                <h3>สรุปผลและประเมิน</h3>
-                <p>วิเคราะห์ผลและให้คำแนะนำเพื่อพัฒนาทีมต่อไป</p>
+                <h3>{t('team_building.process.steps.evaluate.title')}</h3>
+                <p>{t('team_building.process.steps.evaluate.description')}</p>
               </div>
             </div>
           </div>
