@@ -23,7 +23,7 @@ const nkHitGames = [
   },
   {
     name: "ผีถ้วยแก้ว", 
-    nameEn: "Ghost Glass",
+    nameEn: "The Haunted Glass",
     image: "https://cf.geekdo-images.com/v8FKdlNJW6WhHQMmDYR_iQ__original/img/4jvTBDDGYsSy-D3wPZftE0nuvTU=/0x0/filters:format(png)/pic8645981.png",
     category: "Bluffing",
     categoryEn: "Bluffing",
