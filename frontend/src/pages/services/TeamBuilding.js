@@ -1,10 +1,21 @@
 import React from "react";
 import { Clock, Users, Star, ArrowRight, Trophy, Target, Heart } from "lucide-react";
+import { useTranslation } from "react-i18next";
+import SEOHead from "../../components/SEOHead";
 
 const TeamBuilding = () => {
+  const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language || 'th';
+  const isEnglish = currentLanguage === 'en';
 
   return (
     <div className="service-detail-page">
+      <SEOHead 
+        title={isEnglish ? "Team Building - NK Board Game | Corporate Team Building Activities Bangkok" : "Team Building - NK Board Game | กิจกรรมสร้างทีมเวิร์คผ่านบอร์ดเกม"}
+        description={isEnglish ? "Corporate team building activities through board games. Perfect for organizations and friend groups. Develop relationships, communication, and teamwork skills. NK Board Game Bangkok." : "กิจกรรม Team Building สร้างทีมเวิร์คผ่านบอร์ดเกม เหมาะสำหรับองค์กรและกลุ่มเพื่อน พัฒนาความสัมพันธ์ การสื่อสาร การทำงานเป็นทีม NK Board Game บางแค ศรีนครินทร์ สามย่าน"}
+        keywords={isEnglish ? "Team Building, Corporate Team Building, Board Game Team Building, Team Building Activities, Corporate Events, Bangkok Team Building, NK Board Game, Team Building Thailand" : "Team Building, กิจกรรมสร้างทีมเวิร์ค, บอร์ดเกม, กิจกรรมองค์กร, สร้างทีม, ความร่วมมือ, NK Board Game, ซีคอนบางแค, ซีคอนศรีนครินทร์, สามย่านมิตรทาวน์"}
+        url={isEnglish ? "https://nkboardgame.com/en/services/team-building" : "https://nkboardgame.com/services/team-building"}
+      />
       {/* Hero Section */}
       <section className="service-hero">
         <div className="container">
@@ -12,19 +23,26 @@ const TeamBuilding = () => {
             <div className="service-hero-text">
               <div className="service-badge">
                 <Users size={16} />
-                <span>สร้างทีมเวิร์ค</span>
+                <span>{isEnglish ? "Build Teamwork" : "สร้างทีมเวิร์ค"}</span>
               </div>
               <h1 className="service-title">Team Building</h1>
               <p className="service-description">
-                กิจกรรมสร้างทีมเวิร์คผ่านบอร์ดเกม เหมาะสำหรับองค์กรและกลุ่มเพื่อน 
-                พัฒนาความสัมพันธ์ การสื่อสาร และการทำงานเป็นทีม
+                {isEnglish ? (
+                  <>Team-building activities through board games, perfect for organizations and friend groups.<br/>
+                  Develop relationships, communication, and teamwork skills.</>
+                ) : (
+                  <>กิจกรรมสร้างทีมเวิร์คผ่านบอร์ดเกม เหมาะสำหรับองค์กรและกลุ่มเพื่อน<br/>
+                  พัฒนาความสัมพันธ์ การสื่อสาร และการทำงานเป็นทีม</>
+                )}
               </p>
               <div className="service-price">
-                <span className="price-value">สอบถามแพ็คเกจเพิ่มเติม</span>
+                <span className="price-value">
+                  {isEnglish ? "Inquire for Package Details" : "สอบถามแพ็คเกจเพิ่มเติม"}
+                </span>
               </div>
               <div className="service-actions">
                 <button className="btn-primary" onClick={() => window.open('https://line.me/ti/p/@nkboardgame', '_blank')}>
-                  สอบถามโปรแกรม <ArrowRight size={16} />
+                  {isEnglish ? "Inquire about Program" : "สอบถามโปรแกรม"} <ArrowRight size={16} />
                 </button>
                 <a 
                   href="tel:0654123939" 
@@ -35,7 +53,7 @@ const TeamBuilding = () => {
                     textAlign: 'center'
                   }}
                 >
-                  โทร 065-412-3939
+                  {isEnglish ? "Call 065-412-3939" : "โทร 065-412-3939"}
                 </a>
               </div>
             </div>
