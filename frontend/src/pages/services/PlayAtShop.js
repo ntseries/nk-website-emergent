@@ -224,7 +224,7 @@ const nkHitGames = [
                 {isEnglish ? "Free Parking!" : "จอดรถฟรี!"}
               </h3>
               <p>
-                {isEnglish ? "Available at Seacon Bangkae and Seacon Srinakarin branches only" : "เฉพาะสาขาซีคอนบางแค และซีคอนศรีนครินทร์"}
+                {isEnglish ? "Available at Seacon Bangkae and Seacon Square branches only" : "เฉพาะสาขาซีคอนบางแค และซีคอนศรีนครินทร์"}
               </p>
             </div>
           </div>
