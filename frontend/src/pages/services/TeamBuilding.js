@@ -241,13 +241,13 @@ const TeamBuilding = () => {
       <section className="cta-section">
         <div className="container">
           <div className="cta-content">
-            <h2 className="cta-title">พร้อมสร้างทีมที่แข็งแกร่งแล้วหรือยัง?</h2>
+            <h2 className="cta-title">{t('team_building.cta.title')}</h2>
             <p className="cta-description">
-              ติดต่อเราเพื่อขอคำปรึกษาและวางแผนกิจกรรม Team Building ที่เหมาะกับองค์กรของคุณ
+              {t('team_building.cta.description')}
             </p>
             <div className="cta-actions">
               <button className="btn-primary" onClick={() => window.open('https://line.me/ti/p/@nkboardgame', '_blank')}>
-                สอบถามรายละเอียด <ArrowRight size={16} />
+                {t('team_building.cta.inquire')} <ArrowRight size={16} />
               </button>
               <a 
                 href="tel:0654123939" 
@@ -258,7 +258,7 @@ const TeamBuilding = () => {
                   textAlign: 'center'
                 }}
               >
-                โทร 065-412-3939
+                {t('team_building.cta.call')}
               </a>
             </div>
           </div>
