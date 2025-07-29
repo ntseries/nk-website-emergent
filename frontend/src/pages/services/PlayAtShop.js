@@ -82,7 +82,7 @@ const nkHitGames = [
             <div className="service-hero-text">
               <div className="service-badge">
                 <Gamepad2 size={16} />
-                <span>บริการยอดนิยม</span>
+                <span>{isEnglish ? "Popular Service" : "บริการยอดนิยม"}</span>
               </div>
               <h1 className="service-title">เล่นที่ร้าน</h1>
               <p className="service-description">
