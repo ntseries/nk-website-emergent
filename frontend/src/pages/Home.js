@@ -169,67 +169,83 @@ const Home = () => {
       ]
     },
     seconsrinakarin: {
-      name: "ซีคอนศรีนครินทร์", 
+      name: "ซีคอนศรีนครินทร์",
+      nameEn: "Seacon Srinakarin", 
       images: [
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SRI-01.jpg",
-          caption: "ห้องเล่นเกมขนาดใหญ่"
+          caption: "ห้องเล่นเกมขนาดใหญ่",
+          captionEn: "Large game room"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SRI-02.jpg", 
-          caption: "พื้นที่นั่งสบาย"
+          caption: "พื้นที่นั่งสบาย",
+          captionEn: "Comfortable seating area"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SRI-03.jpg",
-          caption: "มุมเล่นเกมส่วนตัว"
+          caption: "มุมเล่นเกมส่วนตัว",
+          captionEn: "Private game corner"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SRI-04.jpg",
-          caption: "ชั้นเก็บเกม"
+          caption: "ชั้นเก็บเกม",
+          captionEn: "Game storage shelves"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SRI-05.jpg",
-          caption: "บรรยากาศการแข่งขัน"
+          caption: "บรรยากาศการแข่งขัน",
+          captionEn: "Competitive atmosphere"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SRI-06.jpg",
-          caption: "พื้นที่โต๊ะเล่นเกม"
+          caption: "พื้นที่โต๊ะเล่นเกม",
+          captionEn: "Game table area"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SRI-07.jpg",
-          caption: "มุมสันทนาการ"
+          caption: "มุมสันทนาการ",
+          captionEn: "Recreation corner"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SRI-08.jpg",
-          caption: "บริเวณต้อนรับ"
+          caption: "บริเวณต้อนรับ",
+          captionEn: "Reception area"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SRI-09.jpg",
-          caption: "พื้นที่นั่งกลุ่ม"
+          caption: "พื้นที่นั่งกลุ่ม",
+          captionEn: "Group seating area"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SRI-10.jpg",
-          caption: "มุมเงียบสงบ"
+          caption: "มุมเงียบสงบ",
+          captionEn: "Quiet corner"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SRI-11.jpg",
-          caption: "พื้นที่กิจกรรมกลุ่ม"
+          caption: "พื้นที่กิจกรรมกลุ่ม",
+          captionEn: "Group activity area"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SRI-12.jpg",
-          caption: "บรรยากาศสนุกสนาน"
+          caption: "บรรยากาศสนุกสนาน",
+          captionEn: "Fun atmosphere"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SRI-13.jpg",
-          caption: "ช่วงเวลาแข่งขัน"
+          caption: "ช่วงเวลาแข่งขัน",
+          captionEn: "Competition time"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SRI-14.jpg",
-          caption: "พื้นที่เสริมกิจกรรม"
+          caption: "พื้นที่เสริมกิจกรรม",
+          captionEn: "Additional activity area"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SRI-15.jpg",
-          caption: "บริเวณพิเศษเพิ่มเติม"
+          caption: "บริเวณพิเศษเพิ่มเติม",
+          captionEn: "Additional special area"
         }
       ]
     },
