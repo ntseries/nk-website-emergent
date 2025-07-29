@@ -89,66 +89,82 @@ const Home = () => {
   const galleryData = {
     seconbangkhae: {
       name: "ซีคอนบางแค",
+      nameEn: "Seacon Bangkae",
       images: [
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/DPMX5703.JPG",
-          caption: "บรรยากาศการเล่นเกมที่สนุกสนาน"
+          caption: "บรรยากาศการเล่นเกมที่สนุกสนาน",
+          captionEn: "Fun game playing atmosphere"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_BK6-2.jpg",
-          caption: "พื้นที่เล่นเกมกว้างขวาง"
+          caption: "พื้นที่เล่นเกมกว้างขวาง",
+          captionEn: "Spacious game playing area"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_BK6-3.jpg",
-          caption: "มุมสบายๆ สำหรับนั่งเล่น"
+          caption: "มุมสบายๆ สำหรับนั่งเล่น",
+          captionEn: "Comfortable corner for relaxing"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_BK6-4.jpg",
-          caption: "เกมหลากหลายให้เลือก"
+          caption: "เกมหลากหลายให้เลือก",
+          captionEn: "Variety of games to choose from"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_BK6-5.jpg",
-          caption: "บรรยากาศการเล่นเป็นทีม"
+          caption: "บรรยากาศการเล่นเป็นทีม",
+          captionEn: "Team playing atmosphere"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_BK6-6.jpg",
-          caption: "พื้นที่โล่งสบาย"
+          caption: "พื้นที่โล่งสบาย",
+          captionEn: "Open and comfortable space"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_BK6-7.jpg",
-          caption: "มุมอาหารและเครื่องดื่ม"
+          caption: "มุมอาหารและเครื่องดื่ม",
+          captionEn: "Food and beverage corner"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_BK6-8.jpg",
-          caption: "บริเวณเช็คอิน"
+          caption: "บริเวณเช็คอิน",
+          captionEn: "Check-in area"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_BK6-9.jpg",
-          caption: "บรรยากาศร้านอบอุ่น"
+          caption: "บรรยากาศร้านอบอุ่น",
+          captionEn: "Warm store atmosphere"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_BK6-10.jpg",
-          caption: "พื้นที่เล่นเกมเพิ่มเติม"
+          caption: "พื้นที่เล่นเกมเพิ่มเติม",
+          captionEn: "Additional game playing area"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_BK6-11.jpg",
-          caption: "บรรยากาศสนุกสนานเพิ่มเติม"
+          caption: "บรรยากาศสนุกสนานเพิ่มเติม",
+          captionEn: "Additional fun atmosphere"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_BK6-12.jpg",
-          caption: "พื้นที่กิจกรรมน่าสนใจ"
+          caption: "พื้นที่กิจกรรมน่าสนใจ",
+          captionEn: "Interesting activity area"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_BK6-13.JPG",
-          caption: "มุมเล่นเกมสุดเพลิน"
+          caption: "มุมเล่นเกมสุดเพลิน",
+          captionEn: "Enjoyable game corner"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_BK6-14.jpg",
-          caption: "บรรยากาศแสนสนุก"
+          caption: "บรรยากาศแสนสนุก",
+          captionEn: "Super fun atmosphere"
         },
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_BK6-15.jpg",
-          caption: "พื้นที่พักผ่อนระหว่างเล่น"
+          caption: "พื้นที่พักผ่อนระหว่างเล่น",
+          captionEn: "Rest area between games"
         }
       ]
     },
