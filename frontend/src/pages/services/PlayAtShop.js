@@ -67,7 +67,6 @@ const nkHitGames = [
   }
 ];
 
-const PlayAtShop = () => {
   return (
     <div className="service-detail-page">
       <SEOHead 
