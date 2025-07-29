@@ -336,18 +336,28 @@ const nkHitGames = [
               <div className="pricing-table">
                 <div className="table-header">
                   <div className="table-cell"></div>
-                  <div className="table-cell">ชั่วโมง</div>
-                  <div className="table-cell">วัน</div>
-                  <div className="table-cell">เดือน</div>
+                  <div className="table-cell">
+                    {isEnglish ? "Hourly" : "ชั่วโมง"}
+                  </div>
+                  <div className="table-cell">
+                    {isEnglish ? "Daily" : "วัน"}
+                  </div>
+                  <div className="table-cell">
+                    {isEnglish ? "Monthly" : "เดือน"}
+                  </div>
                 </div>
                 <div className="table-row">
-                  <div className="table-cell customer-type">นักเรียน นักศึกษา</div>
+                  <div className="table-cell customer-type">
+                    {isEnglish ? "Student" : "นักเรียน นักศึกษา"}
+                  </div>
                   <div className="table-cell price">40</div>
                   <div className="table-cell price">159</div>
                   <div className="table-cell price">799</div>
                 </div>
                 <div className="table-row">
-                  <div className="table-cell customer-type">บุคคลทั่วไป</div>
+                  <div className="table-cell customer-type">
+                    {isEnglish ? "General" : "บุคคลทั่วไป"}
+                  </div>
                   <div className="table-cell price">50</div>
                   <div className="table-cell price">199</div>
                   <div className="table-cell price">999</div>
