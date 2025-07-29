@@ -80,7 +80,25 @@
     "hero_title": "About Us",
     "hero_subtitle": "The story of a board game shop that started with a love for gaming",
     "story_title": "Our Story",
-    "team_title": "NK Family"
+    "story_subtitle": "From a Small Shop to Thailand's Largest Board Game Community",
+    "story_content": {
+      "para1": "Our story began with a small shop called \"Tang Gradan\" in Platform Shopping Center Wong Wian Yai. This small shop had only 3 tables accommodating just 16 customers, but was filled with warm atmosphere and intended to be like a \"friend's living room\" where everyone knew each other well, chatted casually, and had fun together.",
+      "para2": "Soon, the students and early customers who used our services became friends, became family, and became a small community that grew rapidly until our small shop could no longer accommodate everyone.",
+      "para3": "We decided to expand to Seacon Bangkae mall and changed our name to NK Board Game. This became our new home that was warmer than before, with space to accommodate larger groups of players.",
+      "para4": "With the kindness and support from Seacon's management, NK Board Game grew rapidly and became Thailand's largest board game shop, with activities and spaces that accommodate all genders, ages, and friend groups who want to have fun together.",
+      "para5": "Today, NK Board Game is not just at Seacon Bangkae branch, but we have also expanded to Seacon Square Srinakarin and Samyan Mitrtown, making it easier for everyone to access the world of board games and have opportunities to meet new friends and get to know the lovely NK family."
+    },
+    "team_title": "NK Family",
+    "stats": {
+      "founded": "Founded",
+      "members": "Members",
+      "team_size": "Team Size",
+      "branches": "Branches",
+      "founded_year": "2023",
+      "member_count": "50,000+",
+      "team_count": "35",
+      "branch_count": "3"
+    }
   },
   "photo_booth": {
     "hero": {
