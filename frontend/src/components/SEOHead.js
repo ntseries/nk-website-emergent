@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+import { useTranslation } from 'react-i18next';
 
 const SEOHead = ({ 
   title = "NK Board Game - ร้านบอร์ดเกม อันดับ 1 ในไทย",
@@ -9,12 +10,43 @@ const SEOHead = ({
   url = "https://nkboardgame.com",
   type = "website"
 }) => {
+  const { i18n } = useTranslation();
+  const currentLanguage = i18n.language || 'th';
+  const isEnglish = currentLanguage === 'en';
+
+  // Generate hreflang URLs
+  const generateHrefLangUrls = (currentUrl) => {
+    if (currentUrl.includes('/en/')) {
+      // English URL, generate Thai version
+      const thaiUrl = currentUrl.replace('/en/', '/').replace('/en', '/');
+      return {
+        thai: thaiUrl === 'https://nkboardgame.com/' ? 'https://nkboardgame.com' : thaiUrl,
+        english: currentUrl
+      };
+    } else {
+      // Thai URL, generate English version
+      const baseUrl = currentUrl === 'https://nkboardgame.com' ? 'https://nkboardgame.com/' : currentUrl;
+      const englishUrl = baseUrl.replace('https://nkboardgame.com/', 'https://nkboardgame.com/en/');
+      return {
+        thai: currentUrl,
+        english: englishUrl === 'https://nkboardgame.com/en/' ? 'https://nkboardgame.com/en' : englishUrl
+      };
+    }
+  };
+
+  const hrefLangUrls = generateHrefLangUrls(url);
+
   return (
     <Helmet>
       <title>{title}</title>
       <meta name="description" content={description} />
       <meta name="keywords" content={keywords} />
       <link rel="canonical" href={url} />
+      
+      {/* Hreflang tags */}
+      <link rel="alternate" hrefLang="th" href={hrefLangUrls.thai} />
+      <link rel="alternate" hrefLang="en" href={hrefLangUrls.english} />
+      <link rel="alternate" hrefLang="x-default" href={hrefLangUrls.thai} />
       
       {/* Open Graph */}
       <meta property="og:title" content={title} />
@@ -23,13 +55,19 @@ const SEOHead = ({
       <meta property="og:url" content={url} />
       <meta property="og:image" content={image} />
       <meta property="og:site_name" content="NK Board Game" />
-      <meta property="og:locale" content="th_TH" />
+      <meta property="og:locale" content={isEnglish ? "en_US" : "th_TH"} />
+      {isEnglish && <meta property="og:locale:alternate" content="th_TH" />}
+      {!isEnglish && <meta property="og:locale:alternate" content="en_US" />}
       
       {/* Twitter Card */}  
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={image} />
+      
+      {/* Language meta */}
+      <meta httpEquiv="content-language" content={currentLanguage} />
+      <html lang={currentLanguage} />
     </Helmet>
   );
 };
