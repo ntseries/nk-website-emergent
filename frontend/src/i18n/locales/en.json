@@ -140,21 +140,155 @@
     },
     "benefits": {
       "title": "Benefits of Team Building",
-      "subtitle": "Strengthen teamwork through fun and effective activities"
+      "subtitle": "Strengthen teamwork through fun and effective activities",
+      "items": {
+        "relationships": {
+          "title": "Build Relationships",
+          "description": "Enhance bonding and understanding among team members"
+        },
+        "communication": {
+          "title": "Develop Communication",
+          "description": "Practice clear and effective communication skills"
+        },
+        "teamwork": {
+          "title": "Develop Teamwork Skills",
+          "description": "Develop cooperation in planning and decision-making as a team. Players will learn their roles and responsibilities, as well as supporting teammates"
+        },
+        "problem_solving": {
+          "title": "Stimulate Analytical Thinking and Problem Solving",
+          "description": "Practice strategic thinking to solve problems logically under certain constraints"
+        },
+        "creativity": {
+          "title": "Promote Creativity",
+          "description": "Let players use their imagination, develop out-of-the-box thinking for real work applications"
+        },
+        "time_management": {
+          "title": "Enhance Time Management and Pressure Skills",
+          "description": "Time-limited games help practice quick decision-making under pressure"
+        }
+      }
     },
     "process": {
       "title": "Activity Process",
-      "subtitle": "Effective activity management process"
+      "steps": {
+        "consult": {
+          "title": "Consult and Plan",
+          "description": "Inquire about needs, number of people, budget, and objectives"
+        },
+        "design": {
+          "title": "Design Program",
+          "description": "Select games and activities suitable for your team and goals"
+        },
+        "execute": {
+          "title": "Execute Activity",
+          "description": "Professional facilitator team will supervise and assist"
+        },
+        "evaluate": {
+          "title": "Summarize and Evaluate",
+          "description": "Analyze results and provide recommendations for future team development"
+        }
+      }
     },
     "solutions": {
       "title": "Enterprise Solutions",
-      "subtitle": "Customized activities designed for each organization's specific needs"
+      "description": "We provide customized activity design services according to organizational needs, whether it's solving specific problems or enhancing desired skills",
+      "features": {
+        "analyze": "Analyze problems and design activities",
+        "evaluate": "Have evaluation and follow-up after activities",
+        "facilitator": "Experienced specialized facilitators"
+      },
+      "cta": "Request Consultation"
+    },
+    "booking": {
+      "title": "Booking Information",
+      "advance_booking": {
+        "title": "📅 Advance Booking",
+        "description": "Recommend booking at least 2 weeks in advance for best preparation"
+      },
+      "suitable_time": {
+        "title": "⏰ Suitable Time",
+        "description": "Morning 9:00-12:00 or Afternoon 13:00-16:00 suitable for corporate activities"
+      },
+      "minimum_people": {
+        "title": "👥 Minimum Number",
+        "description": "Organize activities from 8 people onwards, maximum 50 people per session"
+      },
+      "payment": {
+        "title": "💰 Payment",
+        "description": "50% deposit when confirming booking, remaining payment on activity day"
+      }
     },
     "cta": {
       "title": "Ready to Build a Strong Team?",
-      "description": "Contact us today for consultation and Team Building activity booking",
+      "description": "Contact us for consultation and Team Building activity planning suitable for your organization",
       "inquire": "Inquire for Details",
       "call": "Call 065-412-3939"
+    }
+  },
+  "nk_cafe": {
+    "hero": {
+      "badge": "Energy Boost",
+      "title": "NK Café",
+      "description": "Various food and drink menu, perfect for energizing while gaming. Delicious taste, clean, safe with super chill atmosphere",
+      "price": "Starting from 29 Baht",
+      "cta_menu": "View Full Menu",
+      "cta_order": "Order Now"
+    },
+    "features": {
+      "title": "NK Café Highlights",
+      "items": {
+        "affordable": {
+          "title": "Affordable Prices",
+          "description": "Suitable for everyone, all genders, all ages"
+        },
+        "gang_menu": {
+          "title": "Special Menu for The Gang",
+          "description": "Come as a gang, order delicious food to share together"
+        },
+        "quality": {
+          "title": "Quality Ingredients",
+          "description": "We choose to use fresh, new ingredients always"
+        },
+        "fast_service": {
+          "title": "Fast Service",
+          "description": "Food served quickly, doesn't interrupt gaming"
+        }
+      }
+    },
+    "menu": {
+      "title": "Food Menu",
+      "subtitle": "Food and beverages that customers love the most",
+      "categories": {
+        "snacks": "🍟 Snacks",
+        "toast": "🍞 Buttery Toast",
+        "beverages": "🥛 Beverages",
+        "italian_soda": "🥤 Italian Soda",
+        "smoothies": "🍹 Smoothies",
+        "rice": "🍚 Rice Dishes",
+        "addons": "🍳 Add-ons"
+      },
+      "popular_badge": "Popular!",
+      "italian_soda_items": {
+        "red_soda": "Red Soda",
+        "red_soda_lime": "Red Soda with Lime",
+        "lime_soda": "Lime Soda",
+        "blue_hawaii": "Blue Hawaii Soda",
+        "strawberry": "Strawberry Soda",
+        "apple": "Apple Soda",
+        "kiwi": "Kiwi Soda",
+        "orange": "Orange Soda",
+        "watermelon": "Watermelon Soda",
+        "passion_fruit": "Passion Fruit Soda",
+        "lychee": "Lychee Soda",
+        "yogurt": "Yogurt Soda",
+        "butter_beer": "Butter Beer"
+      }
+    },
+    "cta": {
+      "title": "Hungry Yet?",
+      "description": "Come energize with delicious food and refreshing beverages!",
+      "order": "Order Now",
+      "view_menu": "View Full Menu"
     }
   },
   "seo": {
