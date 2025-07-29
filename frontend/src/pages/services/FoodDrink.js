@@ -208,7 +208,7 @@ const FoodDrink = () => {
                     <div key={itemIndex} className={`menu-item ${item.popular ? 'popular' : ''}`}>
                       <div className="item-info">
                         <h4 className="item-name">{item.name}</h4>
-                        {item.popular && <span className="popular-badge">ฮิต!</span>}
+                        {item.popular && <span className="popular-badge">{t('nk_cafe.menu.popular_badge')}</span>}
                       </div>
                       <div className="item-price">{item.price}</div>
                     </div>
