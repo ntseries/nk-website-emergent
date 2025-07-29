@@ -1,9 +1,22 @@
 import React, { useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Facebook, Instagram, MapPin, Phone, Clock, Youtube } from "lucide-react";
+import { useTranslation } from "react-i18next";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const Footer = () => {
   const location = useLocation();
+  const { t, i18n } = useTranslation();
+
+  const currentLanguage = i18n.language || 'th';
+  const isEnglish = currentLanguage === 'en';
+
+  const getLocalizedPath = (path) => {
+    if (isEnglish) {
+      return path === "/" ? "/en" : `/en${path}`;
+    }
+    return path;
+  };
 
   // Function to handle navigation clicks
   const handleNavClick = () => {
