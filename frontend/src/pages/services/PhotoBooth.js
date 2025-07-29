@@ -1104,9 +1104,14 @@ const PhotoBooth = () => {
       <section className="customer-gallery-section">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">Gallery ภาพลูกค้าน่ารัก</h2>
+            <h2 className="section-title">
+              {isEnglish ? "Cute Customer Gallery" : "Gallery ภาพลูกค้าน่ารัก"}
+            </h2>
             <p className="section-subtitle">
-              ตัวอย่างรูปภาพที่ลูกค้าถ่ายที่โฟโต้บูธของเรา
+              {isEnglish 
+                ? "Sample photos taken by our customers at our photo booth"
+                : "ตัวอย่างรูปภาพที่ลูกค้าถ่ายที่โฟโต้บูธของเรา"
+              }
             </p>
           </div>
           <div className="customer-gallery-grid">
