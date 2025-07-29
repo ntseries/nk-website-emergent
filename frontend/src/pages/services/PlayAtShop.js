@@ -84,7 +84,9 @@ const nkHitGames = [
                 <Gamepad2 size={16} />
                 <span>{isEnglish ? "Popular Service" : "บริการยอดนิยม"}</span>
               </div>
-              <h1 className="service-title">เล่นที่ร้าน</h1>
+              <h1 className="service-title">
+                {isEnglish ? "Play at Shop" : "เล่นที่ร้าน"}
+              </h1>
               <p className="service-description">
                 ให้ NK เป็นบ้านหลังที่สองของคุณ<br/>
                 เราพร้อมต้อนรับคุณและเดอะแก๊งด้วยพื้นที่กว้างขวาง เหมาะสำหรับใช้เวลาร่วมกันอย่างใกล้ชิด เพลิดเพลินกับเกมกว่า 1,000 เกมที่เราคัดสรรมาให้ และพบกับทีมงานสุดเป็นกันเอง ที่พร้อมแนะนำและดูแลคุณเหมือนเพื่อนคนหนึ่ง
