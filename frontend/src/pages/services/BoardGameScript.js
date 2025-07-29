@@ -90,23 +90,25 @@ const BoardGameScript = () => {
             <div className="service-hero-text">
               <div className="service-badge script-badge">
                 <Skull size={16} />
-                <span>เกมพิเศษ</span>
+                <span>{isEnglish ? "Special Game" : "เกมพิเศษ"}</span>
               </div>
               <h1 className="service-title script-title">Board Game Script</h1>
               <p className="service-description script-description">
-                ก้าวเข้าสู่โลกแห่งความลึกลับ ไขปริศนาการฆาตกรรม และเปิดเผยความจริงที่ซ่อนเร้น
-                ด้วย Board Game Script ที่จะพาคุณดำดิ่งสู่เรื่องราวสุดระทึกขวัญ
+                {isEnglish 
+                  ? "Step into a world of mystery, solve murder cases, and unveil hidden truths with Board Game Script that will immerse you in thrilling stories."
+                  : "ก้าวเข้าสู่โลกแห่งความลึกลับ ไขปริศนาการฆาตกรรม และเปิดเผยความจริงที่ซ่อนเร้น ด้วย Board Game Script ที่จะพาคุณดำดิ่งสู่เรื่องราวสุดระทึกขวัญ"
+                }
               </p>
               <div className="service-price script-price">
-                <span className="price-value">299 บาท</span>
-                <span className="price-unit">/เกม</span>
+                <span className="price-value">299 {isEnglish ? "Baht" : "บาท"}</span>
+                <span className="price-unit">{isEnglish ? "/game" : "/เกม"}</span>
               </div>
               <div className="service-actions">
                 <button className="btn-primary script-btn-primary" onClick={handleBooking}>
-                  จองเกมเลย <ArrowRight size={16} />
+                  {isEnglish ? "Book Now" : "จองเกมเลย"} <ArrowRight size={16} />
                 </button>
                 <button className="btn-secondary script-btn-secondary" onClick={handleTeaser}>
-                  ดู Teaser
+                  {isEnglish ? "Watch Teaser" : "ดู Teaser"}
                 </button>
               </div>
             </div>
