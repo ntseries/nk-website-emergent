@@ -296,38 +296,41 @@ const Home = () => {
       <section className="hero-section home-hero">
         <div className="hero-content">
           <div className="hero-badge">
-            <span>✨ ร้านบอร์ดเกม อันดับ 1 ในใจ Gen Z</span>
+            <span>✨ {t("hero.badge")}</span>
           </div>
           <h1 className="hero-title">
-            สนุกสนาน <span className="hero-highlight">ไปด้วยกัน</span><br />
-            ที่ NK Board Game
+            {isEnglish ? (
+              <>Have Fun <span className="hero-highlight">Together</span><br />at NK Board Game</>
+            ) : (
+              <>สนุกสนาน <span className="hero-highlight">ไปด้วยกัน</span><br />ที่ NK Board Game</>
+            )}
           </h1>
           <p className="hero-subtitle">
-            สนุกทุกเกม ประทับใจทุกสาขา – พบประสบการณ์บอร์ดเกมที่แตกต่างได้ที่ NK Board Game
+            {t("hero.subtitle")}
           </p>
           <div className="hero-actions">
             <button 
               onClick={() => window.open('https://line.me/ti/p/@nkboardgame', '_blank')}
               className="btn-primary"
             >
-              จองโต๊ะเลย <ArrowRight size={16} />
+              {t("hero.cta_book")} <ArrowRight size={16} />
             </button>
-            <Link to="/about" className="btn-secondary">
-              เกี่ยวกับเรา
+            <Link to={getLocalizedPath("/about")} className="btn-secondary">
+              {t("hero.cta_about")}
             </Link>
           </div>
           <div className="hero-stats">
             <div className="stat">
               <div className="stat-number">1,000+</div>
-              <div className="stat-label">เกมให้เลือก</div>
+              <div className="stat-label">{t("hero.stats.games")}</div>
             </div>
             <div className="stat">
               <div className="stat-number">3</div>
-              <div className="stat-label">สาขาในกรุงเทพ</div>
+              <div className="stat-label">{t("hero.stats.branches")}</div>
             </div>
             <div className="stat">
               <div className="stat-number">50,000+</div>
-              <div className="stat-label">จำนวนสมาชิก</div>
+              <div className="stat-label">{t("hero.stats.members")}</div>
             </div>
           </div>
         </div>
