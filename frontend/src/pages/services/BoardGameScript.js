@@ -90,7 +90,7 @@ const BoardGameScript = () => {
   };
 
   return (
-    <div className="service-detail-page script-mystery-theme" style={{paddingBottom: '60px'}}>
+    <div className="service-detail-page script-mystery-theme">
       <SEOHead 
         title={isEnglish ? "Board Game Script - NK Board Game | Murder Mystery Games Bangkok" : "Board Game Script - NK Board Game | เกมสืบสวนไขคดี"}
         description={isEnglish ? "Murder mystery board game scripts at NK Board Game. Thrilling detective games with role-playing. 3 exciting stories: School Mystery, Hitler's Last Night, Magic School. Perfect for groups 6-15 people." : "Board Game Script เกมสคริปต์ไขคดีสุดระทึก ที่ NK Board Game เกมสืบสวนสุดลุ้น พร้อมการแสดงบทบาท 3 เรื่องน่าติดตาม ปริศนาโรงเรียนมรณะ คืนสุดท้ายฮิตเลอร์หายไป คาถาพิฆาตในห้องต้องประสงค์ เหมาะสำหรับกลุ่ม 6-15 คน ซีคอนบางแค ซีคอนศรีนครินทร์ สามย่านมิตรทาวน์"}
