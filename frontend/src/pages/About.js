@@ -1,25 +1,39 @@
 import React from "react";
 import { Users, Heart, Target, Trophy, Clock, MapPin } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import SEOHead from "../components/SEOHead";
 
 const About = () => {
+  const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language || 'th';
+  const isEnglish = currentLanguage === 'en';
+
   return (
     <div className="about-page">
       <SEOHead 
-        title="เกี่ยวกับเรา - NK Board Game | ร้านบอร์ดเกม อันดับ 1 ในไทย"
-        description="เรื่องราวของ NK Board Game ร้านบอร์ดเกมอันดับ 1 ในใจชาว Gen Z ก่อตั้งปี 2023 สมาชิกกว่า 50,000+ คน ร้านบอร์ดเกมบางแค ศรีนครินทร์ สามย่าน ทีมงาน 35 คน"
-        keywords="เกี่ยวกับเรา, NK Board Game, ร้านบอร์ดเกม, ประวัติร้าน, ทีมงาน, บอร์ดเกม, Gen Z, 2023"
-        url="https://nkboardgame.com/about"
+        title={isEnglish ? "About Us - NK Board Game | #1 Board Game Shop in Thailand" : "เกี่ยวกับเรา - NK Board Game | ร้านบอร์ดเกม อันดับ 1 ในไทย"}
+        description={isEnglish ? "The story of NK Board Game - Thailand's #1 board game shop for Gen Z. Founded in 2023, over 50,000+ members. Board game shops in Bangkae, Srinakarin, Samyan. 35 team members." : "เรื่องราวของ NK Board Game ร้านบอร์ดเกมอันดับ 1 ในใจชาว Gen Z ก่อตั้งปี 2023 สมาชิกกว่า 50,000+ คน ร้านบอร์ดเกมบางแค ศรีนครินทร์ สามย่าน ทีมงาน 35 คน"}
+        keywords={isEnglish ? "About Us, NK Board Game, Board Game Shop, Company History, Team, Board Games, Gen Z, 2023, Thailand" : "เกี่ยวกับเรา, NK Board Game, ร้านบอร์ดเกม, ประวัติร้าน, ทีมงาน, บอร์ดเกม, Gen Z, 2023, ซีคอนบางแค, ซีคอนศรีนครินทร์, สามย่านมิตรทาวน์"}
+        url={isEnglish ? "https://nkboardgame.com/en/about" : "https://nkboardgame.com/about"}
       />
       {/* Hero Section */}
       <section className="hero-section about-hero">
         <div className="hero-content">
           <h1 className="hero-title">
-            เกี่ยวกับ <span className="hero-highlight">NK Board Game</span>
+            {isEnglish ? (
+              <>About <span className="hero-highlight">NK Board Game</span></>
+            ) : (
+              <>เกี่ยวกับ <span className="hero-highlight">NK Board Game</span></>
+            )}
           </h1>
           <p className="hero-subtitle">
-            เราเชื่อว่าบอร์ดเกมไม่ใช่แค่ความสนุก แต่มันคือเครื่องมือในการเชื่อมโยงผู้คน<br />
-            จุดประกายพลังบวก และหล่อหลอม Mindset แห่งการเรียนรู้และการเติบโตไปด้วยกัน
+            {isEnglish ? (
+              <>We believe board games are not just fun, but a tool to connect people,<br />
+              spark positive energy, and cultivate a mindset of learning and growth together</>
+            ) : (
+              <>เราเชื่อว่าบอร์ดเกมไม่ใช่แค่ความสนุก แต่มันคือเครื่องมือในการเชื่อมโยงผู้คน<br />
+              จุดประกายพลังบวก และหล่อหลอม Mindset แห่งการเรียนรู้และการเติบโตไปด้วยกัน</>
+            )}
           </p>
         </div>
       </section>
