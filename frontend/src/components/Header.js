@@ -107,9 +107,12 @@ const Header = () => {
               )}
             </div>
 
-            <Link to="/contact" className={`nav-link ${isActive("/contact") ? "active" : ""}`} onClick={handleNavClick}>
-              ติดต่อสาขา
+            <Link to={getLocalizedPath("/contact")} className={`nav-link ${isActive("/contact") ? "active" : ""}`} onClick={handleNavClick}>
+              {t("nav.contact")}
             </Link>
+
+            {/* Language Switcher */}
+            <LanguageSwitcher className="ml-4" />
           </nav>
 
           {/* Mobile Menu Button */}
