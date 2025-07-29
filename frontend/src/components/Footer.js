@@ -126,15 +126,20 @@ const Footer = () => {
               </div>
               <div className="contact-item">
                 <Clock size={16} />
-                <span>10:00 - 22:00 (ทุกวัน)</span>
+                <span>10:00 - 22:00 ({isEnglish ? "Daily" : "ทุกวัน"})</span>
               </div>
+            </div>
+
+            {/* Language Switcher in Footer */}
+            <div className="footer-language mt-4">
+              <LanguageSwitcher showIcon={true} />
             </div>
           </div>
         </div>
 
         {/* Bottom Bar */}
         <div className="footer-bottom">
-          <p>&copy; 2025 NK Board Game. All Rights Reserved.</p>
+          <p>{t("footer.copyright")}</p>
         </div>
       </div>
     </footer>
