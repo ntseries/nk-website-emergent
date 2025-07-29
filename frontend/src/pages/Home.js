@@ -288,7 +288,7 @@ const Home = () => {
     <div className="home-page">
       <SEOHead 
         title={t("seo.home.title")}
-        description="NK Board Game ร้านบอร์ดเกมอันดับ 1 ในใจชาว Gen Z ร้านบอร์ดเกมบางแค ร้านบอร์ดเกมศรีนครินทร์ ร้านบอร์ดเกมสามย่าน ร้านบอร์ดเกมติดรถไฟฟ้า เกมกว่า 1000+ เกม Board Game Script Photo Booth บอร์ดเกม ปาร์ตี้เกม การ์ดเกม"
+        description={t("seo.home.description")}
         keywords="ร้านบอร์ดเกม, ร้านบอร์ดเกม บางแค, ร้านบอร์ดเกม ศรีนครินทร์, ร้านบอร์ดเกม สามย่าน, Board Game Script, Photo Booth, ร้านบอร์ดเกม ติดรถไฟฟ้า, บอร์ดเกม, ปาร์ตี้เกม, การ์ดเกม, NK Board Game, เล่นบอร์ดเกม, เกมกلุ่ม, ซีคอนบางแค, ซีคอนศรีนครินทร์, สามย่านมิตรทาวน์"
         url="https://nkboardgame.com"
       />
