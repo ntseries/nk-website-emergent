@@ -111,7 +111,7 @@ const Contact = () => {
                             rel="noopener noreferrer"
                             className="maps-link"
                           >
-                            ดูแผนที่
+                            {isEnglish ? "View Map" : "ดูแผนที่"}
                           </a>
                         )}
                       </div>
