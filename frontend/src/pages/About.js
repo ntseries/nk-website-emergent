@@ -73,9 +73,11 @@ const About = () => {
       <section className="team-section">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">ครอบครัว NK</h2>
+            <h2 className="section-title">
+              {isEnglish ? "NK Family" : "ครอบครัว NK"}
+            </h2>
             <p className="section-subtitle">
-              ทีมงานที่หลงใหลในบอร์ดเกมและพร้อมให้คำแนะนำที่ดีที่สุด
+              {isEnglish ? "A team passionate about board games and ready to offer the best recommendations." : "ทีมงานที่หลงใหลในบอร์ดเกมและพร้อมให้คำแนะนำที่ดีที่สุด"}
             </p>
           </div>
           <div className="team-grid">
