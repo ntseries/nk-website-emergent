@@ -271,7 +271,9 @@ const BoardGameScript = () => {
       <section className="how-it-works script-how-it-works">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title script-section-title">ขั้นตอนการเล่น</h2>
+            <h2 className="section-title script-section-title">
+              {isEnglish ? "How to Play" : "ขั้นตอนการเล่น"}
+            </h2>
           </div>
           <div className="steps-grid script-steps-grid">
             {steps.map((step, index) => (
@@ -288,16 +290,24 @@ const BoardGameScript = () => {
       <section className="cta-section script-cta-section">
         <div className="container">
           <div className="cta-content script-cta-content">
-            <h2 className="cta-title script-cta-title">พร้อมเปิดประสบการณ์ใหม่แล้วหรือยัง?</h2>
+            <h2 className="cta-title script-cta-title">
+              {isEnglish 
+                ? "Ready for a New Experience?" 
+                : "พร้อมเปิดประสบการณ์ใหม่แล้วหรือยัง?"
+              }
+            </h2>
             <p className="cta-description script-cta-description">
-              จองรอบ Board Game Script มาสร้างความทรงจำร่วมกับเดอะแก๊งแบบไม่เหมือนใคร
+              {isEnglish
+                ? "Book a Board Game Script session and create unique memories with your gang"
+                : "จองรอบ Board Game Script มาสร้างความทรงจำร่วมกับเดอะแก๊งแบบไม่เหมือนใคร"
+              }
             </p>
             <div className="cta-actions">
               <button className="btn-primary script-btn-primary" onClick={handleBooking}>
-                จองเลย <ArrowRight size={16} />
+                {isEnglish ? "Book Now" : "จองเลย"} <ArrowRight size={16} />
               </button>
               <button className="btn-secondary script-btn-secondary" onClick={handleBooking}>
-                สอบถามเพิ่มเติม
+                {isEnglish ? "Ask for More Info" : "สอบถามเพิ่มเติม"}
               </button>
             </div>
           </div>
