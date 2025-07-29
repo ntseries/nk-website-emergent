@@ -123,29 +123,23 @@ const FoodDrink = () => {
             <div className="service-hero-text">
               <div className="service-badge">
                 <Coffee size={16} />
-                <span>{isEnglish ? "Energy Boost" : "เติมพลัง"}</span>
+                <span>{t('nk_cafe.hero.badge')}</span>
               </div>
-              <h1 className="service-title">NK Café</h1>
+              <h1 className="service-title">{t('nk_cafe.hero.title')}</h1>
               <p className="service-description">
-                {isEnglish ? (
-                  <>Various food and drink menu, perfect for energizing while gaming.<br/>
-                  Delicious taste, clean, safe with super chill atmosphere</>
-                ) : (
-                  <>เมนูอาหารและเครื่องดื่มหลากหลาย เหมาะสำหรับเติมพลังขณะเล่นเกม<br/>
-                  รสชาติอร่อย สะอาด ปลอดภัย พร้อมบรรยากาศสุดชิล</>
-                )}
+                {t('nk_cafe.hero.description')}
               </p>
               <div className="service-price">
                 <span className="price-value">
-                  {isEnglish ? "Starting from 29 Baht" : "เริ่มต้น 29 บาท"}
+                  {t('nk_cafe.hero.price')}
                 </span>
               </div>
               <div className="service-actions">
                 <button className="btn-primary" onClick={handleViewFullMenu}>
-                  {isEnglish ? "View Full Menu" : "ดูเมนูทั้งหมด"} <ArrowRight size={16} />
+                  {t('nk_cafe.hero.cta_menu')} <ArrowRight size={16} />
                 </button>
                 <button className="btn-secondary" onClick={handleOrderFood}>
-                  {isEnglish ? "Order Now" : "สั่งอาหารเลย"}
+                  {t('nk_cafe.hero.cta_order')}
                 </button>
               </div>
             </div>
