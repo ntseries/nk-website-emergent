@@ -78,10 +78,10 @@ const BoardGameScript = () => {
   return (
     <div className="service-detail-page script-mystery-theme">
       <SEOHead 
-        title="Board Game Script - เกมแก้ปริศนาฆาตกรรม | NK Board Game"
-        description="Board Game Script เกมสคริปต์แก้ปริศนาการฆาตกรรม ที่เดียวในประเทศไทย ปริศนาโรงเรียนมรณะ คืนสุดท้ายฮิตเลอร์หายไป คาถาพิฆาตในห้องต้องประสงค์ เกมพิเศษจาก NK Board Game"
-        keywords="Board Game Script, เกมสคริปต์, เกมแก้ปริศนา, เกมฆาตกรรม, ปริศนาโรงเรียนมรณะ, บอร์ดเกม, เกมกลุ่ม, NK Board Game, เกมพิเศษ"
-        url="https://nkboardgame.com/services/board-game-script"
+        title={isEnglish ? "Board Game Script - NK Board Game | Murder Mystery Games Bangkok" : "Board Game Script - NK Board Game | เกมสืบสวนไขคดี"}
+        description={isEnglish ? "Murder mystery board game scripts at NK Board Game. Thrilling detective games with role-playing. 3 exciting stories: School Mystery, Hitler's Last Night, Magic School. Perfect for groups 6-15 people." : "Board Game Script เกมสคริปต์ไขคดีสุดระทึก ที่ NK Board Game เกมสืบสวนสุดลุ้น พร้อมการแสดงบทบาท 3 เรื่องน่าติดตาม ปริศนาโรงเรียนมรณะ คืนสุดท้ายฮิตเลอร์หายไป คาถาพิฆาตในห้องต้องประสงค์ เหมาะสำหรับกลุ่ม 6-15 คน ซีคอนบางแค ซีคอนศรีนครินทร์ สามย่านมิตรทาวน์"}
+        keywords={isEnglish ? "Board Game Script, Murder Mystery Games, Detective Games, Role Playing Games, Group Games, Bangkok Board Games, NK Board Game, Mystery Solving, Investigation Games" : "Board Game Script, เกมสคริปต์, เกมไขคดี, เกมสืบสวน, เกมแสดงบทบาท, เกมกลุ่ม, บอร์ดเกม, NK Board Game, ไขคดีฆาตกรรม, ซีคอนบางแค, ซีคอนศรีนครินทร์, สามย่านมิตรทาวน์"}
+        url={isEnglish ? "https://nkboardgame.com/en/services/board-game-script" : "https://nkboardgame.com/services/board-game-script"}
       />
       {/* Hero Section */}
       <section className="service-hero script-hero">
