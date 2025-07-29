@@ -56,20 +56,5 @@ function App() {
     </HelmetProvider>
   );
 }
-              <Route path="/services" element={<Services />} />
-              <Route path="/services/play-at-shop" element={<PlayAtShop />} />
-              <Route path="/services/board-game-script" element={<BoardGameScript />} />
-              <Route path="/services/photo-booth" element={<PhotoBooth />} />
-              <Route path="/services/food-drink" element={<FoodDrink />} />
-              <Route path="/services/team-building" element={<TeamBuilding />} />
-              <Route path="/contact" element={<Contact />} />
-            </Routes>
-          </main>
-          <Footer />
-        </BrowserRouter>
-      </div>
-    </HelmetProvider>
-  );
-}
 
 export default App;
