@@ -1162,9 +1162,19 @@ const PhotoBooth = () => {
               <a href="https://lin.ee/H4D9qos" target="_blank" rel="noopener noreferrer" className="btn-primary">
                 จองถ่ายรูปเลย <ArrowRight size={16} />
               </a>
-              <button className="btn-secondary">
-                ดูตัวอย่างเพิ่มเติม
-              </button>
+              <a 
+                href="https://lin.ee/H4D9qos" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="btn-secondary"
+                style={{
+                  display: 'inline-block',
+                  textDecoration: 'none',
+                  textAlign: 'center'
+                }}
+              >
+                สอบถามเพิ่มเติม
+              </a>
             </div>
           </div>
         </div>
