@@ -85,33 +85,33 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div className="footer-section">
-            <h3 className="footer-title">เมนูหลัก</h3>
+            <h3 className="footer-title">{t("footer.quick_links")}</h3>
             <ul className="footer-links">
-              <li><Link to="/" onClick={handleNavClick}>หน้าแรก</Link></li>
-              <li><Link to="/about" onClick={handleNavClick}>เกี่ยวกับเรา</Link></li>
-              <li><Link to="/contact" onClick={handleNavClick}>ติดต่อสาขา</Link></li>
+              <li><Link to={getLocalizedPath("/")} onClick={handleNavClick}>{t("nav.home")}</Link></li>
+              <li><Link to={getLocalizedPath("/about")} onClick={handleNavClick}>{t("nav.about")}</Link></li>
+              <li><Link to={getLocalizedPath("/contact")} onClick={handleNavClick}>{t("nav.contact")}</Link></li>
             </ul>
           </div>
 
           {/* Services */}
           <div className="footer-section">
-            <h3 className="footer-title">บริการของเรา</h3>
+            <h3 className="footer-title">{t("nav.services")}</h3>
             <ul className="footer-links">
-              <li><Link to="/services/play-at-shop" onClick={handleNavClick}>เล่นที่ร้าน</Link></li>
-              <li><Link to="/services/board-game-script" onClick={handleNavClick}>Board Game Script</Link></li>
-              <li><Link to="/services/photo-booth" onClick={handleNavClick}>Photo Booth</Link></li>
-              <li><Link to="/services/food-drink" onClick={handleNavClick}>NK Café</Link></li>
-              <li><Link to="/services/team-building" onClick={handleNavClick}>Team Building</Link></li>
+              <li><Link to={getLocalizedPath("/services/play-at-shop")} onClick={handleNavClick}>{t("nav.play_at_shop")}</Link></li>
+              <li><Link to={getLocalizedPath("/services/board-game-script")} onClick={handleNavClick}>{t("nav.board_game_script")}</Link></li>
+              <li><Link to={getLocalizedPath("/services/photo-booth")} onClick={handleNavClick}>{t("nav.photo_booth")}</Link></li>
+              <li><Link to={getLocalizedPath("/services/food-drink")} onClick={handleNavClick}>{t("nav.nk_cafe")}</Link></li>
+              <li><Link to={getLocalizedPath("/services/team-building")} onClick={handleNavClick}>{t("nav.team_building")}</Link></li>
             </ul>
           </div>
 
           {/* Contact Info */}
           <div className="footer-section">
-            <h3 className="footer-title">ติดต่อเรา</h3>
+            <h3 className="footer-title">{t("nav.contact")}</h3>
             <div className="contact-info">
               <div className="contact-item">
                 <MapPin size={16} />
-                <span>ซีคอนบางแค, ซีคอนศรีนครินทร์, สามย่านมิตรทาวน์</span>
+                <span>{t("gallery.branches.secon_bangkae")}, {t("gallery.branches.secon_srinakarin")}, {t("gallery.branches.samyan_mitrtown")}</span>
               </div>
               <div className="contact-item">
                 <Phone size={16} />
