@@ -70,7 +70,7 @@ const About = () => {
       </section>
 
       {/* Team Section */}
-      <section className="team-section">
+      <section className="team-section" style={{paddingBottom: '60px'}}>
         <div className="container">
           <div className="section-header">
             <h2 className="section-title">
