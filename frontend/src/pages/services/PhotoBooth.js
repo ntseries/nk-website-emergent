@@ -41,7 +41,6 @@ const PhotoBooth = () => {
       price: "99 บาท",
       priceEn: "99 Baht"
     },
-    },
     {
       name: "Premium Pack",
       people: "1 คน",
