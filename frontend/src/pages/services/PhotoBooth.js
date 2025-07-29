@@ -43,23 +43,39 @@ const PhotoBooth = () => {
     },
     {
       name: "Premium Pack",
+      nameEn: "Premium Pack",
       people: "1 คน",
-      shots: "30 ภาพ",
-      props: "พร็อพพิเศษ",
+      peopleEn: "1 person",
+      shots: "30 ภาพ", 
+      shotsEn: "30 photos",
+      props: "พร๊อพพิเศษ",
+      propsEn: "Special props",
       duration: "60 นาที",
+      durationEn: "60 minutes",
       photo: "รับรูปถ่าย 1 รูป",
+      photoEn: "Get 1 photo print",
       costumes: "เปลี่ยนได้ 3 ชุด",
-      price: "199 บาท"
+      costumesEn: "3 costume changes",
+      price: "199 บาท",
+      priceEn: "199 Baht"
     },
     {
       name: "Gang Package",
+      nameEn: "Gang Package", 
       people: "6 คน",
+      peopleEn: "6 people",
       shots: "180 ภาพ",
+      shotsEn: "180 photos",
       props: "พร๊อพพิเศษ",
+      propsEn: "Special props",
       duration: "60 นาที",
+      durationEn: "60 minutes",
       photo: "รับรูปถ่าย 6 รูป",
+      photoEn: "Get 6 photo prints",
       costumes: "เปลี่ยนชุดได้ไม่จำกัด",
-      price: "999 บาท"
+      costumesEn: "Unlimited costume changes",
+      price: "999 บาท",
+      priceEn: "999 Baht"
     }
   ];
 
