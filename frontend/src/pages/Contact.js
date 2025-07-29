@@ -1,12 +1,33 @@
 import React, { useState } from "react";
 import { MapPin, Phone, Clock, MessageSquare, ArrowRight, Train, Facebook, Instagram } from "lucide-react";
 import { branches } from "../data/mock";
+import { useTranslation } from "react-i18next";
 import SEOHead from "../components/SEOHead";
 
 const Contact = () => {
+  const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language || 'th';
+  const isEnglish = currentLanguage === 'en';
   const [selectedBranch, setSelectedBranch] = useState(branches[0]);
 
-  const faqData = [
+  const faqData = isEnglish ? [
+    {
+      question: "Can I book a table in advance?",
+      answer: "Yes, you can book through any contact channel of each branch up to 7 days in advance."
+    },
+    {
+      question: "Do you provide game teaching services?",
+      answer: "Yes, our staff is ready to teach new games at no additional charge."
+    },
+    {
+      question: "Can I bring outside food?",
+      answer: "Yes, but please help us maintain cleanliness."
+    },
+    {
+      question: "Is there parking available?",
+      answer: "Yes, all NK Board Game branches are located in leading shopping centers with ample parking."
+    }
+  ] : [
     {
       question: "จองโต๊ะล่วงหน้าได้หรือไม่?",
       answer: "ได้ครับ สามารถจองผ่านทุกช่องทางติดต่อ ของแต่ละสาขา ได้ล่วงหน้า 7 วัน"
@@ -28,19 +49,26 @@ const Contact = () => {
   return (
     <div className="contact-page">
       <SEOHead 
-        title="ติดต่อสาขา - NK Board Game | ร้านบอร์ดเกม บางแค ศรีนครินทร์ สามย่าน"
-        description="ติดต่อสาขา NK Board Game ร้านบอร์ดเกมติดรถไฟฟ้า 3 สาขา สาขาบางแค ซีคอนบางแค ชั้น4 สาขาศรีนครินทร์ ซีคอนศรีนครินทร์ ชั้น3 สาขาสามย่าน สามย่านมิตรทาวน์ ชั้น3"
-        keywords="ติดต่อสาขา, ร้านบอร์ดเกม บางแค, ร้านบอร์ดเกม ศรีนครินทร์, ร้านบอร์ดเกม สามย่าน, ร้านบอร์ดเกม ติดรถไฟฟ้า, ซีคอนบางแค, ซีคอนศรีนครินทร์, สามย่านมิตรทาวน์, NK Board Game"
-        url="https://nkboardgame.com/contact"
+        title={isEnglish ? "Contact Branches - NK Board Game | Board Game Shop Bangkae Srinakarin Samyan" : "ติดต่อสาขา - NK Board Game | ร้านบอร์ดเกม บางแค ศรีนครินทร์ สามย่าน"}
+        description={isEnglish ? "Contact NK Board Game branches - 3 board game shops near BTS/MRT. Bangkae branch at Seacon Bangkae 4th floor, Srinakarin branch at Seacon Square 3rd floor, Samyan branch at Samyan Mitrtown 3rd floor." : "ติดต่อสาขา NK Board Game ร้านบอร์ดเกมติดรถไฟฟ้า 3 สาขา สาขาบางแค ซีคอนบางแค ชั้น4 สาขาศรีนครินทร์ ซีคอนศรีนครินทร์ ชั้น3 สาขาสามย่าน สามย่านมิตรทาวน์ ชั้น3 ซีคอนบางแค ซีคอนศรีนครินทร์ สามย่านมิตรทาวน์"}
+        keywords={isEnglish ? "Contact Branches, Board Game Shop Bangkae, Board Game Shop Srinakarin, Board Game Shop Samyan, Board Game Shop near BTS, Seacon Bangkae, Seacon Square, Samyan Mitrtown, NK Board Game" : "ติดต่อสาขา, ร้านบอร์ดเกม บางแค, ร้านบอร์ดเกม ศรีนครินทร์, ร้านบอร์ดเกม สามย่าน, ร้านบอร์ดเกม ติดรถไฟฟ้า, ซีคอนบางแค, ซีคอนศรีนครินทร์, สามย่านมิตรทาวน์, NK Board Game"}
+        url={isEnglish ? "https://nkboardgame.com/en/contact" : "https://nkboardgame.com/contact"}
       />
       {/* Hero Section */}
       <section className="hero-section contact-hero">
         <div className="hero-content">
           <h1 className="hero-title">
-            ติดต่อ <span className="hero-highlight">NK Board Game</span>
+            {isEnglish ? (
+              <>Contact <span className="hero-highlight">NK Board Game</span></>
+            ) : (
+              <>ติดต่อ <span className="hero-highlight">NK Board Game</span></>
+            )}
           </h1>
           <p className="hero-subtitle">
-            มีคำถาม อยากจองโต๊ะ หรืออยากจัดกิจกรรมพิเศษ ทีม NK พร้อมตอบกลับอย่างรวดเร็วและเป็นกันเอง ติดต่อเราผ่านช่องทางที่สะดวกที่สุดสำหรับคุณได้เลย!
+            {isEnglish ? 
+              "Have questions, want to book a table, or inquire about events? Contact us through any channel" :
+              "มีคำถาม อยากจองโต๊ะ หรืออยากจัดกิจกรรมพิเศษ ทีม NK พร้อมตอบกลับอย่างรวดเร็วและเป็นกันเอง ติดต่อเราผ่านช่องทางที่สะดวกที่สุดสำหรับคุณได้เลย!"
+            }
           </p>
         </div>
       </section>
