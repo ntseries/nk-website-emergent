@@ -139,10 +139,10 @@ const PhotoBooth = () => {
   return (
     <div className="photobooth-page">
       <SEOHead 
-        title="Photo Booth คาวะอิ - NK Board Game | บริการถ่ายรูปน่ารัก"
-        description="Photo Booth สไตล์คาวะอิ ถ่ายรูปน่ารักๆ พร้อมพร็อพหลากหลาย ทีมงานดูแลดี แต่งผมให้ บริการครบจบในที่เดียว ที่ NK Board Game ร้านบอร์ดเกม"
-        keywords="Photo Booth, โฟโต้บูธ, ถ่ายรูป, คาวะอิ, น่ารัก, พร็อพ, แต่งผม, บอร์ดเกม, NK Board Game"
-        url="https://nkboardgame.com/services/photo-booth"
+        title={isEnglish ? "Photo Booth Kawaii - NK Board Game | Cute Photo Service" : "Photo Booth คาวาอิ - NK Board Game | บริการถ่ายรูปน่ารัก"}
+        description={isEnglish ? "Kawaii-style Photo Booth with cute photos, various props, caring staff, hair styling service. Complete service at NK Board Game board game shop. Bangkae, Srinakarin, Samyan branches." : "Photo Booth สไตล์คาวาอิ ถ่ายรูปน่ารักๆ พร้อมพร็อพหลากหลาย ทีมงานดูแลดี แต่งผมให้ บริการครบจบในที่เดียว ที่ NK Board Game ร้านบอร์ดเกม บางแค ศรีนครินทร์ สามย่าน ซีคอนบางแค ซีคอนศรีนครินทร์ สามย่านมิตรทาวน์"}
+        keywords={isEnglish ? "Photo Booth, Kawaii Photo, Cute Photos, Props, Hair Styling, Board Game, NK Board Game, Seacon Bangkae, Seacon Square, Samyan Mitrtown" : "Photo Booth, โฟโต้บูธ, ถ่ายรูป, คาวาอิ, น่ารัก, พร็อพ, แต่งผม, บอร์ดเกม, NK Board Game, ซีคอนบางแค, ซีคอนศรีนครินทร์, สามย่านมิตรทาวน์"}
+        url={isEnglish ? "https://nkboardgame.com/en/services/photo-booth" : "https://nkboardgame.com/services/photo-booth"}
       />
       {/* Photo Booth Specific Styles */}
       <style jsx>{`
