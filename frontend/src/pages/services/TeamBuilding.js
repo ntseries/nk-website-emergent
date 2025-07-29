@@ -71,9 +71,9 @@ const TeamBuilding = () => {
       <section className="benefits-section team-building-benefits">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">ประโยชน์ของ Team Building</h2>
+            <h2 className="section-title">{t('team_building.benefits.title')}</h2>
             <p className="section-subtitle">
-              เสริมสร้างทีมเวิร์คผ่านกิจกรรมที่สนุกและมีประสิทธิภาพ
+              {t('team_building.benefits.subtitle')}
             </p>
           </div>
           <div className="benefits-grid">
@@ -81,43 +81,43 @@ const TeamBuilding = () => {
               <div className="benefit-icon">
                 <Heart size={32} />
               </div>
-              <h3>สร้างความสัมพันธ์</h3>
-              <p>เสริมสร้างความผูกพันและความเข้าใจกันระหว่างสมาชิกในทีม</p>
+              <h3>{t('team_building.benefits.items.relationships.title')}</h3>
+              <p>{t('team_building.benefits.items.relationships.description')}</p>
             </div>
             <div className="benefit-card">
               <div className="benefit-icon">
                 <Target size={32} />
               </div>
-              <h3>พัฒนาการสื่อสาร</h3>
-              <p>ฝึกทักษะการสื่อสารที่ชัดเจนและมีประสิทธิภาพ</p>
+              <h3>{t('team_building.benefits.items.communication.title')}</h3>
+              <p>{t('team_building.benefits.items.communication.description')}</p>
             </div>
             <div className="benefit-card">
               <div className="benefit-icon">
                 <Users size={32} />
               </div>
-              <h3>พัฒนาทักษะการทำงานเป็นทีม</h3>
-              <p>พัฒนาความร่วมมือในการวางแผนและการตัดสินใจร่วมกันในทีม ผู้เล่นจะเรียนรู้บทบาทหน้าที่ของตน รวมถึงการสนับสนุนเพื่อนร่วมทีม</p>
+              <h3>{t('team_building.benefits.items.teamwork.title')}</h3>
+              <p>{t('team_building.benefits.items.teamwork.description')}</p>
             </div>
             <div className="benefit-card">
               <div className="benefit-icon">
                 <Trophy size={32} />
               </div>
-              <h3>กระตุ้นการคิดวิเคราะห์และแก้ปัญหา</h3>
-              <p>ฝึกการคิดกลยุทธ์เพื่อแก้ไขปัญหา อย่างมีเหตุผลภายใต้ข้อจำกัดบางอย่าง</p>
+              <h3>{t('team_building.benefits.items.problem_solving.title')}</h3>
+              <p>{t('team_building.benefits.items.problem_solving.description')}</p>
             </div>
             <div className="benefit-card">
               <div className="benefit-icon">
                 <Star size={32} />
               </div>
-              <h3>ส่งเสริมความคิดสร้างสรรค์</h3>
-              <p>ให้ผู้เล่นได้ใช้จินตนาการ พัฒนาความคิดนอกกรอบ เพื่อใช้ในการทำงานจริง</p>
+              <h3>{t('team_building.benefits.items.creativity.title')}</h3>
+              <p>{t('team_building.benefits.items.creativity.description')}</p>
             </div>
             <div className="benefit-card">
               <div className="benefit-icon">
                 <Clock size={32} />
               </div>
-              <h3>เสริมทักษะการจัดการเวลาและความกดดัน</h3>
-              <p>เกมที่มีเวลาจำกัดช่วยฝึกการตัดสินใจเร็วภายใต้แรงกดดัน</p>
+              <h3>{t('team_building.benefits.items.time_management.title')}</h3>
+              <p>{t('team_building.benefits.items.time_management.description')}</p>
             </div>
           </div>
         </div>
