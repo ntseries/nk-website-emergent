@@ -107,7 +107,7 @@ const nkHitGames = [
                   className="btn-secondary"
                   onClick={() => window.open('tel:065-412-3939', '_self')}
                 >
-                  โทรสอบถาม
+                  {isEnglish ? "Contact Us" : "โทรสอบถาม"}
                 </button>
               </div>
             </div>
