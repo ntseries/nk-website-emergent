@@ -66,29 +66,6 @@ const nkHitGames = [
     durationEn: "20 minutes"
   }
 ];
-  },
-  {
-    name: "The Rich and the Good",
-    image: "https://cf.geekdo-images.com/CrAzRoBFWWz6bbDTlzY23Q__original/img/ieUuBn7WH6Iuc-ZQ2zbrecR34Qo=/0x0/filters:format(png)/pic7061922.png",
-    category: "Strategy",
-    players: "3-5 คน",
-    duration: "45 นาที"
-  },
-  {
-    name: "Age of Innovation",
-    image: "https://cf.geekdo-images.com/D1vrcFEptCEoD8Z6s_iRfw__original/img/1vY0K3wSqlYXq0JEylSI-7agxKs=/0x0/filters:format(jpeg)/pic7430993.jpg",
-    category: "Strategy",
-    players: "3-5 คน",
-    duration: "45-200 นาที"
-  },
-  {
-    name: "1830: Railways & Robber Barons",
-    image: "https://cf.geekdo-images.com/3EmD1SEI5fVpR4rbdkU0AA__original/img/M6qiL7ZNU_mjgZXHZjOrVxNamfU=/0x0/filters:format(jpeg)/pic882119.jpg",
-    category: "Strategy",
-    players: "3-7 คน",
-    duration: "180-360 นาที"
-  }
-];
 
 const PlayAtShop = () => {
   return (
