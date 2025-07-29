@@ -191,7 +191,7 @@ const FoodDrink = () => {
       </section>
 
       {/* Menu Section */}
-      <section className="menu-section">
+      <section className="menu-section" style={{paddingBottom: '60px'}}>
         <div className="container">
           <div className="section-header">
             <h2 className="section-title">{t('nk_cafe.menu.title')}</h2>
