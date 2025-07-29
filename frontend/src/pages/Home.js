@@ -416,7 +416,7 @@ const Home = () => {
               );
 
               return (
-                <div key={service.id} className="service-card" style={{ position: 'relative' }}>
+                <div key={service.id} className="service-card" style={{ position: 'relative', cursor: 'default' }}>
                   <div className="service-image">
                     <img src={service.image} alt={serviceKey ? t(`services.${serviceKey}.title`) : service.title} />
                   </div>
