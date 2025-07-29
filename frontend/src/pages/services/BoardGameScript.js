@@ -50,6 +50,20 @@ const BoardGameScript = () => {
       duration: "120 นาที",
       durationEn: "120 minutes",
       image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Script-Magic.jpg"
+    },
+    {
+      name: "15 คืนหลอน ห้องเช่าเฮี้ยน",
+      nameEn: "15 Haunted Nights, Haunted Rental Room",
+      theme: "ผี",
+      themeEn: "Ghost",
+      difficulty: 4,
+      investigation: 2,
+      roleplay: 1,
+      players: "1-6 คน",
+      playersEn: "1-6 players",
+      duration: "100 นาที",
+      durationEn: "100 minutes",
+      image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Script-GhostNut.jpg"
     }
   ];
 
