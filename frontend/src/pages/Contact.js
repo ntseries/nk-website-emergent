@@ -77,9 +77,14 @@ const Contact = () => {
       <section className="branches-section branches-section-padding">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">สาขา NK Board Game</h2>
+            <h2 className="section-title">
+              {isEnglish ? "NK Board Game Branches" : "สาขา NK Board Game"}
+            </h2>
             <p className="section-subtitle">
-              เลือกสาขาที่ใกล้คุณที่สุด เราพร้อมให้บริการทุกสาขา
+              {isEnglish ? 
+                "Choose the branch closest to you. We're ready to serve at every location" :
+                "เลือกสาขาที่ใกล้คุณที่สุด เราพร้อมให้บริการทุกสาขา"
+              }
             </p>
           </div>
           <div className="branches-grid">
