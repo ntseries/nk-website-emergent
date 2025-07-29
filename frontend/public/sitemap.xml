@@ -74,8 +74,11 @@
     <priority>0.9</priority>
   </url>
   
+  <!-- Contact Page -->
   <url>
     <loc>https://nkboardgame.com/contact</loc>
+    <xhtml:link rel="alternate" hreflang="th" href="https://nkboardgame.com/contact" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://nkboardgame.com/en/contact" />
     <lastmod>2025-01-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
