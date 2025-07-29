@@ -175,7 +175,9 @@ const Contact = () => {
       <section className="faq-section">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">คำถามที่พบบ่อย</h2>
+            <h2 className="section-title">
+              {isEnglish ? "Frequently Asked Questions" : "คำถามที่พบบ่อย"}
+            </h2>
           </div>
           <div className="faq-grid">
             {faqData.map((faq, index) => (
