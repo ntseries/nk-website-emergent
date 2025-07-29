@@ -10,7 +10,7 @@ const FoodDrink = () => {
 
   const menuCategories = [
     {
-      name: isEnglish ? "🍟 Snacks" : "🍟 ของทานเล่น",
+      name: t('nk_cafe.menu.categories.snacks'),
       items: [
         { name: isEnglish ? "French Fries" : "เฟรนซ์ฟรายส์", price: "39.-", popular: true },
         { name: isEnglish ? "Chicken Popcorn" : "ไก่ป๊อบ", price: "49.-", popular: false },
@@ -22,7 +22,7 @@ const FoodDrink = () => {
       ]
     },
     {
-      name: isEnglish ? "🍞 Buttery Toast" : "🍞 ขนมปังปิ้งฉ่ำเนย",
+      name: t('nk_cafe.menu.categories.toast'),
       items: [
         { name: isEnglish ? "Milk Butter Toast" : "ปังเนยนม", price: "29.-", popular: true },
         { name: isEnglish ? "Sugar Butter Toast" : "ปังเนยน้ำตาล", price: "29.-", popular: false },
@@ -33,7 +33,7 @@ const FoodDrink = () => {
       ]
     },
     {
-      name: isEnglish ? "🥛 Beverages" : "🥛 เครื่องดื่ม",
+      name: t('nk_cafe.menu.categories.beverages'),
       items: [
         { name: isEnglish ? "Pink Milk" : "นมชมพู", price: "49.-", popular: true },
         { name: isEnglish ? "Fresh Milk" : "นมสด", price: "49.-", popular: false },
@@ -44,25 +44,25 @@ const FoodDrink = () => {
       ]
     },
     {
-      name: "🥤 อิตาเลี่ยนโซดา",
+      name: t('nk_cafe.menu.categories.italian_soda'),
       items: [
-        { name: "แดงโซดา", price: "29.-", popular: true },
-        { name: "แดงโซดามะนาว", price: "29.-", popular: true },
-        { name: "มะนาวโซดา", price: "29.-", popular: false },
-        { name: "บลูฮาวายโซดา", price: "29.-", popular: false },
-        { name: "สตอเบอร์รี่โซดา", price: "29.-", popular: false },
-        { name: "แอปเปิ้ลโซดา", price: "29.-", popular: false },
-        { name: "กีวี่โซดา", price: "29.-", popular: false },
-        { name: "ส้มโซดา", price: "29.-", popular: false },
-        { name: "แตงโมโซดา", price: "29.-", popular: false },
-        { name: "เสาวรสโซดา", price: "29.-", popular: false },
-        { name: "ลิ้นจี่โซดา", price: "29.-", popular: false },
-        { name: "โยเกิร์ตโซดา", price: "29.-", popular: false },
-        { name: "บัตเตอร์เบียร์", price: "59.-", popular: false }
+        { name: t('nk_cafe.menu.italian_soda_items.red_soda'), price: "29.-", popular: true },
+        { name: t('nk_cafe.menu.italian_soda_items.red_soda_lime'), price: "29.-", popular: true },
+        { name: t('nk_cafe.menu.italian_soda_items.lime_soda'), price: "29.-", popular: false },
+        { name: t('nk_cafe.menu.italian_soda_items.blue_hawaii'), price: "29.-", popular: false },
+        { name: t('nk_cafe.menu.italian_soda_items.strawberry'), price: "29.-", popular: false },
+        { name: t('nk_cafe.menu.italian_soda_items.apple'), price: "29.-", popular: false },
+        { name: t('nk_cafe.menu.italian_soda_items.kiwi'), price: "29.-", popular: false },
+        { name: t('nk_cafe.menu.italian_soda_items.orange'), price: "29.-", popular: false },
+        { name: t('nk_cafe.menu.italian_soda_items.watermelon'), price: "29.-", popular: false },
+        { name: t('nk_cafe.menu.italian_soda_items.passion_fruit'), price: "29.-", popular: false },
+        { name: t('nk_cafe.menu.italian_soda_items.lychee'), price: "29.-", popular: false },
+        { name: t('nk_cafe.menu.italian_soda_items.yogurt'), price: "29.-", popular: false },
+        { name: t('nk_cafe.menu.italian_soda_items.butter_beer'), price: "59.-", popular: false }
       ]
     },
     {
-      name: isEnglish ? "🍹 Smoothies" : "🍹 สมูทตี้",
+      name: t('nk_cafe.menu.categories.smoothies'),
       items: [
         { name: isEnglish ? "Strawberry Smoothie" : "สตอเบอร์รี่สมูทตี้", price: "59.-", popular: true },
         { name: isEnglish ? "Apple Smoothie" : "แอปเปิ้ลสมูทตี้", price: "59.-", popular: false },
@@ -77,7 +77,7 @@ const FoodDrink = () => {
       ]
     },
     {
-      name: isEnglish ? "🍚 Rice Dishes" : "🍚 เมนูข้าว",
+      name: t('nk_cafe.menu.categories.rice'),
       items: [
         { name: isEnglish ? "Thai Basil Stir-fry Rice" : "ข้าวกะเพรา", price: "59.-", popular: true },
         { name: isEnglish ? "Salt & Pepper Stir-fry Rice" : "ข้าวราดผัดพริกเกลือ", price: "59.-", popular: true },
@@ -89,7 +89,7 @@ const FoodDrink = () => {
       ]
     },
     {
-      name: isEnglish ? "🍳 Add-ons" : "🍳 เสริม",
+      name: t('nk_cafe.menu.categories.addons'),
       items: [
         { name: isEnglish ? "Fried Egg" : "ไข่ดาว", price: "+10.-", popular: false },
         { name: isEnglish ? "Omelet" : "ไข่เจียว", price: "+15.-", popular: false },
