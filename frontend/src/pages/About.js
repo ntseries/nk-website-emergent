@@ -53,24 +53,16 @@ const About = () => {
             </div>
             <div className="story-stats">
               <div className="stat-card">
-                <Trophy className="stat-icon" />
                 <div className="stat-number">{t("about.stats.founded_year")}</div>
-                <div className="stat-label">{t("about.stats.founded")}</div>
+                <div className="stat-label stat-label-dark">{t("about.stats.founded")}</div>
               </div>
               <div className="stat-card">
-                <Users className="stat-icon" />
                 <div className="stat-number">{t("about.stats.member_count")}</div>
-                <div className="stat-label">{t("about.stats.members")}</div>
+                <div className="stat-label stat-label-dark">{t("about.stats.members")}</div>
               </div>
               <div className="stat-card">
-                <Heart className="stat-icon" />
-                <div className="stat-number">{t("about.stats.team_count")}</div>
-                <div className="stat-label">{t("about.stats.team_size")}</div>
-              </div>
-              <div className="stat-card">
-                <MapPin className="stat-icon" />
                 <div className="stat-number">{t("about.stats.branch_count")}</div>
-                <div className="stat-label">{t("about.stats.branches")}</div>
+                <div className="stat-label stat-label-dark">{t("about.stats.branches")}</div>
               </div>
             </div>
           </div>
