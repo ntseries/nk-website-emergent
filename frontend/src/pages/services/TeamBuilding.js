@@ -178,33 +178,32 @@ const TeamBuilding = () => {
         <div className="container">
           <div className="custom-content">
             <div className="custom-text">
-              <h2 className="section-title">โซลูชันเฉพาะองค์กร</h2>
+              <h2 className="section-title">{t('team_building.solutions.title')}</h2>
               <p>
-                เรามีบริการออกแบบกิจกรรมเฉพาะตามความต้องการขององค์กร 
-                ไม่ว่าจะเป็นการแก้ปัญหาเฉพาะ หรือเสริมสร้างทักษะที่ต้องการ
+                {t('team_building.solutions.description')}
               </p>
               <div className="custom-features">
                 <div className="custom-feature">
                   <span>🎯</span>
-                  <p>วิเคราะห์ปัญหาและออกแบบกิจกรรม</p>
+                  <p>{t('team_building.solutions.features.analyze')}</p>
                 </div>
                 <div className="custom-feature">
                   <span>📊</span>
-                  <p>มีการประเมินผลและติดตามหลังกิจกรรม</p>
+                  <p>{t('team_building.solutions.features.evaluate')}</p>
                 </div>
                 <div className="custom-feature">
                   <span>👥</span>
-                  <p>Facilitator ที่มีประสบการณ์เฉพาะด้าน</p>
+                  <p>{t('team_building.solutions.features.facilitator')}</p>
                 </div>
               </div>
               <button className="btn-primary" onClick={() => window.open('https://line.me/ti/p/@nkboardgame', '_blank')}>
-                ขอคำปรึกษา <ArrowRight size={16} />
+                {t('team_building.solutions.cta')} <ArrowRight size={16} />
               </button>
             </div>
             <div className="custom-image">
               <img 
                 src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Building-01.jpg" 
-                alt="โซลูชันเฉพาะองค์กร"
+                alt={t('team_building.solutions.title')}
               />
             </div>
           </div>
