@@ -255,6 +255,18 @@ const Home = () => {
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SYM-12.jpg",
           caption: "บรรยากาศการเล่นสนุกสนาน"
+        },
+        {
+          url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SYM-13.jpg",
+          caption: "พื้นที่จัดกิจกรรมพิเศษ"
+        },
+        {
+          url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SYM-14.jpg",
+          caption: "มุมพักผ่อนเพิ่มเติม"
+        },
+        {
+          url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_SYM-15.jpg",
+          caption: "บริเวณกิจกรรมสุดพิเศษ"
         }
       ]
     }
