@@ -2279,6 +2279,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
 }
 
+.stat-card .stat-label-dark {
+  color: var(--nk-dark) !important;
+  font-size: 14px;
+}
+
 /* Values Grid */
 .values-grid {
   display: grid;
