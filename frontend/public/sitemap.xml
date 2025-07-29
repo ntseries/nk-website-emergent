@@ -54,8 +54,11 @@
     <priority>0.9</priority>
   </url>
   
+  <!-- NK Café -->
   <url>
     <loc>https://nkboardgame.com/services/food-drink</loc>
+    <xhtml:link rel="alternate" hreflang="th" href="https://nkboardgame.com/services/food-drink" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://nkboardgame.com/en/services/food-drink" />
     <lastmod>2025-01-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
