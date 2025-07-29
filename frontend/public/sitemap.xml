@@ -64,8 +64,11 @@
     <priority>0.9</priority>
   </url>
   
+  <!-- Team Building -->
   <url>
     <loc>https://nkboardgame.com/services/team-building</loc>
+    <xhtml:link rel="alternate" hreflang="th" href="https://nkboardgame.com/services/team-building" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://nkboardgame.com/en/services/team-building" />
     <lastmod>2025-01-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
