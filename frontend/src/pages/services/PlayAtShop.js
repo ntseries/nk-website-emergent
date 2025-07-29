@@ -124,49 +124,75 @@ const nkHitGames = [
       {/* Features Section */}
       <section className="service-features">
         <div className="container">
-          <h2 className="section-title">จุดเด่นของ NK</h2>
+          <h2 className="section-title">
+            {isEnglish ? "NK's Highlights" : "จุดเด่นของ NK"}
+          </h2>
           <div className="features-grid">
             <div className="feature-card">
               <div className="feature-icon">
                 <Gamepad2 size={32} />
               </div>
-              <h3>เกมมากกว่า 1,000 เกม</h3>
-              <p>คอลเลกชันเกมครบครันจากทั่วโลก อัพเดทเกมใหม่ทุกเดือน</p>
+              <h3>
+                {isEnglish ? "1,000+ Games" : "เกมมากกว่า 1,000 เกม"}
+              </h3>
+              <p>
+                {isEnglish ? "Complete game collection from around the world. New games added every month" : "คอลเลกชันเกมครบครันจากทั่วโลก อัพเดทเกมใหม่ทุกเดือน"}
+              </p>
             </div>
             <div className="feature-card">
               <div className="feature-icon">
                 <Star size={32} />
               </div>
-              <h3>บรรยากาศสุดชิล</h3>
-              <p>นั่งยาว ๆ เหมือนอยู่บ้านเพื่อนได้เลย</p>
+              <h3>
+                {isEnglish ? "Super Chill Atmosphere" : "บรรยากาศสุดชิล"}
+              </h3>
+              <p>
+                {isEnglish ? "Stay as long as you want, just like hanging out at a friend's place" : "นั่งยาว ๆ เหมือนอยู่บ้านเพื่อนได้เลย"}
+              </p>
             </div>
             <div className="feature-card">
               <div className="feature-icon">
                 <Users size={32} />
               </div>
-              <h3>ทีมงานน่ารัก เป็นกันเอง</h3>
-              <p>เล่นไม่เป็น ไม่ใช่ปัญหา ให้ทีมงานเราดูแลให้เอง</p>
+              <h3>
+                {isEnglish ? "Friendly & Helpful Staff" : "ทีมงานน่ารัก เป็นกันเอง"}
+              </h3>
+              <p>
+                {isEnglish ? "Don't know how to play? No problem! Our team will take care of you" : "เล่นไม่เป็น ไม่ใช่ปัญหา ให้ทีมงานเราดูแลให้เอง"}
+              </p>
             </div>
             <div className="feature-card">
               <div className="feature-icon">
                 <Train size={32} />
               </div>
-              <h3>ติดรถไฟฟ้า ทุกสาขา</h3>
-              <p>ทุกสาขาของเราตั้งอยู่ในศูนย์การค้าที่เชื่อมต่อกับรถไฟฟ้า</p>
+              <h3>
+                {isEnglish ? "Near BTS/MRT All Branches" : "ติดรถไฟฟ้า ทุกสาขา"}
+              </h3>
+              <p>
+                {isEnglish ? "All our branches are located in malls connected to BTS/MRT stations" : "ทุกสาขาของเราตั้งอยู่ในศูนย์การค้าที่เชื่อมต่อกับรถไฟฟ้า"}
+              </p>
             </div>
             <div className="feature-card">
               <div className="feature-icon">
                 <Car size={32} />
               </div>
-              <h3>ที่จอดรถเยอะมาก</h3>
-              <p>ไม่ต้องวนนานให้เสียเวลา</p>
+              <h3>
+                {isEnglish ? "Plenty of Parking" : "ที่จอดรถเยอะมาก"}
+              </h3>
+              <p>
+                {isEnglish ? "No need to waste time circling around for parking" : "ไม่ต้องวนนานให้เสียเวลา"}
+              </p>
             </div>
             <div className="feature-card">
               <div className="feature-icon">
                 <MapPin size={32} />
               </div>
-              <h3>จอดรถฟรี!</h3>
-              <p>เฉพาะสาขาซีคอนบางแค และซีคอนศรีนครินทร์</p>
+              <h3>
+                {isEnglish ? "Free Parking!" : "จอดรถฟรี!"}
+              </h3>
+              <p>
+                {isEnglish ? "Available at Seacon Bangkae and Seacon Srinakarin branches only" : "เฉพาะสาขาซีคอนบางแค และซีคอนศรีนครินทร์"}
+              </p>
             </div>
           </div>
         </div>
