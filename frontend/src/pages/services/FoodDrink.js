@@ -1,40 +1,46 @@
 import React from "react";
 import { Clock, Users, Star, ArrowRight, Coffee, Utensils, IceCream, DollarSign, Heart } from "lucide-react";
+import { useTranslation } from "react-i18next";
+import SEOHead from "../../components/SEOHead";
 
 const FoodDrink = () => {
+  const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language || 'th';
+  const isEnglish = currentLanguage === 'en';
+
   const menuCategories = [
     {
-      name: "🍟 ของทานเล่น",
+      name: isEnglish ? "🍟 Snacks" : "🍟 ของทานเล่น",
       items: [
-        { name: "เฟรนซ์ฟรายส์", price: "39.-", popular: true },
-        { name: "ไก่ป๊อบ", price: "49.-", popular: false },
-        { name: "นักเก็ตไก่", price: "49.-", popular: false },
-        { name: "ไก่คาราอาเกะ", price: "69.-", popular: false },
-        { name: "ไส้กรอกหนังกรอบ", price: "39.-", popular: false },
-        { name: "ไส้กรอกแดง", price: "39.-", popular: false },
-        { name: "ชีสดิป", price: "+10.-", popular: false }
+        { name: isEnglish ? "French Fries" : "เฟรนซ์ฟรายส์", price: "39.-", popular: true },
+        { name: isEnglish ? "Chicken Popcorn" : "ไก่ป๊อบ", price: "49.-", popular: false },
+        { name: isEnglish ? "Chicken Nuggets" : "นักเก็ตไก่", price: "49.-", popular: false },
+        { name: isEnglish ? "Chicken Karaage" : "ไก่คาราอาเกะ", price: "69.-", popular: false },
+        { name: isEnglish ? "Crispy Sausage" : "ไส้กรอกหนังกรอบ", price: "39.-", popular: false },
+        { name: isEnglish ? "Red Sausage" : "ไส้กรอกแดง", price: "39.-", popular: false },
+        { name: isEnglish ? "Cheese Dip" : "ชีสดิป", price: "+10.-", popular: false }
       ]
     },
     {
-      name: "🍞 ขนมปังปิ้งฉ่ำเนย",
+      name: isEnglish ? "🍞 Buttery Toast" : "🍞 ขนมปังปิ้งฉ่ำเนย",
       items: [
-        { name: "ปังเนยนม", price: "29.-", popular: true },
-        { name: "ปังเนยน้ำตาล", price: "29.-", popular: false },
-        { name: "ปังเนยสตอร์เบอร์รี่", price: "29.-", popular: false },
-        { name: "ปังเนยส้ม", price: "29.-", popular: false },
-        { name: "ปังเนยช็อคโกแลต", price: "39.-", popular: false },
-        { name: "ปังเนยนูเทลล่า", price: "39.-", popular: true }
+        { name: isEnglish ? "Milk Butter Toast" : "ปังเนยนม", price: "29.-", popular: true },
+        { name: isEnglish ? "Sugar Butter Toast" : "ปังเนยน้ำตาล", price: "29.-", popular: false },
+        { name: isEnglish ? "Strawberry Butter Toast" : "ปังเนยสตอร์เบอร์รี่", price: "29.-", popular: false },
+        { name: isEnglish ? "Orange Butter Toast" : "ปังเนยส้ม", price: "29.-", popular: false },
+        { name: isEnglish ? "Chocolate Butter Toast" : "ปังเนยช็อคโกแลต", price: "39.-", popular: false },
+        { name: isEnglish ? "Nutella Butter Toast" : "ปังเนยนูเทลล่า", price: "39.-", popular: true }
       ]
     },
     {
-      name: "🥛 เครื่องดื่ม",
+      name: isEnglish ? "🥛 Beverages" : "🥛 เครื่องดื่ม",
       items: [
-        { name: "นมชมพู", price: "49.-", popular: true },
-        { name: "นมสด", price: "49.-", popular: false },
-        { name: "นมสดคาราเมล", price: "49.-", popular: false },
-        { name: "นมสตอเบอร์รี่", price: "49.-", popular: false },
-        { name: "โอวัลตินนมสด", price: "49.-", popular: false },
-        { name: "ปั่น", price: "+10.-", popular: false }
+        { name: isEnglish ? "Pink Milk" : "นมชมพู", price: "49.-", popular: true },
+        { name: isEnglish ? "Fresh Milk" : "นมสด", price: "49.-", popular: false },
+        { name: isEnglish ? "Caramel Fresh Milk" : "นมสดคาราเมล", price: "49.-", popular: false },
+        { name: isEnglish ? "Strawberry Milk" : "นมสตอเบอร์รี่", price: "49.-", popular: false },
+        { name: isEnglish ? "Ovaltine Fresh Milk" : "โอวัลตินนมสด", price: "49.-", popular: false },
+        { name: isEnglish ? "Blended" : "ปั่น", price: "+10.-", popular: false }
       ]
     },
     {
