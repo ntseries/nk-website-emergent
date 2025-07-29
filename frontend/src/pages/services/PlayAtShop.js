@@ -1,43 +1,71 @@
 import React from "react";
 import { Clock, Users, Star, ArrowRight, Gamepad2, MapPin, Car, Train } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import SEOHead from "../../components/SEOHead";
+
+const PlayAtShop = () => {
+  const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language || 'th';
+  const isEnglish = currentLanguage === 'en';
 
 // New NK Hit Games data
 const nkHitGames = [
   {
     name: "เจ้าหญิงจอมแก่น",
+    nameEn: "Princess Jomgaen",
     image: "https://cf.geekdo-images.com/HuWvVU2tcff-vu3EjPtk6Q__original/img/K2Fopgt-7pfYCu8jtlrcWJ92yeU=/0x0/filters:format(jpeg)/pic7605211.jpg",
     category: "Family",
+    categoryEn: "Family",
     players: "3-6 คน",
-    duration: "30-40 นาที"
+    playersEn: "3-6 players",
+    duration: "30-40 นาที",
+    durationEn: "30-40 minutes"
   },
   {
-    name: "ผีถ้วยแก้ว",
+    name: "ผีถ้วยแก้ว", 
+    nameEn: "Ghost Glass",
     image: "https://cf.geekdo-images.com/v8FKdlNJW6WhHQMmDYR_iQ__original/img/4jvTBDDGYsSy-D3wPZftE0nuvTU=/0x0/filters:format(png)/pic8645981.png",
     category: "Bluffing",
+    categoryEn: "Bluffing",
     players: "5-9 คน",
-    duration: "15-60 นาที"
+    playersEn: "5-9 players",
+    duration: "15-60 นาที",
+    durationEn: "15-60 minutes"
   },
   {
     name: "Salem 1692",
+    nameEn: "Salem 1692",
     image: "https://cf.geekdo-images.com/xUurReSy2Amlx4hGj1fPvQ__original/img/XwLUot6yxSoz4j4yorfVSNVPqMw=/0x0/filters:format(jpeg)/pic4204062.jpg",
     category: "Bluffing",
+    categoryEn: "Bluffing", 
     players: "4-12 คน",
-    duration: "25-35 นาที"
+    playersEn: "4-12 players",
+    duration: "25-35 นาที",
+    durationEn: "25-35 minutes"
   },
   {
     name: "Flip 7",
+    nameEn: "Flip 7",
     image: "https://cf.geekdo-images.com/YrQxEB9Ef0kQorRApzG5vQ__original/img/hK6k-x_GYfooemrkkRuF0bTvKxE=/0x0/filters:format(jpeg)/pic8780246.jpg",
     category: "Party",
+    categoryEn: "Party",
     players: "3-18 คน",
-    duration: "20 นาที"
+    playersEn: "3-18 players", 
+    duration: "20 นาที",
+    durationEn: "20 minutes"
   },
   {
     name: "Deductio",
+    nameEn: "Deductio",
     image: "https://cf.geekdo-images.com/zHrnFegi_L7MoWdhMB-l9g__original/img/yytyZ-Phd5v2GNGpUb47NNeeMhU=/0x0/filters:format(jpeg)/pic7716883.jpg",
     category: "Deduction",
-    players: "2-4 คน",
-    duration: "20 นาที"
+    categoryEn: "Deduction",
+    players: "2-4 คน", 
+    playersEn: "2-4 players",
+    duration: "20 นาที",
+    durationEn: "20 minutes"
+  }
+];
   },
   {
     name: "The Rich and the Good",
