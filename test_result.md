@@ -132,17 +132,65 @@ frontend:
         agent: "main"
         comment: "Updated page title to include branch names: 'NK Board Game - ร้านบอร์ดเกม อันดับ 1 ในใจ Gen Z | บางแค ศรีนครินทร์ สามย่าน'"
 
-  - task: "Link Photo Booth package buttons to LINE"
+  - task: "Update Photo Booth CTA button to LINE link"
     implemented: true
     working: "NA"
     file: "/app/frontend/src/pages/services/PhotoBooth.js"
     stuck_count: 0
-    priority: "high"
+    priority: "medium"
     needs_retesting: true
     status_history:
       - working: "NA"
         agent: "main"
-        comment: "Changed all 'Choose This Package ♡' buttons from button elements to anchor tags linking to LINE (https://lin.ee/H4D9qos) with target='_blank' and proper styling to maintain appearance. Now customers can directly contact NK via LINE from any package selection."
+        comment: "Changed 'ดูตัวอย่างเพิ่มเติม' button to 'สอบถามเพิ่มเติม' and linked to LINE (https://lin.ee/H4D9qos) with target='_blank' in CTA section."
+
+  - task: "Update Team Building hero button to phone call"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/services/TeamBuilding.js"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Changed 'ดูตัวอย่างกิจกรรม' button to 'โทร 065-412-3939' and linked to tel:0654123939 for direct calling functionality."
+
+  - task: "Update Team Building CTA phone button to clickable"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/services/TeamBuilding.js"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Changed phone number button from static button to clickable link (tel:0654123939) in final CTA section for direct calling functionality."
+
+  - task: "Add SRI-15 image to ซีคอนศรีนครินทร์ gallery"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/Home.js"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Added Atmosphere_SRI-15.jpg to seconsrinakarin gallery with caption 'บริเวณพิเศษเพิ่มเติม'. Total gallery images increased from 14 to 15."
+
+  - task: "Add 3 images to สามย่านมิตรทาวน์ gallery"
+    implemented: true
+    working: "NA"
+    file: "/app/frontend/src/pages/Home.js"
+    stuck_count: 0
+    priority: "medium"
+    needs_retesting: true
+    status_history:
+      - working: "NA"
+        agent: "main"
+        comment: "Added 3 new images to samyanmitrtown gallery: SYM-13.jpg (พื้นที่จัดกิจกรรมพิเศษ), SYM-14.jpg (มุมพักผ่อนเพิ่มเติม), SYM-15.jpg (บริเวณกิจกรรมสุดพิเศษ). Total gallery images increased from 12 to 15."
 
 frontend:
   - task: "Update Contact page hero text"
