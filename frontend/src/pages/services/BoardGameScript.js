@@ -1,42 +1,65 @@
 import React from "react";
 import { Clock, Users, Star, ArrowRight, ScrollText, Sparkles, Skull, Shield, Eye, Map } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import SEOHead from "../../components/SEOHead";
 
 const BoardGameScript = () => {
+  const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language || 'th';
+  const isEnglish = currentLanguage === 'en';
+
   const scripts = [
     {
       name: "ปริศนาโรงเรียนมรณะ",
+      nameEn: "The Mystery of Death School",
       theme: "นักเรียน ม. ปลาย", 
+      themeEn: "High School Students",
       difficulty: 2,
       investigation: 3,
       roleplay: 3,
       players: "6-15 คน",
+      playersEn: "6-15 players",
       duration: "90 นาที",
+      durationEn: "90 minutes",
       image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Script-School.jpg"
     },
     {
       name: "คืนสุดท้ายฮิตเลอร์หายไป",
+      nameEn: "Hitler's Last Night Gone Missing",
       theme: "สายลับ",
+      themeEn: "Spy",
       difficulty: 3,
       investigation: 4,
       roleplay: 4,
-      players: "8-10 คน", 
+      players: "8-10 คน",
+      playersEn: "8-10 players", 
       duration: "90 นาที",
+      durationEn: "90 minutes",
       image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Script-Hitler.jpg"
     },
     {
       name: "คาถาพิฆาตในห้องต้องประสงค์",
+      nameEn: "The Killing Curse in the Room of Requirement",
       theme: "โรงเรียนเวทมนต์",
+      themeEn: "Magic School",
       difficulty: 4,
       investigation: 4,
       roleplay: 4,
       players: "6-10 คน",
+      playersEn: "6-10 players",
       duration: "120 นาที",
+      durationEn: "120 minutes",
       image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Script-Magic.jpg"
     }
   ];
 
-  const steps = [
+  const steps = isEnglish ? [
+    "Choose story and book session",
+    "Review character sheets",
+    "Start the mystery game",
+    "Find clues and solve the case",
+    "Reveal the truth and discuss"
+  ] : [
     "เลือกเนื้อเรื่อง และจองรอบ",
     "แจกบทบาท และแต่งตัว", 
     "เริ่มเล่น",
