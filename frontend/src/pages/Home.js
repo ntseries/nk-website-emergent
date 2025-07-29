@@ -517,7 +517,10 @@ const Home = () => {
                 className="gallery-item"
                 onClick={() => setSelectedImageIndex(index)}
               >
-                <img src={image.url} alt={image.caption} />
+                <img 
+                  src={image.url} 
+                  alt={isEnglish ? image.captionEn : image.caption} 
+                />
               </div>
             ))}
           </div>
@@ -549,7 +552,7 @@ const Home = () => {
                 
                 <img 
                   src={getCurrentImage()?.url} 
-                  alt={getCurrentImage()?.caption}
+                  alt={isEnglish ? getCurrentImage()?.captionEn : getCurrentImage()?.caption}
                   className="modal-image"
                 />
               </div>
