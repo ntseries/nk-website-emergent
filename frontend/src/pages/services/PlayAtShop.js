@@ -101,7 +101,7 @@ const nkHitGames = [
                   className="btn-primary"
                   onClick={() => window.open('https://lin.ee/H4D9qos', '_blank')}
                 >
-                  จองโต๊ะเลย <ArrowRight size={16} />
+                  {isEnglish ? "Book a Table Now" : "จองโต๊ะเลย"} <ArrowRight size={16} />
                 </button>
                 <button 
                   className="btn-secondary"
