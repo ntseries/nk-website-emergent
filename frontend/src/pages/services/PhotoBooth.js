@@ -902,20 +902,29 @@ const PhotoBooth = () => {
               </div>
               <h1 className="service-title">NK Photo Booth</h1>
               <p className="service-description">
-                โฟโต้บูธสไตล์คาวาอิ สุดน่ารัก! ถ่ายรูปสวยๆ แบบสาวญี่ปุ่น-เกาหลี 
-                พร็อพน่ารักเพียบ บรรยากาศหวานๆ ที่จะทำให้คุณได้รูปสุดปัง 
-                Instagram-worthy ทุกช็อต! ✨💕
+                {isEnglish ? (
+                  <>Super cute Kawaii-style photo booth! Take beautiful photos like Japanese-Korean girls 
+                  with lots of cute props and sweet atmosphere that will give you Instagram-worthy shots every time! ✨💕</>
+                ) : (
+                  <>โฟโต้บูธสไตล์คาวาอิ สุดน่ารัก! ถ่ายรูปสวยๆ แบบสาวญี่ปุ่น-เกาหลี 
+                  พร็อพน่ารักเพียบ บรรยากาศหวานๆ ที่จะทำให้คุณได้รูปสุดปัง 
+                  Instagram-worthy ทุกช็อต! ✨💕</>
+                )}
               </p>
               <div className="service-price">
-                <span className="price-value">เริ่มต้น 199 บาท</span>
-                <span className="price-unit">/ชั่วโมง</span>
+                <span className="price-value">
+                  {isEnglish ? "Starting from 199 Baht" : "เริ่มต้น 199 บาท"}
+                </span>
+                <span className="price-unit">
+                  {isEnglish ? "/hour" : "/ชั่วโมง"}
+                </span>
               </div>
               <div className="service-actions">
                 <a href="https://lin.ee/H4D9qos" target="_blank" rel="noopener noreferrer" className="btn-primary">
-                  จอง Photo Booth เลย ♡ <ArrowRight size={16} />
+                  {isEnglish ? "Book Photo Booth Now ♡" : "จอง Photo Booth เลย ♡"} <ArrowRight size={16} />
                 </a>
-                <a href="/services/board-game-script" className="btn-secondary">
-                  เล่นบอร์ดเกมสคริปต์
+                <a href={isEnglish ? "/en/services/board-game-script" : "/services/board-game-script"} className="btn-secondary">
+                  {isEnglish ? "Play Board Game Script" : "เล่นบอร์ดเกมสคริปต์"}
                 </a>
               </div>
             </div>
