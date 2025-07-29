@@ -88,8 +88,13 @@ const nkHitGames = [
                 {isEnglish ? "Play at Shop" : "เล่นที่ร้าน"}
               </h1>
               <p className="service-description">
-                ให้ NK เป็นบ้านหลังที่สองของคุณ<br/>
-                เราพร้อมต้อนรับคุณและเดอะแก๊งด้วยพื้นที่กว้างขวาง เหมาะสำหรับใช้เวลาร่วมกันอย่างใกล้ชิด เพลิดเพลินกับเกมกว่า 1,000 เกมที่เราคัดสรรมาให้ และพบกับทีมงานสุดเป็นกันเอง ที่พร้อมแนะนำและดูแลคุณเหมือนเพื่อนคนหนึ่ง
+                {isEnglish ? (
+                  <>Let NK be your second home<br/>
+                  We welcome you and your gang with spacious areas perfect for spending quality time together. Enjoy over 1,000 games that we've carefully selected, and meet our friendly staff who are ready to guide and take care of you like a friend.</>
+                ) : (
+                  <>ให้ NK เป็นบ้านหลังที่สองของคุณ<br/>
+                  เราพร้อมต้อนรับคุณและเดอะแก๊งด้วยพื้นที่กว้างขวาง เหมาะสำหรับใช้เวลาร่วมกันอย่างใกล้ชิด เพลิดเพลินกับเกมกว่า 1,000 เกมที่เราคัดสรรมาให้ และพบกับทีมงานน่ารัก เป็นกันเอง ที่พร้อมแนะนำและดูแลคุณเหมือนเพื่อนคนหนึ่ง</>
+                )}
               </p>
               <div className="service-actions">
                 <button 
