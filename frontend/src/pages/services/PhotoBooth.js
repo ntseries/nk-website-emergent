@@ -1230,28 +1230,58 @@ const PhotoBooth = () => {
       <section className="addons-section">
         <div className="container">
           <div className="section-header">
-            <h2 className="section-title">บริการเสริม</h2>
+            <h2 className="section-title">
+              {isEnglish ? "Additional Services" : "บริการเสริม"}
+            </h2>
           </div>
           <div className="addons-grid">
             <div className="addon-card">
-              <h3>🖨️ พิมพ์รูปทันที</h3>
-              <p>พิมพ์รูปใส่กรอบสวยๆ ขนาด 4x6 นิ้ว</p>
-              <div className="addon-price">+20 บาท/รูป</div>
+              <h3>🖨️ {isEnglish ? "Instant Print" : "พิมพ์รูปทันที"}</h3>
+              <p>
+                {isEnglish 
+                  ? "Beautiful framed prints, 4x6 inches"
+                  : "พิมพ์รูปใส่กรอบสวยๆ ขนาด 4x6 นิ้ว"
+                }
+              </p>
+              <div className="addon-price">
+                {isEnglish ? "+20 Baht/photo" : "+20 บาท/รูป"}
+              </div>
             </div>
             <div className="addon-card">
-              <h3>💇‍♀️ เช่าวิกผม</h3>
-              <p>วิกผมสไตล์ญี่ปุ่น-เกาหลี หลากหลายสี</p>
-              <div className="addon-price">+99 บาท</div>
+              <h3>💇‍♀️ {isEnglish ? "Wig Rental" : "เช่าวิกผม"}</h3>
+              <p>
+                {isEnglish 
+                  ? "Japanese-Korean style wigs in various colors"
+                  : "วิกผมสไตล์ญี่ปุ่น-เกาหลี หลากหลายสี"
+                }
+              </p>
+              <div className="addon-price">
+                {isEnglish ? "+99 Baht" : "+99 บาท"}
+              </div>
             </div>
             <div className="addon-card">
-              <h3>📸 บริการตากล้องส่วนตัว</h3>
-              <p>ช่างภาพมืออาชีพช่วยถ่ายและแนะนำโพสต์</p>
-              <div className="addon-price">+199 บาท</div>
+              <h3>📸 {isEnglish ? "Personal Photographer" : "บริการตากล้องส่วนตัว"}</h3>
+              <p>
+                {isEnglish 
+                  ? "Professional photographer to help shoot and suggest poses"
+                  : "ช่างภาพมืออาชีพช่วยถ่ายและแนะนำโพสต์"
+                }
+              </p>
+              <div className="addon-price">
+                {isEnglish ? "+199 Baht" : "+199 บาท"}
+              </div>
             </div>
             <div className="addon-card">
-              <h3>🎂 บริการถ่ายธีมวันเกิด</h3>
-              <p>จัดฉากวันเกิด + พร็อพน่ารัก</p>
-              <div className="addon-price">+199 บาท</div>
+              <h3>🎂 {isEnglish ? "Birthday Theme Service" : "บริการถ่ายธีมวันเกิด"}</h3>
+              <p>
+                {isEnglish 
+                  ? "Birthday setup + cute props"
+                  : "จัดฉากวันเกิด + พร็อพน่ารัก"
+                }
+              </p>
+              <div className="addon-price">
+                {isEnglish ? "+199 Baht" : "+199 บาท"}
+              </div>
             </div>
           </div>
         </div>
@@ -1261,13 +1291,21 @@ const PhotoBooth = () => {
       <section className="cta-section">
         <div className="container">
           <div className="cta-content">
-            <h2 className="cta-title">พร้อมสร้างความทรงจำแล้วหรือยัง?</h2>
+            <h2 className="cta-title">
+              {isEnglish 
+                ? "Ready to Create Memories?"
+                : "พร้อมสร้างความทรงจำแล้วหรือยัง?"
+              }
+            </h2>
             <p className="cta-description">
-              มาถ่ายรูปสุดปังกับเพื่อนๆ และเก็บช่วงเวลาดีๆ ไว้เป็นความทรงจำ
+              {isEnglish
+                ? "Come take amazing photos with your friends and keep those precious moments as memories"
+                : "มาถ่ายรูปสุดปังกับเพื่อนๆ และเก็บช่วงเวลาดีๆ ไว้เป็นความทรงจำ"
+              }
             </p>
             <div className="cta-actions">
               <a href="https://lin.ee/H4D9qos" target="_blank" rel="noopener noreferrer" className="btn-primary">
-                จองถ่ายรูปเลย <ArrowRight size={16} />
+                {isEnglish ? "Book Photo Session Now" : "จองถ่ายรูปเลย"} <ArrowRight size={16} />
               </a>
               <a 
                 href="https://lin.ee/H4D9qos" 
@@ -1280,7 +1318,7 @@ const PhotoBooth = () => {
                   textAlign: 'center'
                 }}
               >
-                สอบถามเพิ่มเติม
+                {isEnglish ? "Ask for More Info" : "สอบถามเพิ่มเติม"}
               </a>
             </div>
           </div>
