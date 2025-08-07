@@ -149,22 +149,6 @@ const About = () => {
             </div>
             
             {/* Game Masters - NK Gen 1 */}
-            <div className="team-member">
-              <div className="member-avatar">
-                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-AnAn.jpg" alt="AnAn" />
-              </div>
-              <h3 className="member-name">AnAn</h3>
-              <p className="member-role">Game Master</p>
-              <p className="member-gen">NK Gen 1</p>
-            </div>
-            <div className="team-member">
-              <div className="member-avatar">
-                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Thew.jpg" alt="Thew" />
-              </div>
-              <h3 className="member-name">Thew</h3>
-              <p className="member-role">Game Master</p>
-              <p className="member-gen">NK Gen 1</p>
-            </div>
             
             {/* Game Masters - NK Gen 2 */}
             <div className="team-member">
