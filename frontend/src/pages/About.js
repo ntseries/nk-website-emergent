@@ -327,6 +327,14 @@ const About = () => {
             {/* Support Team */}
             <div className="team-member">
               <div className="member-avatar">
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-AnAn.jpg" alt="AnAn" />
+              </div>
+              <h3 className="member-name">AnAn</h3>
+              <p className="member-role">Support</p>
+              <p className="member-gen">NK Gen 1</p>
+            </div>
+            <div className="team-member">
+              <div className="member-avatar">
                 <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Pepsi.jpg" alt="Pepsi" />
               </div>
               <h3 className="member-name">Pepsi</h3>
