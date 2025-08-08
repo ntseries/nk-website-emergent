@@ -50,7 +50,7 @@ const Contact = () => {
     <div className="contact-page">
       <SEOHead 
         title={isEnglish ? "Contact Branches - NK Board Game | Board Game Shop Bangkae Srinakarin Samyan" : "ติดต่อสาขา - NK Board Game | ร้านบอร์ดเกม บางแค ศรีนครินทร์ สามย่าน"}
-        description={isEnglish ? "Contact NK Board Game branches - 3 board game shops near BTS/MRT. Bangkae branch at Seacon Bangkae 4th floor, Srinakarin branch at Seacon Square 3rd floor, Samyan branch at Samyan Mitrtown 3rd floor." : "ติดต่อสาขา NK Board Game ร้านบอร์ดเกมติดรถไฟฟ้า 3 สาขา สาขาบางแค ซีคอนบางแค ชั้น4 สาขาศรีนครินทร์ ซีคอนศรีนครินทร์ ชั้น3 สาขาสามย่าน สามย่านมิตรทาวน์ ชั้น3 ซีคอนบางแค ซีคอนศรีนครินทร์ สามย่านมิตรทาวน์"}
+        description={isEnglish ? "Contact NK Board Game branches - 4 board game shops near BTS/MRT. Bangkae branch at Seacon Bangkae 6th floor, Srinakarin branch at Seacon Square 3rd floor, Samyan branch at Samyan Mitrtown 3rd floor, Phra Nakhon branch at Pak Klong Talad 2nd floor." : "ติดต่อสาขา NK Board Game ร้านบอร์ดเกมติดรถไฟฟ้า 4 สาขา สาขาบางแค ซีคอนบางแค ชั้น6 สาขาศรีนครินทร์ ซีคอนศรีนครินทร์ ชั้น3 สาขาสามย่าน สามย่านมิตรทาวน์ ชั้น3 สาขาพระนคร ปากคลองตลาด ชั้น2"}
         keywords={isEnglish ? "Contact Branches, Board Game Shop Bangkae, Board Game Shop Srinakarin, Board Game Shop Samyan, Board Game Shop near BTS, Seacon Bangkae, Seacon Square, Samyan Mitrtown, NK Board Game" : "ติดต่อสาขา, ร้านบอร์ดเกม บางแค, ร้านบอร์ดเกม ศรีนครินทร์, ร้านบอร์ดเกม สามย่าน, ร้านบอร์ดเกม ติดรถไฟฟ้า, ซีคอนบางแค, ซีคอนศรีนครินทร์, สามย่านมิตรทาวน์, NK Board Game"}
         url={isEnglish ? "https://nkboardgame.com/en/contact" : "https://nkboardgame.com/contact"}
       />
