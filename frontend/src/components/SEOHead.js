@@ -3,9 +3,9 @@ import { Helmet } from 'react-helmet-async';
 import { useTranslation } from 'react-i18next';
 
 const SEOHead = ({ 
-  title = "NK Board Game - ร้านบอร์ดเกม อันดับ 1 ในไทย",
-  description = "NK Board Game ร้านบอร์ดเกมอันดับ 1 ในใจชาว Gen Z พร้อมบริการครบครัน 3 สาขา บางแค ศรีนครินทร์ สามย่าน เกมกว่า 1000+ เกม",
-  keywords = "ร้านบอร์ดเกม, บอร์ดเกม, ปาร์ตี้เกม, การ์ดเกม, NK Board Game",
+  title = "NK Board Game - ร้านบอร์ดเกม อันดับ 1 ในใจ Gen Z | บางแค ศรีนครินทร์ สามย่าน พระนคร",
+  description = "NK Board Game ร้านบอร์ดเกมอันดับ 1 ในใจชาว Gen Z พร้อมบริการครบครัน 4 สาขา บางแค ศรีนครินทร์ สามย่าน พระนคร เกมกว่า 1000+ เกม",
+  keywords = "ร้านบอร์ดเกม, บอร์ดเกม, ปาร์ตี้เกม, การ์ดเกม, NK Board Game, บางแค, ศรีนครินทร์, สามย่าน, พระนคร",
   image = "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/NK-Logo.png",
   url = "https://nkboardgame.com",
   type = "website"
