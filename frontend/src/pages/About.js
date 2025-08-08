@@ -13,7 +13,7 @@ const About = () => {
       <SEOHead 
         title={isEnglish ? "About Us - NK Board Game | #1 Board Game Shop in Thailand" : "เกี่ยวกับเรา - NK Board Game | ร้านบอร์ดเกม อันดับ 1 ในไทย"}
         description={isEnglish ? "The story of NK Board Game - Thailand's #1 board game shop for Gen Z. Founded in 2023, over 60,000+ members. Board game shops in Bangkae, Srinakarin, Samyan, Phra Nakhon. 4 branches. 35 team members." : "เรื่องราวของ NK Board Game ร้านบอร์ดเกมอันดับ 1 ในใจชาว Gen Z ก่อตั้งปี 2023 สมาชิกกว่า 60,000+ คน ร้านบอร์ดเกมบางแค ศรีนครินทร์ สามย่าน พระนคร 4 สาขา ทีมงาน 35 คน"}
-        keywords={isEnglish ? "About Us, NK Board Game, Board Game Shop, Company History, Team, Board Games, Gen Z, 2023, Thailand" : "เกี่ยวกับเรา, NK Board Game, ร้านบอร์ดเกม, ประวัติร้าน, ทีมงาน, บอร์ดเกม, Gen Z, 2023, ซีคอนบางแค, ซีคอนศรีนครินทร์, สามย่านมิตรทาวน์"}
+        keywords={isEnglish ? "About Us, NK Board Game, Board Game Shop, Company History, Team, Board Games, Gen Z, 2023, Thailand" : "เกี่ยวกับเรา, NK Board Game, ร้านบอร์ดเกม, ประวัติร้าน, ทีมงาน, บอร์ดเกม, Gen Z, 2023, ซีคอนบางแค, ซีคอนศรีนครินทร์, สามย่านมิตรทาวน์, ปากคลองตลาด"}
         url={isEnglish ? "https://nkboardgame.com/en/about" : "https://nkboardgame.com/about"}
       />
       {/* Hero Section */}
