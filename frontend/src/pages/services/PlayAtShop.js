@@ -397,6 +397,43 @@ const nkHitGames = [
                 </div>
               </div>
             </div>
+
+            {/* สาขาพระนคร */}
+            <div className="branch-card">
+              <h3 className="branch-title">
+                {isEnglish ? "Phra Nakhon Branch" : "สาขาพระนคร"}
+              </h3>
+              <div className="pricing-table">
+                <div className="table-header">
+                  <div className="table-cell"></div>
+                  <div className="table-cell">
+                    {isEnglish ? "Hourly" : "ชั่วโมง"}
+                  </div>
+                  <div className="table-cell">
+                    {isEnglish ? "Daily" : "วัน"}
+                  </div>
+                  <div className="table-cell">
+                    {isEnglish ? "Monthly" : "เดือน"}
+                  </div>
+                </div>
+                <div className="table-row">
+                  <div className="table-cell customer-type">
+                    {isEnglish ? "Student" : "นักเรียน นักศึกษา"}
+                  </div>
+                  <div className="table-cell price">36</div>
+                  <div className="table-cell price">108</div>
+                  <div className="table-cell price">599</div>
+                </div>
+                <div className="table-row">
+                  <div className="table-cell customer-type">
+                    {isEnglish ? "General" : "บุคคลทั่วไป"}
+                  </div>
+                  <div className="table-cell price">45</div>
+                  <div className="table-cell price">168</div>
+                  <div className="table-cell price">799</div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
