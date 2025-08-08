@@ -12,8 +12,8 @@ const TeamBuilding = () => {
     <div className="service-detail-page">
       <SEOHead 
         title={isEnglish ? "Team Building - NK Board Game | Corporate Team Building Activities Bangkok" : "Team Building - NK Board Game | กิจกรรมสร้างทีมเวิร์คผ่านบอร์ดเกม"}
-        description={isEnglish ? "Corporate team building activities through board games. Perfect for organizations and friend groups. Develop relationships, communication, and teamwork skills. NK Board Game Bangkok." : "กิจกรรม Team Building สร้างทีมเวิร์คผ่านบอร์ดเกม เหมาะสำหรับองค์กรและกลุ่มเพื่อน พัฒนาความสัมพันธ์ การสื่อสาร การทำงานเป็นทีม NK Board Game บางแค ศรีนครินทร์ สามย่าน"}
-        keywords={isEnglish ? "Team Building, Corporate Team Building, Board Game Team Building, Team Building Activities, Corporate Events, Bangkok Team Building, NK Board Game, Team Building Thailand" : "Team Building, กิจกรรมสร้างทีมเวิร์ค, บอร์ดเกม, กิจกรรมองค์กร, สร้างทีม, ความร่วมมือ, NK Board Game, ซีคอนบางแค, ซีคอนศรีนครินทร์, สามย่านมิตรทาวน์"}
+        description={isEnglish ? "Corporate team building activities through board games. Perfect for organizations and friend groups. Develop relationships, communication, and teamwork skills. NK Board Game Bangkok." : "กิจกรรม Team Building สร้างทีมเวิร์คผ่านบอร์ดเกม เหมาะสำหรับองค์กรและกลุ่มเพื่อน พัฒนาความสัมพันธ์ การสื่อสาร การทำงานเป็นทีม NK Board Game บางแค ศรีนครินทร์ สามย่าน พระนคร"}
+        keywords={isEnglish ? "Team Building, Corporate Team Building, Board Game Team Building, Team Building Activities, Corporate Events, Bangkok Team Building, NK Board Game, Team Building Thailand" : "Team Building, กิจกรรมสร้างทีมเวิร์ค, บอร์ดเกม, กิจกรรมองค์กร, สร้างทีม, ความร่วมมือ, NK Board Game, ซีคอนบางแค, ซีคอนศรีนครินทร์, สามย่านมิตรทาวน์, ปากคลองตลาด"}
         url={isEnglish ? "https://nkboardgame.com/en/services/team-building" : "https://nkboardgame.com/services/team-building"}
       />
       {/* Hero Section */}
