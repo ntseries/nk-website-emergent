@@ -373,11 +373,11 @@ const Home = () => {
               <div className="stat-label">{t("hero.stats.games")}</div>
             </div>
             <div className="stat">
-              <div className="stat-number">3</div>
+              <div className="stat-number">4</div>
               <div className="stat-label">{t("hero.stats.branches")}</div>
             </div>
             <div className="stat">
-              <div className="stat-number">50,000+</div>
+              <div className="stat-number">60,000+</div>
               <div className="stat-label">{t("hero.stats.members")}</div>
             </div>
           </div>
