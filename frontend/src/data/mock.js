@@ -123,6 +123,22 @@ export const branches = [
     facebook: "https://www.facebook.com/nksamyan",
     instagram: "https://www.instagram.com/nkboardgamesamyan",
     line: "https://lin.ee/ZCAnAVY"
+  },
+  {
+    id: 4,
+    name: "NK Board Game สาขาพระนคร",
+    nameEn: "NK Board Game Phra Nakhon Branch",
+    address: "Coming Soon",
+    addressEn: "Coming Soon",
+    phone: "065-412-3939",
+    hours: "ทุกวัน 12.00 - 20.00 น.",
+    hoursEn: "Daily 12:00 - 20:00",
+    transport: "MRT สนามไชย",
+    transportEn: "MRT Sanam Chai",
+    image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Coming-Soon.jpg",
+    maps: "https://maps.app.goo.gl/G7ax5UfrTQdhLgxe8",
+    instagram: "https://www.instagram.com/nkboardgame/",
+    line: "https://lin.ee/C3Gy4Tl"
   }
 ];
 
