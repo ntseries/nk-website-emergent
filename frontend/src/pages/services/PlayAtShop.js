@@ -103,9 +103,9 @@ const nkHitGames = [
   return (
     <div className="service-detail-page">
       <SEOHead 
-        title={isEnglish ? "Play at Shop - NK Board Game | Board Game Shop Bangkae Srinakarin Samyan" : "เล่นที่ร้าน - NK Board Game | ร้านบอร์ดเกม บางแค ศรีนครินทร์ สามย่าน"}
-        description={isEnglish ? "Play board games at NK Board Game shops - 3 branches near BTS/MRT. Bangkae, Srinakarin, Samyan. Over 1000+ games, board games, party games, card games. Lovely, friendly staff." : "เล่นบอร์ดเกมที่ร้าน NK Board Game ร้านบอร์ดเกมติดรถไฟฟ้า 3 สาขา บางแค ศรีนครินทร์ สามย่าน เกมกว่า 1000+ เกม บอร์ดเกม ปาร์ตี้เกม การ์ดเกม ทีมงานน่ารัก เป็นกันเอง ซีคอนบางแค ซีคอนศรีนครินทร์ สามย่านมิตรทาวน์"}
-        keywords={isEnglish ? "Play at Shop, Board Game Shop, Board Game Shop Bangkae, Board Game Shop Srinakarin, Board Game Shop Samyan, Board Game Shop near BTS, Board Games, Party Games, Card Games, NK Board Game, Seacon Bangkae, Seacon Square, Samyan Mitrtown" : "เล่นที่ร้าน, ร้านบอร์ดเกม, ร้านบอร์ดเกม บางแค, ร้านบอร์ดเกม ศรีนครินทร์, ร้านบอร์ดเกม สามย่าน, ร้านบอร์ดเกม ติดรถไฟฟ้า, บอร์ดเกม, ปาร์ตี้เกม, การ์ดเกม, เล่นเกม, NK Board Game, ซีคอนบางแค, ซีคอนศรีนครินทร์, สามย่านมิตรทาวน์"}
+        title={isEnglish ? "Play at Shop - NK Board Game | Board Game Shop Bangkae Srinakarin Samyan Phra Nakhon" : "เล่นที่ร้าน - NK Board Game | ร้านบอร์ดเกม บางแค ศรีนครินทร์ สามย่าน พระนคร"}
+        description={isEnglish ? "Play board games at NK Board Game shops - 4 branches near BTS/MRT. Bangkae, Srinakarin, Samyan, Phra Nakhon. Over 1000+ games, board games, party games, card games. Lovely, friendly staff." : "เล่นบอร์ดเกมที่ร้าน NK Board Game ร้านบอร์ดเกมติดรถไฟฟ้า 4 สาขา บางแค ศรีนครินทร์ สามย่าน พระนคร เกมกว่า 1000+ เกม บอร์ดเกม ปาร์ตี้เกม การ์ดเกม ทีมงานน่ารัก เป็นกันเอง ซีคอนบางแค ซีคอนศรีนครินทร์ สามย่านมิตรทาวน์ ปากคลองตลาด"}
+        keywords={isEnglish ? "Play at Shop, Board Game Shop, Board Game Shop Bangkae, Board Game Shop Srinakarin, Board Game Shop Samyan, Board Game Shop Phra Nakhon, Board Game Shop near BTS, Board Games, Party Games, Card Games, NK Board Game, Seacon Bangkae, Seacon Square, Samyan Mitrtown, Pak Klong Talad" : "เล่นที่ร้าน, ร้านบอร์ดเกม, ร้านบอร์ดเกม บางแค, ร้านบอร์ดเกม ศรีนครินทร์, ร้านบอร์ดเกม สามย่าน, ร้านบอร์ดเกม พระนคร, ร้านบอร์ดเกม ติดรถไฟฟ้า, บอร์ดเกม, ปาร์ตี้เกม, การ์ดเกม, เล่นเกม, NK Board Game, ซีคอนบางแค, ซีคอนศรีนครินทร์, สามย่านมิตรทาวน์, ปากคลองตลาด"}
         url={isEnglish ? "https://nkboardgame.com/en/services/play-at-shop" : "https://nkboardgame.com/services/play-at-shop"}
       />
       {/* Hero Section */}
