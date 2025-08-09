@@ -111,7 +111,7 @@ const Footer = () => {
             <div className="contact-info">
               <div className="contact-item">
                 <MapPin size={16} />
-                <span>{t("gallery.branches.secon_bangkae")}, {t("gallery.branches.secon_srinakarin")}, {t("gallery.branches.samyan_mitrtown")}</span>
+                <span>{t("gallery.branches.secon_bangkae")}, {t("gallery.branches.secon_srinakarin")}, {t("gallery.branches.samyan_mitrtown")}, {t("gallery.branches.phra_nakhon")}</span>
               </div>
               <div className="contact-item">
                 <Phone size={16} />
