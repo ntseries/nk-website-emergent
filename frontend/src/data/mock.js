@@ -130,7 +130,7 @@ export const branches = [
     nameEn: "NK Board Game Phra Nakhon Branch",
     address: "ศูนย์การค้าปากคลองตลาด ชั้น 2",
     addressEn: "Pak Klong Talad 2nd Floor",
-    phone: "065-412-3939",
+    phone: "065-412-3339",
     hours: "ทุกวัน 12.00 - 20.00 น.",
     hoursEn: "Daily 12:00 - 20:00",
     transport: "MRT สนามไชย",
