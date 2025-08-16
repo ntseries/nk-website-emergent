@@ -329,6 +329,52 @@ const Home = () => {
           captionEn: "Special activity zone"
         }
       ]
+    },
+    phranakhon: {
+      name: "พระนคร",
+      nameEn: "Phra Nakhon",
+      images: [
+        {
+          url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_PNK-01.jpg",
+          caption: "บรรยากาศการเล่นเกมที่สนุกสนาน",
+          captionEn: "Fun game playing atmosphere"
+        },
+        {
+          url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_PNK-02.jpg",
+          caption: "พื้นที่เล่นเกมกว้างขวาง",
+          captionEn: "Spacious game playing area"
+        },
+        {
+          url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_PNK-03.jpg",
+          caption: "มุมสบายๆ สำหรับนั่งเล่น",
+          captionEn: "Comfortable corner for relaxing"
+        },
+        {
+          url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_PNK-04.jpg",
+          caption: "เกมหลากหลายให้เลือก",
+          captionEn: "Variety of games to choose from"
+        },
+        {
+          url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_PNK-05.jpg",
+          caption: "บรรยากาศการเล่นเป็นทีม",
+          captionEn: "Team playing atmosphere"
+        },
+        {
+          url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_PNK-06.jpg",
+          caption: "พื้นที่โล่งสบาย",
+          captionEn: "Open and comfortable space"
+        },
+        {
+          url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_PNK-07.jpg",
+          caption: "มุมอาหารและเครื่องดื่ม",
+          captionEn: "Food and beverage corner"
+        },
+        {
+          url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_PNK-08.jpg",
+          caption: "บริเวณเช็คอิน",
+          captionEn: "Check-in area"
+        }
+      ]
     }
   };
 
