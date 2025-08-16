@@ -135,7 +135,7 @@ export const branches = [
     hoursEn: "Daily 12:00 - 20:00",
     transport: "MRT สนามไชย",
     transportEn: "MRT Sanam Chai",
-    image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Coming-Soon.jpg",
+    image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_PNK-01.jpg",
     maps: "https://maps.app.goo.gl/G7ax5UfrTQdhLgxe8",
     instagram: "https://www.instagram.com/nkboardgame/",
     line: "https://lin.ee/C3Gy4Tl"
