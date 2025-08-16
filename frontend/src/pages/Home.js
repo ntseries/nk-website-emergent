@@ -557,6 +557,12 @@ const Home = () => {
             >
               {t("gallery.branches.samyan_mitrtown")}
             </button>
+            <button 
+              className={`gallery-tab ${activeTab === 'phranakhon' ? 'active' : ''}`}
+              onClick={() => setActiveTab('phranakhon')}
+            >
+              {t("gallery.branches.phra_nakhon")}
+            </button>
           </div>
 
           {/* Gallery Grid */}
