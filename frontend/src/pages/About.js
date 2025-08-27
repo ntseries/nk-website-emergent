@@ -343,6 +343,14 @@ const About = () => {
             </div>
             <div className="team-member">
               <div className="member-avatar">
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Khaimuk.jpg" alt="Khaimuk" />
+              </div>
+              <h3 className="member-name">Khaimuk</h3>
+              <p className="member-role">Support</p>
+              <p className="member-gen">NK Gen 2</p>
+            </div>
+            <div className="team-member">
+              <div className="member-avatar">
                 <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Nano.jpg" alt="Nano" />
               </div>
               <h3 className="member-name">Nano</h3>
