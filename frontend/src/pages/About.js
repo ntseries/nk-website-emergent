@@ -98,7 +98,7 @@ const About = () => {
             </div>
             <div className="team-member">
               <div className="member-avatar">
-                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Fox.png" alt="Fox" />
+                <img src="https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Team-Fox.jpg" alt="Fox" />
               </div>
               <h3 className="member-name">Fox</h3>
               <p className="member-role">Co-founder</p>
