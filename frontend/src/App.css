@@ -1596,6 +1596,245 @@ h1, h2, h3, h4, h5, h6 {
   pointer-events: none;
 }
 
+/* Beyblade Regulations Page Styles */
+.beyblade-regulations-page {
+  overflow-x: hidden;
+}
+
+.regulations-hero {
+  background: linear-gradient(135deg, rgba(59, 76, 202, 0.8) 0%, rgba(29, 78, 216, 0.8) 100%),
+    url('https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Beyblade_Atmosphere_02.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 60vh;
+}
+
+.toc-section {
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.05) 0%, rgba(147, 197, 253, 0.05) 100%);
+}
+
+.toc-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-md);
+  background: var(--nk-white);
+  border: 1px solid rgba(59, 130, 246, 0.15);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  color: var(--nk-blue);
+  font-weight: 500;
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow-sm);
+}
+
+.toc-item:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--nk-blue);
+  background: rgba(59, 130, 246, 0.05);
+}
+
+.regulation-section {
+  scroll-margin-top: 80px;
+}
+
+.regulation-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  margin-bottom: var(--space-xl);
+  padding-bottom: var(--space-md);
+  border-bottom: 2px solid rgba(59, 76, 202, 0.1);
+}
+
+.regulation-title {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 700;
+  font-size: clamp(24px, 4vw, 36px);
+  color: var(--nk-dark);
+  margin: 0;
+}
+
+.regulation-subsection {
+  margin-bottom: var(--space-xl);
+}
+
+.regulation-subtitle {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--nk-blue);
+  margin-bottom: var(--space-md);
+  padding-bottom: var(--space-xs);
+  border-bottom: 1px solid rgba(59, 76, 202, 0.2);
+}
+
+.regulation-content {
+  background: var(--nk-white);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid rgba(59, 76, 202, 0.1);
+}
+
+.regulation-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.regulation-list li {
+  position: relative;
+  padding: var(--space-sm) 0 var(--space-sm) var(--space-lg);
+  margin-bottom: var(--space-sm);
+  color: var(--nk-gray);
+  line-height: 1.6;
+  border-left: 3px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.regulation-list li::before {
+  content: '▶';
+  position: absolute;
+  left: 0;
+  top: var(--space-sm);
+  color: var(--nk-blue);
+  font-size: 12px;
+}
+
+.regulation-list li:hover {
+  border-left-color: var(--nk-blue);
+  background: rgba(59, 76, 202, 0.02);
+  padding-left: var(--space-md);
+}
+
+.scoring-card {
+  background: var(--nk-white);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.scoring-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.scoring-card.xtreme {
+  border-color: #fbbf24;
+  background: linear-gradient(135deg, rgba(251, 191, 36, 0.05) 0%, rgba(245, 158, 11, 0.05) 100%);
+}
+
+.scoring-card.over {
+  border-color: #3b82f6;
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.05) 0%, rgba(37, 99, 235, 0.05) 100%);
+}
+
+.scoring-card.burst {
+  border-color: #ef4444;
+  background: linear-gradient(135deg, rgba(239, 68, 68, 0.05) 0%, rgba(220, 38, 38, 0.05) 100%);
+}
+
+.scoring-card.spin {
+  border-color: #10b981;
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.05) 0%, rgba(5, 150, 105, 0.05) 100%);
+}
+
+.scoring-icon {
+  font-size: 48px;
+  margin-bottom: var(--space-md);
+}
+
+.scoring-name {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--nk-dark);
+  margin-bottom: var(--space-xs);
+}
+
+.scoring-points {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--nk-blue);
+  margin-bottom: var(--space-sm);
+}
+
+.scoring-description {
+  font-size: 14px;
+  color: var(--nk-gray);
+  line-height: 1.5;
+}
+
+.banned-parts-section {
+  background: linear-gradient(135deg, rgba(239, 68, 68, 0.05) 0%, rgba(220, 38, 38, 0.05) 100%);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  border: 1px solid rgba(239, 68, 68, 0.15);
+}
+
+.optional-rule-card {
+  background: var(--nk-white);
+  border: 1px solid rgba(168, 85, 247, 0.15);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  transition: all 0.3s ease;
+}
+
+.optional-rule-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: rgba(168, 85, 247, 0.3);
+}
+
+.optional-rule-title {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--nk-blue);
+  margin-bottom: var(--space-sm);
+}
+
+.optional-rule-description {
+  color: var(--nk-gray);
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+/* Mobile Responsiveness for Regulations */
+@media (max-width: 768px) {
+  .regulation-header {
+    flex-direction: column;
+    text-align: center;
+    gap: var(--space-sm);
+  }
+  
+  .regulation-title {
+    font-size: clamp(20px, 5vw, 28px);
+  }
+  
+  .regulation-content {
+    padding: var(--space-md);
+  }
+  
+  .scoring-card {
+    padding: var(--space-md);
+  }
+  
+  .scoring-icon {
+    font-size: 36px;
+  }
+  
+  .scoring-points {
+    font-size: 20px;
+  }
+}
+
 @media (max-width: 480px) {
   .gallery-grid {
     grid-template-columns: 1fr;
