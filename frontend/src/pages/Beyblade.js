@@ -11,6 +11,19 @@ const Beyblade = () => {
   const [leaderboardData, setLeaderboardData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
+  // Function to generate avatar from first character of name
+  const generateAvatar = (name) => {
+    if (!name) return '';
+    const firstChar = name.charAt(0).toUpperCase();
+    // Create a simple color based on first character
+    const colors = [
+      'bg-blue-500', 'bg-green-500', 'bg-purple-500', 'bg-pink-500', 
+      'bg-red-500', 'bg-yellow-500', 'bg-indigo-500', 'bg-gray-500'
+    ];
+    const colorIndex = firstChar.charCodeAt(0) % colors.length;
+    return { char: firstChar, color: colors[colorIndex] };
+  };
+
   // Fetch leaderboard data
   useEffect(() => {
     const fetchLeaderboard = async () => {
