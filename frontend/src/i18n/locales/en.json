@@ -310,5 +310,93 @@
     "contact_us": "Contact Us",
     "learn_more": "Learn More",
     "view_all": "View All"
+  },
+  "beyblade": {
+    "hero": {
+      "badge": "Beyblade X",
+      "title": "Battle Arena with Friends at NK Board Game", 
+      "description": "Experience the thrill of Beyblade X competition at NK Board Game with authentic Elo Rating system and amazing prizes waiting for you!",
+      "cta_schedule": "View Schedule",
+      "cta_ranking": "View Ranking"
+    },
+    "activities": {
+      "title": "Activities & Competition Schedule",
+      "subtitle": "Join various competitions and activities to increase your Elo Rating",
+      "daily": {
+        "title": "🎯 Daily Sessions",
+        "description": "Daily competitions every day we're open"
+      },
+      "weekly": {
+        "title": "🏆 Weekly Sessions",
+        "description": "Weekly competitions to accumulate points for prize exchange"
+      },
+      "special": {
+        "title": "⭐ Special Tournaments", 
+        "description": "Special tournaments with big prizes and exciting experiences"
+      },
+      "regulations_link": "View Competition Regulations"
+    },
+    "ranking": {
+      "title": "Ranking & Leaderboard",
+      "subtitle": "NK Board Game Elo Rating System - Scores that show your true skill",
+      "elo_description": "Our Elo Rating system calculates scores from actual competition results, considering the strength of opponents",
+      "top_players": "Top 10 Players", 
+      "view_all_ranking": "🔎 View All Rankings",
+      "rank": "Rank",
+      "player": "Player",
+      "elo": "Elo Rating",
+      "loading": "Loading data..."
+    },
+    "rewards": {
+      "title": "Prizes & Incentives",
+      "subtitle": "Amazing prizes await you every Season!",
+      "season_reset": "Season Reset every 3 months",
+      "prizes": {
+        "daily_weekly": "🎁 Prizes from Daily and Weekly Sessions",
+        "special_tournaments": "🏆 Special prizes from Special Tournaments",
+        "top_players": "👑 Special rewards for top ranking players each Season",
+        "elo_points": "⚡ Earn Elo points every time you play to exchange for prizes each Season"
+      },
+      "sample_rewards": {
+        "title": "Sample Rewards",
+        "phoenix_wing": "Phoenix Wing",
+        "ux_15": "UX-15", 
+        "exclusive": "Exclusive prizes only at NK"
+      }
+    },
+    "gallery": {
+      "title": "Gallery & Community",
+      "subtitle": "Competition atmosphere and memorable moments from Beyblade players at NK Board Game"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": {
+        "need_own_beyblade": {
+          "question": "Do I need to have my own Beyblade?",
+          "answer": "Yes - Players must bring their own Beyblade to compete"
+        },
+        "membership_required": {
+          "question": "Do I need to register as a member for the first play?",
+          "answer": "If you want to keep Elo Ranking, you need to have membership card in NK Board Game's Line OA"
+        },
+        "regulations": {
+          "question": "What regulations do you use?",
+          "answer": "We use NK Beyblade Regulations"
+        },
+        "authentic_stadium": {
+          "question": "Is the stadium equipment authentic?",
+          "answer": "We only use authentic products from Takara Tomy"
+        },
+        "authentic_equipment": {
+          "question": "Is it necessary to use authentic equipment to participate?",
+          "answer": "Yes, because we do not support copyright infringement products in any case"
+        }
+      }
+    },
+    "meta": {
+      "title": "Beyblade X - NK Board Game | Real Elo Rating Competition with Authentic Prizes",
+      "description": "Join Beyblade X competition at NK Board Game with authentic Elo Rating system Daily Sessions Weekly Sessions Special Tournaments amazing prizes Phoenix Wing UX-15 Season Reset every 3 months NK Beyblade Regulations authentic Takara Tomy equipment",
+      "keywords": "Beyblade, Beyblade X, Beyblade Competition, Elo Rating, Phoenix Wing, UX-15, Takara Tomy, NK Board Game, Daily Sessions, Weekly Sessions, Special Tournaments"
+    }
   }
 }
