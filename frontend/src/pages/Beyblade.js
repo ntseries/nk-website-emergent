@@ -78,7 +78,7 @@ const Beyblade = () => {
         
         <div className="hero-bg-overlay"></div>
         <div className="hero-bg" style={{
-          backgroundImage: `url('${galleryImages[0]}')`,
+          backgroundImage: `url('https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Beyblade_Atmosphere_01.jpg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
