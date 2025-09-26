@@ -8,6 +8,17 @@ const BeybladeRegulations = () => {
   const currentLanguage = i18n.language || 'th';
   const isEnglish = currentLanguage === 'en';
 
+  // Smooth scroll function
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ 
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+  };
+
   return (
     <div className="beyblade-regulations-page">
       <SEOHead 
