@@ -54,6 +54,7 @@ const AppContent = () => {
           <Route path="/en/services/photo-booth" element={<PhotoBooth />} />
           <Route path="/en/beyblade" element={<Beyblade />} />
           <Route path="/en/beyblade/regulations" element={<BeybladeRegulations />} />
+          <Route path="/en/beyblade/rating" element={<BeybladeRating />} />
           <Route path="/en/services/food-drink" element={<FoodDrink />} />
           <Route path="/en/services/team-building" element={<TeamBuilding />} />
           <Route path="/en/contact" element={<Contact />} />
