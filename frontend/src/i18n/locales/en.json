@@ -42,6 +42,11 @@
       "description": "Kawaii-style photo booth, cute and Instagram-worthy",
       "price": "Starting from 199 Baht"
     },
+    "beyblade": {
+      "title": "Beyblade X",
+      "description": "Become the ultimate Blader and measure your skill level with NK Beyblade Elo Rating",
+      "price": "Starting from 36 Baht"
+    },
     "nk_cafe": {
       "title": "NK Café",
       "description": "Delicious food and beverages perfect for gaming",
