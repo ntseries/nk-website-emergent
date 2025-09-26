@@ -52,38 +52,38 @@ const BeybladeRegulations = () => {
         <div className="container">
           <h2 className="section-title text-center mb-8">{t('beyblade_regulations.toc.title')}</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-            <a href="#game-components" className="toc-item">
+            <button onClick={() => scrollToSection('game-components')} className="toc-item">
               <Target className="w-5 h-5" />
               {t('beyblade_regulations.toc.game_components')}
-            </a>
-            <a href="#winning" className="toc-item">
+            </button>
+            <button onClick={() => scrollToSection('winning')} className="toc-item">
               <Trophy className="w-5 h-5" />
               {t('beyblade_regulations.toc.winning')}
-            </a>
-            <a href="#match-phases" className="toc-item">
+            </button>
+            <button onClick={() => scrollToSection('match-phases')} className="toc-item">
               <Shield className="w-5 h-5" />
               {t('beyblade_regulations.toc.match_phases')}
-            </a>
-            <a href="#match-types" className="toc-item">
+            </button>
+            <button onClick={() => scrollToSection('match-types')} className="toc-item">
               <Book className="w-5 h-5" />
               {t('beyblade_regulations.toc.match_types')}
-            </a>
-            <a href="#rules-of-battle" className="toc-item">
+            </button>
+            <button onClick={() => scrollToSection('rules-of-battle')} className="toc-item">
               <Target className="w-5 h-5" />
               {t('beyblade_regulations.toc.rules_of_battle')}
-            </a>
-            <a href="#equipment" className="toc-item">
+            </button>
+            <button onClick={() => scrollToSection('equipment')} className="toc-item">
               <Shield className="w-5 h-5" />
               {t('beyblade_regulations.toc.equipment')}
-            </a>
-            <a href="#optional-rules" className="toc-item">
+            </button>
+            <button onClick={() => scrollToSection('optional-rules')} className="toc-item">
               <Book className="w-5 h-5" />
               {t('beyblade_regulations.toc.optional_rules')}
-            </a>
-            <a href="#disqualification" className="toc-item">
+            </button>
+            <button onClick={() => scrollToSection('disqualification')} className="toc-item">
               <AlertTriangle className="w-5 h-5" />
               {t('beyblade_regulations.toc.disqualification')}
-            </a>
+            </button>
           </div>
         </div>
       </section>
