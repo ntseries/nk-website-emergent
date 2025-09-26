@@ -599,9 +599,9 @@
     "why_elo": {
       "title": "🎯 Why Do We Need Elo Rating?",
       "subtitle": "We created the Elo Rating system to make Beyblade play more fun and challenging",
-      "motivation": "✅ Give every player motivation to improve their skills",
-      "fairness": "✅ Make competitions fairer by matching players with similar skill levels",
-      "realtime": "✅ Real-time Leaderboard system where everyone can see their rank"
+      "motivation": "Give every player motivation to improve their skills",
+      "fairness": "Make competitions fairer by matching players with similar skill levels",
+      "realtime": "Real-time Leaderboard system where everyone can see their rank"
     },
     "what_is": {
       "title": "🧩 What is Elo Rating",
