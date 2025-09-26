@@ -185,9 +185,27 @@ const Beyblade = () => {
                             <span className="text-white font-bold text-lg">#{player.rank || index + 1}</span>
                           </div>
                         </td>
-                        <td className="py-4 px-4 text-white font-medium">{player.player_name || player.name}</td>
+                        <td className="py-4 px-4">
+                          <div className="flex items-center gap-3">
+                            {player.avatar && (
+                              <img 
+                                src={player.avatar} 
+                                alt={player.decodedName || player.name} 
+                                className="w-10 h-10 rounded-full object-cover border-2 border-blue-300"
+                                onError={(e) => {
+                                  e.target.style.display = 'none';
+                                }}
+                              />
+                            )}
+                            <span className="text-white font-medium">
+                              {player.decodedName || player.player_name || player.name}
+                            </span>
+                          </div>
+                        </td>
                         <td className="py-4 px-4 text-right">
-                          <span className="text-2xl font-bold text-blue-300">{player.elo_rating || player.elo}</span>
+                          <span className="text-2xl font-bold text-blue-300">
+                            {player.rating || player.elo_rating || player.elo}
+                          </span>
                         </td>
                       </tr>
                     ))}
