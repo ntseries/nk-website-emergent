@@ -203,16 +203,26 @@ const Beyblade = () => {
                         </td>
                         <td className="py-4 px-4">
                           <div className="flex items-center gap-3">
-                            {player.avatar && (
+                            {player.avatar ? (
                               <img 
                                 src={player.avatar} 
                                 alt={player.decodedName || player.name} 
                                 className="w-10 h-10 rounded-full object-cover border-2 border-blue-300"
                                 onError={(e) => {
+                                  // Hide broken image and show fallback avatar
                                   e.target.style.display = 'none';
+                                  const fallbackAvatar = e.target.nextSibling;
+                                  if (fallbackAvatar) fallbackAvatar.style.display = 'flex';
                                 }}
                               />
-                            )}
+                            ) : null}
+                            <div 
+                              className={`w-10 h-10 rounded-full flex items-center justify-center text-white font-bold text-sm border-2 border-blue-300 ${
+                                generateAvatar(player.decodedName || player.name).color
+                              } ${player.avatar ? 'hidden' : 'flex'}`}
+                            >
+                              {generateAvatar(player.decodedName || player.name).char}
+                            </div>
                             <span className="text-white font-medium">
                               {player.decodedName || player.player_name || player.name}
                             </span>
