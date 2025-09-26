@@ -1955,6 +1955,11 @@ h1, h2, h3, h4, h5, h6 {
   background: linear-gradient(135deg, var(--nk-blue) 0%, #8B5CF6 100%);
 }
 
+/* Specific CTA section styling for regulations page */
+.beyblade-regulations-page .cta-section {
+  background: white !important;
+}
+
 /* Button Styles for Rating Page */
 .btn-outline-white {
   background: transparent;
