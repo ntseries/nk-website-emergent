@@ -171,9 +171,6 @@ const BeybladeRating = () => {
               <div className="season-card bg-white rounded-2xl p-8 shadow-lg border border-purple-200">
                 <h3 className="text-xl font-bold text-purple-900 mb-4">{t('beyblade_rating.season.reset.title')}</h3>
                 <p className="text-purple-700 mb-4">{t('beyblade_rating.season.reset.description')}</p>
-                <div className="bg-purple-100 rounded-lg p-4">
-                  <p className="text-purple-800 font-medium text-sm">{t('beyblade_rating.season.reset.bonus')}</p>
-                </div>
               </div>
 
               <div className="season-card bg-white rounded-2xl p-8 shadow-lg border border-pink-200">
