@@ -18,17 +18,22 @@ const Beyblade = () => {
         const response = await fetch('https://bbapi.nkboardgame.com/api/v1/leaderboard?limit=10&offset=0');
         if (response.ok) {
           const data = await response.json();
-          setLeaderboardData(data);
+          // Process the data to decode URL encoded names
+          const processedData = data.map(player => ({
+            ...player,
+            decodedName: decodeURIComponent(player.name)
+          }));
+          setLeaderboardData(processedData);
         }
       } catch (error) {
         console.error('Error fetching leaderboard:', error);
         // Set mock data for fallback
         setLeaderboardData([
-          { rank: 1, player_name: "Phoenix Master", elo_rating: 1847 },
-          { rank: 2, player_name: "Blade Striker", elo_rating: 1742 },
-          { rank: 3, player_name: "X Warrior", elo_rating: 1698 },
-          { rank: 4, player_name: "Storm Legend", elo_rating: 1634 },
-          { rank: 5, player_name: "Thunder King", elo_rating: 1587 }
+          { rank: 1, decodedName: "Phoenix Master", rating: 1847, avatar: "" },
+          { rank: 2, decodedName: "Blade Striker", rating: 1742, avatar: "" },
+          { rank: 3, decodedName: "X Warrior", rating: 1698, avatar: "" },
+          { rank: 4, decodedName: "Storm Legend", rating: 1634, avatar: "" },
+          { rank: 5, decodedName: "Thunder King", rating: 1587, avatar: "" }
         ]);
       } finally {
         setIsLoading(false);
