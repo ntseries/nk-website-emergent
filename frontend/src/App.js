@@ -19,6 +19,7 @@ import PhotoBooth from "./pages/services/PhotoBooth";
 import FoodDrink from "./pages/services/FoodDrink";
 import TeamBuilding from "./pages/services/TeamBuilding";
 import Contact from "./pages/Contact";
+import Beyblade from "./pages/Beyblade";
 
 const AppContent = () => {
   useLanguageDetection(); // Add language detection
