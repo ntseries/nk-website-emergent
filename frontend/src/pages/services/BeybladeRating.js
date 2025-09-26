@@ -153,13 +153,7 @@ const BeybladeRating = () => {
               </div>
             </div>
 
-            {/* Placeholder for diagram */}
-            <div className="diagram-placeholder bg-white rounded-2xl p-8 shadow-lg border border-gray-200 text-center">
-              <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Calculator className="w-8 h-8 text-white" />
-              </div>
-              <p className="text-gray-500 italic">{t('beyblade_rating.calculation.diagram_note')}</p>
-            </div>
+
           </div>
         </div>
       </section>
