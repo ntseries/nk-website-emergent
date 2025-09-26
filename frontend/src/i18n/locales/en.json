@@ -626,7 +626,7 @@
         "title": "Sweep Bonus",
         "description": "If you win 4-0, you get a small additional bonus"
       },
-      "diagram_note": "(Can insert diagram showing point calculation, such as Elo up/down graph per match)"
+      "diagram_note": ""
     },
     "season": {
       "title": "🏅 Season & Leaderboard",
