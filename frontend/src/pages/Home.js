@@ -27,8 +27,9 @@ const Home = () => {
     1: "/services/play-at-shop",        // เล่นที่ร้าน
     2: "/services/board-game-script",   // Board Game Script
     3: "/services/photo-booth",         // Photo Booth
-    4: "/services/food-drink",          // NK Café
-    5: "/services/team-building"        // Team Building
+    4: "/beyblade",                     // Beyblade X
+    5: "/services/food-drink",          // NK Café
+    6: "/services/team-building"        // Team Building
   };
 
   // Navigate to previous/next image
