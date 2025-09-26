@@ -252,7 +252,7 @@ const Beyblade = () => {
                 <Trophy className="w-5 h-5" />
                 {t('beyblade.ranking.what_is_elo')}
               </a>
-              <a href="/events" className="btn btn-outline-blue btn-lg relative z-30">
+              <a href="/events" className="btn btn-secondary btn-lg relative z-30">
                 <Calendar className="w-5 h-5" />
                 {t('beyblade.ranking.tournament_calendar')}
               </a>
