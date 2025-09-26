@@ -1857,6 +1857,19 @@ h1, h2, h3, h4, h5, h6 {
   color: white !important;
 }
 
+.beyblade-hero .hero-title {
+  background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  color: white !important;
+}
+
+.beyblade-hero .hero-title.beyblade-title {
+  color: white !important;
+}
+
 .why-elo-section {
   background: linear-gradient(135deg, rgba(59, 130, 246, 0.05) 0%, rgba(147, 197, 253, 0.05) 100%);
 }
