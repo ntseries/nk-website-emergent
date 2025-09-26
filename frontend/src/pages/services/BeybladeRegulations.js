@@ -268,8 +268,8 @@ const BeybladeRegulations = () => {
       {/* Back to Beyblade CTA */}
       <section className="cta-section py-16 bg-gradient-to-br from-blue-600 to-purple-600">
         <div className="container text-center">
-          <h2 className="text-3xl font-bold text-white mb-4">{t('beyblade_regulations.cta.title')}</h2>
-          <p className="text-blue-100 text-lg mb-8">{t('beyblade_regulations.cta.description')}</p>
+          <h2 className="text-3xl font-bold text-blue-600 mb-4">{t('beyblade_regulations.cta.title')}</h2>
+          <p className="text-gray-900 text-lg mb-8">{t('beyblade_regulations.cta.description')}</p>
           <div className="flex flex-col md:flex-row items-center justify-center gap-4">
             <a href="/beyblade" className="btn btn-primary btn-lg">
               <Trophy className="w-5 h-5" />
