@@ -1840,6 +1840,157 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/* Beyblade Rating Page Styles */
+.beyblade-rating-page {
+  overflow-x: hidden;
+}
+
+.rating-hero {
+  background: linear-gradient(135deg, rgba(59, 76, 202, 0.8) 0%, rgba(29, 78, 216, 0.8) 100%),
+    url('https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Beyblade_Atmosphere_03.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 60vh;
+}
+
+.why-elo-section {
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.05) 0%, rgba(147, 197, 253, 0.05) 100%);
+}
+
+.benefit-card {
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.benefit-card:hover {
+  transform: translateY(-4px);
+}
+
+.benefit-icon {
+  transition: all 0.3s ease;
+}
+
+.benefit-card:hover .benefit-icon {
+  transform: scale(1.1);
+}
+
+.what-is-elo-section {
+  background: var(--nk-light-gray);
+}
+
+.result-card {
+  transition: all 0.3s ease;
+}
+
+.result-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.calculation-section {
+  background: var(--nk-light-gray);
+}
+
+.bonus-card {
+  transition: all 0.3s ease;
+}
+
+.bonus-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+}
+
+.diagram-placeholder {
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.season-section {
+  background: linear-gradient(135deg, rgba(168, 85, 247, 0.05) 0%, rgba(236, 72, 153, 0.05) 100%);
+}
+
+.season-card {
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.season-card:hover {
+  transform: translateY(-4px);
+}
+
+.examples-section {
+  background: var(--nk-white);
+}
+
+.example-card {
+  transition: all 0.3s ease;
+}
+
+.example-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.cta-section {
+  background: linear-gradient(135deg, var(--nk-blue) 0%, #8B5CF6 100%);
+}
+
+/* Button Styles for Rating Page */
+.btn-outline-white {
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: var(--space-sm) var(--space-lg);
+  border-radius: var(--radius-full);
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  transition: all 0.3s ease;
+}
+
+.btn-outline-white:hover {
+  background: white;
+  color: var(--nk-blue);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(255, 255, 255, 0.2);
+}
+
+/* Mobile Responsiveness for Rating Page */
+@media (max-width: 768px) {
+  .rating-hero {
+    min-height: 50vh;
+  }
+  
+  .benefit-card,
+  .season-card,
+  .example-card {
+    padding: var(--space-md);
+  }
+  
+  .bonus-card {
+    padding: var(--space-md);
+  }
+  
+  .diagram-placeholder {
+    min-height: 150px;
+    padding: var(--space-md);
+  }
+  
+  .cta-section h2 {
+    font-size: clamp(28px, 6vw, 40px);
+  }
+  
+  .cta-section .btn {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
 @media (max-width: 480px) {
   .gallery-grid {
     grid-template-columns: 1fr;
