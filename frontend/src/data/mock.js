@@ -27,6 +27,14 @@ export const services = [
   },
   {
     id: 4,
+    title: "Beyblade X",
+    description: "มาเป็นสุดยอดเบลดเดอร์ และวัดระดับความโปรของคุณ ด้วย NK Beyblade Elo Rating",
+    icon: "zap",
+    image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Beyblade_Atmosphere_01.jpg",
+    price: "เริ่มต้น 36 บาท"
+  },
+  {
+    id: 5,
     title: "NK Café",
     description: "เมนูอาหารและเครื่องดื่มหลากหลาย เหมาะสำหรับเติมพลังขณะเล่นเกม",
     icon: "coffee",
@@ -34,7 +42,7 @@ export const services = [
     price: "ราคาเริ่มต้น 29 บาท"
   },
   {
-    id: 5,
+    id: 6,
     title: "Team Building",
     description: "กิจกรรมสร้างทีมเวิร์คผ่านบอร์ดเกม เหมาะสำหรับองค์กรและกลุ่มเพื่อน",
     icon: "users",
