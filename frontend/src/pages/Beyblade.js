@@ -113,7 +113,7 @@ const Beyblade = () => {
               <Calendar className="w-5 h-5" />
               {t('beyblade.hero.cta_schedule')}
             </a>
-            <a href="https://www.nkboardgame.com/beyblade/ranking" className="btn btn-secondary btn-lg" target="_blank" rel="noopener noreferrer">
+            <a href="https://beyblade.nkboardgame.com/leaderboard" className="btn btn-secondary btn-lg" target="_blank" rel="noopener noreferrer">
               <Trophy className="w-5 h-5" />
               {t('beyblade.hero.cta_ranking')}
               <ExternalLink className="w-4 h-4" />
