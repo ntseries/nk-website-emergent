@@ -1868,6 +1868,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .beyblade-hero .hero-title.beyblade-title {
   color: white !important;
+  background: none !important;
+  -webkit-background-clip: initial !important;
+  background-clip: initial !important;
+  -webkit-text-fill-color: white !important;
 }
 
 .why-elo-section {
