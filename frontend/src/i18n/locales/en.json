@@ -632,8 +632,7 @@
       "title": "🏅 Season & Leaderboard",
       "reset": {
         "title": "Season Reset Every 3 Months",
-        "description": "Elo will be reset to starting value + rank bonus",
-        "bonus": "Top 10 get special bonuses"
+        "description": "Elo will be reset to starting value + rank bonus"
       },
       "rewards": {
         "title": "Seasonal Rewards",
