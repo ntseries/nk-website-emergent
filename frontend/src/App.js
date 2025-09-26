@@ -20,6 +20,7 @@ import FoodDrink from "./pages/services/FoodDrink";
 import TeamBuilding from "./pages/services/TeamBuilding";
 import Contact from "./pages/Contact";
 import Beyblade from "./pages/Beyblade";
+import BeybladeRegulations from "./pages/services/BeybladeRegulations";
 
 const AppContent = () => {
   useLanguageDetection(); // Add language detection
