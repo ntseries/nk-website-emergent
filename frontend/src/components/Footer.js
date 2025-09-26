@@ -100,6 +100,7 @@ const Footer = () => {
               <li><Link to={getLocalizedPath("/services/play-at-shop")} onClick={handleNavClick}>{t("nav.play_at_shop")}</Link></li>
               <li><Link to={getLocalizedPath("/services/board-game-script")} onClick={handleNavClick}>{t("nav.board_game_script")}</Link></li>
               <li><Link to={getLocalizedPath("/services/photo-booth")} onClick={handleNavClick}>{t("nav.photo_booth")}</Link></li>
+              <li><Link to={getLocalizedPath("/beyblade")} onClick={handleNavClick}>{t("nav.beyblade")}</Link></li>
               <li><Link to={getLocalizedPath("/services/food-drink")} onClick={handleNavClick}>{t("nav.nk_cafe")}</Link></li>
               <li><Link to={getLocalizedPath("/services/team-building")} onClick={handleNavClick}>{t("nav.team_building")}</Link></li>
             </ul>
