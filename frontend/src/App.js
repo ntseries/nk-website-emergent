@@ -21,6 +21,7 @@ import TeamBuilding from "./pages/services/TeamBuilding";
 import Contact from "./pages/Contact";
 import Beyblade from "./pages/Beyblade";
 import BeybladeRegulations from "./pages/services/BeybladeRegulations";
+import BeybladeRating from "./pages/services/BeybladeRating";
 
 const AppContent = () => {
   useLanguageDetection(); // Add language detection
