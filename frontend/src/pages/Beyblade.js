@@ -241,18 +241,18 @@ const Beyblade = () => {
             )}
           </div>
 
-          <div className="text-center">
+          <div className="text-center relative z-20">
             <div className="flex flex-col md:flex-row items-center justify-center gap-4">
-              <a href="https://beyblade.nkboardgame.com/leaderboard" className="btn btn-primary btn-lg" target="_blank" rel="noopener noreferrer">
+              <a href="https://beyblade.nkboardgame.com/leaderboard" className="btn btn-primary btn-lg relative z-30" target="_blank" rel="noopener noreferrer">
                 <Eye className="w-5 h-5" />
                 {t('beyblade.ranking.view_all_ranking')}
                 <ExternalLink className="w-4 h-4" />
               </a>
-              <a href="/beyblade/rating" className="btn btn-secondary btn-lg">
+              <a href="/beyblade/rating" className="btn btn-secondary btn-lg relative z-30">
                 <Trophy className="w-5 h-5" />
                 {t('beyblade.ranking.what_is_elo')}
               </a>
-              <a href="/events" className="btn btn-outline-blue btn-lg">
+              <a href="/events" className="btn btn-outline-blue btn-lg relative z-30">
                 <Calendar className="w-5 h-5" />
                 {t('beyblade.ranking.tournament_calendar')}
               </a>
