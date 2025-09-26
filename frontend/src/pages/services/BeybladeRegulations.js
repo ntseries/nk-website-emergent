@@ -266,7 +266,7 @@ const BeybladeRegulations = () => {
       </section>
 
       {/* Back to Beyblade CTA */}
-      <section className="cta-section py-16 bg-gradient-to-br from-blue-600 to-purple-600">
+      <section className="cta-section py-16 bg-white">
         <div className="container text-center">
           <h2 className="text-3xl font-bold text-blue-600 mb-4">{t('beyblade_regulations.cta.title')}</h2>
           <p className="text-gray-900 text-lg mb-8">{t('beyblade_regulations.cta.description')}</p>
