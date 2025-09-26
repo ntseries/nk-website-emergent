@@ -338,10 +338,12 @@
     },
     "ranking": {
       "title": "Ranking & Leaderboard",
-      "subtitle": "NK Board Game Elo Rating System - Scores that show your true skill",
+      "subtitle": "NK Beyblade Elo Rating System - Scores that show your true skill",
       "elo_description": "Our Elo Rating system calculates scores from actual competition results, considering the strength of opponents",
       "top_players": "Top 10 Players", 
       "view_all_ranking": "🔎 View All Rankings",
+      "what_is_elo": "What is Elo rating",
+      "tournament_calendar": "Tournament Calendar",
       "rank": "Rank",
       "player": "Player",
       "elo": "Elo Rating",
