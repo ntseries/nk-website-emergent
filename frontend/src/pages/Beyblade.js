@@ -292,11 +292,11 @@ const Beyblade = () => {
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {galleryImages.slice(0, 15).map((image, index) => (
+            {galleryImages.map((image, index) => (
               <div key={index} className="gallery-item aspect-square rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
                 <img 
                   src={image} 
-                  alt={`Beyblade Tournament ${index + 1}`}
+                  alt={`Beyblade Tournament at NK Board Game ${index + 1}`}
                   className="w-full h-full object-cover"
                   loading="lazy"
                 />
