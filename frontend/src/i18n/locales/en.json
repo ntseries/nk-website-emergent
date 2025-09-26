@@ -400,5 +400,193 @@
       "description": "Join Beyblade X competition at NK Board Game with authentic Elo Rating system Daily Sessions Weekly Sessions Special Tournaments amazing prizes Phoenix Wing UX-15 Season Reset every 3 months NK Beyblade Regulations authentic Takara Tomy equipment",
       "keywords": "Beyblade, Beyblade X, Beyblade Competition, Elo Rating, Phoenix Wing, UX-15, Takara Tomy, NK Board Game, Daily Sessions, Weekly Sessions, Special Tournaments"
     }
+  },
+  "beyblade_regulations": {
+    "hero": {
+      "badge": "Official Regulations",
+      "title": "🏆 Beyblade X Tournament Rules",
+      "description": "Official tournament regulations for Beyblade X at NK Board Game",
+      "back_to_beyblade": "Back to Beyblade"
+    },
+    "toc": {
+      "title": "Table of Contents",
+      "game_components": "Game Components",
+      "winning": "Winning a Match",
+      "match_phases": "Match Phases", 
+      "match_types": "Match Types",
+      "rules_of_battle": "Rules of Battle",
+      "equipment": "Equipment Regulations",
+      "optional_rules": "Optional Rules",
+      "disqualification": "Disqualification"
+    },
+    "game_components": {
+      "title": "Game Components",
+      "bey": {
+        "title": "Bey",
+        "items": {
+          "definition": "A Bey (often referred to as \"a Beyblade\") is the spinning top used to battle.",
+          "requirement": "Each blader needs at least one complete Bey to battle.",
+          "components": "A complete Bey consists of a blade, ratchet, and bit.",
+          "cx_system": "For CX system blades, the blade must contain all three parts: a lock chip, main blade, and assist blade."
+        }
+      },
+      "deck": {
+        "title": "Deck",
+        "items": {
+          "definition": "A deck is a set of 3 Beys that is required for certain match types.",
+          "unique_parts": "Only one copy of each part (except for lock chips) may be used per deck.",
+          "same_name": "Parts are considered the same part when they share the same name.",
+          "regional": "Regional variations in a name (such as Phoenix Wing / Soar Phoenix) are considered the same name.",
+          "derivative": "Derivative designs — such as Roar Tyranno's design being derived from Soar Phoenix — are unique parts with unique names.",
+          "jurassic": "Mosasaurus (TriceraSpiky), Spinosaurus (TyrannoRoar), Quetzalcoatlus (PteraSwing), and T. Rex (TyrannoBeat) are recolored Jurassic World Versions with alternate names. They are not considered to be different parts, and only one copy may be used.",
+          "lightning": "Lightning L-Drago (upper type) and Lightning L-Drago (rapid-hit type) are both considered to be named Lightning L-Drago.",
+          "lock_chip": "Lock chips with the same name can be used multiple times within a deck.",
+          "valkyrie": "However, only one copy of the Valkyrie metal lock chip can be used within a deck.",
+          "no_swap": "Parts cannot be exchanged between Beys within a deck at any point during a match."
+        }
+      },
+      "launcher": {
+        "title": "Launcher",
+        "items": {
+          "definition": "The launcher is used to launch the Bey into the stadium for battle.",
+          "types": "Launchers fall into two categories:",
+          "string": "String launchers, which are powered by an internal string mechanism.",
+          "winder": "Winder launchers, which are powered by an external winder.",
+          "accessories": "Any accessories attached to the launcher are considered part of the launcher."
+        }
+      },
+      "stadium": {
+        "title": "Stadium",
+        "items": {
+          "definition": "Battles take place in the stadium.",
+          "components": "The stadium is comprised of a stadium cover and stadium body.",
+          "cover": "The stadium cover includes the launch area, a circular opening through which Beys are launched.",
+          "body": "The stadium body is the surface Beys are launched onto.",
+          "zones": "The space inside the stadium is divided into three types of zones:",
+          "battle_zone": "Battle Zone – the entire space inside the stadium except for the over zone and Xtreme zone",
+          "over_zone": "Over Zone – two zones located at the left and right corners, at the front of the stadium",
+          "xtreme_zone": "Xtreme Zone – located in the center, at the front of the stadium",
+          "zone_entry": "A Bey is considered to have entered a zone the moment it is mostly within that zone."
+        }
+      }
+    },
+    "winning": {
+      "title": "Winning a Match",
+      "items": {
+        "official_play": "In a tournament setting, games of Beyblade are played in matches.",
+        "match_structure": "A Beyblade match consists of battles, points and sets.",
+        "battle": "Battles: When two Beys are played against each other and a winning Bey is determined once, resulting in points being awarded.",
+        "point": "Points: Awarded to the winner of the battle. The number of points awarded is based on how the battle was won (see: scoring finishes).",
+        "set": "Sets: Won when a blader has earned the required number of points.",
+        "points_to_win": "The points required to win a set may be 4, 5, or 7 depending on the tournament's rules.",
+        "first_stage": "4 points is the default for the first stage of the tournament.",
+        "final_stage": "7 points is the default for the final stage of the tournament.",
+        "sets_to_win": "The number of sets required to win the match depending on the match format:",
+        "bo1": "Best-of-1 (Bo1): 1 set",
+        "bo3": "Best-of-3 (Bo3): 2 sets"
+      }
+    },
+    "scoring": {
+      "title": "Scoring Finishes",
+      "points": "points",
+      "xtreme": {
+        "name": "Xtreme Finish",
+        "description": "Initiated when the opposing Bey enters the Xtreme zone and becomes out-of-play."
+      },
+      "over": {
+        "name": "Over Finish",
+        "description": "Initiated when the opposing Bey enters the over zone and becomes out-of-play."
+      },
+      "burst": {
+        "name": "Burst Finish", 
+        "description": "Initiated and scored when the opposing Bey bursts."
+      },
+      "spin": {
+        "name": "Spin Finish",
+        "description": "Initiated and scored when the opposing Bey stops spinning."
+      }
+    },
+    "equipment": {
+      "title": "Equipment Regulations",
+      "items": {
+        "official_only": "Only official Beyblade X products produced by Takara Tomy and Hasbro may be used.",
+        "no_broken": "Cracked or broken equipment including Bey parts, launchers and stadiums may not be used.",
+        "no_modification": "Any modification of equipment beyond what is explicitly allowed in these regulations is forbidden.",
+        "decoration": "Parts may be decorated with paint and stickers if it doesn't affect performance.",
+        "wear": "Parts that have been worn down outside of normal play cannot be used.",
+        "rubber": "Rubber parts that wear normally can be used, judge decides."
+      }
+    },
+    "banned": {
+      "title": "Banned Parts",
+      "bit_title": "Bit: Metal Needle (MN)",
+      "metal_needle": "Metal Needle (MN) is banned from competition",
+      "reason": "Reason: This bit frequently damages stadiums with its pointed metal tip."
+    },
+    "optional": {
+      "title": "🛠️ Optional Rules",
+      "description": "Optional rules can be used by tournament organizers to create unique gameplay experiences and tailor events to their local Beyblade communities.",
+      "rules": {
+        "own_finish": {
+          "title": "1. Own Finish",
+          "description": "When you score an Xtreme finish or over finish against a Bey that did not touch your Bey during the battle, it is considered an own finish instead."
+        },
+        "locked_bey": {
+          "title": "2. Locked Bey List",
+          "description": "Before the start of each stage of the tournament, you must submit a Bey list to the tournament organizer."
+        },
+        "out_spin": {
+          "title": "3. Out-of-Bounds Spin Finish",
+          "description": "If the opposing Bey leaves the battle area through the launch area and becomes out-of-play, instead of voiding the battle, it will be considered as scoring a spin finish."
+        },
+        "out_over": {
+          "title": "4. Out-of-Bounds Over Finish",
+          "description": "If the opposing Bey leaves the battle area through the launch area and becomes out-of-play, instead of voiding the battle, it will be considered as scoring an over finish."
+        },
+        "swap_positions": {
+          "title": "5. Swap Positions After Battle",
+          "description": "After each battle within a set, the bladers swap launch positions."
+        },
+        "loser_selects": {
+          "title": "6. Loser Selects Position After Battle",
+          "description": "After each battle within a set, the loser of the previous battle chooses their launch position."
+        },
+        "no_disassembled": {
+          "title": "7. No Disassembled Components",
+          "description": "Parts that have been disassembled in a way not intended by the manufacturer (e.g. removing screws or separating ratchets) cannot be used."
+        },
+        "no_painted": {
+          "title": "8. No Painted Parts",
+          "description": "Parts cannot be painted or coated. Small markings in the designated areas are still permitted."
+        },
+        "mn_unbanned": {
+          "title": "9. MN Bit Unbanned",
+          "description": "The MN (Metal Needle) bit may be used."
+        },
+        "adjust_before": {
+          "title": "10. Adjust Before Presenting (WBO deck only)",
+          "description": "Beys must be adjusted before being presented to the opponent, and cannot be adjusted after."
+        }
+      }
+    },
+    "disqualification": {
+      "title": "🚫 Disqualification",
+      "items": {
+        "authority": "At the discretion of the tournament organizer and judge(s), you may be disqualified from an event for any reason, including but not limited to if:",
+        "rule_violation": "You intentionally break any rules in this ruleset",
+        "equipment_violation": "Your equipment does not comply with the equipment regulations",
+        "launch_errors": "You commit an excessive number of launch errors or launch in an unsafe manner",
+        "misconduct": "You behave in a rude, unsportsmanlike, or otherwise disruptive manner",
+        "match_result": "If you are disqualified during a match, you will lose the match. The results of previous rounds will not be modified.",
+        "prize_forfeit": "If you are disqualified from an event, you forfeit any placement and prizing.",
+        "future_ban": "If you are disqualified from an event, you may be suspended or banned from attending future events."
+      }
+    },
+    "cta": {
+      "title": "Ready to Join the Competition?",
+      "description": "Now that you've read the rules, come join the Beyblade X competition and have fun at NK Board Game!",
+      "back_to_beyblade": "Back to Beyblade",
+      "view_events": "View Tournament Schedule"
+    }
   }
 }
