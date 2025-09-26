@@ -1624,6 +1624,11 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   color: var(--nk-blue);
   font-weight: 500;
+  font-family: 'Kanit', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
   transition: all 0.3s ease;
   box-shadow: var(--shadow-sm);
 }
