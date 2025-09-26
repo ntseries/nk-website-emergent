@@ -38,6 +38,7 @@ const Header = () => {
     { title: t("nav.play_at_shop"), path: "/services/play-at-shop" },
     { title: t("nav.board_game_script"), path: "/services/board-game-script" },
     { title: t("nav.photo_booth"), path: "/services/photo-booth" },
+    { title: t("nav.beyblade"), path: "/beyblade" },
     { title: t("nav.nk_cafe"), path: "/services/food-drink" },
     { title: t("nav.team_building"), path: "/services/team-building" }
   ];
