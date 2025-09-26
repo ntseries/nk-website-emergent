@@ -458,7 +458,7 @@
       "stadium": {
         "title": "Stadium",
         "items": {
-          "definition": "การต่อสู้เกิดขึ้นใน Stadium",
+          "definition": "การต่อสู้ของ Bey จะเกิดขึ้นใน Stadium เท่านั้น",
           "components": "Stadium ประกอบด้วย Stadium Cover และ Stadium Body",
           "cover": "Cover มี ช่องยิง (Launch Area) สำหรับปล่อย Bey",
           "body": "Body คือพื้นที่ที่ Bey หมุนอยู่",
