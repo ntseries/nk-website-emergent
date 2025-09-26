@@ -43,17 +43,20 @@ const Beyblade = () => {
     fetchLeaderboard();
   }, []);
 
-  // Gallery images from vision expert
+  // Gallery images from NK Board Game Beyblade activities
   const galleryImages = [
-    "https://images.unsplash.com/photo-1533654238074-8841f6e8e610?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwxfHxnYW1pbmclMjB0b3VybmFtZW50fGVufDB8fHxibHVlfDE3NTg4NjgyODV8MA&ixlib=rb-4.1.0&q=85",
-    "https://images.unsplash.com/photo-1541474583361-bc9527eb46d6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwyfHxnYW1pbmclMjB0b3VybmFtZW50fGVufDB8fHxibHVlfDE3NTg4NjgyODV8MA&ixlib=rb-4.1.0&q=85",
-    "https://images.unsplash.com/photo-1572432421951-3e4c629d57a5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwzfHxnYW1pbmclMjB0b3VybmFtZW50fGVufDB8fHxibHVlfDE3NTg4NjgyODV8MA&ixlib=rb-4.1.0&q=85",
-    "https://images.unsplash.com/photo-1610041321461-37a7d578ebad?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHw0fHxnYW1pbmclMjB0b3VybmFtZW50fGVufDB8fHxibHVlfDE3NTg4NjgyODV8MA&ixlib=rb-4.1.0&q=85",
-    "https://images.pexels.com/photos/8728559/pexels-photo-8728559.jpeg",
-    "https://images.pexels.com/photos/10988021/pexels-photo-10988021.jpeg",
-    "https://images.unsplash.com/photo-1636772359335-eed83f7675a8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwzfHxjb21wZXRpdGlvbiUyMGFyZW5hfGVufDB8fHxibHVlfDE3NTg4NjgyOTF8MA&ixlib=rb-4.1.0&q=85",
-    "https://images.pexels.com/photos/7544433/pexels-photo-7544433.jpeg",
-    "https://images.pexels.com/photos/7544430/pexels-photo-7544430.jpeg"
+    "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Beyblade_Atmosphere_01.jpg",
+    "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Beyblade_Atmosphere_02.jpg",
+    "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Beyblade_Atmosphere_03.jpg",
+    "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Beyblade_Atmosphere_04.jpg",
+    "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Beyblade_Atmosphere_05.jpg",
+    "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Beyblade_Atmosphere_06.jpg",
+    "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Beyblade_Atmosphere_07.jpg",
+    "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Beyblade_Atmosphere_08.jpg",
+    "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Beyblade_Atmosphere_09.jpg",
+    "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Beyblade_Atmosphere_10.jpg",
+    "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Beyblade_Atmosphere_11.jpg",
+    "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Beyblade_Atmosphere_12.jpg"
   ];
 
   return (
