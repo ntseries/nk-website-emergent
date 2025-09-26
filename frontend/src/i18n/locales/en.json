@@ -588,5 +588,75 @@
       "back_to_beyblade": "Back to Beyblade",
       "view_events": "View Tournament Schedule"
     }
+  },
+  "beyblade_rating": {
+    "hero": {
+      "badge": "Elo Rating System",
+      "title": "🏆 NK Beyblade X – Elo Rating System",
+      "description": "Understand the Elo Rating system at NK Board Game for fairness and fun in competition",
+      "back_to_beyblade": "Back to Beyblade"
+    },
+    "why_elo": {
+      "title": "🎯 Why Do We Need Elo Rating?",
+      "subtitle": "We created the Elo Rating system to make Beyblade play more fun and challenging",
+      "motivation": "✅ Give every player motivation to improve their skills",
+      "fairness": "✅ Make competitions fairer by matching players with similar skill levels",
+      "realtime": "✅ Real-time Leaderboard system where everyone can see their rank"
+    },
+    "what_is": {
+      "title": "🧩 What is Elo Rating",
+      "definition": "Elo Rating is a system used to measure player strength, starting from an initial score of 1200 points",
+      "win": "Win 🟢",
+      "win_description": "→ Gain points",
+      "lose": "Lose 🔴", 
+      "lose_description": "→ Lose points",
+      "win_strong_title": "Beat stronger players",
+      "win_strong": "→ Gain many points",
+      "lose_weak_title": "Lose to weaker players",
+      "lose_weak": "→ Lose many points"
+    },
+    "calculation": {
+      "title": "🔢 How Points Are Calculated",
+      "subtitle": "NK Beyblade X uses a customized Elo formula suitable for in-store competition",
+      "upset_bonus": {
+        "title": "Upset Bonus",
+        "description": "If you beat a player with much higher Elo, you get a special bonus"
+      },
+      "sweep_bonus": {
+        "title": "Sweep Bonus",
+        "description": "If you win 4-0, you get a small additional bonus"
+      },
+      "diagram_note": "(Can insert diagram showing point calculation, such as Elo up/down graph per match)"
+    },
+    "season": {
+      "title": "🏅 Season & Leaderboard",
+      "reset": {
+        "title": "Season Reset Every 3 Months",
+        "description": "Elo will be reset to starting value + rank bonus",
+        "bonus": "Top 10 get special bonuses"
+      },
+      "rewards": {
+        "title": "Seasonal Rewards",
+        "description": "Every season has rewards for highest Elo players"
+      },
+      "view_leaderboard": "🔗 View All Rankings"
+    },
+    "examples": {
+      "title": "💡 Examples",
+      "example1": {
+        "title": "Player A (Elo 1200) beats Player B (Elo 1300)",
+        "description": "→ Gets +20 points (because they beat someone with higher Elo)"
+      },
+      "example2": {
+        "title": "Player A (Elo 1250) loses to Player B (Elo 1150)",
+        "description": "→ Loses -25 points (because they lost to someone with lower Elo)"
+      }
+    },
+    "cta": {
+      "title": "🎉 Start Playing Now!",
+      "description": "Sign up for free → Get your Blader QR Code → Join sessions at your nearest branch → Compete and collect Elo to climb the rankings!",
+      "join_competition": "Join Competition",
+      "view_rankings": "View Rankings"
+    }
   }
 }
