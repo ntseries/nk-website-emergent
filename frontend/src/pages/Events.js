@@ -241,7 +241,7 @@ const Events = () => {
       </div>
 
       {/* Events Section */}
-      <div className="container mx-auto px-4 py-16">
+      <div className="container mx-auto px-4 py-20">
         <div className="max-w-6xl mx-auto">
           {/* Tabs */}
           <div className="flex justify-center mb-8">
