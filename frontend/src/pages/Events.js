@@ -285,7 +285,7 @@ const Events = () => {
           ) : currentEvents.length === 0 ? (
             <EmptyState />
           ) : (
-            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 mb-8">
+            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               {currentEvents.map((event) => (
                 <EventCard key={event.id} event={event} />
               ))}
