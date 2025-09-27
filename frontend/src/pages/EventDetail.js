@@ -22,6 +22,12 @@ const EventDetail = () => {
     return path;
   };
 
+  // Format description with line breaks
+  const formatDescription = (description) => {
+    if (!description) return null;
+    return description.replace(/\n/g, '<br />');
+  };
+
   // Format date to Thai/English format
   const formatDate = (dateString) => {
     const date = new Date(dateString);
