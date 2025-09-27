@@ -179,6 +179,14 @@ const Events = () => {
                 <Clock className="w-4 h-4 mr-2" />
                 {formatDate(event.date)}
               </div>
+
+              {/* Location */}
+              {event.location && (
+                <div className="flex items-center text-sm text-gray-500 mb-3">
+                  <MapPin className="w-4 h-4 mr-2" />
+                  {event.location}
+                </div>
+              )}
               
               {/* Winner Info */}
               {event.winner && event.winner.name !== "TBD" && (
