@@ -172,7 +172,7 @@ const EventDetail = () => {
         </div>
       </div>
 
-      <div className="container mx-auto px-4 py-12">
+      <div className="container mx-auto px-4 pt-12">
         <div className="max-w-4xl mx-auto">
           {/* Event Header */}
           <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-8 mb-8">
