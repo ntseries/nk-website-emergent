@@ -63,6 +63,15 @@ const Events = () => {
     }
   };
 
+  // Decode URL encoded winner name
+  const decodeWinnerName = (name) => {
+    try {
+      return decodeURIComponent(name);
+    } catch (error) {
+      return name; // Return original if decode fails
+    }
+  };
+
   // Fetch events data
   const fetchEvents = async (status) => {
     try {
