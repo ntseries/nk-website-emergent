@@ -135,6 +135,10 @@ const Header = () => {
               ))}
             </div>
 
+            <Link to={getLocalizedPath("/events")} className={`nav-link-mobile ${isActive("/events") ? "active" : ""}`} onClick={handleNavClick}>
+              {t("nav.events")}
+            </Link>
+
             <Link to={getLocalizedPath("/contact")} className={`nav-link-mobile ${isActive("/contact") ? "active" : ""}`} onClick={handleNavClick}>
               {t("nav.contact")}
             </Link>
