@@ -190,9 +190,10 @@ const EventDetail = () => {
                   {event.name}
                 </h1>
                 {event.description && (
-                  <p className="text-gray-600 text-lg">
-                    {event.description}
-                  </p>
+                  <p 
+                    className="text-gray-600 text-lg"
+                    dangerouslySetInnerHTML={{ __html: formatDescription(event.description) }}
+                  />
                 )}
               </div>
             </div>
