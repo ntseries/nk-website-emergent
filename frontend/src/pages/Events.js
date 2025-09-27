@@ -196,7 +196,7 @@ const Events = () => {
                       />
                     )}
                     <span className="text-sm font-medium text-yellow-800">
-                      {t("events.winner")}: {event.winner.name}
+                      {t("events.winner")}: {decodeWinnerName(event.winner.name)}
                     </span>
                   </div>
                 </div>
