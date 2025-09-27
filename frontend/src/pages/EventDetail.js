@@ -299,15 +299,29 @@ const EventDetail = () => {
             </div>
           )}
 
-          {/* Back to Events Button */}
+          {/* Action Buttons */}
           <div className="mt-8 pb-4 text-center">
-            <Link
-              to={getLocalizedPath("/events")}
-              className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
-            >
-              <ArrowLeft className="w-4 h-4 mr-2" />
-              {t("events.detail.back_to_events")}
-            </Link>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <Link
+                to={getLocalizedPath("/events")}
+                className="inline-flex items-center px-6 py-3 bg-gray-600 text-white rounded-lg hover:bg-gray-700 transition-colors"
+              >
+                <ArrowLeft className="w-4 h-4 mr-2" />
+                {t("events.detail.back_to_events")}
+              </Link>
+              
+              {/* Register Button - Only show for upcoming events */}
+              {event.status === "upcoming" && event.register_url && (
+                <a
+                  href={event.register_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+                >
+                  {t("events.detail.register")}
+                </a>
+              )}
+            </div>
           </div>
         </div>
       </div>
