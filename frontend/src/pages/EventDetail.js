@@ -300,7 +300,7 @@ const EventDetail = () => {
           )}
 
           {/* Back to Events Button */}
-          <div className="mt-8 mb-8 pb-4 text-center">
+          <div className="mt-8 pb-4 text-center">
             <Link
               to={getLocalizedPath("/events")}
               className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
