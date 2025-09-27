@@ -244,7 +244,7 @@ const Events = () => {
       <div className="container mx-auto px-4 py-20">
         <div className="max-w-6xl mx-auto">
           {/* Tabs */}
-          <div className="flex justify-center mb-8">
+          <div className="flex justify-center mb-8 mt-6">
             <div className="bg-white rounded-lg p-1 shadow-sm border">
               <button
                 onClick={() => setActiveTab("upcoming")}
