@@ -278,19 +278,25 @@ const Events = () => {
           </div>
 
           {/* Content */}
-          {loading ? (
-            <LoadingSpinner />
-          ) : error ? (
-            <ErrorMessage />
-          ) : currentEvents.length === 0 ? (
-            <EmptyState />
-          ) : (
-            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-              {currentEvents.map((event) => (
-                <EventCard key={event.id} event={event} />
-              ))}
-            </div>
-          )}
+          <div className="events-section" style={{
+            backgroundColor: '#f9fafb',
+            paddingBottom: '32px',
+            display: 'flow-root'
+          }}>
+            {loading ? (
+              <LoadingSpinner />
+            ) : error ? (
+              <ErrorMessage />
+            ) : currentEvents.length === 0 ? (
+              <EmptyState />
+            ) : (
+              <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                {currentEvents.map((event) => (
+                  <EventCard key={event.id} event={event} />
+                ))}
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </div>
