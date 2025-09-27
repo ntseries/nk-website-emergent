@@ -698,6 +698,7 @@
       "participants": "Participants",
       "participants_list": "Participants List",
       "description": "Description",
+      "register": "Register",
       "error": {
         "title": "Event not found",
         "message": "The event may have been deleted or URL changed",
