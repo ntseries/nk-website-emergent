@@ -89,6 +89,7 @@ const Footer = () => {
             <ul className="footer-links">
               <li><Link to={getLocalizedPath("/")} onClick={handleNavClick}>{t("nav.home")}</Link></li>
               <li><Link to={getLocalizedPath("/about")} onClick={handleNavClick}>{t("nav.about")}</Link></li>
+              <li><Link to={getLocalizedPath("/events")} onClick={handleNavClick}>{t("nav.events")}</Link></li>
               <li><Link to={getLocalizedPath("/contact")} onClick={handleNavClick}>{t("nav.contact")}</Link></li>
             </ul>
           </div>
