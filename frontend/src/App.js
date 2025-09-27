@@ -43,6 +43,8 @@ const AppContent = () => {
           <Route path="/beyblade" element={<Beyblade />} />
           <Route path="/beyblade/regulations" element={<BeybladeRegulations />} />
           <Route path="/beyblade/rating" element={<BeybladeRating />} />
+          <Route path="/events" element={<Events />} />
+          <Route path="/events/:id" element={<EventDetail />} />
           <Route path="/services/food-drink" element={<FoodDrink />} />
           <Route path="/services/team-building" element={<TeamBuilding />} />
           <Route path="/contact" element={<Contact />} />
