@@ -22,6 +22,8 @@ import Contact from "./pages/Contact";
 import Beyblade from "./pages/Beyblade";
 import BeybladeRegulations from "./pages/services/BeybladeRegulations";
 import BeybladeRating from "./pages/services/BeybladeRating";
+import Events from "./pages/Events";
+import EventDetail from "./pages/EventDetail";
 
 const AppContent = () => {
   useLanguageDetection(); // Add language detection
