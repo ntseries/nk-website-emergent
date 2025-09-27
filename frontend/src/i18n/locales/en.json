@@ -663,5 +663,49 @@
       "join_competition": "Join Competition",
       "view_rankings": "View Rankings"
     }
+  },
+  "events": {
+    "hero": {
+      "badge": "Events & Competitions",
+      "title": "NK Board Game Events",
+      "description": "Follow various events and competitions at NK Board Game, see competition results and winners in each event"
+    },
+    "tabs": {
+      "upcoming": "Upcoming Events",
+      "past": "Past Events"
+    },
+    "status": {
+      "upcoming": "Upcoming",
+      "past": "Completed",
+      "ongoing": "Ongoing"
+    },
+    "winner": "Winner",
+    "empty": {
+      "upcoming": "No upcoming events yet",
+      "upcoming_desc": "New events will be announced soon",
+      "past": "No past events yet",
+      "past_desc": "Stay tuned for our first events"
+    },
+    "error": {
+      "title": "Unable to load data",
+      "message": "Please check your connection and try again",
+      "retry": "Try Again"
+    },
+    "detail": {
+      "back_to_events": "Back to Events",
+      "winner": "🏆 Winner",
+      "participants": "Participants",
+      "participants_list": "Participants List",
+      "error": {
+        "title": "Event not found",
+        "message": "The event may have been deleted or URL changed",
+        "retry": "Try Again"
+      }
+    },
+    "meta": {
+      "title": "Events - NK Board Game",
+      "description": "List of events and competitions at NK Board Game. Follow competition results and winners in each event",
+      "keywords": "Events, Competition, NK Board Game, Beyblade X, Board Game, Winner"
+    }
   }
 }
