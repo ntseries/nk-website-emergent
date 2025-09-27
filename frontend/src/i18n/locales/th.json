@@ -698,6 +698,7 @@
       "participants": "ผู้เข้าร่วม",
       "participants_list": "รายชื่อผู้เข้าร่วม",
       "description": "รายละเอียด",
+      "register": "ลงทะเบียน",
       "error": {
         "title": "ไม่พบกิจกรรมนี้",
         "message": "กิจกรรมอาจถูกลบหรือเปลี่ยน URL",
