@@ -332,8 +332,8 @@ const Home = () => {
       ]
     },
     phranakhon: {
-      name: "พระนคร",
-      nameEn: "Phra Nakhon",
+      name: "โลตัส บางแค",
+      nameEn: "Lotus Bangkae",
       images: [
         {
           url: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_PNK-01.jpg",

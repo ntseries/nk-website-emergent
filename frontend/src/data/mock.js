@@ -81,8 +81,8 @@ export const activities = [
 export const branches = [
   {
     id: 1,
-    name: "NK Board Game สาขาซีคอนบางแค",
-    nameEn: "NK Board Game Seacon Bangkae Branch",
+    name: "NK Board Game ซีคอนบางแค",
+    nameEn: "NK Board Game Seacon Bangkae",
     address: "ซีคอนบางแค ชั้น 6 โซนการศึกษา",
     addressEn: "Seacon Bangkae 6th Floor, Education Zone",
     phone: "065-412-3939",
@@ -134,17 +134,17 @@ export const branches = [
   },
   {
     id: 4,
-    name: "NK Board Game สาขาพระนคร",
-    nameEn: "NK Board Game Phra Nakhon Branch",
-    address: "ศูนย์การค้าปากคลองตลาด ชั้น 2",
-    addressEn: "Pak Klong Talad 2nd Floor",
+    name: "NK Board Game โลตัส บางแค",
+    nameEn: "NK Board Game Lotus Bangkae",
+    address: "โลตัส บางแค ชั้น 2",
+    addressEn: "Lotus Bangkae 2nd Floor",
     phone: "065-412-3339",
-    hours: "ทุกวัน 12.00 - 20.00 น.",
-    hoursEn: "Daily 12:00 - 20:00",
-    transport: "MRT สนามไชย",
-    transportEn: "MRT Sanam Chai",
+    hours: "ทุกวัน 11.00 - 20.00 น.",
+    hoursEn: "Daily 11:00 - 20:00",
+    transport: "MRT บางแค",
+    transportEn: "MRT Bangkae",
     image: "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Atmosphere_PNK-01.jpg",
-    maps: "https://maps.app.goo.gl/G7ax5UfrTQdhLgxe8",
+    maps: "https://maps.app.goo.gl/VT88omNPwEMXncnv6",
     instagram: "https://www.instagram.com/nkboardgame/",
     line: "https://lin.ee/C3Gy4Tl"
   }
