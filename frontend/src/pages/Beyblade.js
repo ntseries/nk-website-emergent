@@ -58,18 +58,17 @@ const Beyblade = () => {
 
   // Gallery images from NK Board Game Beyblade activities
   const galleryImages = [
-    "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Beyblade_Atmosphere_01.jpg",
-    "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Beyblade_Atmosphere_02.jpg",
-    "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Beyblade_Atmosphere_03.jpg",
-    "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Beyblade_Atmosphere_04.jpg",
-    "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Beyblade_Atmosphere_05.jpg",
-    "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Beyblade_Atmosphere_06.jpg",
-    "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Beyblade_Atmosphere_07.jpg",
-    "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Beyblade_Atmosphere_08.jpg",
-    "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Beyblade_Atmosphere_09.jpg",
-    "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Beyblade_Atmosphere_10.jpg",
-    "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Beyblade_Atmosphere_11.jpg",
-    "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/Beyblade_Atmosphere_12.jpg"
+    "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/NK-Beyblade-X-01.png",
+    "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/NK-Beyblade-X-02.png",
+    "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/NK-Beyblade-X-03.png",
+    "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/NK-Beyblade-X-04.png",
+    "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/NK-Beyblade-X-05.png",
+    "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/NK-Beyblade-X-06.png",
+    "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/NK-Beyblade-X-07.png",
+    "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/NK-Beyblade-X-08.png",
+    "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/NK-Beyblade-X-09.png",
+    "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/NK-Beyblade-X-10.png",
+    "https://nkboardgame-web-production.s3.ap-southeast-1.amazonaws.com/NK-Beyblade-X-11.png"
   ];
 
   return (
